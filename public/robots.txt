@@ -1,0 +1,49 @@
+# Robots.txt for DSA Sheets Tracker (https://dsatracker.in)
+# Designed for maximum search visibility and AI citation readiness (GEO)
+
+# General crawlers
+User-agent: *
+Allow: /
+Disallow: /gallery
+Disallow: /api/
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Generative AI & Answer Engine Crawlers (Section 6: GEO Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# XML Sitemap reference
+Sitemap: https://dsatracker.in/sitemap.xml
