@@ -1,0 +1,20 @@
+# Decisions Log
+
+This document records key architectural and design decisions for DSA Tracker.
+
+- **2026-09-30**: Initialized project repository and planning mode based on specification prompt.
+- **2026-09-30**: Established Impeccable Design principles via `.impeccable.md`: Inter + JetBrains Mono typography, strictly no emojis (Lucide icons only), dual light/dark themes with WCAG AA contrast.
+- **2026-09-30**: Separated sheet structure from problem entities so each sheet retains its original creator sections while problems are normalized once by canonical slug.
+- **2026-09-30**: Chose Dexie.js (IndexedDB) for client-first local persistence to prevent data loss on reload, browser restart, or offline use.
+- **2026-09-30**: Implemented deterministic `getPlatformFromUrl` and URL normalizer in `src/lib/platform.ts` with unit tests to prevent platform tag mismatches.
+- **2026-09-30**: Cleaned and normalized all 5 sheets into 1,020 canonical problems in `src/data/problems.json` with 0 duplicates inside sheets, passing `npm run check:data`.
+- **2026-09-30**: Handled 27 cross-topic duplicate occurrences in Love Babbar 450 by preserving primary topic placement and recording cross-listings in `reports/repeated-problems.md` and `reports/count-differences.md`.
+- **2026-09-30**: Generated unified brand visual identity with custom vector SVG mark and high-res raster assets (`favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`, `android-chrome-192x192.png`, `android-chrome-512x512.png`, `og-image.png`). Designed with slate squircle, indigo chevrons, and balanced binary search tree with emerald solved checkpoint.
+- **2026-09-30**: Implemented technical SEO and GEO (Generative Engine Optimization) in `index.html`: canonical URLs, Open Graph / Twitter cards, preconnect to Inter/JetBrains Mono fonts, `site.webmanifest`, `sitemap.xml`, `robots.txt` explicitly allowing AI agents (`GPTBot`, `PerplexityBot`, `ClaudeBot`, `Google-Extended`), and Schema.org JSON-LD structured data (`WebApplication`, `FAQPage`, `ItemList`).
+- **2026-09-30**: Implemented responsive multi-device policy: full desktop and tablet views (both landscape >= 1024px and portrait >= 640px) with touch-friendly 44px targets, horizontal scrollable tab bars, and collapsible step cards. For mobile screens (< 640px), rendered a dedicated, centered recommendation modal advising users to use desktop/tablet or 'Desktop site' mode, with an optional bypass to view in compact mode.
+- **2026-09-30**: Implemented dynamic Cross-Sheet Overlap & Synergy Counter (`src/data/synergy.ts`). Calculates exact shared problem counts and live completion percentages between all 5 sheets (e.g., Striver A2Z shares 96 problems with NeetCode 150 [64% coverage], 127 with NeetCode 250 [51% coverage], 109 with Apna College [60% coverage], and 18 with Love Babbar 450). Provides 1-click sheet navigation directly from synergy cards.
+- **2026-09-30**: Added Section Batch Actions in `SectionAccordion.tsx`: enables learners to batch mark an entire section as solved or reset progress with inline confirmation, saving repetitive manual clicking for large topics.
+- **2026-09-30**: Added Quick Section Jump dropdown in `StatsCard.tsx` with smooth scrolling and `scroll-mt-28` header offset.
+- **2026-09-30**: Built complete client-side Data Management Modal (`DataManagementModal.tsx`): supports offline JSON backup download, file restore with validation and record count reporting, database wipe, and real-time IndexedDB metrics.
+- **2026-09-30**: Implemented global power-user keyboard navigation and shortcuts modal (`KeyboardShortcutsModal.tsx`): `/` or `Ctrl+K` for search focus, `1-5` for direct sheet switching, `A` for all problems catalog, `R` for spaced repetition revision, `T` for theme toggle, and `?` for shortcut cheat sheet.
+
