@@ -1,0 +1,386 @@
+import { useState, useEffect, useMemo } from 'react';
+import { useProgress } from './hooks/useProgress';
+import {
+  allProblems,
+  getSheetData,
+  getProblem,
+} from './data/sheets';
+import { Header } from './components/Header';
+import { StatsCard } from './components/StatsCard';
+import { FilterBar, type FilterState } from './components/FilterBar';
+import { SectionAccordion } from './components/SectionAccordion';
+import { AllProblemsView } from './components/AllProblemsView';
+import { RevisionView } from './components/RevisionView';
+import { MobileNotice } from './components/MobileNotice';
+import { DataManagementModal } from './components/DataManagementModal';
+import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
+import { ScrollToTop } from './components/ScrollToTop';
+import { SkeletonLoader } from './components/SkeletonLoader';
+
+export function App() {
+  const {
+    progressMap,
+    loading,
+    toggleSolved,
+    setStatus,
+    toggleStar,
+    saveNote,
+    scheduleReview,
+    markSectionSolved,
+    resetSection,
+    resetAllData,
+    exportBackup,
+    importBackup,
+    globalSolvedCount,
+    globalStarredCount,
+    getSheetStats,
+  } = useProgress();
+
+  // Active sheet selection ('striver-a2z' default)
+  const [activeSheetId, setActiveSheetId] = useState<string>('striver-a2z');
+
+  // Modal dialog states
+  const [isDataModalOpen, setIsDataModalOpen] = useState(false);
+  const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
+
+  // Theme state ('dark' default)
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
+
+  // Mobile phone detection (< 640px) & bypass
+  const [isMobile, setIsMobile] = useState<boolean>(() => {
+    return typeof window !== 'undefined' ? window.innerWidth < 640 : false;
+  });
+  const [bypassMobile, setBypassMobile] = useState<boolean>(() => {
+    return typeof localStorage !== 'undefined'
+      ? localStorage.getItem('dsa_bypass_mobile') === 'true'
+      : false;
+  });
+
+  // Listen to resize and orientation changes
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('orientationchange', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('orientationchange', handleResize);
+    };
+  }, []);
+
+  // Theme class effect on documentElement
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
+  };
+
+  const handleBypassMobile = () => {
+    setBypassMobile(true);
+    localStorage.setItem('dsa_bypass_mobile', 'true');
+  };
+
+  // Global Keyboard Shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const activeEl = document.activeElement;
+      const isInput =
+        activeEl instanceof HTMLInputElement ||
+        activeEl instanceof HTMLTextAreaElement ||
+        (activeEl as HTMLElement)?.isContentEditable;
+
+      if (e.key === 'Escape') {
+        setIsDataModalOpen(false);
+        setIsShortcutsOpen(false);
+        if (isInput) (activeEl as HTMLElement).blur();
+        return;
+      }
+
+      if (isInput) return;
+
+      if (e.key === '?' || (e.shiftKey && e.key === '/')) {
+        e.preventDefault();
+        setIsShortcutsOpen((prev) => !prev);
+      } else if (e.key === '/' || (e.ctrlKey && e.key === 'k') || (e.metaKey && e.key === 'k')) {
+        e.preventDefault();
+        const searchInput = document.querySelector<HTMLInputElement>('input[placeholder*="Search"]');
+        searchInput?.focus();
+      } else if (e.key === '1') {
+        setActiveSheetId('striver-a2z');
+      } else if (e.key === '2') {
+        setActiveSheetId('love-babbar-450');
+      } else if (e.key === '3') {
+        setActiveSheetId('neetcode-150');
+      } else if (e.key === '4') {
+        setActiveSheetId('neetcode-250');
+      } else if (e.key === '5') {
+        setActiveSheetId('apna-college');
+      } else if (e.key === 'a' || e.key === 'A') {
+        setActiveSheetId('all');
+      } else if (e.key === 'r' || e.key === 'R') {
+        setActiveSheetId('revision');
+      } else if (e.key === 't' || e.key === 'T') {
+        toggleTheme();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Filter state (unfiltered by default!)
+  const [filters, setFilters] = useState<FilterState>({
+    search: '',
+    status: 'all',
+    difficulty: 'all',
+    platform: 'all',
+  });
+
+  // Active sheet data
+  const currentSheetData = useMemo(() => {
+    return getSheetData(activeSheetId);
+  }, [activeSheetId]);
+
+  // Count revision due
+  const revisionDueCount = useMemo(() => {
+    let count = 0;
+    const now = new Date().toISOString();
+    progressMap.forEach((p) => {
+      if (p.status === 'revise' || (p.nextReviewAt && p.nextReviewAt <= now) || p.isStarred) {
+        count++;
+      }
+    });
+    return count;
+  }, [progressMap]);
+
+  // Mobile info view gate
+  if (isMobile && !bypassMobile) {
+    return <MobileNotice onBypass={handleBypassMobile} />;
+  }
+
+  // Filtered sections and items for active sheet
+  const filteredSectionsWithItems = useMemo(() => {
+    if (!currentSheetData) return [];
+
+    return currentSheetData.sections.map((section) => {
+      const itemsInSection = currentSheetData.items.filter(
+        (item) => item.sectionId === section.id
+      );
+
+      // Filter items according to search & filters
+      const matchingItems = itemsInSection.filter((item) => {
+        const prob = getProblem(item.problemId);
+        if (!prob) return false;
+
+        const effectiveTitle = item.titleInSheet || prob.title;
+
+        // Search
+        if (filters.search) {
+          const q = filters.search.toLowerCase();
+          const matchTitle = effectiveTitle.toLowerCase().includes(q);
+          const matchTopic = prob.topics.some((t) => t.toLowerCase().includes(q));
+          if (!matchTitle && !matchTopic) return false;
+        }
+
+        // Difficulty filter
+        if (filters.difficulty !== 'all' && prob.difficulty !== filters.difficulty) {
+          return false;
+        }
+
+        // Platform filter
+        if (filters.platform !== 'all' && prob.platform !== filters.platform) {
+          return false;
+        }
+
+        // Status filter
+        const prog = progressMap.get(item.problemId);
+        if (filters.status === 'starred') {
+          if (!prog?.isStarred) return false;
+        } else if (filters.status !== 'all') {
+          const currentStatus = prog?.status || 'todo';
+          if (currentStatus !== filters.status) return false;
+        }
+
+        return true;
+      });
+
+      return {
+        section,
+        items: matchingItems,
+      };
+    });
+  }, [currentSheetData, filters, progressMap]);
+
+  // Total filtered items count in active sheet
+  const totalFilteredCount = useMemo(() => {
+    return filteredSectionsWithItems.reduce((acc, curr) => acc + curr.items.length, 0);
+  }, [filteredSectionsWithItems]);
+
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col transition-colors">
+      {/* Top Sticky Header with Navigation Tabs */}
+      <Header
+        activeSheetId={activeSheetId}
+        onSelectSheet={(id) => {
+          setActiveSheetId(id);
+          // Scroll smoothly to top on sheet change
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+        getSheetStats={getSheetStats}
+        globalSolvedCount={globalSolvedCount}
+        totalProblemsCount={allProblems.length}
+        theme={theme}
+        onToggleTheme={toggleTheme}
+        revisionDueCount={revisionDueCount}
+        onOpenDataManagement={() => setIsDataModalOpen(true)}
+        onOpenShortcuts={() => setIsShortcutsOpen(true)}
+      />
+
+      {/* Main Responsive Body Container (Tablet Portrait, Tablet Landscape & Desktop) */}
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        {loading ? (
+          <SkeletonLoader />
+        ) : activeSheetId === 'all' ? (
+          <AllProblemsView
+            problems={allProblems}
+            progressMap={progressMap}
+            filters={filters}
+            onFilterChange={setFilters}
+            onToggleSolved={toggleSolved}
+            onSetStatus={setStatus}
+            onToggleStar={toggleStar}
+            onSaveNote={saveNote}
+            onScheduleReview={scheduleReview}
+          />
+        ) : activeSheetId === 'revision' ? (
+          <RevisionView
+            progressMap={progressMap}
+            onToggleSolved={toggleSolved}
+            onSetStatus={setStatus}
+            onToggleStar={toggleStar}
+            onSaveNote={saveNote}
+            onScheduleReview={scheduleReview}
+          />
+        ) : currentSheetData ? (
+          <div>
+            {/* Sheet Overview Stats Card */}
+            <StatsCard
+              sheetData={currentSheetData}
+              progressMap={progressMap}
+              onSelectSheet={(sheetId) => {
+                setActiveSheetId(sheetId);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onJumpToSection={(sectionId) => {
+                const el = document.getElementById(sectionId);
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                  // If section is currently collapsed, trigger click to open it
+                  const header = el.querySelector<HTMLDivElement>('[role="button"]');
+                  if (header && !el.querySelector('.divide-y')) {
+                    header.click();
+                  }
+                }
+              }}
+            />
+
+            {/* Non-destructive Search & Filter Bar */}
+            <FilterBar
+              filters={filters}
+              onFilterChange={setFilters}
+              filteredCount={totalFilteredCount}
+              totalCount={currentSheetData.items.length}
+            />
+
+            {/* Authentic Step-by-Step Sections */}
+            <div className="space-y-3">
+              {filteredSectionsWithItems.map(({ section, items }, idx) => (
+                <SectionAccordion
+                  key={section.id}
+                  section={section}
+                  items={items}
+                  progressMap={progressMap}
+                  currentSheetId={activeSheetId}
+                  defaultOpen={Boolean(filters.search || idx < 2)}
+                  onToggleSolved={toggleSolved}
+                  onSetStatus={setStatus}
+                  onToggleStar={toggleStar}
+                  onSaveNote={saveNote}
+                  onScheduleReview={scheduleReview}
+                  onMarkSectionSolved={markSectionSolved}
+                  onResetSection={resetSection}
+                />
+              ))}
+
+              {totalFilteredCount === 0 && (
+                <div className="p-12 text-center text-xs text-slate-400 bg-slate-900/40 border border-slate-800 rounded-xl">
+                  No problems match your current search or filters in this sheet.
+                </div>
+              )}
+            </div>
+          </div>
+        ) : null}
+      </main>
+
+      {/* Footer */}
+      <footer className="border-t border-slate-800/80 bg-slate-950/60 py-6 text-center text-xs text-slate-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <span className="font-semibold text-slate-300">DSA Sheets Tracker</span>
+            <span>•</span>
+            <span>Deterministic, Offline-First & No Data Loss</span>
+          </div>
+          <div className="flex items-center gap-4 text-slate-400">
+            <button
+              onClick={() => setIsShortcutsOpen(true)}
+              className="hover:text-slate-200 transition-colors"
+            >
+              Shortcuts (?)
+            </button>
+            <button
+              onClick={() => setIsDataModalOpen(true)}
+              className="hover:text-slate-200 transition-colors"
+            >
+              Backup & Sync
+            </button>
+            <span className="hidden md:inline">•</span>
+            <span className="hidden md:inline">Striver A2Z</span>
+            <span className="hidden md:inline">NeetCode 150/250</span>
+            <span className="hidden md:inline">Love Babbar 450</span>
+            <span className="hidden md:inline">Apna College</span>
+          </div>
+        </div>
+      </footer>
+
+      {/* Modals */}
+      <DataManagementModal
+        isOpen={isDataModalOpen}
+        onClose={() => setIsDataModalOpen(false)}
+        exportBackup={exportBackup}
+        importBackup={importBackup}
+        resetAllData={resetAllData}
+        globalSolvedCount={globalSolvedCount}
+        globalStarredCount={globalStarredCount}
+        totalProblemsCount={allProblems.length}
+      />
+
+      <KeyboardShortcutsModal
+        isOpen={isShortcutsOpen}
+        onClose={() => setIsShortcutsOpen(false)}
+      />
+
+      {/* Floating Circular Scroll to Top Action Button */}
+      <ScrollToTop />
+    </div>
+  );
+}
+
+export default App;
