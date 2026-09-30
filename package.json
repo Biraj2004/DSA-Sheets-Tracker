@@ -8,8 +8,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "deploy": "npm run build && npx wrangler pages deploy dist",
-    "cf:dev": "npm run build && npx wrangler pages dev dist"
+    "deploy": "npm run build && npx wrangler deploy",
+    "deploy:pages": "npm run build && npx wrangler pages deploy dist",
+    "cf:dev": "npm run build && npx wrangler dev"
   },
   "engines": {
     "node": ">=20.0.0"
