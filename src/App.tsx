@@ -16,7 +16,7 @@ import { DataManagementModal } from './components/DataManagementModal';
 import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
 import { ScrollToTop } from './components/ScrollToTop';
 import { SkeletonLoader } from './components/SkeletonLoader';
-import { Info } from 'lucide-react';
+import { Info, ExternalLink } from 'lucide-react';
 
 export function App() {
   const {
@@ -354,6 +354,15 @@ export function App() {
               >
                 Backup & Sync
               </button>
+              <a
+                href="https://github.com/Biraj2004/DSA-Sheets-Tracker/issues"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-indigo-400 transition-colors inline-flex items-center gap-1"
+              >
+                <span>Report Issue</span>
+                <ExternalLink className="w-3 h-3 text-slate-500" />
+              </a>
               <span className="hidden md:inline">•</span>
               <span className="text-slate-500">Striver A2Z</span>
               <span className="text-slate-500">NeetCode 150/250</span>
@@ -366,12 +375,25 @@ export function App() {
           <div className="p-4 sm:p-5 rounded-xl bg-slate-900/40 border border-slate-800/80 text-left space-y-3">
             <div className="flex items-start gap-2.5">
               <Info className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
-              <div className="space-y-2 text-[11px] sm:text-xs leading-relaxed text-slate-400">
+              <div className="space-y-2.5 text-[11px] sm:text-xs leading-relaxed text-slate-400">
                 <p>
                   <strong className="text-slate-200">Disclaimer & Ownership:</strong> All problem titles, questions, and original sheet curriculums are the intellectual property of their respective creators and platforms, including <span className="text-slate-300">takeUforward (Striver)</span>, <span className="text-slate-300">NeetCode</span>, <span className="text-slate-300">Love Babbar</span>, <span className="text-slate-300">Apna College</span>, <span className="text-slate-300">LeetCode</span>, <span className="text-slate-300">GeeksforGeeks (GFG)</span>, and <span className="text-slate-300">Code360 / Coding Ninjas</span>. This project is an independent educational tool that serves purely as an open curator and progress tracker in one unified place.
                 </p>
                 <p>
                   <strong className="text-slate-200">Platform Navigation & Badges:</strong> Clicking a problem title or its primary badge opens the problem on its main platform (e.g., LeetCode or GFG). Badges labeled <span className="px-1.5 py-0.5 rounded text-[10px] font-semibold text-red-400 bg-red-500/10 border border-red-500/30">Also in TUF</span> or secondary platform links provide quick alternative access to takeUforward articles/problems or secondary platforms for the same challenge. Badges marked with <span className="text-indigo-300 font-medium">"Also in: [Sheet Name]"</span> show which other curated sheets include this canonical problem with real-time synchronized progress.
+                </p>
+                <p>
+                  <strong className="text-slate-200">Found a Discrepancy or Mapping Flaw?</strong> If you notice an incorrect link, missing question, misclassified difficulty, or mapping flaw, please{' '}
+                  <a
+                    href="https://github.com/Biraj2004/DSA-Sheets-Tracker/issues"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-indigo-400 hover:text-indigo-300 underline font-medium inline-flex items-center gap-1"
+                  >
+                    report an issue on GitHub
+                    <ExternalLink className="w-3 h-3 inline" />
+                  </a>
+                  . Community corrections and suggestions are actively reviewed and resolved!
                 </p>
               </div>
             </div>
