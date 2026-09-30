@@ -16,6 +16,7 @@ import { DataManagementModal } from './components/DataManagementModal';
 import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
 import { ScrollToTop } from './components/ScrollToTop';
 import { SkeletonLoader } from './components/SkeletonLoader';
+import { Info } from 'lucide-react';
 
 export function App() {
   const {
@@ -331,31 +332,54 @@ export function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950/60 py-6 text-center text-xs text-slate-400">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-slate-300">DSA Sheets Tracker</span>
-            <span>•</span>
-            <span>Deterministic, Offline-First & No Data Loss</span>
+      <footer className="border-t border-slate-800/80 bg-slate-950/80 py-8 text-xs text-slate-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          {/* Top Row: Links & Branding */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+            <div className="flex items-center gap-2">
+              <span className="font-semibold text-slate-200">DSA Sheets Tracker</span>
+              <span>•</span>
+              <span className="text-slate-400">Deterministic, Offline-First & No Data Loss</span>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-4 text-slate-400">
+              <button
+                onClick={() => setIsShortcutsOpen(true)}
+                className="hover:text-indigo-400 transition-colors cursor-pointer"
+              >
+                Shortcuts (?)
+              </button>
+              <button
+                onClick={() => setIsDataModalOpen(true)}
+                className="hover:text-indigo-400 transition-colors cursor-pointer"
+              >
+                Backup & Sync
+              </button>
+              <span className="hidden md:inline">•</span>
+              <span className="text-slate-500">Striver A2Z</span>
+              <span className="text-slate-500">NeetCode 150/250</span>
+              <span className="text-slate-500">Love Babbar 450</span>
+              <span className="text-slate-500">Apna College</span>
+            </div>
           </div>
-          <div className="flex items-center gap-4 text-slate-400">
-            <button
-              onClick={() => setIsShortcutsOpen(true)}
-              className="hover:text-slate-200 transition-colors"
-            >
-              Shortcuts (?)
-            </button>
-            <button
-              onClick={() => setIsDataModalOpen(true)}
-              className="hover:text-slate-200 transition-colors"
-            >
-              Backup & Sync
-            </button>
-            <span className="hidden md:inline">•</span>
-            <span className="hidden md:inline">Striver A2Z</span>
-            <span className="hidden md:inline">NeetCode 150/250</span>
-            <span className="hidden md:inline">Love Babbar 450</span>
-            <span className="hidden md:inline">Apna College</span>
+
+          {/* Disclaimer & Platform Links Explainer Card */}
+          <div className="p-4 sm:p-5 rounded-xl bg-slate-900/40 border border-slate-800/80 text-left space-y-3">
+            <div className="flex items-start gap-2.5">
+              <Info className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
+              <div className="space-y-2 text-[11px] sm:text-xs leading-relaxed text-slate-400">
+                <p>
+                  <strong className="text-slate-200">Disclaimer & Ownership:</strong> All problem titles, questions, and original sheet curriculums are the intellectual property of their respective creators and platforms, including <span className="text-slate-300">takeUforward (Striver)</span>, <span className="text-slate-300">NeetCode</span>, <span className="text-slate-300">Love Babbar</span>, <span className="text-slate-300">Apna College</span>, <span className="text-slate-300">LeetCode</span>, <span className="text-slate-300">GeeksforGeeks (GFG)</span>, and <span className="text-slate-300">Code360 / Coding Ninjas</span>. This project is an independent educational tool that serves purely as an open curator and progress tracker in one unified place.
+                </p>
+                <p>
+                  <strong className="text-slate-200">Platform Navigation & Badges:</strong> Clicking a problem title or its primary badge opens the problem on its main platform (e.g., LeetCode or GFG). Badges labeled <span className="px-1.5 py-0.5 rounded text-[10px] font-semibold text-red-400 bg-red-500/10 border border-red-500/30">Also in TUF</span> or secondary platform links provide quick alternative access to takeUforward articles/problems or secondary platforms for the same challenge. Badges marked with <span className="text-indigo-300 font-medium">"Also in: [Sheet Name]"</span> show which other curated sheets include this canonical problem with real-time synchronized progress.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom Copyright Notice */}
+          <div className="text-center text-[11px] text-slate-400">
+            &copy; {new Date().getFullYear()} DSA Sheets Tracker. Built for developers preparing for technical interviews.
           </div>
         </div>
       </footer>
