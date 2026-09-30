@@ -1,0 +1,1407 @@
+{
+  "sheet": {
+    "id": "apna-college",
+    "name": "Apna College DSA Sheet",
+    "creator": "Aman Dhattarwal & Shradha Khapra (Apna College)",
+    "sourceUrl": "https://dsa.apnacollege.in",
+    "fetchedAt": "2026-09-30T19:40:00Z",
+    "expectedCount": 184
+  },
+  "sections": [
+    {
+      "id": "apna-sec-1",
+      "sheetId": "apna-college",
+      "title": "Arrays",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "apna-sec-2",
+      "sheetId": "apna-college",
+      "title": "Strings",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "apna-sec-3",
+      "sheetId": "apna-college",
+      "title": "2D Arrays / Matrix",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "apna-sec-4",
+      "sheetId": "apna-college",
+      "title": "Searching & Sorting",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "apna-sec-5",
+      "sheetId": "apna-college",
+      "title": "Linked Lists",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "apna-sec-6",
+      "sheetId": "apna-college",
+      "title": "Stacks & Queues",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "apna-sec-7",
+      "sheetId": "apna-college",
+      "title": "Backtracking",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "apna-sec-8",
+      "sheetId": "apna-college",
+      "title": "Binary Trees",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "apna-sec-9",
+      "sheetId": "apna-college",
+      "title": "Binary Search Trees",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "apna-sec-10",
+      "sheetId": "apna-college",
+      "title": "Heaps & Priority Queues",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "apna-sec-11",
+      "sheetId": "apna-college",
+      "title": "Greedy Algorithms",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "apna-sec-12",
+      "sheetId": "apna-college",
+      "title": "Graphs",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "apna-sec-13",
+      "sheetId": "apna-college",
+      "title": "Dynamic Programming",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "apna-sec-14",
+      "sheetId": "apna-college",
+      "title": "Tries",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "apna-sec-15",
+      "sheetId": "apna-college",
+      "title": "Bit Manipulation",
+      "parentId": null,
+      "position": 15
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-valid-palindrome",
+      "position": 1,
+      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-15",
+      "problemId": "lc-single-number",
+      "position": 2,
+      "titleInSheet": "Find the Single Number"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-majority-element",
+      "position": 3,
+      "titleInSheet": "Majority Element (>N/2)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 4,
+      "titleInSheet": "Best Time to Buy & Sell Stock I"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-next-permutation",
+      "position": 5,
+      "titleInSheet": "Next Permutation"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-3",
+      "problemId": "lc-set-matrix-zeroes",
+      "position": 6,
+      "titleInSheet": "Set Matrix Zeroes"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-3",
+      "problemId": "lc-spiral-matrix",
+      "position": 7,
+      "titleInSheet": "Spiral Matrix"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 8,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-merge-intervals",
+      "position": 9,
+      "titleInSheet": "Merge Overlapping Intervals"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-merge-sorted-array",
+      "position": 10,
+      "titleInSheet": "Merge Two Sorted Arrays Without Extra Space"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-reverse-pairs",
+      "position": 11,
+      "titleInSheet": "Reverse Pairs"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 12,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 13,
+      "titleInSheet": "Find the Duplicate Number"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-find-missing-and-repeated-values",
+      "position": 14,
+      "titleInSheet": "Repeat & missing number"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-container-with-most-water",
+      "position": 15,
+      "titleInSheet": "Container with most water"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-3sum",
+      "position": 16,
+      "titleInSheet": "3Sum"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-4sum",
+      "position": 17,
+      "titleInSheet": "4Sum"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "other-count-inversions",
+      "position": 18,
+      "titleInSheet": "Count Inversions"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-watering-plants-ii",
+      "position": 19,
+      "titleInSheet": "Watering Plants II"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 20,
+      "titleInSheet": "Search in Rotated Sorted Array I"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-single-element-in-a-sorted-array",
+      "position": 21,
+      "titleInSheet": "Single Element in Sorted Array"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-maximum-subarray",
+      "position": 22,
+      "titleInSheet": "Koko Eating Bananas"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-search-a-2d-matrix-ii",
+      "position": 23,
+      "titleInSheet": "Search in 2D Matrix II"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-product-of-array-except-self",
+      "position": 24,
+      "titleInSheet": "Product array Puzzle"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-14",
+      "problemId": "lc-sort-colors",
+      "position": 25,
+      "titleInSheet": "Partitioning and Sorting Arrays with Many Repeated Entries"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 26,
+      "titleInSheet": "K-th Element of Two Sorted Arrays (similar to Median of Two\n                  Sorted Arrays)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-peak-index-in-a-mountain-array",
+      "position": 27,
+      "titleInSheet": "Peak index in mountain array"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "other-book-allocation-problem",
+      "position": 28,
+      "titleInSheet": "Allocate Minimum Pages (Book Allocation)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "he-painters-partition",
+      "position": 29,
+      "titleInSheet": "Painter\u2019s Partition"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "spoj-aggrcow",
+      "position": 30,
+      "titleInSheet": "Aggressive cows"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-minimized-maximum-of-products-distributed-to-any-store",
+      "position": 31,
+      "titleInSheet": "Minimized Maximum of Products Distributed to Any Store"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-reverse-words-in-a-string-sec2-8",
+      "position": 32,
+      "titleInSheet": "Reverse Words in a String"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-longest-common-prefix",
+      "position": 33,
+      "titleInSheet": "Longest Common Prefix"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-valid-anagram",
+      "position": 34,
+      "titleInSheet": "Valid Anagram"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-group-anagrams",
+      "position": 35,
+      "titleInSheet": "Given a sequence of words, print all anagrams together"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-remove-all-occurrences-of-a-substring",
+      "position": 36,
+      "titleInSheet": "Remove All Occurrences of String"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-permutation-in-string",
+      "position": 37,
+      "titleInSheet": "Permutation in String"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-string-compression",
+      "position": 38,
+      "titleInSheet": "String Compression"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-problem",
+      "position": 39,
+      "titleInSheet": "Robin Karp"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 40,
+      "titleInSheet": "Middle of Linked List"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-linked-list-cycle",
+      "position": 41,
+      "titleInSheet": "Detect Cycle in LL (Floyd's)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-palindrome-linked-list",
+      "position": 42,
+      "titleInSheet": "Check if Palindrome LL"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-add-two-numbers",
+      "position": 43,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-linked-list-cycle-ii",
+      "position": 44,
+      "titleInSheet": "Starting Point of Cycle"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-rotate-list",
+      "position": 45,
+      "titleInSheet": "Rotate a Linked List"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-flatten-a-multilevel-doubly-linked-list",
+      "position": 46,
+      "titleInSheet": "Flatten a Linked List"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-reverse-linked-list-ii",
+      "position": 47,
+      "titleInSheet": "Reverse a Linked List in group of Given Size. [Very Imp]"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-reverse-linked-list",
+      "position": 48,
+      "titleInSheet": "Can we reverse a linked list in less than O(n) ?"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-merge-2-sorted-ll",
+      "position": 49,
+      "titleInSheet": "Merge 2 Sorted LL"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-copy-list-with-random-pointer",
+      "position": 50,
+      "titleInSheet": "Clone LL with Random Pointers"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-reverse-nodes-in-k-groups",
+      "position": 51,
+      "titleInSheet": "Reverse Nodes in K Groups"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-powx-n",
+      "position": 52,
+      "titleInSheet": "Generate All Subsequences"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-combination-sum-ii",
+      "position": 53,
+      "titleInSheet": "Combination Sum II"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-subsets-ii",
+      "position": 54,
+      "titleInSheet": "Subset Sum II (Unique)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-7",
+      "problemId": "lc-sudoku-solver",
+      "position": 55,
+      "titleInSheet": "Sudoku Solver"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-word-search",
+      "position": 56,
+      "titleInSheet": "Word Search"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "other-rat-in-a-maze",
+      "position": 57,
+      "titleInSheet": "Rat in a maze Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-7",
+      "problemId": "lc-n-queens",
+      "position": 58,
+      "titleInSheet": "Printing all solutions in N-Queen Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-combination-sum",
+      "position": 59,
+      "titleInSheet": "Combinational Sum"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-check-knight-tour-configuration",
+      "position": 60,
+      "titleInSheet": "Knights Tour"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "other-m-coloring-problem",
+      "position": 61,
+      "titleInSheet": "M Coloring"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "other-count-inversions",
+      "position": 62,
+      "titleInSheet": "Count Inversions"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-15",
+      "problemId": "lc-power-of-two",
+      "position": 63,
+      "titleInSheet": "Check if Number is Power of Two"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-subsets",
+      "position": 64,
+      "titleInSheet": "Power Set"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-15",
+      "problemId": "lc-find-xor-beauty-of-array",
+      "position": 65,
+      "titleInSheet": "XOR Beauty of Array"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 66,
+      "titleInSheet": "Implement Stack using Linked List"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-valid-parentheses",
+      "position": 67,
+      "titleInSheet": "Valid Parentheses"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-next-greater-element-ii",
+      "position": 68,
+      "titleInSheet": "Next Greater Element II"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-online-stock-span",
+      "position": 69,
+      "titleInSheet": "Stock Span Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-find-the-celebrity",
+      "position": 70,
+      "titleInSheet": "The Celebrity Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-trapping-rain-water",
+      "position": 71,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-min-stack",
+      "position": 72,
+      "titleInSheet": "Design a Stack that supports getMin() in O(1) time and O(1)\n                  extra space."
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-next-greater-element-i",
+      "position": 73,
+      "titleInSheet": "Find the next Greater element"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 74,
+      "titleInSheet": "Largest rectangular Area in Histogram"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 75,
+      "titleInSheet": "Reverse a Queue using recursion"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "gfg-reverse-first-k-elements-of-queue",
+      "position": 76,
+      "titleInSheet": "Reverse the first \u201cK\u201d elements of a queue"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-first-unique-character-in-a-string",
+      "position": 77,
+      "titleInSheet": "1st Non Repeating in Stream"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-time-needed-to-buy-tickets",
+      "position": 78,
+      "titleInSheet": "Time needed to Buy Tickets"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-circular-tour-gas-station",
+      "position": 79,
+      "titleInSheet": "Circular Tour / Gas Station"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "he-stock-span-4-a0d4600b-b5c6efe0",
+      "position": 80,
+      "titleInSheet": "Stock Span"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-6",
+      "problemId": "other-sort-a-stack",
+      "position": 81,
+      "titleInSheet": "Sort a Stack"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 82,
+      "titleInSheet": "Longest Substring Without Repeating Chars"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-minimum-window-substring",
+      "position": 83,
+      "titleInSheet": "Minimum Window Substring"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-simplified-fractions",
+      "position": 84,
+      "titleInSheet": "Fractional Knapsack"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-11",
+      "problemId": "lc-activity-participants",
+      "position": 85,
+      "titleInSheet": "Activity Selection"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 86,
+      "titleInSheet": "Kth Largest Element in Stream"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-kth-smallest-element-in-a-sorted-matrix",
+      "position": 87,
+      "titleInSheet": "Kth Smallest Element"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-10",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 88,
+      "titleInSheet": "Top K Frequent Elements"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-10",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 89,
+      "titleInSheet": "Find Median from Data Stream"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-10",
+      "problemId": "lc-sort-an-array",
+      "position": 90,
+      "titleInSheet": "Sort an Array using heap. (HeapSort)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 91,
+      "titleInSheet": "Maximum of all subarrays of size k."
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-smallest-range-covering-elements-from-k-lists",
+      "position": 92,
+      "titleInSheet": "Smallest range in \u201cK\u201d Lists"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-4",
+      "problemId": "lc-assign-cookies-sec4-6",
+      "position": 93,
+      "titleInSheet": "Assign Cookies"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-lru-cache",
+      "position": 94,
+      "titleInSheet": "Page Faults in LRU"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-11",
+      "problemId": "gfg-activity-selection",
+      "position": 95,
+      "titleInSheet": "Activity Selection Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-11",
+      "problemId": "gfg--minimum-number-of-coins4426",
+      "position": 96,
+      "titleInSheet": "Indian Coins"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-11",
+      "problemId": "gfg-job-sequencing-problem-",
+      "position": 97,
+      "titleInSheet": "Job Scheduling"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 98,
+      "titleInSheet": "Binary Tree: Preorder Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "other-inorder-tree-traversal-iterative-recursive",
+      "position": 99,
+      "titleInSheet": "Binary Tree: Inorder Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 100,
+      "titleInSheet": "Level Order Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 101,
+      "titleInSheet": "Iterative Postorder Traversal (1 Stack)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 102,
+      "titleInSheet": "Check Balanced Binary Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 103,
+      "titleInSheet": "Diameter of Binary Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 104,
+      "titleInSheet": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-same-tree",
+      "position": 105,
+      "titleInSheet": "Same Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-binary-tree-zigzag-level-order-traversal",
+      "position": 106,
+      "titleInSheet": "Zig-Zag Level Order Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-symmetric-tree",
+      "position": 107,
+      "titleInSheet": "Symmetric Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "position": 108,
+      "titleInSheet": "Construct BT from Preorder & Inorder"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "position": 109,
+      "titleInSheet": "Construct BT from Inorder & Postorder"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 110,
+      "titleInSheet": "Serialize & Deserialize Binary Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-flatten-binary-tree-to-linked-list",
+      "position": 111,
+      "titleInSheet": "Flatten BT to Linked List"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-maximum-width-of-binary-tree",
+      "position": 112,
+      "titleInSheet": "Maximum Width of Binary Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 113,
+      "titleInSheet": "Top View of a tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-leaf-similar-trees",
+      "position": 114,
+      "titleInSheet": "Bottom View of a tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-kth-ancestor-of-a-tree-node",
+      "position": 115,
+      "titleInSheet": "Kth Ancestor of node in a Binary tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-binary-search-tree-to-greater-sum-tree",
+      "position": 116,
+      "titleInSheet": "Convert Binary tree into Sum tree (and a Duplicate)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-minimum-distance-between-bst-nodes",
+      "position": 117,
+      "titleInSheet": "Minimum Distance between Nodes"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-subtree-of-another-tree",
+      "position": 118,
+      "titleInSheet": "Subtree of Another Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-maximum-level-sum-of-a-binary-tree",
+      "position": 119,
+      "titleInSheet": "Kth Level of Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-delete-node-in-a-bst",
+      "position": 120,
+      "titleInSheet": "Delete from BST"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 121,
+      "titleInSheet": "LCA in BST"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-construct-binary-search-tree-from-preorder-traversal",
+      "position": 122,
+      "titleInSheet": "Construct BST from Preorder"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-binary-search-tree-iterator",
+      "position": 123,
+      "titleInSheet": "BST Iterator"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-recover-binary-search-tree",
+      "position": 124,
+      "titleInSheet": "Recover BST (Two Swapped Nodes)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-8",
+      "problemId": "lc-inorder-successor-in-bst",
+      "position": 125,
+      "titleInSheet": "Populate Inorder successor of all nodes"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 126,
+      "titleInSheet": "Find the median of BST in O(n) time and O(1) space"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-convert-sorted-array-to-binary-search-tree",
+      "position": 127,
+      "titleInSheet": "Sorted Array to Balanced BST"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-populating-next-right-pointers-in-each-node",
+      "position": 128,
+      "titleInSheet": "Populate Next Right Pointers"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-convert-binary-search-tree-to-sorted-doubly-linked-list",
+      "position": 129,
+      "titleInSheet": "Flatten BST to Sorted list"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-largest-bst-subtree",
+      "position": 130,
+      "titleInSheet": "Largest BST in BT"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-merge-bsts-to-create-single-bst",
+      "position": 131,
+      "titleInSheet": "Merge 2 BSTS"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "other-traversal-techniques",
+      "position": 132,
+      "titleInSheet": "BFS Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "other-traversal-techniques-sec1-6",
+      "position": 133,
+      "titleInSheet": "DFS Traversal"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-number-of-islands",
+      "position": 134,
+      "titleInSheet": "Number of Islands"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-flood-fill",
+      "position": 135,
+      "titleInSheet": "Flood Fill Algorithm"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-rotting-oranges",
+      "position": 136,
+      "titleInSheet": "Rotten Oranges"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-10",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 137,
+      "titleInSheet": "Cheapest Flights within K Stops"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-number-of-ways-to-arrive-at-destination",
+      "position": 138,
+      "titleInSheet": "Number of Ways to Arrive at Destination"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-group-the-people-given-the-group-size-they-belong-to",
+      "position": 139,
+      "titleInSheet": "Bellman Ford Algorithm"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "position": 140,
+      "titleInSheet": "Find City with Smallest Neighbors"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-count-connected-components-in-lcm-graph",
+      "position": 141,
+      "titleInSheet": "Strongly Connected Components (Kosaraju's)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-redundant-connection",
+      "position": 142,
+      "titleInSheet": "Redundant Connection"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-most-stones-removed-with-same-row-or-column",
+      "position": 143,
+      "titleInSheet": "Most Stones Removed"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-course-schedule",
+      "position": 144,
+      "titleInSheet": "Detect Cycle in Directed Graph using BFS/DFS Algo"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-5",
+      "problemId": "lc-course-schedule-ii",
+      "position": 145,
+      "titleInSheet": "Find whether it is possible to finish all tasks or not from\n                  given dependencies"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-clone-graph",
+      "position": 146,
+      "titleInSheet": "Graph ColouringProblem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-bridges-in-graph-tarjan-s",
+      "position": 147,
+      "titleInSheet": "Find bridge in a graph"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 148,
+      "titleInSheet": "Check whether a graph is Bipartite or Not"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-number-of-provinces",
+      "position": 149,
+      "titleInSheet": "Journey to the Moon"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 150,
+      "titleInSheet": "Oliver and the Game"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-detect-cycles-in-2d-grid",
+      "position": 151,
+      "titleInSheet": "Detect cycle in directed using BFS"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "lc-minimum-cost-to-reach-destination-in-time",
+      "position": 152,
+      "titleInSheet": "Dijkstra's Algorithm"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "gfg-longest-common-substring1449",
+      "position": 153,
+      "titleInSheet": "Longest Common Substring"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-12",
+      "problemId": "other-topological-sort-or-kahns-algorithm-sec3-2",
+      "position": 154,
+      "titleInSheet": "Topological Sorting (DFS)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 155,
+      "titleInSheet": "Min Falling Path Sum"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-partition-array-into-two-arrays-to-minimize-sum-difference",
+      "position": 156,
+      "titleInSheet": "Partition with Minimum Difference"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-target-sum",
+      "position": 157,
+      "titleInSheet": "Target Sum (Count Partitions with Diff)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-01-matrix",
+      "position": 158,
+      "titleInSheet": "0/1 Knapsack"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-coin-change",
+      "position": 159,
+      "titleInSheet": "Unbounded Knapsack"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 160,
+      "titleInSheet": "Longest Common Substring"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-longest-palindromic-subsequence",
+      "position": 161,
+      "titleInSheet": "Longest Palindromic Subsequence"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-edit-distance",
+      "position": 162,
+      "titleInSheet": "Edit Distance"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-wildcard-matching",
+      "position": 163,
+      "titleInSheet": "Wildcard Matching"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-ii",
+      "position": 164,
+      "titleInSheet": "Stock Buy Sell II (Infinite)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "lc-minimum-cost-to-cut-a-stick",
+      "position": 165,
+      "titleInSheet": "Minimum Cost to Cut a Stick"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "other-fractional-knapsack",
+      "position": 166,
+      "titleInSheet": "Knapsack Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-unique-binary-search-trees",
+      "position": 167,
+      "titleInSheet": "Program for nth Catalan Number"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 168,
+      "titleInSheet": "Maximum Sum Increasing Subsequence"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-super-egg-drop",
+      "position": 169,
+      "titleInSheet": "Egg Dropping Problem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-minimum-number-of-removals-to-make-mountain-array",
+      "position": 170,
+      "titleInSheet": "Minimum removals from array to make max \u2013min <= K"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-9",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 171,
+      "titleInSheet": "Optimal Binary Search Tree"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 172,
+      "titleInSheet": "Palindrome PartitioningProblem"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-3",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 173,
+      "titleInSheet": "Largest rectangular sub-matrix whose sum is 0"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-3",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 174,
+      "titleInSheet": "Maximum sum rectangle in a 2D matrix"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-maximum-length-of-pair-chain",
+      "position": 175,
+      "titleInSheet": "Maximum Length of Pair Chain"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "gfg-nth-catalan-number0817",
+      "position": 176,
+      "titleInSheet": "Nth Catalan"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-13",
+      "problemId": "other-matrix-chain-multiplication-sec8-2",
+      "position": 177,
+      "titleInSheet": "MCM"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-14",
+      "problemId": "lc-implement-trie-prefix-tree",
+      "position": 178,
+      "titleInSheet": "Implement Trie I"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-14",
+      "problemId": "lc-maximum-xor-of-two-numbers-in-an-array",
+      "position": 179,
+      "titleInSheet": "Maximum XOR of Two Numbers in Array"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-14",
+      "problemId": "lc-word-break",
+      "position": 180,
+      "titleInSheet": "Word Break Problem | (Trie solution)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-1",
+      "problemId": "lc-design-phone-directory",
+      "position": 181,
+      "titleInSheet": "Implement a Phone Directory"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-longest-word-with-all-prefixes",
+      "position": 182,
+      "titleInSheet": "Longest String with All Prefix"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "lc-longest-happy-prefix",
+      "position": 183,
+      "titleInSheet": "Longest Happy Prefix (KMP)"
+    },
+    {
+      "sheetId": "apna-college",
+      "sectionId": "apna-sec-2",
+      "problemId": "gfg-robin-karp-algorithm",
+      "position": 184,
+      "titleInSheet": "Robin-Karp Algorithm"
+    }
+  ]
+}

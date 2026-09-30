@@ -1,0 +1,3787 @@
+{
+  "sheet": {
+    "id": "striver-a2z",
+    "name": "Striver A2Z DSA Sheet",
+    "creator": "Raj Vikramaditya (takeUforward)",
+    "sourceUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "fetchedAt": "2026-09-30T19:40:00Z",
+    "expectedCount": 460
+  },
+  "sections": [
+    {
+      "id": "striver-step-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 1: Learn the basics",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "striver-step-1-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.1: Things to Know in C++/Java/Python or any language",
+      "parentId": "striver-step-1",
+      "position": 1
+    },
+    {
+      "id": "striver-step-1-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.2: Build-up Logical Thinking",
+      "parentId": "striver-step-1",
+      "position": 2
+    },
+    {
+      "id": "striver-step-1-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.3: Learn STL/Java-Collections or similar thing in your\n            language",
+      "parentId": "striver-step-1",
+      "position": 3
+    },
+    {
+      "id": "striver-step-1-sub-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.4: Know Basic Maths",
+      "parentId": "striver-step-1",
+      "position": 4
+    },
+    {
+      "id": "striver-step-1-sub-5",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.5: Learn Basic Recursion",
+      "parentId": "striver-step-1",
+      "position": 5
+    },
+    {
+      "id": "striver-step-1-sub-6",
+      "sheetId": "striver-a2z",
+      "title": "Step 1.6: Learn Basic Hashing",
+      "parentId": "striver-step-1",
+      "position": 6
+    },
+    {
+      "id": "striver-step-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 2: Learn Important Sorting Techniques",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "striver-step-2-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 2.1: Sorting-I",
+      "parentId": "striver-step-2",
+      "position": 1
+    },
+    {
+      "id": "striver-step-2-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 2.2: Sorting-II",
+      "parentId": "striver-step-2",
+      "position": 2
+    },
+    {
+      "id": "striver-step-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 3: Solve Problems on Arrays [Easy -> Medium -> Hard]",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "striver-step-3-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 3.1: Easy",
+      "parentId": "striver-step-3",
+      "position": 1
+    },
+    {
+      "id": "striver-step-3-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 3.2: Medium",
+      "parentId": "striver-step-3",
+      "position": 2
+    },
+    {
+      "id": "striver-step-3-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 3.3: Hard",
+      "parentId": "striver-step-3",
+      "position": 3
+    },
+    {
+      "id": "striver-step-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 4: Binary Search [1D, 2D Arrays, Search Space]",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "striver-step-4-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 4.1: BS on 1D Arrays",
+      "parentId": "striver-step-4",
+      "position": 1
+    },
+    {
+      "id": "striver-step-4-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 4.2: BS on Answers",
+      "parentId": "striver-step-4",
+      "position": 2
+    },
+    {
+      "id": "striver-step-4-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 4.3: BS on 2D Arrays",
+      "parentId": "striver-step-4",
+      "position": 3
+    },
+    {
+      "id": "striver-step-5",
+      "sheetId": "striver-a2z",
+      "title": "Step 5: Strings [Basic and Medium]",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "striver-step-5-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 5.1: Basic and Easy String Problems",
+      "parentId": "striver-step-5",
+      "position": 1
+    },
+    {
+      "id": "striver-step-5-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 5.2: Medium String Problems",
+      "parentId": "striver-step-5",
+      "position": 2
+    },
+    {
+      "id": "striver-step-6",
+      "sheetId": "striver-a2z",
+      "title": "Step 6: Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "striver-step-6-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 6.1: Learn 1D LinkedList",
+      "parentId": "striver-step-6",
+      "position": 1
+    },
+    {
+      "id": "striver-step-6-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 6.2: Learn Doubly LinkedList",
+      "parentId": "striver-step-6",
+      "position": 2
+    },
+    {
+      "id": "striver-step-6-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 6.3: Medium Problems of LL",
+      "parentId": "striver-step-6",
+      "position": 3
+    },
+    {
+      "id": "striver-step-6-sub-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 6.4: Medium Problems of DLL",
+      "parentId": "striver-step-6",
+      "position": 4
+    },
+    {
+      "id": "striver-step-6-sub-5",
+      "sheetId": "striver-a2z",
+      "title": "Step 6.5: Hard Problems of LL",
+      "parentId": "striver-step-6",
+      "position": 5
+    },
+    {
+      "id": "striver-step-7",
+      "sheetId": "striver-a2z",
+      "title": "Step 7: Recursion [PatternWise]",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "striver-step-7-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 7.1: Get a Strong Hold",
+      "parentId": "striver-step-7",
+      "position": 1
+    },
+    {
+      "id": "striver-step-7-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 7.2: Subsequences Pattern",
+      "parentId": "striver-step-7",
+      "position": 2
+    },
+    {
+      "id": "striver-step-7-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 7.3: Trying out all Combos / Hard",
+      "parentId": "striver-step-7",
+      "position": 3
+    },
+    {
+      "id": "striver-step-8",
+      "sheetId": "striver-a2z",
+      "title": "Step 8: Bit Manipulation [Concepts & Problems]",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "striver-step-8-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 8.1: Learn Bit Manipulation",
+      "parentId": "striver-step-8",
+      "position": 1
+    },
+    {
+      "id": "striver-step-8-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 8.2: Interview Problems",
+      "parentId": "striver-step-8",
+      "position": 2
+    },
+    {
+      "id": "striver-step-8-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 8.3: Advanced Maths",
+      "parentId": "striver-step-8",
+      "position": 3
+    },
+    {
+      "id": "striver-step-9",
+      "sheetId": "striver-a2z",
+      "title": "Step 9: Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "striver-step-9-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 9.1: Learning",
+      "parentId": "striver-step-9",
+      "position": 1
+    },
+    {
+      "id": "striver-step-9-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 9.2: Prefix, Infix, PostFix Conversion Problems",
+      "parentId": "striver-step-9",
+      "position": 2
+    },
+    {
+      "id": "striver-step-9-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 9.3: Monotonic Stack/Queue Problems [VVV. Imp]",
+      "parentId": "striver-step-9",
+      "position": 3
+    },
+    {
+      "id": "striver-step-9-sub-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 9.4: Implementation Problems",
+      "parentId": "striver-step-9",
+      "position": 4
+    },
+    {
+      "id": "striver-step-10",
+      "sheetId": "striver-a2z",
+      "title": "Step 10: Sliding Window & Two Pointer Combined Problems",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "striver-step-10-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 10.1: Medium Problems",
+      "parentId": "striver-step-10",
+      "position": 1
+    },
+    {
+      "id": "striver-step-10-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 10.2: Hard Problems",
+      "parentId": "striver-step-10",
+      "position": 2
+    },
+    {
+      "id": "striver-step-11",
+      "sheetId": "striver-a2z",
+      "title": "Step 11: Heaps [Learning, Medium, Hard Problems]",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "striver-step-11-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 11.1: Learning",
+      "parentId": "striver-step-11",
+      "position": 1
+    },
+    {
+      "id": "striver-step-11-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 11.2: Medium Problems",
+      "parentId": "striver-step-11",
+      "position": 2
+    },
+    {
+      "id": "striver-step-11-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 11.3: Hard Problems",
+      "parentId": "striver-step-11",
+      "position": 3
+    },
+    {
+      "id": "striver-step-12",
+      "sheetId": "striver-a2z",
+      "title": "Step 12: Greedy Algorithms [Easy, Medium/Hard]",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "striver-step-12-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 12.1: Easy Problems",
+      "parentId": "striver-step-12",
+      "position": 1
+    },
+    {
+      "id": "striver-step-12-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 12.2: Medium/Hard",
+      "parentId": "striver-step-12",
+      "position": 2
+    },
+    {
+      "id": "striver-step-13",
+      "sheetId": "striver-a2z",
+      "title": "Step 13: Binary Trees [Traversals, Medium and Hard Problems]",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "striver-step-13-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 13.1: Traversals",
+      "parentId": "striver-step-13",
+      "position": 1
+    },
+    {
+      "id": "striver-step-13-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 13.2: Medium Problems",
+      "parentId": "striver-step-13",
+      "position": 2
+    },
+    {
+      "id": "striver-step-13-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 13.3: Hard Problems",
+      "parentId": "striver-step-13",
+      "position": 3
+    },
+    {
+      "id": "striver-step-14",
+      "sheetId": "striver-a2z",
+      "title": "Step 14: Binary Search Trees [Concept and Problems]",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "striver-step-14-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 14.1: Concepts",
+      "parentId": "striver-step-14",
+      "position": 1
+    },
+    {
+      "id": "striver-step-14-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 14.2: Practice Problems",
+      "parentId": "striver-step-14",
+      "position": 2
+    },
+    {
+      "id": "striver-step-15",
+      "sheetId": "striver-a2z",
+      "title": "Step 15: Graphs [Concepts & Problems]",
+      "parentId": null,
+      "position": 15
+    },
+    {
+      "id": "striver-step-15-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.1: Learning",
+      "parentId": "striver-step-15",
+      "position": 1
+    },
+    {
+      "id": "striver-step-15-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.2: Problems on BFS/DFS",
+      "parentId": "striver-step-15",
+      "position": 2
+    },
+    {
+      "id": "striver-step-15-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.3: Topo Sort and Problems",
+      "parentId": "striver-step-15",
+      "position": 3
+    },
+    {
+      "id": "striver-step-15-sub-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.4: Shortest Path Algorithms and Problems",
+      "parentId": "striver-step-15",
+      "position": 4
+    },
+    {
+      "id": "striver-step-15-sub-5",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.5: MinimumSpanningTree/Disjoint Set and Problems",
+      "parentId": "striver-step-15",
+      "position": 5
+    },
+    {
+      "id": "striver-step-15-sub-6",
+      "sheetId": "striver-a2z",
+      "title": "Step 15.6: Other Algorithms",
+      "parentId": "striver-step-15",
+      "position": 6
+    },
+    {
+      "id": "striver-step-16",
+      "sheetId": "striver-a2z",
+      "title": "Step 16: Dynamic Programming [Patterns and Problems]",
+      "parentId": null,
+      "position": 16
+    },
+    {
+      "id": "striver-step-16-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.1: Introduction to DP",
+      "parentId": "striver-step-16",
+      "position": 1
+    },
+    {
+      "id": "striver-step-16-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.2: 1D DP",
+      "parentId": "striver-step-16",
+      "position": 2
+    },
+    {
+      "id": "striver-step-16-sub-3",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.3: 2D/3D DP and DP on Grids",
+      "parentId": "striver-step-16",
+      "position": 3
+    },
+    {
+      "id": "striver-step-16-sub-4",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.4: DP on Subsequences",
+      "parentId": "striver-step-16",
+      "position": 4
+    },
+    {
+      "id": "striver-step-16-sub-5",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.5: DP on Strings",
+      "parentId": "striver-step-16",
+      "position": 5
+    },
+    {
+      "id": "striver-step-16-sub-6",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.6: DP on Stocks",
+      "parentId": "striver-step-16",
+      "position": 6
+    },
+    {
+      "id": "striver-step-16-sub-7",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.7: DP on LIS",
+      "parentId": "striver-step-16",
+      "position": 7
+    },
+    {
+      "id": "striver-step-16-sub-8",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.8: MCM DP | Partition DP",
+      "parentId": "striver-step-16",
+      "position": 8
+    },
+    {
+      "id": "striver-step-16-sub-9",
+      "sheetId": "striver-a2z",
+      "title": "Step 16.9: DP on Squares",
+      "parentId": "striver-step-16",
+      "position": 9
+    },
+    {
+      "id": "striver-step-17",
+      "sheetId": "striver-a2z",
+      "title": "Step 17: Tries",
+      "parentId": null,
+      "position": 17
+    },
+    {
+      "id": "striver-step-17-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 17.1: Theory",
+      "parentId": "striver-step-17",
+      "position": 1
+    },
+    {
+      "id": "striver-step-17-sub-2",
+      "sheetId": "striver-a2z",
+      "title": "Step 17.2: Problems",
+      "parentId": "striver-step-17",
+      "position": 2
+    },
+    {
+      "id": "striver-step-18",
+      "sheetId": "striver-a2z",
+      "title": "Step 18: Strings",
+      "parentId": null,
+      "position": 18
+    },
+    {
+      "id": "striver-step-18-sub-1",
+      "sheetId": "striver-a2z",
+      "title": "Step 18.1: Hard Problems",
+      "parentId": "striver-step-18",
+      "position": 1
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-input-output",
+      "position": 1,
+      "titleInSheet": "User Input / Output"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-cpp-data-types",
+      "position": 2,
+      "titleInSheet": "Data Types in C++"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-if-elseif",
+      "position": 3,
+      "titleInSheet": "If-Else Statements"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-switch-case",
+      "position": 4,
+      "titleInSheet": "Switch Statement"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-reverse-an-array",
+      "position": 5,
+      "titleInSheet": "Arrays & Strings"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-cpp-for-loops",
+      "position": 6,
+      "titleInSheet": "For Loops"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-cpp-while-loops",
+      "position": 7,
+      "titleInSheet": "While Loops"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-cpp-functions",
+      "position": 8,
+      "titleInSheet": "Functions (Pass by Ref & Value)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-1",
+      "problemId": "other-time-and-space-complexity-strivers-a2z-dsa-course",
+      "position": 9,
+      "titleInSheet": "Time & Space Complexity"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "other-easy-and-medium",
+      "position": 10,
+      "titleInSheet": "Pattern 1: Right-Angled Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-2-right-angled-number-pyramid",
+      "position": 11,
+      "titleInSheet": "Pattern 2: Right-Angled Number Pyramid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-3-right-angled-number-pyramid-ii",
+      "position": 12,
+      "titleInSheet": "Pattern 3: Right-Angled Number Pyramid II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-4-inverted-right-pyramid",
+      "position": 13,
+      "titleInSheet": "Pattern 4: Inverted Right Pyramid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-5-inverted-number-pyramid",
+      "position": 14,
+      "titleInSheet": "Pattern 5: Inverted Number Pyramid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-6-inverted-number-pyramid-ii",
+      "position": 15,
+      "titleInSheet": "Pattern 6: Inverted Number Pyramid II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-7-star-pyramid",
+      "position": 16,
+      "titleInSheet": "Pattern 7: Star Pyramid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-8-inverted-star-pyramid",
+      "position": 17,
+      "titleInSheet": "Pattern 8: Inverted Star Pyramid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-9-diamond-star-pattern",
+      "position": 18,
+      "titleInSheet": "Pattern 9: Diamond Star Pattern"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-10-half-diamond",
+      "position": 19,
+      "titleInSheet": "Pattern 10: Half Diamond"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-11-binary-triangle",
+      "position": 20,
+      "titleInSheet": "Pattern 11: Binary Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-12-number-crown",
+      "position": 21,
+      "titleInSheet": "Pattern 12: Number Crown"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-13-increasing-number-triangle",
+      "position": 22,
+      "titleInSheet": "Pattern 13: Increasing Number Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-14-increasing-letter-triangle",
+      "position": 23,
+      "titleInSheet": "Pattern 14: Increasing Letter Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-15-inverted-letter-triangle",
+      "position": 24,
+      "titleInSheet": "Pattern 15: Inverted Letter Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-16-alpha-ramp",
+      "position": 25,
+      "titleInSheet": "Pattern 16: Alpha Ramp"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-17-alpha-hill",
+      "position": 26,
+      "titleInSheet": "Pattern 17: Alpha Hill"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-18-alpha-triangle",
+      "position": 27,
+      "titleInSheet": "Pattern 18: Alpha Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-19-symmetric-void",
+      "position": 28,
+      "titleInSheet": "Pattern 19: Symmetric Void"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-20-symmetric-butterfly",
+      "position": 29,
+      "titleInSheet": "Pattern 20: Symmetric Butterfly"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-21-hollow-rectangle",
+      "position": 30,
+      "titleInSheet": "Pattern 21: Hollow Rectangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-2",
+      "problemId": "gfg-pattern-22-full-star-diamond",
+      "position": 31,
+      "titleInSheet": "Pattern 22: Full Star Diamond"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-3",
+      "problemId": "other-c-stl-tutorial-most-frequent-used-stl-containers",
+      "position": 32,
+      "titleInSheet": "C++ STL (Containers & Algorithms)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "other-count-all-digits-of-a-number",
+      "position": 33,
+      "titleInSheet": "Count Digits"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "lc-reverse-integer",
+      "position": 34,
+      "titleInSheet": "Reverse a Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "lc-palindrome-number",
+      "position": 35,
+      "titleInSheet": "Check Palindrome Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "lc-gcd-hcf",
+      "position": 36,
+      "titleInSheet": "GCD / HCF"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "lc-armstrong-number",
+      "position": 37,
+      "titleInSheet": "Armstrong Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "other-divisors-of-a-number",
+      "position": 38,
+      "titleInSheet": "Print all Divisors"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-4",
+      "problemId": "other-check-for-prime-number",
+      "position": 39,
+      "titleInSheet": "Check for Prime"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "other-print-1-to-n-using-recursion",
+      "position": 40,
+      "titleInSheet": "Recursion \u2014 Print 1 to N"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "other-print-n-to-1-using-recursion",
+      "position": 41,
+      "titleInSheet": "Recursion \u2014 Print N to 1"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "other-sum-of-first-n-numbers",
+      "position": 42,
+      "titleInSheet": "Recursion \u2014 Sum of First N Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "other-factorial-of-a-given-number",
+      "position": 43,
+      "titleInSheet": "Recursion \u2014 Factorial of N"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "lc-recursion-reverse-an-array",
+      "position": 44,
+      "titleInSheet": "Recursion \u2014 Reverse an Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "lc-valid-palindrome",
+      "position": 45,
+      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-5",
+      "problemId": "other-cpp-for-loops",
+      "position": 46,
+      "titleInSheet": "Fibonacci Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-6",
+      "problemId": "other-hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course",
+      "position": 47,
+      "titleInSheet": "Hashing Theory"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-6",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 48,
+      "titleInSheet": "Counting Frequencies of Array Elements"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-1-sub-6",
+      "problemId": "lc-find-highest-lowest-frequency-element",
+      "position": 49,
+      "titleInSheet": "Find Highest/Lowest Frequency Element"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 50,
+      "titleInSheet": "Longest Subarray with Sum K (Positives)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "other-largest-subarray-with-sum-0",
+      "position": 51,
+      "titleInSheet": "Longest Subarray with Sum 0"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-2-sub-1",
+      "problemId": "other-selection-sort",
+      "position": 52,
+      "titleInSheet": "Selection Sort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-2-sub-1",
+      "problemId": "other-recursive-bubble-sort-recursive",
+      "position": 53,
+      "titleInSheet": "Bubble Sort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-2-sub-1",
+      "problemId": "other-insertion-sorting",
+      "position": 54,
+      "titleInSheet": "Insertion Sort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-2-sub-2",
+      "problemId": "lc-sort-an-array",
+      "position": 55,
+      "titleInSheet": "Merge Sort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-2-sub-2",
+      "problemId": "other-quick-sorting",
+      "position": 56,
+      "titleInSheet": "Quick Sort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 57,
+      "titleInSheet": "Largest Element in Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-find-highest-lowest-frequency-element",
+      "position": 58,
+      "titleInSheet": "Second Largest Element"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-check-if-array-is-sorted-and-rotated",
+      "position": 59,
+      "titleInSheet": "Check if Array is Sorted"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-remove-duplicates-from-sorted-array",
+      "position": 60,
+      "titleInSheet": "Remove Duplicates from Sorted Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-rotate-array",
+      "position": 61,
+      "titleInSheet": "Left Rotate Array by One Place"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-rotate-array",
+      "position": 62,
+      "titleInSheet": "Left Rotate Array by D Places"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-move-zeroes",
+      "position": 63,
+      "titleInSheet": "Move Zeros to End"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "other-linear-search",
+      "position": 64,
+      "titleInSheet": "Linear Search"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 65,
+      "titleInSheet": "Union of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-find-peak-element",
+      "position": 66,
+      "titleInSheet": "Missing Number in Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-max-consecutive-ones",
+      "position": 67,
+      "titleInSheet": "Max Consecutive Ones"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-single-number",
+      "position": 68,
+      "titleInSheet": "Find the Single Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-1",
+      "problemId": "lc-two-sum",
+      "position": 69,
+      "titleInSheet": "Two Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-sort-colors",
+      "position": 70,
+      "titleInSheet": "Sort Colors (Dutch National Flag)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-majority-element",
+      "position": 71,
+      "titleInSheet": "Majority Element (>N/2)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-maximum-subarray",
+      "position": 72,
+      "titleInSheet": "Kadane's Algorithm (Max Subarray Sum)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 73,
+      "titleInSheet": "Best Time to Buy & Sell Stock I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-rearrange-array-elements-by-sign",
+      "position": 74,
+      "titleInSheet": "Rearrange Array by Sign"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-next-permutation",
+      "position": 75,
+      "titleInSheet": "Next Permutation"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-longest-consecutive-sequence",
+      "position": 76,
+      "titleInSheet": "Longest Consecutive Sequence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-set-matrix-zeroes",
+      "position": 77,
+      "titleInSheet": "Set Matrix Zeroes"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-rotate-image",
+      "position": 78,
+      "titleInSheet": "Rotate Image (Matrix)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-spiral-matrix",
+      "position": 79,
+      "titleInSheet": "Spiral Matrix"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 80,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-pascals-triangle",
+      "position": 81,
+      "titleInSheet": "Pascal's Triangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-majority-element-ii",
+      "position": 82,
+      "titleInSheet": "Majority Element II (>N/3)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-3-sum",
+      "position": 83,
+      "titleInSheet": "3 Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-4-sum",
+      "position": 84,
+      "titleInSheet": "4 Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-merge-intervals",
+      "position": 85,
+      "titleInSheet": "Merge Overlapping Intervals"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-merge-sorted-array",
+      "position": 86,
+      "titleInSheet": "Merge Two Sorted Arrays Without Extra Space"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-missing-number",
+      "position": 87,
+      "titleInSheet": "Missing & Repeating Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "other-count-inversions",
+      "position": 88,
+      "titleInSheet": "Count Inversions"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-reverse-pairs",
+      "position": 89,
+      "titleInSheet": "Reverse Pairs"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 90,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 91,
+      "titleInSheet": "Find the Duplicate Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-max-sum-rectangle-in-matrix",
+      "position": 92,
+      "titleInSheet": "Max Sum Rectangle in Matrix"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-3-sum",
+      "position": 93,
+      "titleInSheet": "3-Sum Closest to Target"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-3",
+      "problemId": "lc-4-sum",
+      "position": 94,
+      "titleInSheet": "4-Sum Count (4 Arrays)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "gfg-subarray-with-xor-k",
+      "position": 95,
+      "titleInSheet": "Subarray with XOR = K"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "gfg-count-pairs-with-given-sum",
+      "position": 96,
+      "titleInSheet": "Count Pairs with Given Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-3-sub-2",
+      "problemId": "lc-watering-plants-ii",
+      "position": 97,
+      "titleInSheet": "Watering Plants II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-binary-search",
+      "position": 98,
+      "titleInSheet": "Binary Search"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-lower-bound",
+      "position": 99,
+      "titleInSheet": "Lower Bound"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-lower-bound",
+      "position": 100,
+      "titleInSheet": "Upper Bound"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-search-insert-position",
+      "position": 101,
+      "titleInSheet": "Search Insert Position"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-find-first-and-last-position-of-element-in-sorted-array",
+      "position": 102,
+      "titleInSheet": "First & Last Occurrence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "other-count-occurrences-in-a-sorted-array",
+      "position": 103,
+      "titleInSheet": "Count Occurrences in Sorted Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 104,
+      "titleInSheet": "Search in Rotated Sorted Array I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-search-in-rotated-sorted-array-ii",
+      "position": 105,
+      "titleInSheet": "Search in Rotated Sorted Array II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 106,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "other-find-out-how-many-times-the-array-is-rotated",
+      "position": 107,
+      "titleInSheet": "Find Out How Many Times Array Rotated"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-single-element-in-a-sorted-array",
+      "position": 108,
+      "titleInSheet": "Single Element in Sorted Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "lc-find-peak-element",
+      "position": 109,
+      "titleInSheet": "Find Peak Element"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-1",
+      "problemId": "other-find-square-root-of-a-number",
+      "position": 110,
+      "titleInSheet": "Sqrt(x)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-nth-root-of-m",
+      "position": 111,
+      "titleInSheet": "Nth Root of M"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-maximum-subarray",
+      "position": 112,
+      "titleInSheet": "Koko Eating Bananas"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-minimum-number-of-days-to-make-m-bouquets",
+      "position": 113,
+      "titleInSheet": "Minimum Days to Make M Bouquets"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-find-the-smallest-divisor-given-a-threshold",
+      "position": 114,
+      "titleInSheet": "Find the Smallest Divisor"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-capacity-to-ship-packages-within-d-days",
+      "position": 115,
+      "titleInSheet": "Capacity to Ship Packages in D Days"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-kth-missing-positive-number",
+      "position": 116,
+      "titleInSheet": "Kth Missing Positive Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "spoj-aggrcow",
+      "position": 117,
+      "titleInSheet": "Aggressive Cows"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-allocate-books",
+      "position": 118,
+      "titleInSheet": "Allocate Books"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-split-array-largest-sum",
+      "position": 119,
+      "titleInSheet": "Split Array Largest Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "other-painters-partition",
+      "position": 120,
+      "titleInSheet": "Painter's Partition"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-minimize-max-distance-to-gas-station",
+      "position": 121,
+      "titleInSheet": "Minimize Max Distance to Gas Station"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 122,
+      "titleInSheet": "Median of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-2",
+      "problemId": "other-kth-element-of-2-sorted-arrays",
+      "position": 123,
+      "titleInSheet": "Kth Element of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-3",
+      "problemId": "lc-find-row-with-maximum-1s",
+      "position": 124,
+      "titleInSheet": "Find Row with Maximum 1s"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-3",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 125,
+      "titleInSheet": "Search in 2D Matrix"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-3",
+      "problemId": "lc-search-a-2d-matrix-ii",
+      "position": 126,
+      "titleInSheet": "Search in 2D Matrix II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-3",
+      "problemId": "lc-find-a-peak-element-ii",
+      "position": 127,
+      "titleInSheet": "Find Peak Element II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-4-sub-3",
+      "problemId": "other-matrix-median",
+      "position": 128,
+      "titleInSheet": "Matrix Median"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-remove-outermost-parentheses",
+      "position": 129,
+      "titleInSheet": "Remove Outermost Parentheses"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-reverse-words-in-a-string-sec2-8",
+      "position": 130,
+      "titleInSheet": "Reverse Words in a String"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-largest-odd-number-in-string",
+      "position": 131,
+      "titleInSheet": "Largest Odd Number in String"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-longest-common-prefix",
+      "position": 132,
+      "titleInSheet": "Longest Common Prefix"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-isomorphic-strings",
+      "position": 133,
+      "titleInSheet": "Isomorphic Strings"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-rotate-string",
+      "position": 134,
+      "titleInSheet": "Check if Strings are Rotations"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-valid-anagram",
+      "position": 135,
+      "titleInSheet": "Valid Anagram"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-sort-characters-by-frequency",
+      "position": 136,
+      "titleInSheet": "Sort Characters by Frequency"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-maximum-nesting-depth-of-the-parentheses",
+      "position": 137,
+      "titleInSheet": "Maximum Nesting Depth of Parentheses"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-roman-to-integer",
+      "position": 138,
+      "titleInSheet": "Roman to Integer"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-1",
+      "problemId": "lc-string-to-integer-atoi-recursive",
+      "position": 139,
+      "titleInSheet": "String to Integer (atoi)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-2",
+      "problemId": "gfg-count-substrings-with-same-start-end",
+      "position": 140,
+      "titleInSheet": "Count Substrings with Same Start & End"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-2",
+      "problemId": "lc-longest-palindromic-substring",
+      "position": 141,
+      "titleInSheet": "Longest Palindromic Substring"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-2",
+      "problemId": "lc-sum-of-beauty-of-all-substrings",
+      "position": 142,
+      "titleInSheet": "Sum of Beauty of All Substrings"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-5-sub-2",
+      "problemId": "lc-minimum-insertion-steps-to-make-a-string-palindrome",
+      "position": 143,
+      "titleInSheet": "Minimum Characters to Add to Make Palindrome"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-1",
+      "problemId": "lc-introduction-to-linked-list",
+      "position": 144,
+      "titleInSheet": "Introduction to Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-1",
+      "problemId": "other-insertion-at-the-head-of-ll",
+      "position": 145,
+      "titleInSheet": "Insert at End of Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-1",
+      "problemId": "gfg-delete-last-node-of-linked-list",
+      "position": 146,
+      "titleInSheet": "Delete Last Node of Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-1",
+      "problemId": "other-find-the-length-of-the-linked-list",
+      "position": 147,
+      "titleInSheet": "Find Length of Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-1",
+      "problemId": "other-search-in-linked-list",
+      "position": 148,
+      "titleInSheet": "Search in Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-2",
+      "problemId": "lc-introduction-to-doubly-linked-list",
+      "position": 149,
+      "titleInSheet": "Introduction to Doubly Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-2",
+      "problemId": "lc-insert-greatest-common-divisors-in-linked-list",
+      "position": 150,
+      "titleInSheet": "Insert in Doubly Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-2",
+      "problemId": "lc-delete-node-in-a-linked-list",
+      "position": 151,
+      "titleInSheet": "Delete in Doubly Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-2",
+      "problemId": "lc-flatten-a-multilevel-doubly-linked-list",
+      "position": 152,
+      "titleInSheet": "Reverse a Doubly Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "other-find-pairs-with-given-sum-in-doubly-linked-list",
+      "position": 153,
+      "titleInSheet": "Find Pairs with Given Sum in DLL"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-remove-duplicates-from-sorted-array",
+      "position": 154,
+      "titleInSheet": "Remove Duplicates from Sorted DLL"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 155,
+      "titleInSheet": "Middle of Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-reverse-linked-list",
+      "position": 156,
+      "titleInSheet": "Reverse Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-linked-list-cycle",
+      "position": 157,
+      "titleInSheet": "Detect Cycle in LL (Floyd's)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-find-length-of-loop",
+      "position": 158,
+      "titleInSheet": "Find Length of Loop"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-palindrome-linked-list",
+      "position": 159,
+      "titleInSheet": "Check if Palindrome LL"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-odd-even-linked-list",
+      "position": 160,
+      "titleInSheet": "Segregate Odd/Even Nodes"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 161,
+      "titleInSheet": "Remove Nth Node from Back"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-delete-node-in-a-linked-list",
+      "position": 162,
+      "titleInSheet": "Delete Node Without Head"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "other-sort-a-ll-of-0's-1's-and-2's",
+      "position": 163,
+      "titleInSheet": "Sort LL of 0s 1s 2s"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "other-add-one-to-a-number-represented-by-ll\\",
+      "position": 164,
+      "titleInSheet": "Add 1 to Number Represented as LL"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-add-two-numbers",
+      "position": 165,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-intersection-of-two-linked-lists",
+      "position": 166,
+      "titleInSheet": "Intersection of Two Linked Lists"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-3",
+      "problemId": "lc-linked-list-cycle-ii",
+      "position": 167,
+      "titleInSheet": "Starting Point of Cycle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-4",
+      "problemId": "lc-count-good-numbers",
+      "position": 168,
+      "titleInSheet": "Reverse LL in Groups of K"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-4",
+      "problemId": "lc-rotate-list",
+      "position": 169,
+      "titleInSheet": "Rotate a Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-4",
+      "problemId": "lc-clone-ll-with-random-pointer",
+      "position": 170,
+      "titleInSheet": "Clone LL with Random Pointer"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-5",
+      "problemId": "lc-flatten-a-multilevel-doubly-linked-list",
+      "position": 171,
+      "titleInSheet": "Flatten a Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-5",
+      "problemId": "lc-sort-list",
+      "position": 172,
+      "titleInSheet": "Sort Linked List (Merge Sort)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-5",
+      "problemId": "other-delete-all-occurrences-of-a-key-in-dll",
+      "position": 173,
+      "titleInSheet": "Delete All Occurrences of Key in DLL"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-6-sub-5",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 174,
+      "titleInSheet": "Merge K Sorted Linked Lists"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "other-print-1-to-n-using-recursion",
+      "position": 175,
+      "titleInSheet": "Recursion \u2014 Print Name N Times"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "other-sum-of-first-n-numbers",
+      "position": 176,
+      "titleInSheet": "Recursion \u2014 Sum of First N Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "lc-powx-n",
+      "position": 177,
+      "titleInSheet": "Pow(x, n) \u2014 Fast Exponentiation"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "lc-count-good-numbers",
+      "position": 178,
+      "titleInSheet": "Count Good Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "lc-count-primes",
+      "position": 179,
+      "titleInSheet": "Sort a Stack using Recursion"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-1",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 180,
+      "titleInSheet": "Reverse a Stack using Recursion"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-powx-n",
+      "position": 181,
+      "titleInSheet": "Generate All Subsequences"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-combination-sum",
+      "position": 182,
+      "titleInSheet": "Combination Sum I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-combination-sum-ii",
+      "position": 183,
+      "titleInSheet": "Combination Sum II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 184,
+      "titleInSheet": "Subset Sum I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-subsets-ii",
+      "position": 185,
+      "titleInSheet": "Subset Sum II (Unique)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-combination-sum-iii",
+      "position": 186,
+      "titleInSheet": "Combination Sum III"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 187,
+      "titleInSheet": "Letter Combinations of Phone Number"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-permutations",
+      "position": 188,
+      "titleInSheet": "Permutations I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-permutations-ii",
+      "position": 189,
+      "titleInSheet": "Permutations II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-n-queens",
+      "position": 190,
+      "titleInSheet": "N-Queens"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-sudoku-solver",
+      "position": 191,
+      "titleInSheet": "Sudoku Solver"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-2",
+      "problemId": "lc-word-search",
+      "position": 192,
+      "titleInSheet": "Word Search"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-7-sub-3",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 193,
+      "titleInSheet": "Palindrome Partitioning"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "lc-check-if-ith-bit-is-set",
+      "position": 194,
+      "titleInSheet": "Check if ith Bit is Set"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "other-check-if-a-number-is-odd-or-not",
+      "position": 195,
+      "titleInSheet": "Check if Number is Odd or Even"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "lc-power-of-two",
+      "position": 196,
+      "titleInSheet": "Check if Number is Power of Two"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "lc-number-of-1-bits",
+      "position": 197,
+      "titleInSheet": "Count Set Bits (Kernighan's Algorithm)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "concept-set-unset-the-rightmost-unset-bit",
+      "position": 198,
+      "titleInSheet": "Set/Unset the Rightmost Unset Bit"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "gfg-swap-two-numbers-using-xor",
+      "position": 199,
+      "titleInSheet": "Swap Two Numbers using XOR"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-1",
+      "problemId": "lc-divide-two-integers",
+      "position": 200,
+      "titleInSheet": "Divide Two Integers Without /"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-single-number-ii",
+      "position": 201,
+      "titleInSheet": "Single Number II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-single-number-iii",
+      "position": 202,
+      "titleInSheet": "Single Number III"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-maximum-xor-with-an-element-from-array",
+      "position": 203,
+      "titleInSheet": "Find XOR from L to R"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-xor-queries-of-subarray",
+      "position": 204,
+      "titleInSheet": "XOR Queries of Subarray"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "gfg-count-total-set-bits-from-1-to-n",
+      "position": 205,
+      "titleInSheet": "Count Total Set Bits from 1 to N"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-find-the-minimum-xor-pair",
+      "position": 206,
+      "titleInSheet": "Find the Minimum XOR Pair"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-reverse-bits",
+      "position": 207,
+      "titleInSheet": "Reverse Bits"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-counting-bits",
+      "position": 208,
+      "titleInSheet": "Counting Bits (DP + Bit)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-3",
+      "problemId": "lc-subsets",
+      "position": 209,
+      "titleInSheet": "Generate Subsets using Bitmask"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-3",
+      "problemId": "lc-subsets",
+      "position": 210,
+      "titleInSheet": "Power Set"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-8-sub-2",
+      "problemId": "lc-find-xor-beauty-of-array",
+      "position": 211,
+      "titleInSheet": "XOR Beauty of Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 212,
+      "titleInSheet": "Implement Stack using Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 213,
+      "titleInSheet": "Implement Queue using Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 214,
+      "titleInSheet": "Implement Stack using Queue"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 215,
+      "titleInSheet": "Implement Queue using Stack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 216,
+      "titleInSheet": "Implement Stack using Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 217,
+      "titleInSheet": "Implement Queue using Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-1",
+      "problemId": "lc-valid-parentheses",
+      "position": 218,
+      "titleInSheet": "Valid Parentheses"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "other-infix-to-postfix-conversion",
+      "position": 219,
+      "titleInSheet": "Infix to Postfix Conversion"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "other-prefix-to-infix-conversion",
+      "position": 220,
+      "titleInSheet": "Prefix to Infix Conversion"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "concept-postfix-to-infix",
+      "position": 221,
+      "titleInSheet": "Postfix to Infix Conversion"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "lc-next-greater-element-i",
+      "position": 222,
+      "titleInSheet": "Next Greater Element I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "lc-next-greater-element-ii",
+      "position": 223,
+      "titleInSheet": "Next Greater Element II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-2",
+      "problemId": "other-next-smaller-element",
+      "position": 224,
+      "titleInSheet": "Next Smaller Element"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-sum-of-subarray-minimums",
+      "position": 225,
+      "titleInSheet": "Sum of Subarray Minimums"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-asteroid-collision",
+      "position": 226,
+      "titleInSheet": "Asteroid Collision"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-sum-of-subarray-ranges",
+      "position": 227,
+      "titleInSheet": "Sum of Subarray Ranges"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-remove-k-digits",
+      "position": 228,
+      "titleInSheet": "Remove K Digits"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-132-pattern",
+      "position": 229,
+      "titleInSheet": "132 Pattern"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-maximum-width-ramp",
+      "position": 230,
+      "titleInSheet": "Maximum Width Ramp"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-online-stock-span",
+      "position": 231,
+      "titleInSheet": "Stock Span Problem"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-min-stack",
+      "position": 232,
+      "titleInSheet": "Min Stack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-lru-cache",
+      "position": 233,
+      "titleInSheet": "LRU Cache"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-lfu-cache",
+      "position": 234,
+      "titleInSheet": "LFU Cache"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-3",
+      "problemId": "lc-find-the-celebrity",
+      "position": 235,
+      "titleInSheet": "The Celebrity Problem"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-trapping-rain-water",
+      "position": 236,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 237,
+      "titleInSheet": "Largest Rectangle in Histogram"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-maximal-rectangle-sec9-1",
+      "position": 238,
+      "titleInSheet": "Maximal Rectangle"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 239,
+      "titleInSheet": "Sliding Window Maximum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-maximum-frequency-stack",
+      "position": 240,
+      "titleInSheet": "Maximum Frequency Stack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-9-sub-4",
+      "problemId": "lc-number-of-visible-people-in-queue",
+      "position": 241,
+      "titleInSheet": "Number of Visible People in Queue"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-sort-a-stack",
+      "position": 242,
+      "titleInSheet": "Sort a Stack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 243,
+      "titleInSheet": "Longest Substring Without Repeating Chars"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-max-consecutive-ones-iii",
+      "position": 244,
+      "titleInSheet": "Max Consecutive Ones III"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-fruit-into-baskets",
+      "position": 245,
+      "titleInSheet": "Fruits into Baskets"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-longest-repeating-character-replacement",
+      "position": 246,
+      "titleInSheet": "Longest Repeating Character Replacement"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-binary-subarrays-with-sum",
+      "position": 247,
+      "titleInSheet": "Binary Subarrays with Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-count-number-of-nice-subarrays",
+      "position": 248,
+      "titleInSheet": "Count Nice Subarrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-number-of-substrings-containing-all-three-characters",
+      "position": 249,
+      "titleInSheet": "Substrings with All 3 Characters"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-subarrays-with-k-different-integers",
+      "position": 250,
+      "titleInSheet": "Subarrays with K Different Integers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-minimum-window-substring",
+      "position": 251,
+      "titleInSheet": "Minimum Window Substring"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-minimum-window-subsequence",
+      "position": 252,
+      "titleInSheet": "Minimum Window Subsequence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-1",
+      "problemId": "lc-maximum-points-you-can-obtain-from-cards",
+      "position": 253,
+      "titleInSheet": "Maximum Points from Cards"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-1",
+      "problemId": "lc-introduction-to-heaps",
+      "position": 254,
+      "titleInSheet": "Introduction to Heaps"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-1",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 255,
+      "titleInSheet": "Kth Largest Element in Stream"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-1",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 256,
+      "titleInSheet": "Kth Largest Element in Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "lc-kth-smallest-element-in-a-sorted-matrix",
+      "position": 257,
+      "titleInSheet": "Kth Smallest Element"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "concept-sort-k-sorted-array",
+      "position": 258,
+      "titleInSheet": "Sort K-Sorted (Nearly Sorted) Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "gfg-merge-k-sorted-arrays-2",
+      "position": 259,
+      "titleInSheet": "Merge K Sorted Arrays"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "lc-replace-element-with-greatest-on-right",
+      "position": 260,
+      "titleInSheet": "Replace Element with Greatest on Right"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "lc-task-scheduler",
+      "position": 261,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "lc-hand-of-straights",
+      "position": 262,
+      "titleInSheet": "Hand of Straights"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-2",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 263,
+      "titleInSheet": "Top K Frequent Elements"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "lc-sum-of-elements-between-k1-k2-smallest",
+      "position": 264,
+      "titleInSheet": "Sum of Elements Between K1 & K2 Smallest"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 265,
+      "titleInSheet": "Find Median from Data Stream"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "lc-k-closest-points-to-origin",
+      "position": 266,
+      "titleInSheet": "K Closest Points to Origin"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "other-maximum-sum-combination",
+      "position": 267,
+      "titleInSheet": "Maximum Sum Combination"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "lc-find-k-pairs-with-smallest-sums",
+      "position": 268,
+      "titleInSheet": "Find K Pairs with Smallest Sums"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-11-sub-3",
+      "problemId": "lc-smallest-range-covering-elements-from-k-lists",
+      "position": 269,
+      "titleInSheet": "Smallest Range Covering K Lists"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-1",
+      "problemId": "lc-assign-cookies-sec4-6",
+      "position": 270,
+      "titleInSheet": "Assign Cookies"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-1",
+      "problemId": "other-fractional-knapsack",
+      "position": 271,
+      "titleInSheet": "Fractional Knapsack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-1",
+      "problemId": "lc-greedy-minimum-coins",
+      "position": 272,
+      "titleInSheet": "Greedy Minimum Coins"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-1",
+      "problemId": "lc-lemonade-change",
+      "position": 273,
+      "titleInSheet": "Lemonade Change"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-valid-parenthesis-string",
+      "position": 274,
+      "titleInSheet": "Valid Parenthesis String"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "other-n-meetings-in-one-room",
+      "position": 275,
+      "titleInSheet": "N Meetings in One Room"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-minimum-platforms",
+      "position": 276,
+      "titleInSheet": "Minimum Platforms"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "other-job-sequencing-problem",
+      "position": 277,
+      "titleInSheet": "Job Sequencing Problem"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-candy",
+      "position": 278,
+      "titleInSheet": "Candy"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-jump-game",
+      "position": 279,
+      "titleInSheet": "Jump Game I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-jump-game-ii",
+      "position": 280,
+      "titleInSheet": "Jump Game II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-insert-interval",
+      "position": 281,
+      "titleInSheet": "Insert Interval"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 282,
+      "titleInSheet": "Non-Overlapping Intervals"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-minimum-number-of-arrows-to-burst-balloons",
+      "position": 283,
+      "titleInSheet": "Minimum Number of Arrows to Burst Balloons"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "lc-lru-cache",
+      "position": 284,
+      "titleInSheet": "Page Faults in LRU"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-minimize-max-distance-to-gas-station",
+      "position": 285,
+      "titleInSheet": "Gas Station"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-1",
+      "problemId": "gfg--minimum-number-of-coins4426",
+      "position": 286,
+      "titleInSheet": "Indian Coins"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-12-sub-2",
+      "problemId": "gfg-job-sequencing-problem-",
+      "position": 287,
+      "titleInSheet": "Job Scheduling"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 288,
+      "titleInSheet": "Binary Tree: Preorder Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "other-inorder-tree-traversal-iterative-recursive",
+      "position": 289,
+      "titleInSheet": "Binary Tree: Inorder Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 290,
+      "titleInSheet": "Binary Tree: Postorder Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 291,
+      "titleInSheet": "Level Order Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "other-pre,-post,-inorder-in-one-traversal",
+      "position": 292,
+      "titleInSheet": "Pre-In-Post Traversal in One Pass"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 293,
+      "titleInSheet": "Iterative Postorder Traversal (1 Stack)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-maximum-depth-of-binary-tree",
+      "position": 294,
+      "titleInSheet": "Maximum Depth of Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 295,
+      "titleInSheet": "Check Balanced Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 296,
+      "titleInSheet": "Diameter of Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 297,
+      "titleInSheet": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-same-tree",
+      "position": 298,
+      "titleInSheet": "Same Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-binary-tree-zigzag-level-order-traversal",
+      "position": 299,
+      "titleInSheet": "Zig-Zag Level Order Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-1",
+      "problemId": "lc-boundary-of-binary-tree",
+      "position": 300,
+      "titleInSheet": "Boundary Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-vertical-order-traversal-of-a-binary-tree",
+      "position": 301,
+      "titleInSheet": "Vertical Order Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 302,
+      "titleInSheet": "Top View of Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 303,
+      "titleInSheet": "Bottom View of Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 304,
+      "titleInSheet": "Right/Left Side View of BT"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-symmetric-tree",
+      "position": 305,
+      "titleInSheet": "Symmetric Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 306,
+      "titleInSheet": "Lowest Common Ancestor (LCA)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-children-sum-property",
+      "position": 307,
+      "titleInSheet": "Children Sum Property"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-all-nodes-distance-k-in-binary-tree",
+      "position": 308,
+      "titleInSheet": "All Nodes at Distance K"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-minimum-time-to-burn-tree",
+      "position": 309,
+      "titleInSheet": "Minimum Time to Burn Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-count-complete-tree-nodes",
+      "position": 310,
+      "titleInSheet": "Count Complete Tree Nodes"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "position": 311,
+      "titleInSheet": "Construct BT from Preorder & Inorder"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-2",
+      "problemId": "lc-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "position": 312,
+      "titleInSheet": "Construct BT from Inorder & Postorder"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 313,
+      "titleInSheet": "Serialize & Deserialize Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-flatten-binary-tree-to-linked-list",
+      "position": 314,
+      "titleInSheet": "Flatten BT to Linked List"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-find-duplicate-subtrees",
+      "position": 315,
+      "titleInSheet": "Find Duplicate Subtrees"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-path-sum-ii-all-root-to-leaf-paths",
+      "position": 316,
+      "titleInSheet": "Path Sum II (All Root-to-Leaf Paths)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-sum-root-to-leaf-numbers",
+      "position": 317,
+      "titleInSheet": "Sum Root to Leaf Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-maximum-width-of-binary-tree",
+      "position": 318,
+      "titleInSheet": "Maximum Width of Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "gfg-check-mirror-in-n-ary-trees",
+      "position": 319,
+      "titleInSheet": "Check Mirror in N-Ary Trees"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-kth-ancestor-of-a-tree-node",
+      "position": 320,
+      "titleInSheet": "Kth Ancestor of a Tree Node"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-maximum-difference-between-node-and-ancestor",
+      "position": 321,
+      "titleInSheet": "Maximum Difference Between Node and Ancestor"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-13-sub-3",
+      "problemId": "lc-binary-tree-cameras",
+      "position": 322,
+      "titleInSheet": "Binary Tree Cameras"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-search-in-a-binary-search-tree",
+      "position": 323,
+      "titleInSheet": "Introduction to BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "concept-find-min-max-in-bst",
+      "position": 324,
+      "titleInSheet": "Find Min/Max in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-inorder-successor-in-bst",
+      "position": 325,
+      "titleInSheet": "Floor/Ceil in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-insert-into-a-binary-search-tree",
+      "position": 326,
+      "titleInSheet": "Insert into BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-delete-node-in-a-bst",
+      "position": 327,
+      "titleInSheet": "Delete from BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 328,
+      "titleInSheet": "Kth Smallest in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 329,
+      "titleInSheet": "Kth Largest in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-1",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 330,
+      "titleInSheet": "Validate BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-1",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 331,
+      "titleInSheet": "LCA in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-1",
+      "problemId": "lc-construct-binary-search-tree-from-preorder-traversal",
+      "position": 332,
+      "titleInSheet": "Construct BST from Preorder"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-1",
+      "problemId": "lc-inorder-successor-in-bst",
+      "position": 333,
+      "titleInSheet": "Inorder Successor in BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-2",
+      "problemId": "lc-binary-search-tree-iterator",
+      "position": 334,
+      "titleInSheet": "BST Iterator"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-2",
+      "problemId": "lc-two-sum-iv-input-is-a-bst",
+      "position": 335,
+      "titleInSheet": "Two Sum IV \u2014 Input is BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-2",
+      "problemId": "lc-recover-binary-search-tree",
+      "position": 336,
+      "titleInSheet": "Recover BST (Two Swapped Nodes)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-2",
+      "problemId": "other-largest-bst-in-binary-tree",
+      "position": 337,
+      "titleInSheet": "Largest BST in Binary Tree"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-14-sub-2",
+      "problemId": "lc-serialize-deserialize-bst",
+      "position": 338,
+      "titleInSheet": "Serialize/Deserialize BST"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-1",
+      "problemId": "other-s!aqtohfo77cqeirua06v1patyifg5",
+      "position": 339,
+      "titleInSheet": "Graph Representation (Adj List/Matrix)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-1",
+      "problemId": "other-traversal-techniques",
+      "position": 340,
+      "titleInSheet": "BFS Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-1",
+      "problemId": "other-traversal-techniques-sec1-6",
+      "position": 341,
+      "titleInSheet": "DFS Traversal"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-1",
+      "problemId": "lc-number-of-provinces",
+      "position": 342,
+      "titleInSheet": "Number of Provinces"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-number-of-islands",
+      "position": 343,
+      "titleInSheet": "Number of Islands"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-flood-fill",
+      "position": 344,
+      "titleInSheet": "Flood Fill Algorithm"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-rotting-oranges",
+      "position": 345,
+      "titleInSheet": "Rotten Oranges"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-detect-cycle-undirected-bfs",
+      "position": 346,
+      "titleInSheet": "Detect Cycle \u2014 Undirected (BFS)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-01-matrix",
+      "position": 347,
+      "titleInSheet": "0-1 Matrix (Shortest Distance from 0)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 348,
+      "titleInSheet": "Check Bipartite Graph"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-detect-cycle-directed-dfs",
+      "position": 349,
+      "titleInSheet": "Detect Cycle \u2014 Directed (DFS)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-2",
+      "problemId": "lc-find-eventual-safe-states",
+      "position": 350,
+      "titleInSheet": "Eventual Safe States"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-3",
+      "problemId": "lc-topological-sort-dfs-stack",
+      "position": 351,
+      "titleInSheet": "Topological Sort (DFS Stack)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-3",
+      "problemId": "lc-course-schedule",
+      "position": 352,
+      "titleInSheet": "Course Schedule I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-3",
+      "problemId": "lc-course-schedule-ii",
+      "position": 353,
+      "titleInSheet": "Course Schedule II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-3",
+      "problemId": "lc-alien-dictionary",
+      "position": 354,
+      "titleInSheet": "Alien Dictionary"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-detect-cycle-undirected-bfs",
+      "position": 355,
+      "titleInSheet": "Shortest Path in Undirected Graph"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-shortest-path-in-binary-matrix",
+      "position": 356,
+      "titleInSheet": "Shortest Path in DAG"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-network-delay-time",
+      "position": 357,
+      "titleInSheet": "Dijkstra's Algorithm"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-shortest-path-in-binary-matrix",
+      "position": 358,
+      "titleInSheet": "Shortest Path in Binary Matrix"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-path-with-minimum-effort",
+      "position": 359,
+      "titleInSheet": "Path with Minimum Effort"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 360,
+      "titleInSheet": "Cheapest Flights within K Stops"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-network-delay-time",
+      "position": 361,
+      "titleInSheet": "Network Delay Time"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-number-of-ways-to-arrive-at-destination",
+      "position": 362,
+      "titleInSheet": "Number of Ways to Arrive at Destination"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-minimum-multiplications-to-reach-end",
+      "position": 363,
+      "titleInSheet": "Minimum Multiplications to Reach End"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-group-the-people-given-the-group-size-they-belong-to",
+      "position": 364,
+      "titleInSheet": "Bellman Ford Algorithm"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-floyd-warshall-algorithm",
+      "position": 365,
+      "titleInSheet": "Floyd Warshall Algorithm"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-4",
+      "problemId": "lc-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "position": 366,
+      "titleInSheet": "Find City with Smallest Neighbors"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "position": 367,
+      "titleInSheet": "Minimum Spanning Tree (Prim's)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-disjoint-set-union-by-rank-path-compression",
+      "position": 368,
+      "titleInSheet": "Disjoint Set (Union by Rank & Path Compression)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-number-of-operations-to-make-network-connected",
+      "position": 369,
+      "titleInSheet": "Number of Operations to Connect Network"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-accounts-merge",
+      "position": 370,
+      "titleInSheet": "Accounts Merge"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-number-of-islands-ii",
+      "position": 371,
+      "titleInSheet": "Number of Islands II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-making-a-large-island",
+      "position": 372,
+      "titleInSheet": "Making a Large Island"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-swim-in-rising-water",
+      "position": 373,
+      "titleInSheet": "Swim in Rising Water"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-bridges-in-graph-tarjan-s",
+      "position": 374,
+      "titleInSheet": "Bridges in Graph (Tarjan's)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-articulation-points",
+      "position": 375,
+      "titleInSheet": "Articulation Points"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-count-connected-components-in-lcm-graph",
+      "position": 376,
+      "titleInSheet": "Strongly Connected Components (Kosaraju's)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-word-ladder",
+      "position": 377,
+      "titleInSheet": "Word Ladder I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-word-ladder-ii",
+      "position": 378,
+      "titleInSheet": "Word Ladder II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-5",
+      "problemId": "lc-number-of-distinct-islands",
+      "position": 379,
+      "titleInSheet": "Number of Distinct Islands"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-redundant-connection",
+      "position": 380,
+      "titleInSheet": "Redundant Connection"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-pacific-atlantic-water-flow",
+      "position": 381,
+      "titleInSheet": "Pacific Atlantic Water Flow"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "gfg-steps-by-knight-2",
+      "position": 382,
+      "titleInSheet": "Steps by Knight"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 383,
+      "titleInSheet": "Bipartite Graph Check (DSU)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-most-stones-removed-with-same-row-or-column",
+      "position": 384,
+      "titleInSheet": "Most Stones Removed"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-satisfiability-of-equality-equations",
+      "position": 385,
+      "titleInSheet": "Satisfiability of Equality Equations"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-optimize-water-distribution",
+      "position": 386,
+      "titleInSheet": "Optimize Water Distribution"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-15-sub-6",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 387,
+      "titleInSheet": "Minimum Cost to Connect All Points"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-topological-sort-or-kahns-algorithm-sec3-2",
+      "position": 388,
+      "titleInSheet": "Topological Sorting (DFS)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-climbing-stairs",
+      "position": 389,
+      "titleInSheet": "Climbing Stairs"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-frog-jump",
+      "position": 390,
+      "titleInSheet": "Frog Jump (DP-3)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-1",
+      "problemId": "lc-frog-jump-with-k-distances-dp-4",
+      "position": 391,
+      "titleInSheet": "Frog Jump with K Distances (DP-4)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-2",
+      "problemId": "lc-house-robber",
+      "position": 392,
+      "titleInSheet": "Max Sum of Non-Adjacent Elements \u2014 House Robber"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-2",
+      "problemId": "lc-house-robber-ii",
+      "position": 393,
+      "titleInSheet": "House Robber II (Circular)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-2",
+      "problemId": "lc-ninja-s-training",
+      "position": 394,
+      "titleInSheet": "Ninja's Training"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-2",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 395,
+      "titleInSheet": "Min Cost Climbing Stairs"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-2",
+      "problemId": "lc-decode-ways",
+      "position": 396,
+      "titleInSheet": "Decode Ways"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-unique-paths",
+      "position": 397,
+      "titleInSheet": "Unique Paths in Grid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-unique-paths-ii",
+      "position": 398,
+      "titleInSheet": "Unique Paths with Obstacles"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-minimum-path-sum",
+      "position": 399,
+      "titleInSheet": "Minimum Path Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-triangle-min-path-sum",
+      "position": 400,
+      "titleInSheet": "Triangle (Min Path Sum)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 401,
+      "titleInSheet": "Min Falling Path Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-min-falling-path-sum-ii",
+      "position": 402,
+      "titleInSheet": "Min Falling Path Sum II"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-3",
+      "problemId": "lc-cherry-pickup-ii-3d-dp",
+      "position": 403,
+      "titleInSheet": "Cherry Pickup II (3D DP)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 404,
+      "titleInSheet": "Subset Sum Equal to Target"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 405,
+      "titleInSheet": "Partition Equal Subset Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-partition-array-into-two-arrays-to-minimize-sum-difference",
+      "position": 406,
+      "titleInSheet": "Partition with Minimum Difference"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-partition-to-k-equal-sum-subsets",
+      "position": 407,
+      "titleInSheet": "Count Subsets with Sum K"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-target-sum",
+      "position": 408,
+      "titleInSheet": "Target Sum (Count Partitions with Diff)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-01-matrix",
+      "position": 409,
+      "titleInSheet": "0/1 Knapsack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-coin-change",
+      "position": 410,
+      "titleInSheet": "Coin Change (Min Coins)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-coin-change-ii",
+      "position": 411,
+      "titleInSheet": "Coin Change II (Count Ways)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-coin-change",
+      "position": 412,
+      "titleInSheet": "Unbounded Knapsack"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-rod-cutting-problem",
+      "position": 413,
+      "titleInSheet": "Rod Cutting Problem"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-4",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 414,
+      "titleInSheet": "Longest Common Subsequence (LCS)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 415,
+      "titleInSheet": "Print LCS"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 416,
+      "titleInSheet": "Longest Common Substring"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-longest-palindromic-subsequence",
+      "position": 417,
+      "titleInSheet": "Longest Palindromic Subsequence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-minimum-insertion-steps-to-make-a-string-palindrome",
+      "position": 418,
+      "titleInSheet": "Min Insertions to Make Palindrome"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-delete-operation-for-two-strings",
+      "position": 419,
+      "titleInSheet": "Min Insertions/Deletions to Convert String"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-shortest-common-supersequence",
+      "position": 420,
+      "titleInSheet": "Shortest Common Supersequence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-edit-distance",
+      "position": 421,
+      "titleInSheet": "Edit Distance"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-wildcard-matching",
+      "position": 422,
+      "titleInSheet": "Wildcard Matching"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-distinct-subsequences",
+      "position": 423,
+      "titleInSheet": "Distinct Subsequences"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-5",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-ii",
+      "position": 424,
+      "titleInSheet": "Stock Buy Sell II (Infinite)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-iii",
+      "position": 425,
+      "titleInSheet": "Stock Buy Sell III (At Most 2)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-iv",
+      "position": 426,
+      "titleInSheet": "Stock Buy Sell IV (At Most K)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-cooldown",
+      "position": 427,
+      "titleInSheet": "Stock with Cooldown"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "position": 428,
+      "titleInSheet": "Stock with Transaction Fee"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 429,
+      "titleInSheet": "LIS (Longest Increasing Subsequence)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-6",
+      "problemId": "lc-largest-divisible-subset",
+      "position": 430,
+      "titleInSheet": "Largest Divisible Subset"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-longest-string-chain",
+      "position": 431,
+      "titleInSheet": "Longest String Chain"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-longest-bitonic-subsequence",
+      "position": 432,
+      "titleInSheet": "Longest Bitonic Subsequence"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-number-of-longest-increasing-subsequence",
+      "position": 433,
+      "titleInSheet": "Number of LIS"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "gfg-matrix-chain-multiplication0303",
+      "position": 434,
+      "titleInSheet": "Matrix Chain Multiplication"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-minimum-cost-to-cut-a-stick",
+      "position": 435,
+      "titleInSheet": "Minimum Cost to Cut a Stick"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-burst-balloons",
+      "position": 436,
+      "titleInSheet": "Burst Balloons"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-7",
+      "problemId": "lc-palindrome-partitioning-ii",
+      "position": 437,
+      "titleInSheet": "Palindrome Partitioning II (Min Cuts)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "lc-partition-array-for-maximum-sum",
+      "position": 438,
+      "titleInSheet": "Partition Array for Max Sum"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "lc-evaluate-boolean-expression-to-true",
+      "position": 439,
+      "titleInSheet": "Evaluate Boolean Expression to True"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "lc-maximal-square",
+      "position": 440,
+      "titleInSheet": "Maximal Square"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "lc-word-break",
+      "position": 441,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "lc-count-square-submatrices-with-all-ones",
+      "position": 442,
+      "titleInSheet": "Count Square Submatrices with All Ones"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-16-sub-8",
+      "problemId": "gfg-nth-catalan-number0817",
+      "position": 443,
+      "titleInSheet": "Nth Catalan"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-matrix-chain-multiplication-sec8-2",
+      "position": 444,
+      "titleInSheet": "MCM"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-implement-trie-prefix-tree",
+      "position": 445,
+      "titleInSheet": "Implement Trie I"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-implement-trie-ii-countprefix-countendswith",
+      "position": 446,
+      "titleInSheet": "Implement Trie II (countPrefix & countEndsWith)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "other-longest-word-with-all-prefixes",
+      "position": 447,
+      "titleInSheet": "Longest String with All Prefixes"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-number-of-distinct-substrings",
+      "position": 448,
+      "titleInSheet": "Number of Distinct Substrings"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-design-add-and-search-words-data-structure",
+      "position": 449,
+      "titleInSheet": "Design Add & Search Words"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-word-search-ii",
+      "position": 450,
+      "titleInSheet": "Word Search II (Trie + BT)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-maximum-xor-of-two-numbers-in-an-array",
+      "position": 451,
+      "titleInSheet": "Maximum XOR of Two Numbers in Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "position": 452,
+      "titleInSheet": "KMP Algorithm / Implement strStr()"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "position": 453,
+      "titleInSheet": "Z-Algorithm"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-shortest-palindrome",
+      "position": 454,
+      "titleInSheet": "Shortest Palindrome (KMP)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-longest-happy-prefix",
+      "position": 455,
+      "titleInSheet": "Longest Happy Prefix (KMP)"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-count-and-say",
+      "position": 456,
+      "titleInSheet": "Count and Say"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-compare-version-numbers",
+      "position": 457,
+      "titleInSheet": "Compare Version Numbers"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-string-matching-in-an-array",
+      "position": 458,
+      "titleInSheet": "String Matching in an Array"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "lc-minimum-add-to-make-parentheses-valid",
+      "position": 459,
+      "titleInSheet": "Minimum Add to Make Parentheses Valid"
+    },
+    {
+      "sheetId": "striver-a2z",
+      "sectionId": "striver-step-18-sub-1",
+      "problemId": "gfg-robin-karp-algorithm",
+      "position": 460,
+      "titleInSheet": "Robin-Karp Algorithm"
+    }
+  ]
+}

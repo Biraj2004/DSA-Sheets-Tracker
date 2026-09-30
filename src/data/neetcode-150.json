@@ -1,0 +1,1040 @@
+{
+  "sheet": {
+    "id": "neetcode-150",
+    "name": "NeetCode 150",
+    "creator": "Navdeep Singh (NeetCode)",
+    "sourceUrl": "https://neetcode.io/practice",
+    "fetchedAt": "2026-09-30T19:40:00Z",
+    "expectedCount": 150
+  },
+  "sections": [
+    {
+      "id": "nc150-sec-1",
+      "sheetId": "neetcode-150",
+      "title": "Arrays & Hashing",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "nc150-sec-2",
+      "sheetId": "neetcode-150",
+      "title": "Two Pointers",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "nc150-sec-3",
+      "sheetId": "neetcode-150",
+      "title": "Sliding Window",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "nc150-sec-4",
+      "sheetId": "neetcode-150",
+      "title": "Stack",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "nc150-sec-5",
+      "sheetId": "neetcode-150",
+      "title": "Binary Search",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "nc150-sec-6",
+      "sheetId": "neetcode-150",
+      "title": "Linked List",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "nc150-sec-7",
+      "sheetId": "neetcode-150",
+      "title": "Trees",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "nc150-sec-8",
+      "sheetId": "neetcode-150",
+      "title": "Heap / Priority Queue",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "nc150-sec-9",
+      "sheetId": "neetcode-150",
+      "title": "Backtracking",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "nc150-sec-10",
+      "sheetId": "neetcode-150",
+      "title": "Tries",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "nc150-sec-11",
+      "sheetId": "neetcode-150",
+      "title": "Graphs",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "nc150-sec-12",
+      "sheetId": "neetcode-150",
+      "title": "Advanced Graphs",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "nc150-sec-13",
+      "sheetId": "neetcode-150",
+      "title": "1-D Dynamic Programming",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "nc150-sec-14",
+      "sheetId": "neetcode-150",
+      "title": "2-D Dynamic Programming",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "nc150-sec-15",
+      "sheetId": "neetcode-150",
+      "title": "Greedy",
+      "parentId": null,
+      "position": 15
+    },
+    {
+      "id": "nc150-sec-16",
+      "sheetId": "neetcode-150",
+      "title": "Intervals",
+      "parentId": null,
+      "position": 16
+    },
+    {
+      "id": "nc150-sec-17",
+      "sheetId": "neetcode-150",
+      "title": "Math & Geometry",
+      "parentId": null,
+      "position": 17
+    },
+    {
+      "id": "nc150-sec-18",
+      "sheetId": "neetcode-150",
+      "title": "Bit Manipulation",
+      "parentId": null,
+      "position": 18
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-contains-duplicate",
+      "position": 1
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-valid-anagram",
+      "position": 2
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-two-sum",
+      "position": 3
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-group-anagrams",
+      "position": 4
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 5
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-encode-and-decode-strings",
+      "position": 6
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-product-of-array-except-self",
+      "position": 7
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-valid-sudoku",
+      "position": 8
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-1",
+      "problemId": "lc-longest-consecutive-sequence",
+      "position": 9
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-2",
+      "problemId": "lc-valid-palindrome",
+      "position": 10
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-2",
+      "problemId": "lc-two-sum-ii-input-array-is-sorted",
+      "position": 11
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-2",
+      "problemId": "lc-3sum",
+      "position": 12
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-2",
+      "problemId": "lc-container-with-most-water",
+      "position": 13
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-2",
+      "problemId": "lc-trapping-rain-water",
+      "position": 14
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 15
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 16
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-longest-repeating-character-replacement",
+      "position": 17
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-permutation-in-string",
+      "position": 18
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-minimum-window-substring",
+      "position": 19
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-3",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 20
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-valid-parentheses",
+      "position": 21
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-min-stack",
+      "position": 22
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-evaluate-reverse-polish-notation",
+      "position": 23
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-daily-temperatures",
+      "position": 24
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-car-fleet",
+      "position": 25
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-4",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 26
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-binary-search",
+      "position": 27
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 28
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-koko-eating-bananas",
+      "position": 29
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 30
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 31
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-time-based-key-value-store",
+      "position": 32
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-5",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 33
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-reverse-linked-list",
+      "position": 34
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-merge-two-sorted-lists",
+      "position": 35
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-linked-list-cycle",
+      "position": 36
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-reorder-list",
+      "position": 37
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 38
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-copy-list-with-random-pointer",
+      "position": 39
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-add-two-numbers",
+      "position": 40
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 41
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-lru-cache",
+      "position": 42
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 43
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-6",
+      "problemId": "lc-reverse-nodes-in-k-group",
+      "position": 44
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-invert-binary-tree",
+      "position": 45
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-maximum-depth-of-binary-tree",
+      "position": 46
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 47
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 48
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-same-tree",
+      "position": 49
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-subtree-of-another-tree",
+      "position": 50
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 51
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 52
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 53
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-count-good-nodes-in-binary-tree",
+      "position": 54
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 55
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 56
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "position": 57
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 58
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-7",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 59
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 60
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-last-stone-weight",
+      "position": 61
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-k-closest-points-to-origin",
+      "position": 62
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 63
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-task-scheduler",
+      "position": 64
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-design-twitter",
+      "position": 65
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-8",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 66
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-subsets",
+      "position": 67
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-combination-sum",
+      "position": 68
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-combination-sum-ii",
+      "position": 69
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-permutations",
+      "position": 70
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-subsets-ii",
+      "position": 71
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-generate-parentheses",
+      "position": 72
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-word-search",
+      "position": 73
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 74
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 75
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-9",
+      "problemId": "lc-n-queens",
+      "position": 76
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-10",
+      "problemId": "lc-implement-trie-prefix-tree",
+      "position": 77
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-10",
+      "problemId": "lc-design-add-and-search-words-data-structure",
+      "position": 78
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-10",
+      "problemId": "lc-word-search-ii",
+      "position": 79
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-number-of-islands",
+      "position": 80
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-max-area-of-island",
+      "position": 81
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-clone-graph",
+      "position": 82
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-walls-and-gates",
+      "position": 83
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-rotting-oranges",
+      "position": 84
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-pacific-atlantic-water-flow",
+      "position": 85
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-surrounded-regions",
+      "position": 86
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-course-schedule",
+      "position": 87
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-course-schedule-ii",
+      "position": 88
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-graph-valid-tree",
+      "position": 89
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-number-of-connected-components-in-an-undirected-graph",
+      "position": 90
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-redundant-connection",
+      "position": 91
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-11",
+      "problemId": "lc-word-ladder",
+      "position": 92
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-network-delay-time",
+      "position": 93
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-reconstruct-itinerary",
+      "position": 94
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 95
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-swim-in-rising-water",
+      "position": 96
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-alien-dictionary",
+      "position": 97
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-12",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 98
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-climbing-stairs",
+      "position": 99
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 100
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-house-robber",
+      "position": 101
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-house-robber-ii",
+      "position": 102
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-longest-palindromic-substring",
+      "position": 103
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-palindromic-substrings",
+      "position": 104
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-decode-ways",
+      "position": 105
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-coin-change",
+      "position": 106
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 107
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-word-break",
+      "position": 108
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 109
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-13",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 110
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-unique-paths",
+      "position": 111
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 112
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-cooldown",
+      "position": 113
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-coin-change-ii",
+      "position": 114
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-target-sum",
+      "position": 115
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-interleaving-string",
+      "position": 116
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-longest-increasing-path-in-a-matrix",
+      "position": 117
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-distinct-subsequences",
+      "position": 118
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-edit-distance",
+      "position": 119
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-burst-balloons",
+      "position": 120
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-14",
+      "problemId": "lc-regular-expression-matching",
+      "position": 121
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-maximum-subarray",
+      "position": 122
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-jump-game",
+      "position": 123
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-jump-game-ii",
+      "position": 124
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-gas-station",
+      "position": 125
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-hand-of-straights",
+      "position": 126
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-merge-triplets-to-form-target-triplet",
+      "position": 127
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-partition-labels",
+      "position": 128
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-15",
+      "problemId": "lc-valid-parenthesis-string",
+      "position": 129
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-insert-interval",
+      "position": 130
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-merge-intervals",
+      "position": 131
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 132
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-meeting-rooms",
+      "position": 133
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-meeting-rooms-ii",
+      "position": 134
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-16",
+      "problemId": "lc-minimum-interval-to-include-each-query",
+      "position": 135
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-rotate-image",
+      "position": 136
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-spiral-matrix",
+      "position": 137
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-set-matrix-zeroes",
+      "position": 138
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-happy-number",
+      "position": 139
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-plus-one",
+      "position": 140
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-powx-n",
+      "position": 141
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-multiply-strings",
+      "position": 142
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-17",
+      "problemId": "lc-detect-squares",
+      "position": 143
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-single-number",
+      "position": 144
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-number-of-1-bits",
+      "position": 145
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-counting-bits",
+      "position": 146
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-reverse-bits",
+      "position": 147
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-missing-number",
+      "position": 148
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-sum-of-two-integers",
+      "position": 149
+    },
+    {
+      "sheetId": "neetcode-150",
+      "sectionId": "nc150-sec-18",
+      "problemId": "lc-reverse-integer",
+      "position": 150
+    }
+  ]
+}

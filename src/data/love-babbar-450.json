@@ -1,0 +1,3290 @@
+{
+  "sheet": {
+    "id": "love-babbar-450",
+    "name": "Love Babbar 450 DSA Sheet",
+    "creator": "Love Babbar",
+    "sourceUrl": "https://github.com/AsishRaju/450-DSA",
+    "fetchedAt": "2026-09-30T19:40:00Z",
+    "expectedCount": 453
+  },
+  "sections": [
+    {
+      "id": "babbar-sec-1",
+      "sheetId": "love-babbar-450",
+      "title": "Array",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "babbar-sec-2",
+      "sheetId": "love-babbar-450",
+      "title": "Matrix",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "babbar-sec-3",
+      "sheetId": "love-babbar-450",
+      "title": "String",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "babbar-sec-4",
+      "sheetId": "love-babbar-450",
+      "title": "Search & Sort",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "babbar-sec-5",
+      "sheetId": "love-babbar-450",
+      "title": "Linked List",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "babbar-sec-6",
+      "sheetId": "love-babbar-450",
+      "title": "Binary Trees",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "babbar-sec-7",
+      "sheetId": "love-babbar-450",
+      "title": "BST",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "babbar-sec-8",
+      "sheetId": "love-babbar-450",
+      "title": "Greedy",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "babbar-sec-9",
+      "sheetId": "love-babbar-450",
+      "title": "BackTracking",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "babbar-sec-10",
+      "sheetId": "love-babbar-450",
+      "title": "Stacks & Queues",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "babbar-sec-11",
+      "sheetId": "love-babbar-450",
+      "title": "Heap",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "babbar-sec-12",
+      "sheetId": "love-babbar-450",
+      "title": "Graph",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "babbar-sec-13",
+      "sheetId": "love-babbar-450",
+      "title": "Trie",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "babbar-sec-14",
+      "sheetId": "love-babbar-450",
+      "title": "Dynamic Programming",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "babbar-sec-15",
+      "sheetId": "love-babbar-450",
+      "title": "Bit Manipulation",
+      "parentId": null,
+      "position": 15
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-valid-palindrome",
+      "position": 1,
+      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-quick-sorting",
+      "position": 2,
+      "titleInSheet": "Quick Sort"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-rotate-array",
+      "position": 3,
+      "titleInSheet": "Left Rotate Array by One Place"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-rotate-array",
+      "position": 4,
+      "titleInSheet": "Left Rotate Array by D Places"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-peak-element",
+      "position": 5,
+      "titleInSheet": "Missing Number in Array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-single-number",
+      "position": 6,
+      "titleInSheet": "Find the Single Number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-sort-colors",
+      "position": 7,
+      "titleInSheet": "Sort Colors (Dutch National Flag)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-majority-element",
+      "position": 8,
+      "titleInSheet": "Majority Element (>N/2)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-maximum-subarray",
+      "position": 9,
+      "titleInSheet": "Kadane's Algorithm (Max Subarray Sum)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 10,
+      "titleInSheet": "Best Time to Buy & Sell Stock I"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-next-permutation",
+      "position": 11,
+      "titleInSheet": "Next Permutation"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-longest-consecutive-sequence",
+      "position": 12,
+      "titleInSheet": "Longest Consecutive Sequence"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-rotate-image",
+      "position": 13,
+      "titleInSheet": "Rotate Image (Matrix)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-spiral-matrix",
+      "position": 14,
+      "titleInSheet": "Spiral Matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 15,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-majority-element-ii",
+      "position": 16,
+      "titleInSheet": "Majority Element II (>N/3)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-3-sum",
+      "position": 17,
+      "titleInSheet": "3 Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-4-sum",
+      "position": 18,
+      "titleInSheet": "4 Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-merge-intervals",
+      "position": 19,
+      "titleInSheet": "Merge Overlapping Intervals"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-merge-sorted-array",
+      "position": 20,
+      "titleInSheet": "Merge Two Sorted Arrays Without Extra Space"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-missing-number",
+      "position": 21,
+      "titleInSheet": "Missing & Repeating Number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-count-inversions",
+      "position": 22,
+      "titleInSheet": "Count Inversions"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 23,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 24,
+      "titleInSheet": "Find the Duplicate Number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-max-sum-rectangle-in-matrix",
+      "position": 25,
+      "titleInSheet": "Max Sum Rectangle in Matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-3-sum",
+      "position": 26,
+      "titleInSheet": "3-Sum Closest to Target"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-count-pairs-with-given-sum",
+      "position": 27,
+      "titleInSheet": "Count Pairs with Given Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "other-reverse-an-array",
+      "position": 28,
+      "titleInSheet": "Reverse the array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-find-minimum-and-maximum-element-in-an-array4428",
+      "position": 29,
+      "titleInSheet": "Find the maximum and minimum element in an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-move-all-negative-elements-to-end1813",
+      "position": 30,
+      "titleInSheet": "Move all the negative elements to one side of the array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-union-of-two-arrays",
+      "position": 31,
+      "titleInSheet": "Find the Union and Intersection of the two sorted arrays."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-minimize-the-heights3351",
+      "position": 32,
+      "titleInSheet": "Minimise the maximum difference between heights [V.IMP]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-inversion-of-array",
+      "position": 33,
+      "titleInSheet": "Count Inversion"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-find-all-pairs-on-integer-array-whose-sum-is-equal-to-given-number",
+      "position": 34,
+      "titleInSheet": "find all pairs on integer array whose sum is equal to given\n                  number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-common-elements1132",
+      "position": 35,
+      "titleInSheet": "find common elements In 3 sorted arrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-rearrange-the-array-in-alternating-positive-and-negative-items-with-o-1-extra-space",
+      "position": 36,
+      "titleInSheet": "Rearrange the array in alternating positive and negative\n                  items with O(1) extra space"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-factorials-of-large-numbers",
+      "position": 37,
+      "titleInSheet": "Find factorial of a large number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-array-subset-of-another-array",
+      "position": 38,
+      "titleInSheet": "Find whether an array is a subset of another array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-chocolate-distribution-problem",
+      "position": 39,
+      "titleInSheet": "Chocolate Distribution problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-minimum-size-subarray-sum",
+      "position": 40,
+      "titleInSheet": "Smallest Subarray with sum greater than a given value"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-three-way-partitioning",
+      "position": 41,
+      "titleInSheet": "Three way partitioning of an array around a given value"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "other-find-row-with-maximum-1's",
+      "position": 42,
+      "titleInSheet": "Find row with maximum no. of 1's"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "gfg-print-elements-in-sorted-order-using-row-column-wise-sorted-matrix",
+      "position": 43,
+      "titleInSheet": "Print elements in sorted order using row-column wise sorted\n                  matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "gfg-find-a-specific-pair-in-matrix",
+      "position": 44,
+      "titleInSheet": "Find a specific pair in matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "gfg-print-elements-in-sorted-order-using-row-column-wise-sorted-matrix",
+      "position": 45,
+      "titleInSheet": "Kth smallest element in a row-cpumn wise sorted matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "gfg-common-elements-in-all-rows-of-a-given-matrix",
+      "position": 46,
+      "titleInSheet": "Common elements in all rows of a given matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-largest-number-by-joining-numbers",
+      "position": 47,
+      "titleInSheet": "Largest number by joining numbers"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-bonus-wiggle-sort",
+      "position": 48,
+      "titleInSheet": "Bonus: Wiggle Sort"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-bonus-minumum-swaps-to-make-strings-equal",
+      "position": 49,
+      "titleInSheet": "Bonus: Minumum swaps to make strings equal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "other-find-row-with-maximum-1's",
+      "position": 50,
+      "titleInSheet": "Find row with maximum no. of 1's O(m+n) solution"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-binary-search",
+      "position": 51,
+      "titleInSheet": "Binary Search"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-first-and-last-position-of-element-in-sorted-array",
+      "position": 52,
+      "titleInSheet": "First & Last Occurrence"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 53,
+      "titleInSheet": "Search in Rotated Sorted Array I"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-search-in-rotated-sorted-array-ii",
+      "position": 54,
+      "titleInSheet": "Search in Rotated Sorted Array II"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 55,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-minimum-number-of-days-to-make-m-bouquets",
+      "position": 56,
+      "titleInSheet": "Minimum Days to Make M Bouquets"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-capacity-to-ship-packages-within-d-days",
+      "position": 57,
+      "titleInSheet": "Capacity to Ship Packages in D Days"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-allocate-books",
+      "position": 58,
+      "titleInSheet": "Allocate Books"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-split-array-largest-sum",
+      "position": 59,
+      "titleInSheet": "Split Array Largest Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 60,
+      "titleInSheet": "Median of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-kth-element-of-2-sorted-arrays",
+      "position": 61,
+      "titleInSheet": "Kth Element of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-find-row-with-maximum-1s",
+      "position": 62,
+      "titleInSheet": "Find Row with Maximum 1s"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 63,
+      "titleInSheet": "Search in 2D Matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-search-a-2d-matrix-ii",
+      "position": 64,
+      "titleInSheet": "Search in 2D Matrix II"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "other-matrix-median",
+      "position": 65,
+      "titleInSheet": "Matrix Median"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-find-a-fixed-point-value-equal-to-index-in-a-given-array-too-easy",
+      "position": 66,
+      "titleInSheet": "Find a Fixed Point (Value equal to index) in a given array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-find-square-root-of-a-number",
+      "position": 67,
+      "titleInSheet": "square root of an integer"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-maximum-and-minimum-of-an-array-using-minimum-number-of-comparisons",
+      "position": 68,
+      "titleInSheet": "Maximum and minimum of an array using minimum number of\n                  comparisons"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-optimum-location-point-minimize-total-distance",
+      "position": 69,
+      "titleInSheet": "Optimum location of point to minimize total distance"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-searching-in-an-array-where-adjacent-differ-by-at-most-k0456",
+      "position": 70,
+      "titleInSheet": "Searching in an array where adjacent differ by at most k"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-find-pair-given-difference",
+      "position": 71,
+      "titleInSheet": "find a pair with a given difference"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-product-of-array-except-self",
+      "position": 72,
+      "titleInSheet": "Product array Puzzle"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-sort-by-set-bit-count",
+      "position": 73,
+      "titleInSheet": "Sort array according to count of set bits"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-minimum-swaps",
+      "position": 74,
+      "titleInSheet": "minimum no. of swaps required to sort the array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "he-bishu-and-soldiers-227",
+      "position": 75,
+      "titleInSheet": "Bishu and Soldiers"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-binary-search",
+      "position": 76,
+      "titleInSheet": "Rasta and Kheshtak"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-koko-eating-bananas",
+      "position": 77,
+      "titleInSheet": "EKOSPOJ:"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-weighted-job-scheduling-log-n-time",
+      "position": 78,
+      "titleInSheet": "Job Scheduling Algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-arithmetic-number",
+      "position": 79,
+      "titleInSheet": "Missing Number in AP"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "spoj-prata",
+      "position": 80,
+      "titleInSheet": "ROTI-Prata SPOJ"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-majority-element-ii",
+      "position": 81,
+      "titleInSheet": "DoubleHelix SPOJ"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-subsets-i",
+      "position": 82,
+      "titleInSheet": "Subset Sums"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-sort-an-array",
+      "position": 83,
+      "titleInSheet": "Implement Merge-sort in-place"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-sort-colors",
+      "position": 84,
+      "titleInSheet": "Partitioning and Sorting Arrays with Many Repeated Entries"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-find-a-fixed-point-value-equal-to-index-in-a-given-array-too-easy",
+      "position": 85,
+      "titleInSheet": "Find a Fixed Point (Value equal to index) in a given array\n                  (too easy)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 86,
+      "titleInSheet": "K-th Element of Two Sorted Arrays (similar to Median of Two\n                  Sorted Arrays)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-bonus-minimum-speed-to-arrive-on-time",
+      "position": 87,
+      "titleInSheet": "Bonus: Minimum speed to Arrive on time"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-longest-common-prefix",
+      "position": 88,
+      "titleInSheet": "Longest Common Prefix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-isomorphic-strings",
+      "position": 89,
+      "titleInSheet": "Isomorphic Strings"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-roman-to-integer",
+      "position": 90,
+      "titleInSheet": "Roman to Integer"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-palindromic-substring",
+      "position": 91,
+      "titleInSheet": "Longest Palindromic Substring"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-print-all-the-duplicates-in-the-input-string",
+      "position": 92,
+      "titleInSheet": "Find Duplicate characters in a string"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "other-java-string-immutable",
+      "position": 93,
+      "titleInSheet": "Why strings are immutable in Java?"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-longest-repeating-subsequence",
+      "position": 94,
+      "titleInSheet": "Find Longest Recurring Subsequence in String"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-print-subsequences-string",
+      "position": 95,
+      "titleInSheet": "Print all Subsequences of a string."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-word-wrap",
+      "position": 96,
+      "titleInSheet": "Word Wrap Problem [VERY IMP]."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "position": 97,
+      "titleInSheet": "Rabin Karp Algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced",
+      "position": 98,
+      "titleInSheet": "Minimum number of bracket reversals needed to make an\n                  expression balanced."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "other-count-palindromic-subsequences",
+      "position": 99,
+      "titleInSheet": "Count All Palindromic Subsequence in a given String."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-word-search",
+      "position": 100,
+      "titleInSheet": "Search a Word in a 2D Grid of characters."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-min-number-of-flips",
+      "position": 101,
+      "titleInSheet": "Number of flips to make binary string alternate"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-find-first-repeated-word-string",
+      "position": 102,
+      "titleInSheet": "Find the first repeated word in string."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-minimum-swaps-for-bracket-balancing",
+      "position": 103,
+      "titleInSheet": "Minimum number of swaps for bracket balancing."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-program-to-generate-all-possible-valid-ip-addresses-from-given-string",
+      "position": 104,
+      "titleInSheet": "Program to generate all possible valid IP addresses from\n                  given string."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-reorganize-string",
+      "position": 105,
+      "titleInSheet": "Rearrange characters in a string such that no two adjacent\n                  are same"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-group-anagrams",
+      "position": 106,
+      "titleInSheet": "Given a sequence of words, print all anagrams together"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-consecutive-elements",
+      "position": 107,
+      "titleInSheet": "Recursively remove all adjacent duplicates"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-regular-expression-matching",
+      "position": 108,
+      "titleInSheet": "String matching where one string contains wildcard\n                  characters"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-function-to-find-number-of-customers-who-could-not-get-a-computer-2",
+      "position": 109,
+      "titleInSheet": "Function to find Number of customers who could not get a\n                  computer"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "gfg-transform-one-string-to-another-using-minimum-number-of-given-operation-2",
+      "position": 110,
+      "titleInSheet": "Transform One String to Another using Minimum Number of Given\n                  Operation"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists-2",
+      "position": 111,
+      "titleInSheet": "Recursively print all sentences that can be formed from list\n                  of word lists"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-flatten-a-multilevel-doubly-linked-list",
+      "position": 112,
+      "titleInSheet": "Reverse a Doubly Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 113,
+      "titleInSheet": "Middle of Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-reverse-linked-list",
+      "position": 114,
+      "titleInSheet": "Reverse Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-linked-list-cycle",
+      "position": 115,
+      "titleInSheet": "Detect Cycle in LL (Floyd's)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-palindrome-linked-list",
+      "position": 116,
+      "titleInSheet": "Check if Palindrome LL"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-odd-even-linked-list",
+      "position": 117,
+      "titleInSheet": "Segregate Odd/Even Nodes"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 118,
+      "titleInSheet": "Remove Nth Node from Back"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-delete-node-in-a-linked-list",
+      "position": 119,
+      "titleInSheet": "Delete Node Without Head"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "other-sort-a-ll-of-0's-1's-and-2's",
+      "position": 120,
+      "titleInSheet": "Sort LL of 0s 1s 2s"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "other-add-one-to-a-number-represented-by-ll\\",
+      "position": 121,
+      "titleInSheet": "Add 1 to Number Represented as LL"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-add-two-numbers",
+      "position": 122,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-intersection-of-two-linked-lists",
+      "position": 123,
+      "titleInSheet": "Intersection of Two Linked Lists"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-linked-list-cycle-ii",
+      "position": 124,
+      "titleInSheet": "Starting Point of Cycle"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-rotate-list",
+      "position": 125,
+      "titleInSheet": "Rotate a Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-clone-ll-with-random-pointer",
+      "position": 126,
+      "titleInSheet": "Clone LL with Random Pointer"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-flatten-a-multilevel-doubly-linked-list",
+      "position": 127,
+      "titleInSheet": "Flatten a Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-sort-list",
+      "position": 128,
+      "titleInSheet": "Sort Linked List (Merge Sort)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 129,
+      "titleInSheet": "Merge K Sorted Linked Lists"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-reverse-linked-list-ii",
+      "position": 130,
+      "titleInSheet": "Reverse a Linked List in group of Given Size. [Very Imp]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-remove-loop-in-linked-list",
+      "position": 131,
+      "titleInSheet": "Write a program to Delete loop in a linked list."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-remove-duplicate-element-from-sorted-linked-list",
+      "position": 132,
+      "titleInSheet": "Remove Duplicates in a sorted Linked List."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-remove-duplicates-from-an-unsorted-linked-list",
+      "position": 133,
+      "titleInSheet": "Remove Duplicates in a Un-sorted Linked List."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-add-two-numbers-represented-by-linked-lists",
+      "position": 134,
+      "titleInSheet": "Add two numbers represented by linked lists."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-split-a-circular-linked-list-into-two-halves",
+      "position": 135,
+      "titleInSheet": "Split a Circular linked list into two halves."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "other-find-pairs-with-given-sum-in-doubly-linked-list",
+      "position": 136,
+      "titleInSheet": "Find pairs with a given sum in a DLL."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-count-triplets-in-a-sorted-dll-whose-sum-is-equal-to-given-value-x",
+      "position": 137,
+      "titleInSheet": "Count triplets in a sorted DLL whose sum is equal to given\n                  value \u201cX\u201d."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "cn-sort-a-k-sorted-doubly-linked-list",
+      "position": 138,
+      "titleInSheet": "Sort a \u201ck\u201dsorted Doubly Linked list.[Very IMP]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-rotate-a-doubly-linked-list-in-group-of-given-size-very-imp",
+      "position": 139,
+      "titleInSheet": "Rotate a Doubly Linked list in group of Given Size.[Very\n                  IMP]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-reverse-linked-list",
+      "position": 140,
+      "titleInSheet": "Can we reverse a linked list in less than O(n) ?"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-why-quicksort-is-preferred-for-arrays-and-merge-sort-for-linkedlists",
+      "position": 141,
+      "titleInSheet": "Why Quicksort is preferred for Arrays and Merge Sort for LinkedLists ?"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "other-sort-a-ll-of-0's-1's-and-2's",
+      "position": 142,
+      "titleInSheet": "Sort a LL of 0's, 1's and 2's"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-multiply-two-linked-lists",
+      "position": 143,
+      "titleInSheet": "Multiply 2 no. represented by LL"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "gfg-delete-nodes-having-greater-value-on-right",
+      "position": 144,
+      "titleInSheet": "Delete nodes which have a greater value on right side"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-find-the-first-non-repeating-character-from-a-stream-of-characters",
+      "position": 145,
+      "titleInSheet": "Find the first non-repeating character from a stream of\n                  characters"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-count-primes",
+      "position": 146,
+      "titleInSheet": "Sort a Stack using Recursion"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 147,
+      "titleInSheet": "Subset Sum I"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-subsets-ii",
+      "position": 148,
+      "titleInSheet": "Subset Sum II (Unique)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 149,
+      "titleInSheet": "Letter Combinations of Phone Number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-word-search",
+      "position": 150,
+      "titleInSheet": "Word Search"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "other-rat-in-a-maze",
+      "position": 151,
+      "titleInSheet": "Rat in a maze Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-n-queens",
+      "position": 152,
+      "titleInSheet": "Printing all solutions in N-Queen Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-word-break",
+      "position": 153,
+      "titleInSheet": "Word Break Problem using Backtracking"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-remove-invalid-parentheses",
+      "position": 154,
+      "titleInSheet": "Remove Invalid Parentheses"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "other-m-coloring-problem",
+      "position": 155,
+      "titleInSheet": "m Coloring Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 156,
+      "titleInSheet": "Print all palindromic partitions of a string"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 157,
+      "titleInSheet": "Subset Sum Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "gfg-the-knights-tour-problem-backtracking",
+      "position": 158,
+      "titleInSheet": "The Knight\u2019s tour problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "gfg-tug-of-war",
+      "position": 159,
+      "titleInSheet": "Tug of War"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "gfg-find-shortest-safe-route-in-a-path-with-landmines",
+      "position": 160,
+      "titleInSheet": "Find shortest safe route in a path with landmines"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-combination-sum",
+      "position": 161,
+      "titleInSheet": "Combinational Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "gfg-largest-number-in-k-swaps",
+      "position": 162,
+      "titleInSheet": "Find Maximum number possible by doing at-most K swaps"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-if-there-is-a-path-of-more-than-k-length-from-a-source",
+      "position": 163,
+      "titleInSheet": "Find if there is a path of more than k length from a\n                  source"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-longest-increasing-path-in-a-matrix",
+      "position": 164,
+      "titleInSheet": "Longest Possible Route in a Matrix with Hurdles"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix",
+      "position": 165,
+      "titleInSheet": "Print all possible paths from top left to bottom right of a\n                  mXn matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-partition-to-k-equal-sum-subsets",
+      "position": 166,
+      "titleInSheet": "Partition of a set intoK subsets with equal sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-the-k-th-permutation-sequence-of-first-n-natural-numbers",
+      "position": 167,
+      "titleInSheet": "Find the K-th Permutation Sequence of first N natural\n                  numbers"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-power-of-two",
+      "position": 168,
+      "titleInSheet": "Check if Number is Power of Two"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "lc-number-of-1-bits",
+      "position": 169,
+      "titleInSheet": "Count Set Bits (Kernighan's Algorithm)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-divide-two-integers",
+      "position": 170,
+      "titleInSheet": "Divide Two Integers Without /"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-single-number-ii",
+      "position": 171,
+      "titleInSheet": "Single Number II"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-single-number-iii",
+      "position": 172,
+      "titleInSheet": "Single Number III"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "gfg-count-total-set-bits-from-1-to-n",
+      "position": 173,
+      "titleInSheet": "Count Total Set Bits from 1 to N"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-counting-bits",
+      "position": 174,
+      "titleInSheet": "Counting Bits (DP + Bit)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "lc-subsets",
+      "position": 175,
+      "titleInSheet": "Generate Subsets using Bitmask"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "lc-subsets",
+      "position": 176,
+      "titleInSheet": "Power Set"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "lc-minimum-bit-flips-to-convert-number",
+      "position": 177,
+      "titleInSheet": "Count number of bits to be flipped to convert A to B"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "gfg-copy-set-bits-in-a-range",
+      "position": 178,
+      "titleInSheet": "Copy set bits in a range"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "gfg-calculate-square-of-a-number-without-using-and-pow",
+      "position": 179,
+      "titleInSheet": "Calculate square of a number without using *, / and pow()"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-15",
+      "problemId": "lc-minimum-bit-flips-to-convert-number",
+      "position": 180,
+      "titleInSheet": "Count number of bits to be flipped to convert A to B\n                  (original question's answer is to just xor and count bits)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-valid-parentheses",
+      "position": 181,
+      "titleInSheet": "Valid Parentheses"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-find-the-celebrity",
+      "position": 182,
+      "titleInSheet": "The Celebrity Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-trapping-rain-water",
+      "position": 183,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-maximal-rectangle-sec9-1",
+      "position": 184,
+      "titleInSheet": "Maximal Rectangle"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-min-stack",
+      "position": 185,
+      "titleInSheet": "Implement Stack from Scratch"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 186,
+      "titleInSheet": "Implement Queue from Scratch"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-implement-two-stacks-in-an-array",
+      "position": 187,
+      "titleInSheet": "Implement 2 stack in an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-design-a-stack-with-find-middle-operation",
+      "position": 188,
+      "titleInSheet": "find the middle element of a stack"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-efficiently-implement-k-stacks-single-array",
+      "position": 189,
+      "titleInSheet": "Implement \"N\" stacks in an Array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-reverse-a-string-using-stack",
+      "position": 190,
+      "titleInSheet": "Reverse a String using Stack"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-min-stack",
+      "position": 191,
+      "titleInSheet": "Design a Stack that supports getMin() in O(1) time and O(1)\n                  extra space."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-next-greater-element-i",
+      "position": 192,
+      "titleInSheet": "Find the next Greater element"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-evaluate-reverse-polish-notation",
+      "position": 193,
+      "titleInSheet": "Arithmetic Expression evaluation"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-evaluate-reverse-polish-notation",
+      "position": 194,
+      "titleInSheet": "Evaluation of Postfix expression"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-implement-a-method-to-insert-an-element-at-its-bottom-without-using-any-other-data-structure",
+      "position": 195,
+      "titleInSheet": "Implement a method to insert an element at its bottom without\n                  using any other data structure."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 196,
+      "titleInSheet": "Largest rectangular Area in Histogram"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-valid-substring0624",
+      "position": 197,
+      "titleInSheet": "Length of the Longest Valid Substring"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-expression-contains-redundant-bracket-not",
+      "position": 198,
+      "titleInSheet": "Expression contains redundant bracket or not"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-implement-stack-queue-using-deque",
+      "position": 199,
+      "titleInSheet": "Implement Stack using Deque"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-stack-permutations-check-if-an-array-is-stack-permutation-of-other",
+      "position": 200,
+      "titleInSheet": "Stack Permutations (Check if an array is stack permutation of\n                  other)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-efficiently-implement-k-queues-single-array",
+      "position": 201,
+      "titleInSheet": "Implement \"n\" queue in an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 202,
+      "titleInSheet": "Implement a Circular queue"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-lru-cache",
+      "position": 203,
+      "titleInSheet": "LRU Cache Implementationa"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 204,
+      "titleInSheet": "Reverse a Queue using recursion"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-reverse-first-k-elements-of-queue",
+      "position": 205,
+      "titleInSheet": "Reverse the first \u201cK\u201d elements of a queue"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-interleave-first-half-queue-second-half",
+      "position": 206,
+      "titleInSheet": "Interleave the first half of the queue with second half"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-circular-tour",
+      "position": 207,
+      "titleInSheet": "Find the first circular tour that visits all Petrol Pumps"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-rotting-oranges",
+      "position": 208,
+      "titleInSheet": "Minimum time required to rot all oranges"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "lc-01-matrix",
+      "position": 209,
+      "titleInSheet": "Distance of nearest cell having 1 in a binary matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-first-negative-integer-in-every-window-of-size-k",
+      "position": 210,
+      "titleInSheet": "First negative integer in every window of size \u201ck\u201d"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-10",
+      "problemId": "gfg-check-if-all-levels-of-two-trees-are-anagrams-or-not",
+      "position": 211,
+      "titleInSheet": "Check if all levels of two trees are anagrams or not."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k",
+      "position": 212,
+      "titleInSheet": "Sum of minimum and maximum elements of all subarrays of size\n                  \u201ck\u201d."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-minimum-sum-of-squares-of-character-counts-in-a-given-string-after-removing-k-characters",
+      "position": 213,
+      "titleInSheet": "Minimum sum of squares of character counts in a given string\n                  after removing \u201ck\u201d characters."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-minimum-window-substring",
+      "position": 214,
+      "titleInSheet": "Minimum Window Substring"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-maximum-points-you-can-obtain-from-cards",
+      "position": 215,
+      "titleInSheet": "Maximum Points from Cards"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 216,
+      "titleInSheet": "Kth Largest Element in Array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-kth-smallest-element-in-a-sorted-matrix",
+      "position": 217,
+      "titleInSheet": "Kth Smallest Element"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "gfg-merge-k-sorted-arrays-2",
+      "position": 218,
+      "titleInSheet": "Merge K Sorted Arrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-replace-element-with-greatest-on-right",
+      "position": 219,
+      "titleInSheet": "Replace Element with Greatest on Right"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 220,
+      "titleInSheet": "Find Median from Data Stream"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-building-heap-from-array",
+      "position": 221,
+      "titleInSheet": "Implement a Maxheap/MinHeap using arrays and recursion."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-sort-an-array",
+      "position": 222,
+      "titleInSheet": "Sort an Array using heap. (HeapSort)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 223,
+      "titleInSheet": "Maximum of all subarrays of size k."
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 224,
+      "titleInSheet": "\u201ck\u201d largest element in an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 225,
+      "titleInSheet": "Kth smallest and largest element in an unsorted array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 226,
+      "titleInSheet": "Merge \u201cK\u201d sorted arrays. [ IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-merge-two-binary-max-heap",
+      "position": 227,
+      "titleInSheet": "Merge 2 Binary Max Heaps"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-k-th-largest-sum-contiguous-subarray",
+      "position": 228,
+      "titleInSheet": "Kth largest sum continuous subarrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "lc-smallest-range-covering-elements-from-k-lists",
+      "position": 229,
+      "titleInSheet": "Smallest range in \u201cK\u201d Lists"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-is-binary-tree-heap",
+      "position": 230,
+      "titleInSheet": "Check if a Binary Tree is Heap"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-convert-bst-min-heap",
+      "position": 231,
+      "titleInSheet": "Convert BST to Min Heap"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "other-convert-min-heap-to-max-heap",
+      "position": 232,
+      "titleInSheet": "Convert min heap to max heap"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-11",
+      "problemId": "gfg-minimum-sum4058",
+      "position": 233,
+      "titleInSheet": "Minimum sum of two numbers formed from digits of an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "other-fractional-knapsack",
+      "position": 234,
+      "titleInSheet": "Fractional Knapsack"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "other-n-meetings-in-one-room",
+      "position": 235,
+      "titleInSheet": "N Meetings in One Room"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-minimum-platforms",
+      "position": 236,
+      "titleInSheet": "Minimum Platforms"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "other-job-sequencing-problem",
+      "position": 237,
+      "titleInSheet": "Job Sequencing Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-jump-game",
+      "position": 238,
+      "titleInSheet": "Jump Game I"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-jump-game-ii",
+      "position": 239,
+      "titleInSheet": "Jump Game II"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-lru-cache",
+      "position": 240,
+      "titleInSheet": "Page Faults in LRU"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-activity-selection",
+      "position": 241,
+      "titleInSheet": "Activity Selection Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-huffman-encoding",
+      "position": 242,
+      "titleInSheet": "Huffman Coding"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-water-connection-problem",
+      "position": 243,
+      "titleInSheet": "Water Connection Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "other-fractional-knapsack",
+      "position": 244,
+      "titleInSheet": "Fractional Knapsack Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "other-minimum-coins",
+      "position": 245,
+      "titleInSheet": "Greedy Algorithm to find Minimum number of Coins"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-maximum-trains-stoppage-can-provided",
+      "position": 246,
+      "titleInSheet": "Maximum trains for which stoppage can be provided"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "other-minimum-number-of-platforms-required-for-a-railway",
+      "position": 247,
+      "titleInSheet": "Minimum Platforms Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-buy-maximum-stocks-stocks-can-bought-th-day",
+      "position": 248,
+      "titleInSheet": "Buy Maximum Stocks if i stocks can be bought on i-th day"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-shop-in-candy-store",
+      "position": 249,
+      "titleInSheet": "Find the minimum and maximum amount to buy all N candies"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-minimize-cash-flow-among-a-given-set-of-friends-who-have-borrowed-money-from-each-other",
+      "position": 250,
+      "titleInSheet": "Minimize Cash Flow among a given set of friends who have\n                  borrowed money from each other"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-minimum-cost-cut-board-squares",
+      "position": 251,
+      "titleInSheet": "Minimum Cost to cut a board into squares"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-survival",
+      "position": 252,
+      "titleInSheet": "Check if it is possible to survive on Island"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-find-maximum-meetings-in-one-room",
+      "position": 253,
+      "titleInSheet": "Find maximum meetings in one room"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-maximum-product-subset-array",
+      "position": 254,
+      "titleInSheet": "Maximum product subset of an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-maximize-sum-after-k-negations",
+      "position": 255,
+      "titleInSheet": "Maximize array sum after K negations"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-maximize-arrii-of-an-array",
+      "position": 256,
+      "titleInSheet": "Maximize the sum of arr[i]*i"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-maximum-sum-absolute-difference-array",
+      "position": 257,
+      "titleInSheet": "Maximum sum of absolute difference of an array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-maximize-sum-of-consecutive-differences-in-a-circular-array",
+      "position": 258,
+      "titleInSheet": "Maximize sum of consecutive differences in a circular\n                  array"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-minimum-sum-absolute-difference-pairs-two-arrays",
+      "position": 259,
+      "titleInSheet": "Minimum sum of absolute difference of pairs of two arrays"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "other-shortest-job-first",
+      "position": 260,
+      "titleInSheet": "Program for Shortest Job First (or SJF) CPU Scheduling"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-program-for-least-recently-used-lru-page-replacement-algorithm",
+      "position": 261,
+      "titleInSheet": "Program for Least Recently Used (LRU) Page Replacement\n                  algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-smallest-subset-sum-greater-elements",
+      "position": 262,
+      "titleInSheet": "Smallest subset with sum greater than all other elements"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "spoj-defkin",
+      "position": 263,
+      "titleInSheet": "DEFKIN -Defense of a Kingdom"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "spoj-diehard",
+      "position": 264,
+      "titleInSheet": "DIEHARD -DIE HARD"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "spoj-gergovia",
+      "position": 265,
+      "titleInSheet": "GERGOVIA -Wine trading in Gergovia"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "spoj-gcj101bb",
+      "position": 266,
+      "titleInSheet": "Picking Up Chicks"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 267,
+      "titleInSheet": "CHOCOLA \u2013Chocolate"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "lc-insert-interval",
+      "position": 268,
+      "titleInSheet": "ARRANGE -Arranging Amplifiers"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 269,
+      "titleInSheet": "K Centers Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-minimum-cost-of-ropes",
+      "position": 270,
+      "titleInSheet": "Minimum Cost of ropes"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-find-smallest-number-with-given-number-of-digits-and-sum-of-digits",
+      "position": 271,
+      "titleInSheet": "Find smallest number with given number of digits and sum of\n                  digits"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-8",
+      "problemId": "gfg-find-maximum-sum-possible-equal-sum-three-stacks",
+      "position": 272,
+      "titleInSheet": "Find maximum sum possible equal sum of three stacks"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 273,
+      "titleInSheet": "Binary Tree: Preorder Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "other-inorder-tree-traversal-iterative-recursive",
+      "position": 274,
+      "titleInSheet": "Binary Tree: Inorder Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 275,
+      "titleInSheet": "Binary Tree: Postorder Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 276,
+      "titleInSheet": "Level Order Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 277,
+      "titleInSheet": "Check Balanced Binary Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 278,
+      "titleInSheet": "Diameter of Binary Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-zigzag-level-order-traversal",
+      "position": 279,
+      "titleInSheet": "Zig-Zag Level Order Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-boundary-of-binary-tree",
+      "position": 280,
+      "titleInSheet": "Boundary Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 281,
+      "titleInSheet": "Top View of Binary Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 282,
+      "titleInSheet": "Bottom View of Binary Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 283,
+      "titleInSheet": "Right/Left Side View of BT"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-symmetric-tree",
+      "position": 284,
+      "titleInSheet": "Symmetric Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 285,
+      "titleInSheet": "Lowest Common Ancestor (LCA)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-all-nodes-distance-k-in-binary-tree",
+      "position": 286,
+      "titleInSheet": "All Nodes at Distance K"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "position": 287,
+      "titleInSheet": "Construct BT from Inorder & Postorder"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-flatten-binary-tree-to-linked-list",
+      "position": 288,
+      "titleInSheet": "Flatten BT to Linked List"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-find-duplicate-subtrees",
+      "position": 289,
+      "titleInSheet": "Find Duplicate Subtrees"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-path-sum-ii-all-root-to-leaf-paths",
+      "position": 290,
+      "titleInSheet": "Path Sum II (All Root-to-Leaf Paths)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-check-mirror-in-n-ary-trees",
+      "position": 291,
+      "titleInSheet": "Check Mirror in N-Ary Trees"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-reverse-level-order-traversal",
+      "position": 292,
+      "titleInSheet": "Reverse Level Order traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-height-of-binary-tree",
+      "position": 293,
+      "titleInSheet": "Height of a tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-invert-binary-tree",
+      "position": 294,
+      "titleInSheet": "Mirror of a tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 295,
+      "titleInSheet": "Top View of a tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-leaf-similar-trees",
+      "position": 296,
+      "titleInSheet": "Bottom View of a tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-vertical-order-traversal-of-a-binary-tree",
+      "position": 297,
+      "titleInSheet": "Diagnol Traversal of a Binary tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-boundary-of-binary-tree",
+      "position": 298,
+      "titleInSheet": "Boundary traversal of a Binary tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-construct-binary-tree-from-string-with-bracket-representation",
+      "position": 299,
+      "titleInSheet": "Construct Binary Tree from String with Bracket\n                  Representation"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-insert-into-a-binary-search-tree",
+      "position": 300,
+      "titleInSheet": "Convert Binary tree into Sum tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-check-if-ith-bit-is-set",
+      "position": 301,
+      "titleInSheet": "Check if Binary tree is Sum tree or not"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-leaf-at-same-level",
+      "position": 302,
+      "titleInSheet": "Check if all leaf nodes are at same level or not"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-sum-of-the-longest-bloodline-of-a-tree",
+      "position": 303,
+      "titleInSheet": "Sum of Nodes on the Longest path from root to leaf node"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-graph-valid-tree",
+      "position": 304,
+      "titleInSheet": "Check if given graph is tree or not. [ IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-find-largest-subtree-sum-tree",
+      "position": 305,
+      "titleInSheet": "Find Largest subtree sum in a tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-maximum-sum-of-nodes-in-binary-tree-such-that-no-two-are-adjacent",
+      "position": 306,
+      "titleInSheet": "Maximum Sum of nodes in Binary tree such that no two are\n                  adjacent"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-kth-ancestor-of-a-tree-node",
+      "position": 307,
+      "titleInSheet": "Kth Ancestor of node in a Binary tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "gfg-check-if-tree-is-isomorphic",
+      "position": 308,
+      "titleInSheet": "Tree Isomorphism Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-6",
+      "problemId": "lc-binary-search-tree-to-greater-sum-tree",
+      "position": 309,
+      "titleInSheet": "Convert Binary tree into Sum tree (and a Duplicate)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-bonus-number-of-nodes-that-are-k-distance-apart",
+      "position": 310,
+      "titleInSheet": "Bonus: Number of nodes that are K distance apart"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-search-in-a-binary-search-tree",
+      "position": 311,
+      "titleInSheet": "Introduction to BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "concept-find-min-max-in-bst",
+      "position": 312,
+      "titleInSheet": "Find Min/Max in BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-delete-node-in-a-bst",
+      "position": 313,
+      "titleInSheet": "Delete from BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 314,
+      "titleInSheet": "Kth Smallest in BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 315,
+      "titleInSheet": "Kth Largest in BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 316,
+      "titleInSheet": "Validate BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 317,
+      "titleInSheet": "LCA in BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-construct-binary-search-tree-from-preorder-traversal",
+      "position": 318,
+      "titleInSheet": "Construct BST from Preorder"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-recover-binary-search-tree",
+      "position": 319,
+      "titleInSheet": "Recover BST (Two Swapped Nodes)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "other-largest-bst-in-binary-tree",
+      "position": 320,
+      "titleInSheet": "Largest BST in Binary Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "concept-find-min-max-in-bst",
+      "position": 321,
+      "titleInSheet": "Find min and max value in a BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-inorder-successor-in-bst",
+      "position": 322,
+      "titleInSheet": "Find inorder successor and inorder predecessor in a BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-inorder-successor-in-bst",
+      "position": 323,
+      "titleInSheet": "Populate Inorder successor of all nodes"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-binary-tree-to-bst",
+      "position": 324,
+      "titleInSheet": "Convert Binary tree into BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-convert-normal-bst-balanced-bst",
+      "position": 325,
+      "titleInSheet": "Convert a normal BST into a Balanced BST"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-merge-two-balanced-binary-search-trees",
+      "position": 326,
+      "titleInSheet": "Merge two BST [ V.V.V>IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-count-pairs-from-2-bst-whose-sum-is-equal-to-given-value-x",
+      "position": 327,
+      "titleInSheet": "Count pairs from 2 BST whose sum is equal to given value\n                  \"X\""
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 328,
+      "titleInSheet": "Find the median of BST in O(n) time and O(1) space"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-count-bst-ndoes-that-lie-in-a-given-range",
+      "position": 329,
+      "titleInSheet": "Count BST ndoes that lie in a given range"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-given-n-appointments-find-conflicting-appointments",
+      "position": 330,
+      "titleInSheet": "Given \"n\" appointments, find the conflicting appointments"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-preorder-to-postorder",
+      "position": 331,
+      "titleInSheet": "Check preorder is valid or not"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "gfg-check-whether-bst-contains-dead-end",
+      "position": 332,
+      "titleInSheet": "Check whether BST contains Dead end"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "other-largest-bst-in-binary-tree",
+      "position": 333,
+      "titleInSheet": "Largest BST in a Binary Tree [ V.V.V.V.V IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-7",
+      "problemId": "lc-unique-binary-search-trees",
+      "position": 334,
+      "titleInSheet": "Bonus: Unique BSTs"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "other-traversal-techniques",
+      "position": 335,
+      "titleInSheet": "BFS Traversal"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-flood-fill",
+      "position": 336,
+      "titleInSheet": "Flood Fill Algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-detect-cycle-undirected-bfs",
+      "position": 337,
+      "titleInSheet": "Detect Cycle \u2014 Undirected (BFS)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-topological-sort-dfs-stack",
+      "position": 338,
+      "titleInSheet": "Topological Sort (DFS Stack)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 339,
+      "titleInSheet": "Cheapest Flights within K Stops"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-floyd-warshall-algorithm",
+      "position": 340,
+      "titleInSheet": "Floyd Warshall Algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "lc-number-of-operations-to-make-network-connected",
+      "position": 341,
+      "titleInSheet": "Number of Operations to Connect Network"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-count-connected-components-in-lcm-graph",
+      "position": 342,
+      "titleInSheet": "Strongly Connected Components (Kosaraju's)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-word-ladder",
+      "position": 343,
+      "titleInSheet": "Word Ladder I"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-word-ladder-ii",
+      "position": 344,
+      "titleInSheet": "Word Ladder II"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-9",
+      "problemId": "gfg-steps-by-knight-2",
+      "position": 345,
+      "titleInSheet": "Steps by Knight"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-clone-graph",
+      "position": 346,
+      "titleInSheet": "Create a Graph, print it"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-implement-floyd-warshallalgorithm",
+      "position": 347,
+      "titleInSheet": "Implement BFS algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-clone-graph",
+      "position": 348,
+      "titleInSheet": "Implement DFS Algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-course-schedule",
+      "position": 349,
+      "titleInSheet": "Detect Cycle in Directed Graph using BFS/DFS Algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-detect-cycle-undirected-bfs",
+      "position": 350,
+      "titleInSheet": "Detect Cycle in UnDirected Graph using BFS/DFS Algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-steps-by-knight",
+      "position": 351,
+      "titleInSheet": "Minimum Step by Knight"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-clone-graph",
+      "position": 352,
+      "titleInSheet": "Clone a graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-network-delay-time",
+      "position": 353,
+      "titleInSheet": "Dijkstra algo"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-implement-floyd-warshallalgorithm",
+      "position": 354,
+      "titleInSheet": "Implement Topological Sort"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph-2",
+      "position": 355,
+      "titleInSheet": "Minimum time taken by each job to be completed given by a\n                  Directed Acyclic Graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-course-schedule-ii",
+      "position": 356,
+      "titleInSheet": "Find whether it is possible to finish all tasks or not from\n                  given dependencies"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-find-the-no-of-isalnds",
+      "position": 357,
+      "titleInSheet": "Find the no. of Isalnds"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-verifying-an-alien-dictionary",
+      "position": 358,
+      "titleInSheet": "Given a sorted Dictionary of an Alien Language, find order of\n                  characters"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 359,
+      "titleInSheet": "Implement Kruksal\u2019sAlgorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 360,
+      "titleInSheet": "Implement Prim\u2019s Algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-total-number-spanning-trees-graph",
+      "position": 361,
+      "titleInSheet": "Total no. of Spanning tree in a graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-implement-floyd-warshallalgorithm",
+      "position": 362,
+      "titleInSheet": "Implement Bellman Ford Algorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-implement-floyd-warshallalgorithm",
+      "position": 363,
+      "titleInSheet": "Implement Floyd warshallAlgorithm"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-travelling-salesman-problem-set",
+      "position": 364,
+      "titleInSheet": "Travelling Salesman Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-clone-graph",
+      "position": 365,
+      "titleInSheet": "Graph ColouringProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-snakes-and-ladders",
+      "position": 366,
+      "titleInSheet": "Snake and Ladders Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-bridges-in-graph-tarjan-s",
+      "position": 367,
+      "titleInSheet": "Find bridge in a graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-count-connected-components-in-lcm-graph",
+      "position": 368,
+      "titleInSheet": "Count Strongly connected Components(Kosaraju Algo)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 369,
+      "titleInSheet": "Check whether a graph is Bipartite or Not"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-detect-negative-cycle-graph-bellman-ford",
+      "position": 370,
+      "titleInSheet": "Detect Negative cycle in a graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-find-longest-path-directed-acyclic-graph",
+      "position": 371,
+      "titleInSheet": "Longest path in a Directed Acyclic Graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-number-of-provinces",
+      "position": 372,
+      "titleInSheet": "Journey to the Moon"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 373,
+      "titleInSheet": "Oliver and the Game"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-water-jug-problem-using-bfs",
+      "position": 374,
+      "titleInSheet": "Water Jug problem using BFS"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-minimum-edges-to-reverse-o-make-path-from-source-to-destination",
+      "position": 375,
+      "titleInSheet": "Minimum edges to reverse o make path from source to\n                  destination"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-reconstruct-itinerary",
+      "position": 376,
+      "titleInSheet": "Paths to travel each nodes using each edge(Seven Bridges)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-vertex-cover-problem-set-1-introduction-approximate-algorithm",
+      "position": 377,
+      "titleInSheet": "Vertex Cover Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "lc-reconstruct-itinerary",
+      "position": 378,
+      "titleInSheet": "Chinese Postman or Route Inspection"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-number-of-triangles-in-directed-and-undirected-graphs",
+      "position": 379,
+      "titleInSheet": "Number of Triangles in a Directed and Undirected Graph"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-12",
+      "problemId": "gfg-two-clique-problem-check-graph-can-divided-two-cliques",
+      "position": 380,
+      "titleInSheet": "Two Clique Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-house-robber",
+      "position": 381,
+      "titleInSheet": "Max Sum of Non-Adjacent Elements \u2014 House Robber"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-house-robber-ii",
+      "position": 382,
+      "titleInSheet": "House Robber II (Circular)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 383,
+      "titleInSheet": "Partition Equal Subset Sum"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-01-matrix",
+      "position": 384,
+      "titleInSheet": "0/1 Knapsack"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-coin-change",
+      "position": 385,
+      "titleInSheet": "Coin Change (Min Coins)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-coin-change",
+      "position": 386,
+      "titleInSheet": "Unbounded Knapsack"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 387,
+      "titleInSheet": "Longest Common Subsequence (LCS)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 388,
+      "titleInSheet": "Longest Common Substring"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-minimum-insertion-steps-to-make-a-string-palindrome",
+      "position": 389,
+      "titleInSheet": "Min Insertions to Make Palindrome"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-edit-distance",
+      "position": 390,
+      "titleInSheet": "Edit Distance"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-ii",
+      "position": 391,
+      "titleInSheet": "Stock Buy Sell II (Infinite)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-iii",
+      "position": 392,
+      "titleInSheet": "Stock Buy Sell III (At Most 2)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-iv",
+      "position": 393,
+      "titleInSheet": "Stock Buy Sell IV (At Most K)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-cooldown",
+      "position": 394,
+      "titleInSheet": "Stock with Cooldown"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "position": 395,
+      "titleInSheet": "Stock with Transaction Fee"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-evaluate-boolean-expression-to-true",
+      "position": 396,
+      "titleInSheet": "Evaluate Boolean Expression to True"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-word-break",
+      "position": 397,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-coin-change-ii",
+      "position": 398,
+      "titleInSheet": "Coin ChangeProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "other-fractional-knapsack",
+      "position": 399,
+      "titleInSheet": "Knapsack Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-binary-search",
+      "position": 400,
+      "titleInSheet": "Binomial CoefficientProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-unique-paths",
+      "position": 401,
+      "titleInSheet": "Permutation CoefficientProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-unique-binary-search-trees",
+      "position": 402,
+      "titleInSheet": "Program for nth Catalan Number"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-friends-pairing-problem5425",
+      "position": 403,
+      "titleInSheet": "Friends Pairing Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-gold-mine-problem2608",
+      "position": 404,
+      "titleInSheet": "Gold Mine Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-minimum-path-sum",
+      "position": 405,
+      "titleInSheet": "Assembly Line SchedulingProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-painting-the-fence3727",
+      "position": 406,
+      "titleInSheet": "Painting the Fenceproblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-cutted-segments",
+      "position": 407,
+      "titleInSheet": "Maximize The Cut Segments"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 408,
+      "titleInSheet": "Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 409,
+      "titleInSheet": "Space Optimized Solution of LCS"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 410,
+      "titleInSheet": "LCS (Longest Common Subsequence) of three strings"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 411,
+      "titleInSheet": "Maximum Sum Increasing Subsequence"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-count-subsequences-product-less-k",
+      "position": 412,
+      "titleInSheet": "Count all subsequences having product less than K"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-subsequence-such-that-difference-between-adjacent-is-one",
+      "position": 413,
+      "titleInSheet": "Longest subsequence such that difference between adjacent is\n                  one"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-house-robber",
+      "position": 414,
+      "titleInSheet": "Maximum subsequence sum such that no three are consecutive"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-super-egg-drop",
+      "position": 415,
+      "titleInSheet": "Egg Dropping Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-maximum-length-of-pair-chain",
+      "position": 416,
+      "titleInSheet": "Maximum Length Chain of Pairs"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-count-square-submatrices-with-all-ones",
+      "position": 417,
+      "titleInSheet": "Maximum size square sub-matrix with all 1s"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-pairs-with-specific-difference",
+      "position": 418,
+      "titleInSheet": "Maximum sum of pairs with specific difference"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 419,
+      "titleInSheet": "Min Cost PathProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-maximum-difference-of-zeros-and-ones-in-binary-string4111",
+      "position": 420,
+      "titleInSheet": "Maximum difference of zeros and ones in binary string"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-minimum-cost-to-fill-given-weight-in-a-bag1956",
+      "position": 421,
+      "titleInSheet": "Minimum cost to fill given weight in a bag"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-minimum-number-of-removals-to-make-mountain-array",
+      "position": 422,
+      "titleInSheet": "Minimum removals from array to make max \u2013min <= K"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-reach-a-given-score",
+      "position": 423,
+      "titleInSheet": "Count number of ways to reacha given score in a game"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-minimum-height-trees",
+      "position": 424,
+      "titleInSheet": "Count Balanced Binary Trees of Height h"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-smallest-sum-contiguous-subarray",
+      "position": 425,
+      "titleInSheet": "Smallest sum contiguous subarray"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-knapsack-with-duplicate-items4201",
+      "position": 426,
+      "titleInSheet": "Unbounded Knapsack (Repetition of items allowed)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-house-robber-iii",
+      "position": 427,
+      "titleInSheet": "Largest Independent Set Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-longest-alternating-subsequence",
+      "position": 428,
+      "titleInSheet": "Longest alternating subsequence"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-weighted-job-scheduling",
+      "position": 429,
+      "titleInSheet": "Weighted Job Scheduling"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-coin-game-winner-every-player-three-choices",
+      "position": 430,
+      "titleInSheet": "Coin game winner where every player has three choices"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "gfg-count-derangements-permutation-such-that-no-element-appears-in-its-original-position-important",
+      "position": 431,
+      "titleInSheet": "Count Derangements (Permutation such that no element appears\n                  in its original position) [ IMPORTANT ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-optimal-strategy-for-a-game",
+      "position": 432,
+      "titleInSheet": "Optimal Strategy for a Game"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 433,
+      "titleInSheet": "Optimal Binary Search Tree"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 434,
+      "titleInSheet": "Palindrome PartitioningProblem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-mobile-numeric-keypad5456",
+      "position": 435,
+      "titleInSheet": "Mobile Numeric Keypad Problem [ IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-evaluate-boolean-expression-to-true",
+      "position": 436,
+      "titleInSheet": "Boolean Parenthesization Problem"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 437,
+      "titleInSheet": "Largest rectangular sub-matrix whose sum is 0"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-2",
+      "problemId": "lc-maximal-rectangle-sec9-1",
+      "position": 438,
+      "titleInSheet": "Largest area rectangular sub-matrix with equal number of 1\u2019s\n                  and 0\u2019s [ IMP ]"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 439,
+      "titleInSheet": "Maximum sum rectangle in a 2D matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-5",
+      "problemId": "lc-maximum-profit-by-buying-and-selling-a-share-at-most-k-times",
+      "position": 440,
+      "titleInSheet": "Maximum profit by buying and selling a share at most k\n                  times"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "gfg-interleaved-strings",
+      "position": 441,
+      "titleInSheet": "Find if a string is interleaved of two other strings"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-14",
+      "problemId": "lc-maximum-length-of-pair-chain",
+      "position": 442,
+      "titleInSheet": "Maximum Length of Pair Chain"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-perfect-squares",
+      "position": 443,
+      "titleInSheet": "Bonus: Perfect Squares"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "other-longest-word-with-all-prefixes",
+      "position": 444,
+      "titleInSheet": "Longest String with All Prefixes"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-4",
+      "problemId": "lc-word-search-ii",
+      "position": 445,
+      "titleInSheet": "Word Search II (Trie + BT)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-13",
+      "problemId": "gfg-trie-insert-and-search",
+      "position": 446,
+      "titleInSheet": "Construct a trie from scratch"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-13",
+      "problemId": "gfg-find-all-shortest-unique-prefixes-to-represent-each-word-in-a-given-list",
+      "position": 447,
+      "titleInSheet": "Find shortest unique prefix for every word in a given list"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-13",
+      "problemId": "lc-word-break",
+      "position": 448,
+      "titleInSheet": "Word Break Problem | (Trie solution)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-13",
+      "problemId": "lc-design-phone-directory",
+      "position": 449,
+      "titleInSheet": "Implement a Phone Directory"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-13",
+      "problemId": "gfg-unique-rows-in-boolean-matrix",
+      "position": 450,
+      "titleInSheet": "Print unique rows in a given boolean matrix"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-shortest-palindrome",
+      "position": 451,
+      "titleInSheet": "Shortest Palindrome (KMP)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-1",
+      "problemId": "lc-longest-happy-prefix",
+      "position": 452,
+      "titleInSheet": "Longest Happy Prefix (KMP)"
+    },
+    {
+      "sheetId": "love-babbar-450",
+      "sectionId": "babbar-sec-3",
+      "problemId": "lc-count-and-say",
+      "position": 453,
+      "titleInSheet": "Count and Say"
+    }
+  ]
+}
