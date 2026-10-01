@@ -1,11 +1,9 @@
-# Robots.txt for DSA Sheets Tracker (https://dsatracker.in)
+# Robots.txt for DSA Sheets Tracker (https://dsa-sheets-tracker.newkid.workers.dev)
 # Designed for maximum search visibility and AI citation readiness (GEO)
 
 # General crawlers
 User-agent: *
 Allow: /
-Disallow: /gallery
-Disallow: /api/
 
 # Search Engine Crawlers
 User-agent: Googlebot
@@ -46,4 +44,4 @@ User-agent: meta-externalagent
 Allow: /
 
 # XML Sitemap reference
-Sitemap: https://dsatracker.in/sitemap.xml
+Sitemap: https://dsa-sheets-tracker.newkid.workers.dev/sitemap.xml

@@ -2,74 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage & Master Sheet Index -->
   <url>
-    <loc>https://dsatracker.in/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Curated Sheets -->
+  <!-- Curated Sheets (Query Parameter Routing) -->
   <url>
-    <loc>https://dsatracker.in/sheet/striver-a2z</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=striver</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dsatracker.in/sheet/love-babbar-450</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=neetcode</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dsatracker.in/sheet/neetcode-150</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=lovebabbar</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dsatracker.in/sheet/neetcode-250</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dsatracker.in/sheet/apna-college</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Learning & Revision Tools -->
-  <url>
-    <loc>https://dsatracker.in/revision</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dsatracker.in/activity</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=fraz</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dsatracker.in/planner</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=namaste</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=apnacollege</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/?sheet=patternwise</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Information & Attribution -->
+  <!-- Developer Information & Contact Page -->
   <url>
-    <loc>https://dsatracker.in/about</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsatracker.in/attribution</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://dsa-sheets-tracker.newkid.workers.dev/contact</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
