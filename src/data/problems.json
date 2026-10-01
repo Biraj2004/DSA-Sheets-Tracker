@@ -93,7 +93,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Greedy Algorithms"
+    "category": "Greedy Algorithms",
+    "isLeetCodePremium": true
   },
   {
     "id": "gfg-activity-selection",
@@ -215,7 +216,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Math & Number Theory"
+    "category": "Math & Number Theory",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-articulation-points",
@@ -590,7 +592,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Binary Trees"
+    "category": "Binary Trees",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-bridges-in-graph-tarjan-s",
@@ -1048,7 +1051,8 @@
     "topics": [
       "Insert copy nodes in-between original nodes"
     ],
-    "category": "Linked Lists"
+    "category": "Linked Lists",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-coin-change",
@@ -2153,7 +2157,8 @@
     "topics": [
       "3D DP (i, j, isTrue)"
     ],
-    "category": "Dynamic Programming"
+    "category": "Dynamic Programming",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-evaluate-division",
@@ -2650,7 +2655,8 @@
     "topics": [
       "Love Babbar DSA Sheet."
     ],
-    "category": "Linked Lists"
+    "category": "Linked Lists",
+    "isLeetCodePremium": true
   },
   {
     "id": "other-find-square-root-of-a-number",
@@ -2693,7 +2699,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "isLeetCodePremium": true,
     "category": "Arrays & Vectors"
   },
   {
@@ -2989,7 +2994,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Binary Search Trees"
+    "category": "Binary Search Trees",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-flood-fill",
@@ -3478,7 +3484,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Tries"
+    "category": "Tries",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-implement-floyd-warshallalgorithm",
@@ -3730,7 +3737,8 @@
     "topics": [
       "General"
     ],
-    "category": "Linked Lists"
+    "category": "Linked Lists",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-introduction-to-heaps",
@@ -3741,7 +3749,8 @@
     "topics": [
       "General"
     ],
-    "category": "Heaps & Priority Queues"
+    "category": "Heaps & Priority Queues",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-introduction-to-linked-list",
@@ -4101,7 +4110,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Binary Search Trees"
+    "category": "Binary Search Trees",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-largest-divisible-subset",
@@ -4508,7 +4518,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Strings"
+    "category": "Strings",
+    "isLeetCodePremium": true
   },
   {
     "id": "other-longest-word-with-all-prefixes",
@@ -4572,7 +4583,8 @@
     "topics": [
       "std::lower_bound in C++ / Custom implementation"
     ],
-    "category": "Searching & Sorting"
+    "category": "Searching & Sorting",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-lowest-common-ancestor-of-a-binary-search-tree",
@@ -4886,7 +4898,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "isLeetCodePremium": true,
     "category": "Stacks & Queues"
   },
   {
@@ -4979,7 +4990,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "isLeetCodePremium": true,
     "category": "Stacks & Queues"
   },
   {
@@ -5152,7 +5162,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Arrays & Vectors"
+    "category": "Arrays & Vectors",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-meeting-rooms-ii",
@@ -5165,7 +5176,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Arrays & Vectors"
+    "category": "Arrays & Vectors",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-meeting-rooms-iii",
@@ -5433,7 +5445,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "2D Arrays & Matrix"
+    "category": "2D Arrays & Matrix",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-minimized-maximum-of-products-distributed-to-any-store",
@@ -5826,7 +5839,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Two Pointers & Sliding Window"
+    "category": "Two Pointers & Sliding Window",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-minimum-window-substring",
@@ -5841,7 +5855,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "isLeetCodePremium": true,
     "category": "Two Pointers & Sliding Window"
   },
   {
@@ -5922,7 +5935,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "isLeetCodePremium": true,
     "category": "Arrays & Vectors"
   },
   {
@@ -6162,7 +6174,8 @@
     "topics": [
       "General"
     ],
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-number-of-distinct-substrings",
@@ -6199,7 +6212,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-number-of-islands",
@@ -6357,7 +6371,8 @@
     "topics": [
       "General"
     ],
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "gfg-optimum-location-point-minimize-total-distance",
@@ -7140,7 +7155,8 @@
     "topics": [
       "Love Babbar DSA Sheet."
     ],
-    "category": "Arrays & Vectors"
+    "category": "Arrays & Vectors",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-unique-binary-search-trees",
@@ -9295,7 +9311,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "gfg-water-connection-problem",
@@ -9889,7 +9906,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.466Z",
-    "category": "Arrays & Strings"
+    "category": "Arrays & Strings",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-3sum-with-multiplicity",
@@ -10292,7 +10310,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.466Z",
-    "category": "Arrays & Strings"
+    "category": "Arrays & Strings",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-range-module",
@@ -10968,7 +10987,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-parallel-courses",
@@ -10981,7 +11001,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-find-all-possible-recipes-from-given-supplies",
@@ -11072,7 +11093,8 @@
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-earliest-possible-day-of-full-bloom",

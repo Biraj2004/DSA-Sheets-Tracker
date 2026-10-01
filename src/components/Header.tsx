@@ -22,6 +22,16 @@ interface HeaderProps {
   onOpenShortcuts?: () => void;
 }
 
+const TAB_SHORT_NAMES: Record<string, string> = {
+  'striver-a2z': 'Striver A2Z',
+  'neetcode-250': 'NeetCode 250',
+  'namaste-dsa': 'Namaste DSA',
+  'fraz-interview': "Fraz's Sheet",
+  'pattern-wise': 'Pattern-Wise',
+  'love-babbar-450': 'Babbar 450',
+  'apna-college': 'Apna College',
+};
+
 export const Header: React.FC<HeaderProps> = ({
   activeSheetId,
   onSelectSheet,
@@ -136,24 +146,26 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Sheet Tabs Navigation Row */}
         <nav
-          className="flex items-center gap-1.5 overflow-x-auto py-2 scrollbar-none text-xs border-t border-slate-800/60"
+          className="flex flex-wrap items-center gap-1.5 py-2 text-xs border-t border-slate-800/60"
           aria-label="DSA Sheets"
         >
           {sheetList.map((sheet) => {
             const stats = getSheetStats(sheet.id);
             const isActive = activeSheetId === sheet.id;
+            const displayName = TAB_SHORT_NAMES[sheet.id] || sheet.name;
 
             return (
               <button
                 key={sheet.id}
                 onClick={() => onSelectSheet(sheet.id)}
-                className={`whitespace-nowrap px-3 py-1.5 rounded-lg font-medium transition-all flex items-center gap-2 border ${
+                title={sheet.name}
+                className={`whitespace-nowrap px-2.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 border cursor-pointer ${
                   isActive
                     ? 'bg-indigo-600 text-white border-indigo-500 shadow-sm shadow-indigo-500/20'
                     : 'bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white border-slate-800/80'
                 }`}
               >
-                <span>{sheet.name}</span>
+                <span>{displayName}</span>
                 <span
                   className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono-num ${
                     isActive
@@ -170,7 +182,8 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Master All Problems Tab */}
           <button
             onClick={() => onSelectSheet('all')}
-            className={`whitespace-nowrap px-3 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 border ${
+            title="All Problems Master Catalog"
+            className={`whitespace-nowrap px-2.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 border cursor-pointer ${
               activeSheetId === 'all'
                 ? 'bg-indigo-600 text-white border-indigo-500 shadow-sm shadow-indigo-500/20'
                 : 'bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white border-slate-800/80'

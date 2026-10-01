@@ -254,6 +254,14 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                     {primaryBadge.label}
                   </span>
                 )}
+                {problem.isLeetCodePremium && (
+                  <span
+                    title="Requires LeetCode Premium subscription"
+                    className="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-amber-500/10 text-amber-300 border border-amber-500/30"
+                  >
+                    Premium
+                  </span>
+                )}
                 {/* Extra badge for concept items (e.g. Concept + TUF) */}
                 {extraBadge && (
                   <span className={`px-1.5 py-0.5 rounded text-[10px] font-semibold border ${extraBadge.style}`}>
