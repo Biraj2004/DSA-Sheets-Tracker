@@ -37,8 +37,8 @@ export function App() {
     getSheetStats,
   } = useProgress();
 
-  // Active sheet selection ('striver-a2z' default)
-  const [activeSheetId, setActiveSheetId] = useState<string>('striver-a2z');
+  // Active sheet selection ('pattern-wise' default)
+  const [activeSheetId, setActiveSheetId] = useState<string>('pattern-wise');
 
   // Modal dialog states
   const [isDataModalOpen, setIsDataModalOpen] = useState(false);

@@ -22,12 +22,12 @@ export const babbarSheet: SheetData = babbarRaw as SheetData;
 export const apnaCollegeSheet: SheetData = apnaCollegeRaw as SheetData;
 
 export const allSheets: SheetData[] = [
+  patternWiseSheet,
   striverSheet,
+  babbarSheet,
+  frazInterviewSheet,
   neetcode250Sheet,
   namasteDsaSheet,
-  frazInterviewSheet,
-  patternWiseSheet,
-  babbarSheet,
   apnaCollegeSheet,
 ];
 

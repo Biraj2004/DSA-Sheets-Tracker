@@ -52,12 +52,12 @@ Preparing for technical software engineering interviews often involves juggling 
 
 | Sheet Name | Creator | Total Items | Description |
 | :--- | :--- | :---: | :--- |
+| **Pattern-Wise** | Curated Algorithmic Patterns | **475** | Exactly 475 questions across 24 core patterns, strictly sorted **Easy -> Medium -> Hard**. |
 | **Striver A2Z DSA Sheet** | Raj Vikramaditya (takeUforward) | **460** | Comprehensive step-wise roadmap from basics and star patterns to advanced DP and graphs. |
+| **Love Babbar 450 DSA Sheet** | Love Babbar | **453** | Iconic 450 questions segregated across 15 core data structures and algorithms topics. |
+| **Fraz's Interview Sheet** | Mohammad Fraz (LearnYard) | **327** | High-impact interview preparation sheet organized into 20 focused algorithmic modules. |
 | **NeetCode 250** | Navdeep Singh (NeetCode) | **250** | Extended collection covering deep pattern variations and edge cases across 18 sections. |
 | **Namaste DSA** | Akshay Saini (NamasteDev) | **165** | Highly curated, topic-by-topic core interview sheet covering foundation through advanced algorithms. |
-| **Fraz's Interview Sheet** | Mohammad Fraz (LearnYard) | **327** | High-impact interview preparation sheet organized into 20 focused algorithmic modules. |
-| **Pattern-Wise** | Curated Algorithmic Patterns | **475** | Exactly 475 questions across 24 core patterns, strictly sorted **Easy -> Medium -> Hard**. |
-| **Love Babbar 450 DSA Sheet** | Love Babbar | **453** | Iconic 450 questions segregated across 15 core data structures and algorithms topics. |
 | **Apna College DSA Sheet** | Aman Dhattarwal & Shraddha Khapra | **184** | High-yield foundational sheet focused on core placement interview questions. |
 | **Master Catalog** | Unified Global Registry | **1,005** | Deduplicated global catalog arranged into 18 topics sorted **Easy -> Medium -> Hard**. |
 
