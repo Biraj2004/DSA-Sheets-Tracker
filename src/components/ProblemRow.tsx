@@ -49,6 +49,7 @@ function resolveDomainLabel(url: string | null): BadgeInfo {
     return { label: 'Code360', style: 'text-orange-400 bg-orange-500/10 border-orange-500/20' };
   }
   if (lower.includes('takeuforward.org'))  return { label: 'TUF',          style: 'text-red-400 bg-red-500/10 border-red-500/30' };
+  if (lower.includes('namastedev.com'))   return { label: 'NamasteDev',   style: 'text-amber-500 bg-amber-500/10 border-amber-500/20' };
   if (lower.includes('programiz.com'))     return { label: 'Programiz',     style: 'text-teal-400 bg-teal-500/10 border-teal-500/20' };
   if (lower.includes('tutorialspoint.com'))return { label: 'TutorialsPoint',style: 'text-green-400 bg-green-500/10 border-green-500/20' };
   if (lower.includes('baeldung.com'))      return { label: 'Baeldung',      style: 'text-slate-300 bg-slate-800 border-slate-700' };
@@ -66,6 +67,7 @@ const NAMED_BADGES: Record<string, BadgeInfo> = {
   gfg:           { label: 'GFG',          style: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' },
   geeksforgeeks: { label: 'GFG',          style: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' },
   tuf:           { label: 'TUF',          style: 'text-red-400 bg-red-500/10 border-red-500/30' },
+  namastedev:    { label: 'NamasteDev',   style: 'text-amber-500 bg-amber-500/10 border-amber-500/20' },
   concept:       { label: 'Concept',      style: 'text-violet-400 bg-violet-500/10 border-violet-500/20' },
   codingninjas:  { label: 'Code360',      style: 'text-orange-400 bg-orange-500/10 border-orange-500/20' },
   code360:       { label: 'Code360',      style: 'text-orange-400 bg-orange-500/10 border-orange-500/20' },
@@ -90,23 +92,22 @@ function getRoutingInfo(problem: Problem): {
 } {
   const { platform, url, tufUrl } = problem;
 
-  const isTufUrl = (u: string | null | undefined) => !!u && u.includes('takeuforward.org');
-  const tufPlusUrl = tufUrl ?? (isTufUrl(url) ? url : null);
-  const tufSearchUrl = `https://takeuforward.org/search/${encodeURIComponent(problem.title)}`;
-  const tufSecondary: SecondaryLink = {
-    url: tufPlusUrl ?? tufSearchUrl,
+  const isTufUrl = (u: string | null | undefined) => !!u && u.includes('takeuforward.org') && !u.includes('/search/');
+  const tufPlusUrl = (tufUrl && !tufUrl.includes('/search/')) ? tufUrl : (isTufUrl(url) ? url : null);
+  const tufSecondary: SecondaryLink | null = tufPlusUrl ? {
+    url: tufPlusUrl,
     label: 'TUF',
-    style: tufPlusUrl
-      ? 'text-red-400 bg-red-500/10 border-red-500/30'
-      : 'text-red-400/50 bg-red-500/5 border-red-500/10',
-  };
+    style: 'text-red-400 bg-red-500/10 border-red-500/30',
+  } : null;
+
+  const secondaryLinks: SecondaryLink[] = tufSecondary ? [tufSecondary] : [];
 
   // ── LeetCode ─────────────────────────────────────────────────────────
   if (platform === 'leetcode') {
     return {
       primaryUrl: url,
       primaryBadge: NAMED_BADGES.leetcode,
-      secondaryLinks: [tufSecondary],
+      secondaryLinks,
       extraBadge: null,
     };
   }
@@ -116,7 +117,7 @@ function getRoutingInfo(problem: Problem): {
     return {
       primaryUrl: url,
       primaryBadge: NAMED_BADGES.gfg,
-      secondaryLinks: [tufSecondary],
+      secondaryLinks,
       extraBadge: null,
     };
   }
@@ -137,7 +138,7 @@ function getRoutingInfo(problem: Problem): {
     return {
       primaryUrl: url,
       primaryBadge: NAMED_BADGES.concept,
-      secondaryLinks: tufPlusUrl ? [tufSecondary] : [],
+      secondaryLinks,
       extraBadge: urlBadge?.label !== 'Concept' ? urlBadge : null,
     };
   }
@@ -147,7 +148,7 @@ function getRoutingInfo(problem: Problem): {
     return {
       primaryUrl: url,
       primaryBadge: NAMED_BADGES[platform],
-      secondaryLinks: tufPlusUrl ? [tufSecondary] : [],
+      secondaryLinks,
       extraBadge: null,
     };
   }
@@ -156,7 +157,7 @@ function getRoutingInfo(problem: Problem): {
   return {
     primaryUrl: url,
     primaryBadge: resolveDomainLabel(url),
-    secondaryLinks: tufPlusUrl ? [tufSecondary] : [],
+    secondaryLinks,
     extraBadge: null,
   };
 }
