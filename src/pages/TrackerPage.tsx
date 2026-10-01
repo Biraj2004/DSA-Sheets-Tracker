@@ -26,6 +26,7 @@ interface TrackerPageProps {
   scheduleReview: (id: string, daysAhead: number) => void;
   markSectionSolved: (problemIds: string[]) => void;
   resetSection: (problemIds: string[]) => void;
+  getSheetStats?: (sheetId: string) => any;
   onOpenShortcuts: () => void;
   onOpenDataModal: () => void;
 }
