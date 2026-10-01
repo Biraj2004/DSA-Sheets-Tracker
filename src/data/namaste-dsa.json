@@ -1,0 +1,1267 @@
+{
+  "sheet": {
+    "id": "namaste-dsa",
+    "name": "Namaste DSA",
+    "creator": "Akshay Saini (NamasteDev)",
+    "sourceUrl": "https://namastedev.com/namaste-dsa-sheet",
+    "fetchedAt": "2026-10-01T09:04:35.798Z",
+    "expectedCount": 165
+  },
+  "sections": [
+    {
+      "id": "namaste-sec-1",
+      "sheetId": "namaste-dsa",
+      "title": "1. Foundation",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "namaste-sec-2",
+      "sheetId": "namaste-dsa",
+      "title": "2. Arrays",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "namaste-sec-3",
+      "sheetId": "namaste-dsa",
+      "title": "3. Linked List",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "namaste-sec-4",
+      "sheetId": "namaste-dsa",
+      "title": "4. Strings",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "namaste-sec-5",
+      "sheetId": "namaste-dsa",
+      "title": "5. Stack and Queues",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "namaste-sec-6",
+      "sheetId": "namaste-dsa",
+      "title": "6. Binary Search Algorithm",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "namaste-sec-7",
+      "sheetId": "namaste-dsa",
+      "title": "7. Two Pointers & Sliding Window",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "namaste-sec-8",
+      "sheetId": "namaste-dsa",
+      "title": "8. Binary Tree",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "namaste-sec-9",
+      "sheetId": "namaste-dsa",
+      "title": "9. Binary Search Tree",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "namaste-sec-10",
+      "sheetId": "namaste-dsa",
+      "title": "10. Heap",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "namaste-sec-11",
+      "sheetId": "namaste-dsa",
+      "title": "11. Backtracking",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "namaste-sec-12",
+      "sheetId": "namaste-dsa",
+      "title": "12. Greedy Algorithm",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "namaste-sec-13",
+      "sheetId": "namaste-dsa",
+      "title": "13. Dynamic Programming",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "namaste-sec-14",
+      "sheetId": "namaste-dsa",
+      "title": "14. Graphs",
+      "parentId": null,
+      "position": 14
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-add-two-integers",
+      "position": 1,
+      "titleInSheet": "Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-find-highest-lowest-frequency-element",
+      "position": 2,
+      "titleInSheet": "Second Largest"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-palindrome-number",
+      "position": 3,
+      "titleInSheet": "Palindrome Number"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-reverse-integer",
+      "position": 4,
+      "titleInSheet": "Reverse Integer"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-count-negative-numbers-in-a-sorted-matrix",
+      "position": 5,
+      "titleInSheet": "Count Negative Numbers in an Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "gfg-find-minimum-element-in-array",
+      "position": 6,
+      "titleInSheet": "Find Smallest Number in an Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "gfg-largest-element-in-array",
+      "position": 7,
+      "titleInSheet": "Find Largest Number in an Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-binary-search",
+      "position": 8,
+      "titleInSheet": "Binary Search"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-sort-an-array",
+      "position": 9,
+      "titleInSheet": "Merge Sort"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-1",
+      "problemId": "lc-power-of-two",
+      "position": 10,
+      "titleInSheet": "Power of Two"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-remove-duplicates-from-sorted-array",
+      "position": 1,
+      "titleInSheet": "Remove Duplicates"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-remove-element",
+      "position": 2,
+      "titleInSheet": "Remove Element"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "other-reverse-an-array",
+      "position": 3,
+      "titleInSheet": "Reverse String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 4,
+      "titleInSheet": "Best Time to Buy and Sell Stocks"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-merge-sorted-array",
+      "position": 5,
+      "titleInSheet": "Merge Sorted Arrays"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-move-zeroes",
+      "position": 6,
+      "titleInSheet": "Move Zeros"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-max-consecutive-ones",
+      "position": 7,
+      "titleInSheet": "Max Consecutive Ones"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-missing-number",
+      "position": 8,
+      "titleInSheet": "Missing Number"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-2",
+      "problemId": "lc-single-number",
+      "position": 9,
+      "titleInSheet": "Single Number"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-design-linked-list",
+      "position": 1,
+      "titleInSheet": "Design Linked List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 2,
+      "titleInSheet": "Middle of Linked List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-reverse-linked-list",
+      "position": 3,
+      "titleInSheet": "Reverse Linked List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-linked-list-cycle",
+      "position": 4,
+      "titleInSheet": "Linked List Cycle"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-palindrome-linked-list",
+      "position": 5,
+      "titleInSheet": "Palindrome Linked List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-intersection-of-two-linked-lists",
+      "position": 6,
+      "titleInSheet": "Intersection of two Linked Lists"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-remove-linked-list-elements",
+      "position": 7,
+      "titleInSheet": "Remove Linked List Elements"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 8,
+      "titleInSheet": "Remove nth node from end of List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-remove-duplicates-from-sorted-list",
+      "position": 9,
+      "titleInSheet": "Remove Duplicates from Sorted List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-odd-even-linked-list",
+      "position": 10,
+      "titleInSheet": "Odd Even Linked List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-add-two-numbers",
+      "position": 11,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-merge-two-sorted-lists",
+      "position": 12,
+      "titleInSheet": "Merge Two Sorted Lists"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-rotate-list",
+      "position": 13,
+      "titleInSheet": "Rotate List"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-3",
+      "problemId": "lc-swap-nodes-in-pairs",
+      "position": 14,
+      "titleInSheet": "Swap Nodes in Pairs"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-length-of-last-word",
+      "position": 1,
+      "titleInSheet": "Length of Last Word"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-find-words-containing-character",
+      "position": 2,
+      "titleInSheet": "Find Words Containing Character"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-jewels-and-stones",
+      "position": 3,
+      "titleInSheet": "Jewels and Stones"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-find-most-frequent-vowel-and-consonant",
+      "position": 4,
+      "titleInSheet": "Find Most Frequent Vowel and Consonant"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-split-a-string-in-balanced-strings",
+      "position": 5,
+      "titleInSheet": "Split a String in Balanced Strings"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-reverse-string-ii",
+      "position": 6,
+      "titleInSheet": "Reverse String II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-valid-palindrome",
+      "position": 7,
+      "titleInSheet": "Valid Palindrome"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-largest-odd-number-in-string",
+      "position": 8,
+      "titleInSheet": "Largest Odd Number in a String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-longest-common-prefix",
+      "position": 9,
+      "titleInSheet": "Longest Common Prefix"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-valid-anagram",
+      "position": 10,
+      "titleInSheet": "Valid Anagram"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-isomorphic-strings",
+      "position": 11,
+      "titleInSheet": "Isomorphic Strings"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-group-anagrams",
+      "position": 12,
+      "titleInSheet": "Group Anagrams"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-minimum-add-to-make-parentheses-valid",
+      "position": 13,
+      "titleInSheet": "Minimum Add to Make Parentheses Valid"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-reverse-words-in-a-string-sec2-8",
+      "position": 14,
+      "titleInSheet": "Reverse Words in a String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-sum-of-beauty-of-all-substrings",
+      "position": 15,
+      "titleInSheet": "Sum of Beauty of All Substrings"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-decode-string",
+      "position": 16,
+      "titleInSheet": "Decode String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-count-and-say",
+      "position": 17,
+      "titleInSheet": "Count and Say"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-reorganize-string",
+      "position": 18,
+      "titleInSheet": "Reorganize String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-4",
+      "problemId": "lc-repeated-string-match",
+      "position": 19,
+      "titleInSheet": "Repeated String Match"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 1,
+      "titleInSheet": "Implement Stack"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 2,
+      "titleInSheet": "Implement Queue using Stacks"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-valid-parentheses",
+      "position": 3,
+      "titleInSheet": "Valid Parentheses"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-min-stack",
+      "position": 4,
+      "titleInSheet": "Min Stack"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-remove-outermost-parentheses",
+      "position": 5,
+      "titleInSheet": "Remove Outermost Parentheses"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-evaluate-reverse-polish-notation",
+      "position": 6,
+      "titleInSheet": "Evaluate Reverse Polish Notation"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-next-greater-element-i",
+      "position": 7,
+      "titleInSheet": "Next Greater Element"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-daily-temperatures",
+      "position": 8,
+      "titleInSheet": "Daily Temperatures"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-next-greater-element-ii",
+      "position": 9,
+      "titleInSheet": "Next Greater Element - II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-5",
+      "problemId": "lc-rotting-oranges",
+      "position": 10,
+      "titleInSheet": "Rotting Oranges"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "other-find-square-root-of-a-number",
+      "position": 1,
+      "titleInSheet": "Square Root of X"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-guess-number-higher-or-lower",
+      "position": 2,
+      "titleInSheet": "Guess Higher or Lower"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 3,
+      "titleInSheet": "Search in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-first-bad-version",
+      "position": 4,
+      "titleInSheet": "First Bad Version"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-find-peak-element",
+      "position": 5,
+      "titleInSheet": "Find Peak Element"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 6,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-find-first-and-last-position-of-element-in-sorted-array",
+      "position": 7,
+      "titleInSheet": "Find First & Last Position in Sorted Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-peak-index-in-a-mountain-array",
+      "position": 8,
+      "titleInSheet": "Find Peak in a Mountain Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-single-element-in-a-sorted-array",
+      "position": 9,
+      "titleInSheet": "Single Element in a Sorted Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-6",
+      "problemId": "lc-find-k-closest-elements",
+      "position": 10,
+      "titleInSheet": "Find k Closest Elements"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-two-sum",
+      "position": 1,
+      "titleInSheet": "Two Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-two-sum-ii-input-array-is-sorted",
+      "position": 2,
+      "titleInSheet": "Two Sum II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-is-subsequence",
+      "position": 3,
+      "titleInSheet": "Is Subsequence"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "position": 4,
+      "titleInSheet": "Find Index of First Occurrence in String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-intersection-of-two-linked-lists",
+      "position": 5,
+      "titleInSheet": "Intersection of Two Linked Lists"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-container-with-most-water",
+      "position": 6,
+      "titleInSheet": "Container with Most Water"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-3sum",
+      "position": 7,
+      "titleInSheet": "Three Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-trapping-rain-water",
+      "position": 8,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 9,
+      "titleInSheet": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-longest-repeating-character-replacement",
+      "position": 10,
+      "titleInSheet": "Longest Repeating Character Replacement"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-permutation-in-string",
+      "position": 11,
+      "titleInSheet": "Permutation in String"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-7",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 12,
+      "titleInSheet": "Sliding Window Maximum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 1,
+      "titleInSheet": "Preorder Traversal"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "other-inorder-tree-traversal-iterative-recursive",
+      "position": 2,
+      "titleInSheet": "Inorder Traversal"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 3,
+      "titleInSheet": "Postorder Traversal"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 4,
+      "titleInSheet": "Level Order Traversal"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-maximum-depth-of-binary-tree",
+      "position": 5,
+      "titleInSheet": "Maximum Depth of Binary Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-triangle-min-path-sum",
+      "position": 6,
+      "titleInSheet": "Path Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-symmetric-tree",
+      "position": 7,
+      "titleInSheet": "Symmetric Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-invert-binary-tree",
+      "position": 8,
+      "titleInSheet": "Invert a Binary Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-same-tree",
+      "position": 9,
+      "titleInSheet": "Same Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 10,
+      "titleInSheet": "Balanced Binary Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 11,
+      "titleInSheet": "Diameter of a Binary Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-binary-tree-zigzag-level-order-traversal",
+      "position": 12,
+      "titleInSheet": "Zigzag Level Order Traversal"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-subtree-of-another-tree",
+      "position": 13,
+      "titleInSheet": "Subtree of another Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 14,
+      "titleInSheet": "Lowest Common Ancestor"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 15,
+      "titleInSheet": "Binary Tree Right Side View"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-count-good-nodes-in-binary-tree",
+      "position": 16,
+      "titleInSheet": "Count Good Nodes in Binary Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-populating-next-right-pointers-in-each-node",
+      "position": 17,
+      "titleInSheet": "Populating Next Right Pointers in Each Node"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-8",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 18,
+      "titleInSheet": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-9",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 1,
+      "titleInSheet": "Valid Binary Search Tree"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-9",
+      "problemId": "lc-search-in-a-binary-search-tree",
+      "position": 2,
+      "titleInSheet": "Search in a BST"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-9",
+      "problemId": "lc-insert-into-a-binary-search-tree",
+      "position": 3,
+      "titleInSheet": "Insert into a BST"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-9",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 4,
+      "titleInSheet": "Kth Smallest Element"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-9",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 5,
+      "titleInSheet": "Lowest Common Ancestor of a BST"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-10",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 1,
+      "titleInSheet": "Kth Largest Element in an Array"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-10",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 2,
+      "titleInSheet": "Kth Largest Element in a Stream"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-10",
+      "problemId": "lc-last-stone-weight",
+      "position": 3,
+      "titleInSheet": "Last Stone Weight"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-10",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 4,
+      "titleInSheet": "Top K Frequent Elements"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-10",
+      "problemId": "lc-kth-smallest-element-in-a-sorted-matrix",
+      "position": 5,
+      "titleInSheet": "Kth Smallest Element in a Sorted Matrix"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-subsets",
+      "position": 1,
+      "titleInSheet": "Subsets - The Power Set"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-combinations",
+      "position": 2,
+      "titleInSheet": "Combinations"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-permutations",
+      "position": 3,
+      "titleInSheet": "Permutations"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-subsets-ii",
+      "position": 4,
+      "titleInSheet": "Subset - II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-combination-sum",
+      "position": 5,
+      "titleInSheet": "Combination Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-combination-sum-ii",
+      "position": 6,
+      "titleInSheet": "Combination Sum - II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-combination-sum-iii",
+      "position": 7,
+      "titleInSheet": "Combination Sum - III"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 8,
+      "titleInSheet": "Letter Combinations of a Phone Number"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-permutations-ii",
+      "position": 9,
+      "titleInSheet": "Permutations - II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 10,
+      "titleInSheet": "Palindrome Partitioning"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-word-search",
+      "position": 11,
+      "titleInSheet": "Word Search"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-11",
+      "problemId": "lc-n-queens",
+      "position": 12,
+      "titleInSheet": "N Queens"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-two-city-scheduling",
+      "position": 1,
+      "titleInSheet": "Two City Scheduling"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-assign-cookies-sec4-6",
+      "position": 2,
+      "titleInSheet": "Assign Cookies"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-lemonade-change",
+      "position": 3,
+      "titleInSheet": "Lemonade Change"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-ii",
+      "position": 4,
+      "titleInSheet": "Best Time to Buy and Sell Stock - II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-insert-interval",
+      "position": 5,
+      "titleInSheet": "Insert Interval"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-merge-intervals",
+      "position": 6,
+      "titleInSheet": "Merge Intervals"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-partition-labels",
+      "position": 7,
+      "titleInSheet": "Partition Labels"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 8,
+      "titleInSheet": "Non Overlapping Intervals"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-task-scheduler",
+      "position": 9,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-gas-station",
+      "position": 10,
+      "titleInSheet": "Gas Station"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-car-pooling",
+      "position": 11,
+      "titleInSheet": "Car Pooling"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-12",
+      "problemId": "lc-candy",
+      "position": 12,
+      "titleInSheet": "Candy"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-climbing-stairs",
+      "position": 1,
+      "titleInSheet": "Climbing Stairs"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 2,
+      "titleInSheet": "Minimum Cost Climbing Stairs"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-house-robber",
+      "position": 3,
+      "titleInSheet": "House Robber"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-house-robber-ii",
+      "position": 4,
+      "titleInSheet": "House Robber II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-coin-change",
+      "position": 5,
+      "titleInSheet": "Coin Change"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-palindromic-substrings",
+      "position": 6,
+      "titleInSheet": "Palindromic Substrings"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-longest-palindromic-substring",
+      "position": 7,
+      "titleInSheet": "Longest Palindromic Substring"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-decode-ways",
+      "position": 8,
+      "titleInSheet": "Decode Ways"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-maximum-subarray",
+      "position": 9,
+      "titleInSheet": "Maximum Subarray"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 10,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-word-break",
+      "position": 11,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 12,
+      "titleInSheet": "Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 13,
+      "titleInSheet": "Partition Equal Subset Sum"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-coin-change-ii",
+      "position": 14,
+      "titleInSheet": "Coin Change II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-unique-paths",
+      "position": 15,
+      "titleInSheet": "Unique Paths"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-jump-game",
+      "position": 16,
+      "titleInSheet": "Jump Game"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-jump-game-ii",
+      "position": 17,
+      "titleInSheet": "Jump Game II"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-minimum-cost-to-cut-a-stick",
+      "position": 18,
+      "titleInSheet": "Minimum Cost to Cut a Stick"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-13",
+      "problemId": "lc-super-egg-drop",
+      "position": 19,
+      "titleInSheet": "Super Egg Drop"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-clone-graph",
+      "position": 1,
+      "titleInSheet": "Clone Graph"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-find-if-path-exists-in-graph",
+      "position": 2,
+      "titleInSheet": "Find if Path Exists in Graph"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-all-paths-from-source-to-target",
+      "position": 3,
+      "titleInSheet": "All Paths From Source to Target"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-reconstruct-itinerary",
+      "position": 4,
+      "titleInSheet": "Reconstruct Itinerary"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
+      "position": 5,
+      "titleInSheet": "Detect Cycle in Undirected Connected Graph"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "gfg-topological-sort",
+      "position": 6,
+      "titleInSheet": "Topological Sort (DFS)"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-number-of-operations-to-make-network-connected",
+      "position": 7,
+      "titleInSheet": "Number of Operations to Make Network Connected"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 8,
+      "titleInSheet": "Cheapest Flights Within K Stops"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-number-of-ways-to-arrive-at-destination",
+      "position": 9,
+      "titleInSheet": "Number of Ways to Arrive at Destination"
+    },
+    {
+      "sheetId": "namaste-dsa",
+      "sectionId": "namaste-sec-14",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 10,
+      "titleInSheet": "Min Cost to Connect All Points"
+    }
+  ]
+}

@@ -114,6 +114,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <option value="tuf">TUF</option>
             <option value="gfg">GFG</option>
             <option value="codingninjas">Code360</option>
+            <option value="namastedev">NamasteDev</option>
             <option value="spoj">SPOJ</option>
             <option value="hackerearth">HackerEarth</option>
             <option value="interviewbit">InterviewBit</option>

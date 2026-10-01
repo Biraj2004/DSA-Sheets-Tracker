@@ -120,7 +120,7 @@
       "sectionId": "babbar-sec-3",
       "problemId": "lc-valid-palindrome",
       "position": 1,
-      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+      "titleInSheet": "Recursion — Check String Palindrome"
     },
     {
       "sheetId": "love-babbar-450",
@@ -230,14 +230,14 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-3-sum",
+      "problemId": "lc-3sum",
       "position": 17,
       "titleInSheet": "3 Sum"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-4-sum",
+      "problemId": "lc-4sum",
       "position": 18,
       "titleInSheet": "4 Sum"
     },
@@ -293,7 +293,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-3-sum",
+      "problemId": "lc-3sum-closest",
       "position": 26,
       "titleInSheet": "3-Sum Closest to Target"
     },
@@ -363,7 +363,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-rearrange-the-array-in-alternating-positive-and-negative-items-with-o-1-extra-space",
+      "problemId": "lc-rearrange-array-elements-by-sign",
       "position": 36,
       "titleInSheet": "Rearrange the array in alternating positive and negative\n                  items with O(1) extra space"
     },
@@ -1072,14 +1072,14 @@
       "sectionId": "babbar-sec-4",
       "problemId": "lc-count-triplets-in-a-sorted-dll-whose-sum-is-equal-to-given-value-x",
       "position": 137,
-      "titleInSheet": "Count triplets in a sorted DLL whose sum is equal to given\n                  value \u201cX\u201d."
+      "titleInSheet": "Count triplets in a sorted DLL whose sum is equal to given\n                  value “X”."
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-5",
       "problemId": "cn-sort-a-k-sorted-doubly-linked-list",
       "position": 138,
-      "titleInSheet": "Sort a \u201ck\u201dsorted Doubly Linked list.[Very IMP]"
+      "titleInSheet": "Sort a “k”sorted Doubly Linked list.[Very IMP]"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1219,7 +1219,7 @@
       "sectionId": "babbar-sec-9",
       "problemId": "gfg-the-knights-tour-problem-backtracking",
       "position": 158,
-      "titleInSheet": "The Knight\u2019s tour problem"
+      "titleInSheet": "The Knight’s tour problem"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1548,7 +1548,7 @@
       "sectionId": "babbar-sec-10",
       "problemId": "gfg-reverse-first-k-elements-of-queue",
       "position": 205,
-      "titleInSheet": "Reverse the first \u201cK\u201d elements of a queue"
+      "titleInSheet": "Reverse the first “K” elements of a queue"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1583,7 +1583,7 @@
       "sectionId": "babbar-sec-10",
       "problemId": "gfg-first-negative-integer-in-every-window-of-size-k",
       "position": 210,
-      "titleInSheet": "First negative integer in every window of size \u201ck\u201d"
+      "titleInSheet": "First negative integer in every window of size “k”"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1597,14 +1597,14 @@
       "sectionId": "babbar-sec-5",
       "problemId": "lc-sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k",
       "position": 212,
-      "titleInSheet": "Sum of minimum and maximum elements of all subarrays of size\n                  \u201ck\u201d."
+      "titleInSheet": "Sum of minimum and maximum elements of all subarrays of size\n                  “k”."
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-3",
       "problemId": "lc-minimum-sum-of-squares-of-character-counts-in-a-given-string-after-removing-k-characters",
       "position": 213,
-      "titleInSheet": "Minimum sum of squares of character counts in a given string\n                  after removing \u201ck\u201d characters."
+      "titleInSheet": "Minimum sum of squares of character counts in a given string\n                  after removing “k” characters."
     },
     {
       "sheetId": "love-babbar-450",
@@ -1681,7 +1681,7 @@
       "sectionId": "babbar-sec-11",
       "problemId": "lc-kth-largest-element-in-an-array",
       "position": 224,
-      "titleInSheet": "\u201ck\u201d largest element in an array"
+      "titleInSheet": "“k” largest element in an array"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1695,7 +1695,7 @@
       "sectionId": "babbar-sec-11",
       "problemId": "lc-merge-k-sorted-lists",
       "position": 226,
-      "titleInSheet": "Merge \u201cK\u201d sorted arrays. [ IMP ]"
+      "titleInSheet": "Merge “K” sorted arrays. [ IMP ]"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1716,7 +1716,7 @@
       "sectionId": "babbar-sec-11",
       "problemId": "lc-smallest-range-covering-elements-from-k-lists",
       "position": 229,
-      "titleInSheet": "Smallest range in \u201cK\u201d Lists"
+      "titleInSheet": "Smallest range in “K” Lists"
     },
     {
       "sheetId": "love-babbar-450",
@@ -1982,7 +1982,7 @@
       "sectionId": "babbar-sec-8",
       "problemId": "lc-non-overlapping-intervals",
       "position": 267,
-      "titleInSheet": "CHOCOLA \u2013Chocolate"
+      "titleInSheet": "CHOCOLA –Chocolate"
     },
     {
       "sheetId": "love-babbar-450",
@@ -2183,7 +2183,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-6",
-      "problemId": "lc-leaf-similar-trees",
+      "problemId": "gfg-bottom-view-of-binary-tree",
       "position": 296,
       "titleInSheet": "Bottom View of a tree"
     },
@@ -2470,14 +2470,14 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-detect-cycle-undirected-bfs",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
       "position": 337,
-      "titleInSheet": "Detect Cycle \u2014 Undirected (BFS)"
+      "titleInSheet": "Detect Cycle — Undirected (BFS)"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-4",
-      "problemId": "lc-topological-sort-dfs-stack",
+      "problemId": "gfg-topological-sort",
       "position": 338,
       "titleInSheet": "Topological Sort (DFS Stack)"
     },
@@ -2491,7 +2491,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-5",
-      "problemId": "lc-floyd-warshall-algorithm",
+      "problemId": "gfg-implementing-floyd-warshall",
       "position": 340,
       "titleInSheet": "Floyd Warshall Algorithm"
     },
@@ -2561,7 +2561,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-detect-cycle-undirected-bfs",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
       "position": 350,
       "titleInSheet": "Detect Cycle in UnDirected Graph using BFS/DFS Algo"
     },
@@ -2626,14 +2626,14 @@
       "sectionId": "babbar-sec-1",
       "problemId": "lc-min-cost-to-connect-all-points",
       "position": 359,
-      "titleInSheet": "Implement Kruksal\u2019sAlgorithm"
+      "titleInSheet": "Implement Kruksal’sAlgorithm"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
       "problemId": "lc-min-cost-to-connect-all-points",
       "position": 360,
-      "titleInSheet": "Implement Prim\u2019s Algorithm"
+      "titleInSheet": "Implement Prim’s Algorithm"
     },
     {
       "sheetId": "love-babbar-450",
@@ -2780,7 +2780,7 @@
       "sectionId": "babbar-sec-1",
       "problemId": "lc-house-robber",
       "position": 381,
-      "titleInSheet": "Max Sum of Non-Adjacent Elements \u2014 House Robber"
+      "titleInSheet": "Max Sum of Non-Adjacent Elements — House Robber"
     },
     {
       "sheetId": "love-babbar-450",
@@ -3067,7 +3067,7 @@
       "sectionId": "babbar-sec-14",
       "problemId": "lc-minimum-number-of-removals-to-make-mountain-array",
       "position": 422,
-      "titleInSheet": "Minimum removals from array to make max \u2013min <= K"
+      "titleInSheet": "Minimum removals from array to make max –min <= K"
     },
     {
       "sheetId": "love-babbar-450",
@@ -3179,7 +3179,7 @@
       "sectionId": "babbar-sec-2",
       "problemId": "lc-maximal-rectangle-sec9-1",
       "position": 438,
-      "titleInSheet": "Largest area rectangular sub-matrix with equal number of 1\u2019s\n                  and 0\u2019s [ IMP ]"
+      "titleInSheet": "Largest area rectangular sub-matrix with equal number of 1’s\n                  and 0’s [ IMP ]"
     },
     {
       "sheetId": "love-babbar-450",

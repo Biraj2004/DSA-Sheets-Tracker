@@ -841,42 +841,42 @@
       "sectionId": "striver-step-1-sub-5",
       "problemId": "other-print-1-to-n-using-recursion",
       "position": 40,
-      "titleInSheet": "Recursion \u2014 Print 1 to N"
+      "titleInSheet": "Recursion — Print 1 to N"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-1-sub-5",
       "problemId": "other-print-n-to-1-using-recursion",
       "position": 41,
-      "titleInSheet": "Recursion \u2014 Print N to 1"
+      "titleInSheet": "Recursion — Print N to 1"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-1-sub-5",
       "problemId": "other-sum-of-first-n-numbers",
       "position": 42,
-      "titleInSheet": "Recursion \u2014 Sum of First N Numbers"
+      "titleInSheet": "Recursion — Sum of First N Numbers"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-1-sub-5",
       "problemId": "other-factorial-of-a-given-number",
       "position": 43,
-      "titleInSheet": "Recursion \u2014 Factorial of N"
+      "titleInSheet": "Recursion — Factorial of N"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-1-sub-5",
       "problemId": "lc-recursion-reverse-an-array",
       "position": 44,
-      "titleInSheet": "Recursion \u2014 Reverse an Array"
+      "titleInSheet": "Recursion — Reverse an Array"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-1-sub-5",
       "problemId": "lc-valid-palindrome",
       "position": 45,
-      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+      "titleInSheet": "Recursion — Check String Palindrome"
     },
     {
       "sheetId": "striver-a2z",
@@ -1140,14 +1140,14 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-3",
-      "problemId": "lc-3-sum",
+      "problemId": "lc-3sum",
       "position": 83,
       "titleInSheet": "3 Sum"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-3",
-      "problemId": "lc-4-sum",
+      "problemId": "lc-4sum",
       "position": 84,
       "titleInSheet": "4 Sum"
     },
@@ -1210,14 +1210,14 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-3",
-      "problemId": "lc-3-sum",
+      "problemId": "lc-3sum-closest",
       "position": 93,
       "titleInSheet": "3-Sum Closest to Target"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-3",
-      "problemId": "lc-4-sum",
+      "problemId": "lc-4sum-ii",
       "position": 94,
       "titleInSheet": "4-Sum Count (4 Arrays)"
     },
@@ -1786,21 +1786,21 @@
       "sectionId": "striver-step-7-sub-1",
       "problemId": "other-print-1-to-n-using-recursion",
       "position": 175,
-      "titleInSheet": "Recursion \u2014 Print Name N Times"
+      "titleInSheet": "Recursion — Print Name N Times"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-7-sub-1",
       "problemId": "other-sum-of-first-n-numbers",
       "position": 176,
-      "titleInSheet": "Recursion \u2014 Sum of First N Numbers"
+      "titleInSheet": "Recursion — Sum of First N Numbers"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-7-sub-1",
       "problemId": "lc-powx-n",
       "position": 177,
-      "titleInSheet": "Pow(x, n) \u2014 Fast Exponentiation"
+      "titleInSheet": "Pow(x, n) — Fast Exponentiation"
     },
     {
       "sheetId": "striver-a2z",
@@ -2906,7 +2906,7 @@
       "sectionId": "striver-step-14-sub-2",
       "problemId": "lc-two-sum-iv-input-is-a-bst",
       "position": 335,
-      "titleInSheet": "Two Sum IV \u2014 Input is BST"
+      "titleInSheet": "Two Sum IV — Input is BST"
     },
     {
       "sheetId": "striver-a2z",
@@ -2981,9 +2981,9 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-2",
-      "problemId": "lc-detect-cycle-undirected-bfs",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
       "position": 346,
-      "titleInSheet": "Detect Cycle \u2014 Undirected (BFS)"
+      "titleInSheet": "Detect Cycle — Undirected (BFS)"
     },
     {
       "sheetId": "striver-a2z",
@@ -3002,9 +3002,9 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-2",
-      "problemId": "lc-detect-cycle-directed-dfs",
+      "problemId": "gfg-detect-cycle-in-a-directed-graph",
       "position": 349,
-      "titleInSheet": "Detect Cycle \u2014 Directed (DFS)"
+      "titleInSheet": "Detect Cycle — Directed (DFS)"
     },
     {
       "sheetId": "striver-a2z",
@@ -3016,7 +3016,7 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-3",
-      "problemId": "lc-topological-sort-dfs-stack",
+      "problemId": "gfg-topological-sort",
       "position": 351,
       "titleInSheet": "Topological Sort (DFS Stack)"
     },
@@ -3044,7 +3044,7 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-4",
-      "problemId": "lc-detect-cycle-undirected-bfs",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
       "position": 355,
       "titleInSheet": "Shortest Path in Undirected Graph"
     },
@@ -3107,14 +3107,14 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-4",
-      "problemId": "lc-group-the-people-given-the-group-size-they-belong-to",
+      "problemId": "gfg-distance-from-the-source-bellman-ford-algorithm",
       "position": 364,
       "titleInSheet": "Bellman Ford Algorithm"
     },
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-15-sub-4",
-      "problemId": "lc-floyd-warshall-algorithm",
+      "problemId": "gfg-implementing-floyd-warshall",
       "position": 365,
       "titleInSheet": "Floyd Warshall Algorithm"
     },
@@ -3305,7 +3305,7 @@
       "sectionId": "striver-step-16-sub-2",
       "problemId": "lc-house-robber",
       "position": 392,
-      "titleInSheet": "Max Sum of Non-Adjacent Elements \u2014 House Robber"
+      "titleInSheet": "Max Sum of Non-Adjacent Elements — House Robber"
     },
     {
       "sheetId": "striver-a2z",

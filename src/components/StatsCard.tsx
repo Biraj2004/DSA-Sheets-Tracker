@@ -146,11 +146,13 @@ export const StatsCard: React.FC<StatsCardProps> = ({
                 <option value="" disabled>
                   Jump to section...
                 </option>
-                {sheetData.sections.map((sec) => (
-                  <option key={sec.id} value={sec.id}>
-                    {sec.title}
-                  </option>
-                ))}
+                {sheetData.sections
+                  .filter((sec) => sheetData.items.some((i) => i.sectionId === sec.id))
+                  .map((sec) => (
+                    <option key={sec.id} value={sec.id}>
+                      {sec.title}
+                    </option>
+                  ))}
               </select>
             </div>
           </div>

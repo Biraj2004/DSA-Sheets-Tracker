@@ -7,6 +7,7 @@ export type Platform =
   | 'spoj'
   | 'hackerearth'
   | 'interviewbit'
+  | 'namastedev'
   | 'other'
   | 'concept';
 

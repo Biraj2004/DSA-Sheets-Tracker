@@ -1,0 +1,3507 @@
+{
+  "sheet": {
+    "id": "pattern-wise",
+    "name": "Pattern-Wise",
+    "creator": "Coding Patterns Index",
+    "sourceUrl": "https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions",
+    "fetchedAt": "2026-10-01T09:19:52.346Z",
+    "expectedCount": 475
+  },
+  "sections": [
+    {
+      "id": "pw-sec-1",
+      "sheetId": "pattern-wise",
+      "title": "Two Pointers: Converging or paired pointers over a sequence",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "pw-sec-2",
+      "sheetId": "pattern-wise",
+      "title": "Sliding Window: A window that grows and shrinks over a sequence",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "pw-sec-3",
+      "sheetId": "pattern-wise",
+      "title": "Prefix Sum: Precomputed running totals for range queries",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "pw-sec-4",
+      "sheetId": "pattern-wise",
+      "title": "Fast & Slow Pointers: Cycle detection and finding midpoints",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "pw-sec-5",
+      "sheetId": "pattern-wise",
+      "title": "Merge Intervals: Sort then sweep over overlapping ranges",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "pw-sec-6",
+      "sheetId": "pattern-wise",
+      "title": "Cyclic Sort: In-place placement when values fall in a range",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "pw-sec-7",
+      "sheetId": "pattern-wise",
+      "title": "Binary Search: Halving a sorted search space, or an answer space",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "pw-sec-8",
+      "sheetId": "pattern-wise",
+      "title": "Hashing: O(1) lookup and frequency counting",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "pw-sec-9",
+      "sheetId": "pattern-wise",
+      "title": "Stack: Matching, parsing, and undo-style problems",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "pw-sec-10",
+      "sheetId": "pattern-wise",
+      "title": "Monotonic Stack: Next greater/smaller element in one pass",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "pw-sec-11",
+      "sheetId": "pattern-wise",
+      "title": "Linked List: In-place reversal and pointer manipulation",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "pw-sec-12",
+      "sheetId": "pattern-wise",
+      "title": "Tree DFS: Preorder, inorder, postorder traversal",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "pw-sec-13",
+      "sheetId": "pattern-wise",
+      "title": "Tree BFS: Level order traversal",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "pw-sec-14",
+      "sheetId": "pattern-wise",
+      "title": "Trie: Prefix trees for word search and autocomplete",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "pw-sec-15",
+      "sheetId": "pattern-wise",
+      "title": "Graph DFS/BFS: Connected components, shortest paths",
+      "parentId": null,
+      "position": 15
+    },
+    {
+      "id": "pw-sec-16",
+      "sheetId": "pattern-wise",
+      "title": "Topological Sort: Ordering with dependencies",
+      "parentId": null,
+      "position": 16
+    },
+    {
+      "id": "pw-sec-17",
+      "sheetId": "pattern-wise",
+      "title": "Union Find: Grouping and connectivity",
+      "parentId": null,
+      "position": 17
+    },
+    {
+      "id": "pw-sec-18",
+      "sheetId": "pattern-wise",
+      "title": "Heap / Priority Queue: Top K elements, k-way merge, running median",
+      "parentId": null,
+      "position": 18
+    },
+    {
+      "id": "pw-sec-19",
+      "sheetId": "pattern-wise",
+      "title": "Backtracking: Build a solution incrementally, undo on failure",
+      "parentId": null,
+      "position": 19
+    },
+    {
+      "id": "pw-sec-20",
+      "sheetId": "pattern-wise",
+      "title": "Dynamic Programming (1D): State depends on a small number of prior states",
+      "parentId": null,
+      "position": 20
+    },
+    {
+      "id": "pw-sec-21",
+      "sheetId": "pattern-wise",
+      "title": "Dynamic Programming (2D/Grid): State depends on a grid or two sequences",
+      "parentId": null,
+      "position": 21
+    },
+    {
+      "id": "pw-sec-22",
+      "sheetId": "pattern-wise",
+      "title": "Knapsack: 0/1 and unbounded subset selection",
+      "parentId": null,
+      "position": 22
+    },
+    {
+      "id": "pw-sec-23",
+      "sheetId": "pattern-wise",
+      "title": "Greedy: Locally optimal choice at each step",
+      "parentId": null,
+      "position": 23
+    },
+    {
+      "id": "pw-sec-24",
+      "sheetId": "pattern-wise",
+      "title": "Bit Manipulation: XOR tricks, bitmasking",
+      "parentId": null,
+      "position": 24
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-valid-palindrome",
+      "position": 1,
+      "titleInSheet": "Valid Palindrome"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-two-sum-ii-input-array-is-sorted",
+      "position": 2,
+      "titleInSheet": "Two Sum II - Input Array Is Sorted"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-remove-duplicates-from-sorted-array",
+      "position": 3,
+      "titleInSheet": "Remove Duplicates from Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-move-zeroes",
+      "position": 4,
+      "titleInSheet": "Move Zeroes"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-squares-of-a-sorted-array",
+      "position": 5,
+      "titleInSheet": "Squares of a Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "other-reverse-an-array",
+      "position": 6,
+      "titleInSheet": "Reverse String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-merge-sorted-array",
+      "position": 7,
+      "titleInSheet": "Merge Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-backspace-string-compare",
+      "position": 8,
+      "titleInSheet": "Backspace String Compare"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-sort-array-by-parity",
+      "position": 9,
+      "titleInSheet": "Sort Array By Parity"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-intersection-of-two-arrays-ii",
+      "position": 10,
+      "titleInSheet": "Intersection of Two Arrays II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-is-subsequence",
+      "position": 11,
+      "titleInSheet": "Is Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-reverse-vowels-of-a-string",
+      "position": 12,
+      "titleInSheet": "Reverse Vowels of a String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-valid-palindrome-ii",
+      "position": 13,
+      "titleInSheet": "Valid Palindrome II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-3sum",
+      "position": 14,
+      "titleInSheet": "3Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-3sum-closest",
+      "position": 15,
+      "titleInSheet": "3Sum Closest"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-4sum",
+      "position": 16,
+      "titleInSheet": "4Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-container-with-most-water",
+      "position": 17,
+      "titleInSheet": "Container With Most Water"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-sort-colors",
+      "position": 18,
+      "titleInSheet": "Sort Colors"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-rotate-array",
+      "position": 19,
+      "titleInSheet": "Rotate Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-next-permutation",
+      "position": 20,
+      "titleInSheet": "Next Permutation"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-string-compression",
+      "position": 21,
+      "titleInSheet": "String Compression"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-boats-to-save-people",
+      "position": 22,
+      "titleInSheet": "Boats to Save People"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-interval-list-intersections",
+      "position": 23,
+      "titleInSheet": "Interval List Intersections"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-partition-labels",
+      "position": 24,
+      "titleInSheet": "Partition Labels"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-minimize-maximum-pair-sum-in-array",
+      "position": 25,
+      "titleInSheet": "Minimize Maximum Pair Sum in Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-array-with-elements-not-equal-to-average-of-neighbors",
+      "position": 26,
+      "titleInSheet": "Array With Elements Not Equal to Average of Neighbors"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-two-sum-less-than-k",
+      "position": 27,
+      "titleInSheet": "Two Sum Less Than K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-3sum-with-multiplicity",
+      "position": 28,
+      "titleInSheet": "3Sum With Multiplicity"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-remove-duplicates-from-sorted-array-ii",
+      "position": 29,
+      "titleInSheet": "Remove Duplicates from Sorted Array II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-append-characters-to-string-to-make-subsequence",
+      "position": 30,
+      "titleInSheet": "Append Characters to String to Make Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-bag-of-tokens",
+      "position": 31,
+      "titleInSheet": "Bag of Tokens"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-trapping-rain-water",
+      "position": 32,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-subarrays-with-k-different-integers",
+      "position": 33,
+      "titleInSheet": "Subarrays with K Different Integers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-minimum-window-subsequence",
+      "position": 34,
+      "titleInSheet": "Minimum Window Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-1",
+      "problemId": "lc-shortest-subarray-with-sum-at-least-k",
+      "position": 35,
+      "titleInSheet": "Shortest Subarray with Sum at Least K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-maximum-average-subarray-i",
+      "position": 1,
+      "titleInSheet": "Maximum Average Subarray I"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-minimum-difference-between-highest-and-lowest-of-k-scores",
+      "position": 2,
+      "titleInSheet": "Minimum Difference Between Highest and Lowest of K Scores"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-contains-duplicate-ii",
+      "position": 3,
+      "titleInSheet": "Contains Duplicate II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-defuse-the-bomb",
+      "position": 4,
+      "titleInSheet": "Defuse the Bomb"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 5,
+      "titleInSheet": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-longest-repeating-character-replacement",
+      "position": 6,
+      "titleInSheet": "Longest Repeating Character Replacement"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-permutation-in-string",
+      "position": 7,
+      "titleInSheet": "Permutation in String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-find-all-anagrams-in-a-string",
+      "position": 8,
+      "titleInSheet": "Find All Anagrams in a String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-minimum-size-subarray-sum",
+      "position": 9,
+      "titleInSheet": "Minimum Size Subarray Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "other-fruit-into-baskets",
+      "position": 10,
+      "titleInSheet": "Fruit Into Baskets"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-max-consecutive-ones-iii",
+      "position": 11,
+      "titleInSheet": "Max Consecutive Ones III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-subarray-product-less-than-k",
+      "position": 12,
+      "titleInSheet": "Subarray Product Less Than K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-maximum-points-you-can-obtain-from-cards",
+      "position": 13,
+      "titleInSheet": "Maximum Points You Can Obtain from Cards"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-number-of-substrings-containing-all-three-characters",
+      "position": 14,
+      "titleInSheet": "Number of Substrings Containing All Three Characters"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-count-complete-subarrays-in-an-array",
+      "position": 15,
+      "titleInSheet": "Count Complete Subarrays in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-frequency-of-the-most-frequent-element",
+      "position": 16,
+      "titleInSheet": "Frequency of the Most Frequent Element"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-minimum-window-substring",
+      "position": 17,
+      "titleInSheet": "Minimum Window Substring"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-2",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 18,
+      "titleInSheet": "Sliding Window Maximum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-range-sum-query-immutable",
+      "position": 1,
+      "titleInSheet": "Range Sum Query - Immutable"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-find-pivot-index",
+      "position": 2,
+      "titleInSheet": "Find Pivot Index"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-running-sum-of-1d-array",
+      "position": 3,
+      "titleInSheet": "Running Sum of 1d Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-left-and-right-sum-differences",
+      "position": 4,
+      "titleInSheet": "Left and Right Sum Differences"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-find-the-highest-altitude",
+      "position": 5,
+      "titleInSheet": "Find the Highest Altitude"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 6,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-continuous-subarray-sum",
+      "position": 7,
+      "titleInSheet": "Continuous Subarray Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-product-of-array-except-self",
+      "position": 8,
+      "titleInSheet": "Product of Array Except Self"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-contiguous-array",
+      "position": 9,
+      "titleInSheet": "Contiguous Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-range-sum-query-2d-immutable",
+      "position": 10,
+      "titleInSheet": "Range Sum Query 2D - Immutable"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-subarray-sums-divisible-by-k",
+      "position": 11,
+      "titleInSheet": "Subarray Sums Divisible by K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-car-pooling",
+      "position": 12,
+      "titleInSheet": "Car Pooling"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-corporate-flight-bookings",
+      "position": 13,
+      "titleInSheet": "Corporate Flight Bookings"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-matrix-block-sum",
+      "position": 14,
+      "titleInSheet": "Matrix Block Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-max-sum-rectangle-in-matrix",
+      "position": 15,
+      "titleInSheet": "Max Sum of Rectangle No Larger Than K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-3",
+      "problemId": "lc-count-of-smaller-numbers-after-self",
+      "position": 16,
+      "titleInSheet": "Count of Smaller Numbers After Self"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-linked-list-cycle",
+      "position": 1,
+      "titleInSheet": "Linked List Cycle"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 2,
+      "titleInSheet": "Middle of the Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-palindrome-linked-list",
+      "position": 3,
+      "titleInSheet": "Palindrome Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-happy-number",
+      "position": 4,
+      "titleInSheet": "Happy Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-linked-list-cycle-ii",
+      "position": 5,
+      "titleInSheet": "Linked List Cycle II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 6,
+      "titleInSheet": "Find the Duplicate Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-reorder-list",
+      "position": 7,
+      "titleInSheet": "Reorder List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-delete-the-middle-node-of-a-linked-list",
+      "position": 8,
+      "titleInSheet": "Delete the Middle Node of a Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 9,
+      "titleInSheet": "Remove Nth Node From End of List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-rotate-list",
+      "position": 10,
+      "titleInSheet": "Rotate List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-odd-even-linked-list",
+      "position": 11,
+      "titleInSheet": "Odd Even Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-partition-list",
+      "position": 12,
+      "titleInSheet": "Partition List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-maximum-twin-sum-of-a-linked-list",
+      "position": 13,
+      "titleInSheet": "Maximum Twin Sum of a Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-find-length-of-loop",
+      "position": 14,
+      "titleInSheet": "Circular Array Loop"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-4",
+      "problemId": "lc-reverse-nodes-in-k-group",
+      "position": 15,
+      "titleInSheet": "Reverse Nodes in k-Group"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-summary-ranges",
+      "position": 1,
+      "titleInSheet": "Summary Ranges"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-meeting-rooms",
+      "position": 2,
+      "titleInSheet": "Meeting Rooms"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-teemo-attacking",
+      "position": 3,
+      "titleInSheet": "Teemo Attacking"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-determine-if-two-events-have-conflict",
+      "position": 4,
+      "titleInSheet": "Determine if Two Events Have Conflict"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-merge-intervals",
+      "position": 5,
+      "titleInSheet": "Merge Intervals"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-insert-interval",
+      "position": 6,
+      "titleInSheet": "Insert Interval"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 7,
+      "titleInSheet": "Non-overlapping Intervals"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-meeting-rooms-ii",
+      "position": 8,
+      "titleInSheet": "Meeting Rooms II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-minimum-number-of-arrows-to-burst-balloons",
+      "position": 9,
+      "titleInSheet": "Minimum Number of Arrows to Burst Balloons"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-interval-list-intersections",
+      "position": 10,
+      "titleInSheet": "Interval List Intersections"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-my-calendar-i",
+      "position": 11,
+      "titleInSheet": "My Calendar I"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-video-stitching",
+      "position": 12,
+      "titleInSheet": "Video Stitching"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-remove-covered-intervals",
+      "position": 13,
+      "titleInSheet": "Remove Covered Intervals"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-car-pooling",
+      "position": 14,
+      "titleInSheet": "Car Pooling"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-employee-free-time",
+      "position": 15,
+      "titleInSheet": "Employee Free Time"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-5",
+      "problemId": "lc-range-module",
+      "position": 16,
+      "titleInSheet": "Range Module"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-missing-number",
+      "position": 1,
+      "titleInSheet": "Missing Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-all-numbers-disappeared-in-an-array",
+      "position": 2,
+      "titleInSheet": "Find All Numbers Disappeared in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-set-mismatch",
+      "position": 3,
+      "titleInSheet": "Set Mismatch"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-kth-missing-positive-number",
+      "position": 4,
+      "titleInSheet": "Kth Missing Positive Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-the-duplicate-number",
+      "position": 5,
+      "titleInSheet": "Find the Duplicate Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-all-duplicates-in-an-array",
+      "position": 6,
+      "titleInSheet": "Find All Duplicates in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-my-calendar-ii",
+      "position": 7,
+      "titleInSheet": "My Calendar II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-h-index",
+      "position": 8,
+      "titleInSheet": "H-Index"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-sort-colors",
+      "position": 9,
+      "titleInSheet": "Sort Colors"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-all-lonely-numbers-in-the-array",
+      "position": 10,
+      "titleInSheet": "Find All Lonely Numbers in the Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-original-array-from-doubled-array",
+      "position": 11,
+      "titleInSheet": "Find Original Array From Doubled Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-check-if-array-pairs-are-divisible-by-k",
+      "position": 12,
+      "titleInSheet": "Check If Array Pairs Are Divisible by k"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-first-missing-positive",
+      "position": 13,
+      "titleInSheet": "First Missing Positive"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-couples-holding-hands",
+      "position": 14,
+      "titleInSheet": "Couples Holding Hands"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-6",
+      "problemId": "lc-find-kth-smallest-pair-distance",
+      "position": 15,
+      "titleInSheet": "Find K-th Smallest Pair Distance"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-binary-search",
+      "position": 1,
+      "titleInSheet": "Binary Search"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-search-insert-position",
+      "position": 2,
+      "titleInSheet": "Search Insert Position"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "other-find-square-root-of-a-number",
+      "position": 3,
+      "titleInSheet": "Sqrt(x)"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-guess-number-higher-or-lower",
+      "position": 4,
+      "titleInSheet": "Guess Number Higher or Lower"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-first-bad-version",
+      "position": 5,
+      "titleInSheet": "First Bad Version"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-peak-index-in-a-mountain-array",
+      "position": 6,
+      "titleInSheet": "Peak Index in a Mountain Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 7,
+      "titleInSheet": "Search in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-search-in-rotated-sorted-array-ii",
+      "position": 8,
+      "titleInSheet": "Search in Rotated Sorted Array II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 9,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-find-first-and-last-position-of-element-in-sorted-array",
+      "position": 10,
+      "titleInSheet": "Find First and Last Position of Element in Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 11,
+      "titleInSheet": "Search a 2D Matrix"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-search-a-2d-matrix-ii",
+      "position": 12,
+      "titleInSheet": "Search a 2D Matrix II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-koko-eating-bananas",
+      "position": 13,
+      "titleInSheet": "Koko Eating Bananas"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-capacity-to-ship-packages-within-d-days",
+      "position": 14,
+      "titleInSheet": "Capacity To Ship Packages Within D Days"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-find-peak-element",
+      "position": 15,
+      "titleInSheet": "Find Peak Element"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-single-element-in-a-sorted-array",
+      "position": 16,
+      "titleInSheet": "Single Element in a Sorted Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-time-based-key-value-store",
+      "position": 17,
+      "titleInSheet": "Time Based Key-Value Store"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 18,
+      "titleInSheet": "Median of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-split-array-largest-sum",
+      "position": 19,
+      "titleInSheet": "Split Array Largest Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-7",
+      "problemId": "lc-find-in-mountain-array",
+      "position": 20,
+      "titleInSheet": "Find in Mountain Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-two-sum",
+      "position": 1,
+      "titleInSheet": "Two Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-valid-anagram",
+      "position": 2,
+      "titleInSheet": "Valid Anagram"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-contains-duplicate",
+      "position": 3,
+      "titleInSheet": "Contains Duplicate"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-ransom-note",
+      "position": 4,
+      "titleInSheet": "Ransom Note"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-majority-element",
+      "position": 5,
+      "titleInSheet": "Majority Element"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-isomorphic-strings",
+      "position": 6,
+      "titleInSheet": "Isomorphic Strings"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-word-pattern",
+      "position": 7,
+      "titleInSheet": "Word Pattern"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-first-unique-character-in-a-string",
+      "position": 8,
+      "titleInSheet": "First Unique Character in a String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-longest-palindrome",
+      "position": 9,
+      "titleInSheet": "Longest Palindrome"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-jewels-and-stones",
+      "position": 10,
+      "titleInSheet": "Jewels and Stones"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-group-anagrams",
+      "position": 11,
+      "titleInSheet": "Group Anagrams"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 12,
+      "titleInSheet": "Top K Frequent Elements"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-longest-consecutive-sequence",
+      "position": 13,
+      "titleInSheet": "Longest Consecutive Sequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-encode-and-decode-strings",
+      "position": 14,
+      "titleInSheet": "Encode and Decode Strings"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 15,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-4sum-ii",
+      "position": 16,
+      "titleInSheet": "4Sum II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-insert-delete-getrandom-o1",
+      "position": 17,
+      "titleInSheet": "Insert Delete GetRandom O(1)"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-brick-wall",
+      "position": 18,
+      "titleInSheet": "Brick Wall"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-lru-cache",
+      "position": 19,
+      "titleInSheet": "LRU Cache"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-repeated-dna-sequences",
+      "position": 20,
+      "titleInSheet": "Repeated DNA Sequences"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-copy-list-with-random-pointer",
+      "position": 21,
+      "titleInSheet": "Copy List with Random Pointer"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-custom-sort-string",
+      "position": 22,
+      "titleInSheet": "Custom Sort String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-find-all-anagrams-in-a-string",
+      "position": 23,
+      "titleInSheet": "Find All Anagrams in a String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-lfu-cache",
+      "position": 24,
+      "titleInSheet": "LFU Cache"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-max-points-on-a-line",
+      "position": 25,
+      "titleInSheet": "Max Points on a Line"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-8",
+      "problemId": "lc-all-oone-data-structure",
+      "position": 26,
+      "titleInSheet": "All O`one Data Structure"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-valid-parentheses",
+      "position": 1,
+      "titleInSheet": "Valid Parentheses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 2,
+      "titleInSheet": "Implement Queue using Stacks"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 3,
+      "titleInSheet": "Implement Stack using Queues"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-remove-outermost-parentheses",
+      "position": 4,
+      "titleInSheet": "Remove Outermost Parentheses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-baseball-game",
+      "position": 5,
+      "titleInSheet": "Baseball Game"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-make-the-string-great",
+      "position": 6,
+      "titleInSheet": "Make The String Great"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-min-stack",
+      "position": 7,
+      "titleInSheet": "Min Stack"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-evaluate-reverse-polish-notation",
+      "position": 8,
+      "titleInSheet": "Evaluate Reverse Polish Notation"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-generate-parentheses",
+      "position": 9,
+      "titleInSheet": "Generate Parentheses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-daily-temperatures",
+      "position": 10,
+      "titleInSheet": "Daily Temperatures"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-simplify-path",
+      "position": 11,
+      "titleInSheet": "Simplify Path"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-decode-string",
+      "position": 12,
+      "titleInSheet": "Decode String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-asteroid-collision",
+      "position": 13,
+      "titleInSheet": "Asteroid Collision"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-basic-calculator-ii",
+      "position": 14,
+      "titleInSheet": "Basic Calculator II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-132-pattern",
+      "position": 15,
+      "titleInSheet": "132 Pattern"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-basic-calculator",
+      "position": 16,
+      "titleInSheet": "Basic Calculator"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-9",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 17,
+      "titleInSheet": "Largest Rectangle in Histogram"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-next-greater-element-i",
+      "position": 1,
+      "titleInSheet": "Next Greater Element I"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-final-prices-with-a-special-discount-in-a-shop",
+      "position": 2,
+      "titleInSheet": "Final Prices With a Special Discount in a Shop"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-next-greater-element-ii",
+      "position": 3,
+      "titleInSheet": "Next Greater Element II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-daily-temperatures",
+      "position": 4,
+      "titleInSheet": "Daily Temperatures"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-online-stock-span",
+      "position": 5,
+      "titleInSheet": "Online Stock Span"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-132-pattern",
+      "position": 6,
+      "titleInSheet": "132 Pattern"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-sum-of-subarray-minimums",
+      "position": 7,
+      "titleInSheet": "Sum of Subarray Minimums"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-asteroid-collision",
+      "position": 8,
+      "titleInSheet": "Asteroid Collision"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-remove-k-digits",
+      "position": 9,
+      "titleInSheet": "Remove K Digits"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-remove-duplicate-letters",
+      "position": 10,
+      "titleInSheet": "Remove Duplicate Letters"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-steps-to-make-array-non-decreasing",
+      "position": 11,
+      "titleInSheet": "Steps to Make Array Non-decreasing"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-car-fleet",
+      "position": 12,
+      "titleInSheet": "Car Fleet"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 13,
+      "titleInSheet": "Largest Rectangle in Histogram"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-maximal-rectangle-sec9-1",
+      "position": 14,
+      "titleInSheet": "Maximal Rectangle"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-10",
+      "problemId": "lc-trapping-rain-water",
+      "position": 15,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-reverse-linked-list",
+      "position": 1,
+      "titleInSheet": "Reverse Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-merge-two-sorted-lists",
+      "position": 2,
+      "titleInSheet": "Merge Two Sorted Lists"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-remove-duplicates-from-sorted-list",
+      "position": 3,
+      "titleInSheet": "Remove Duplicates from Sorted List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-delete-node-in-a-linked-list",
+      "position": 4,
+      "titleInSheet": "Delete Node in a Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-intersection-of-two-linked-lists",
+      "position": 5,
+      "titleInSheet": "Intersection of Two Linked Lists"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-remove-linked-list-elements",
+      "position": 6,
+      "titleInSheet": "Remove Linked List Elements"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-add-two-numbers",
+      "position": 7,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-reorder-list",
+      "position": 8,
+      "titleInSheet": "Reorder List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-remove-nth-node-from-end-of-list",
+      "position": 9,
+      "titleInSheet": "Remove Nth Node From End of List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-copy-list-with-random-pointer",
+      "position": 10,
+      "titleInSheet": "Copy List with Random Pointer"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-swap-nodes-in-pairs",
+      "position": 11,
+      "titleInSheet": "Swap Nodes in Pairs"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-reverse-linked-list-ii",
+      "position": 12,
+      "titleInSheet": "Reverse Linked List II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-rotate-list",
+      "position": 13,
+      "titleInSheet": "Rotate List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-partition-list",
+      "position": 14,
+      "titleInSheet": "Partition List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-sort-list",
+      "position": 15,
+      "titleInSheet": "Sort List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-odd-even-linked-list",
+      "position": 16,
+      "titleInSheet": "Odd Even Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-design-browser-history",
+      "position": 17,
+      "titleInSheet": "Design Browser History"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 18,
+      "titleInSheet": "Merge K Sorted Lists"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-11",
+      "problemId": "lc-reverse-nodes-in-k-group",
+      "position": 19,
+      "titleInSheet": "Reverse Nodes in k-Group"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-maximum-depth-of-binary-tree",
+      "position": 1,
+      "titleInSheet": "Maximum Depth of Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-invert-binary-tree",
+      "position": 2,
+      "titleInSheet": "Invert Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-same-tree",
+      "position": 3,
+      "titleInSheet": "Same Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-symmetric-tree",
+      "position": 4,
+      "titleInSheet": "Symmetric Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-subtree-of-another-tree",
+      "position": 5,
+      "titleInSheet": "Subtree of Another Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 6,
+      "titleInSheet": "Diameter of Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 7,
+      "titleInSheet": "Balanced Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-triangle-min-path-sum",
+      "position": 8,
+      "titleInSheet": "Path Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "other-inorder-tree-traversal-iterative-recursive",
+      "position": 9,
+      "titleInSheet": "Binary Tree Inorder Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 10,
+      "titleInSheet": "Binary Tree Preorder Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "other-postorder-tree-traversal-iterative-recursive",
+      "position": 11,
+      "titleInSheet": "Binary Tree Postorder Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-minimum-depth-of-binary-tree",
+      "position": 12,
+      "titleInSheet": "Minimum Depth of Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 13,
+      "titleInSheet": "Lowest Common Ancestor of a Binary Search Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 14,
+      "titleInSheet": "Lowest Common Ancestor of a Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-count-good-nodes-in-binary-tree",
+      "position": 15,
+      "titleInSheet": "Count Good Nodes in Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 16,
+      "titleInSheet": "Binary Tree Right Side View"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 17,
+      "titleInSheet": "Kth Smallest Element in a BST"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "position": 18,
+      "titleInSheet": "Construct Binary Tree from Preorder and Inorder Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 19,
+      "titleInSheet": "Validate Binary Search Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-flatten-binary-tree-to-linked-list",
+      "position": 20,
+      "titleInSheet": "Flatten Binary Tree to Linked List"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-path-sum-ii-all-root-to-leaf-paths",
+      "position": 21,
+      "titleInSheet": "Path Sum II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-path-sum-iii",
+      "position": 22,
+      "titleInSheet": "Path Sum III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-all-nodes-distance-k-in-binary-tree",
+      "position": 23,
+      "titleInSheet": "All Nodes Distance K in Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-populating-next-right-pointers-in-each-node",
+      "position": 24,
+      "titleInSheet": "Populating Next Right Pointers in Each Node"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-house-robber-iii",
+      "position": 25,
+      "titleInSheet": "House Robber III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-delete-node-in-a-bst",
+      "position": 26,
+      "titleInSheet": "Delete Node in a BST"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-sum-root-to-leaf-numbers",
+      "position": 27,
+      "titleInSheet": "Sum Root to Leaf Numbers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-binary-search-tree-iterator",
+      "position": 28,
+      "titleInSheet": "Binary Search Tree Iterator"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "position": 29,
+      "titleInSheet": "Construct Binary Tree from Inorder and Postorder Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-maximum-difference-between-node-and-ancestor",
+      "position": 30,
+      "titleInSheet": "Maximum Difference Between Node and Ancestor"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 31,
+      "titleInSheet": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 32,
+      "titleInSheet": "Serialize and Deserialize Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-binary-tree-cameras",
+      "position": 33,
+      "titleInSheet": "Binary Tree Cameras"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-12",
+      "problemId": "lc-recover-binary-search-tree",
+      "position": 34,
+      "titleInSheet": "Recover Binary Search Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-average-of-levels-in-binary-tree",
+      "position": 1,
+      "titleInSheet": "Average of Levels in Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-cousins-in-binary-tree",
+      "position": 2,
+      "titleInSheet": "Cousins in Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 3,
+      "titleInSheet": "Binary Tree Level Order Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-binary-tree-zigzag-level-order-traversal",
+      "position": 4,
+      "titleInSheet": "Binary Tree Zigzag Level Order Traversal"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-binary-tree-level-order-traversal-ii",
+      "position": 5,
+      "titleInSheet": "Binary Tree Level Order Traversal II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 6,
+      "titleInSheet": "Binary Tree Right Side View"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-find-largest-value-in-each-tree-row",
+      "position": 7,
+      "titleInSheet": "Find Largest Value in Each Tree Row"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-populating-next-right-pointers-in-each-node",
+      "position": 8,
+      "titleInSheet": "Populating Next Right Pointers in Each Node"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-maximum-width-of-binary-tree",
+      "position": 9,
+      "titleInSheet": "Maximum Width of Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-deepest-leaves-sum",
+      "position": 10,
+      "titleInSheet": "Deepest Leaves Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-all-nodes-distance-k-in-binary-tree",
+      "position": 11,
+      "titleInSheet": "All Nodes Distance K in Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-step-by-step-directions-from-a-binary-tree-node-to-another",
+      "position": 12,
+      "titleInSheet": "Step-By-Step Directions From a Binary Tree Node to Another"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix",
+      "position": 13,
+      "titleInSheet": "Find Bottom Left Tree Value"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-even-odd-tree",
+      "position": 14,
+      "titleInSheet": "Even Odd Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-word-ladder",
+      "position": 15,
+      "titleInSheet": "Word Ladder"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-13",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 16,
+      "titleInSheet": "Serialize and Deserialize Binary Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-implement-trie-prefix-tree",
+      "position": 1,
+      "titleInSheet": "Implement Trie (Prefix Tree)"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-design-add-and-search-words-data-structure",
+      "position": 2,
+      "titleInSheet": "Design Add and Search Words Data Structure"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-replace-words",
+      "position": 3,
+      "titleInSheet": "Replace Words"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-longest-word-in-dictionary",
+      "position": 4,
+      "titleInSheet": "Longest Word in Dictionary"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-map-sum-pairs",
+      "position": 5,
+      "titleInSheet": "Map Sum Pairs"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-maximum-xor-of-two-numbers-in-an-array",
+      "position": 6,
+      "titleInSheet": "Maximum XOR of Two Numbers in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-extra-characters-in-a-string",
+      "position": 7,
+      "titleInSheet": "Extra Characters in a String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-search-suggestions-system",
+      "position": 8,
+      "titleInSheet": "Search Suggestions System"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-word-break",
+      "position": 9,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-camelcase-matching",
+      "position": 10,
+      "titleInSheet": "Camelcase Matching"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-word-search-ii",
+      "position": 11,
+      "titleInSheet": "Word Search II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-maximum-xor-with-an-element-from-array",
+      "position": 12,
+      "titleInSheet": "Maximum XOR With an Element From Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-word-break-ii",
+      "position": 13,
+      "titleInSheet": "Word Break II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-concatenated-words",
+      "position": 14,
+      "titleInSheet": "Concatenated Words"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-palindrome-pairs",
+      "position": 15,
+      "titleInSheet": "Palindrome Pairs"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-14",
+      "problemId": "lc-stream-of-characters",
+      "position": 16,
+      "titleInSheet": "Stream of Characters"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-flood-fill",
+      "position": 1,
+      "titleInSheet": "Flood Fill"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-island-perimeter",
+      "position": 2,
+      "titleInSheet": "Island Perimeter"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-find-if-path-exists-in-graph",
+      "position": 3,
+      "titleInSheet": "Find if Path Exists in Graph"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-number-of-islands",
+      "position": 4,
+      "titleInSheet": "Number of Islands"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-max-area-of-island",
+      "position": 5,
+      "titleInSheet": "Max Area of Island"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-clone-graph",
+      "position": 6,
+      "titleInSheet": "Clone Graph"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-pacific-atlantic-water-flow",
+      "position": 7,
+      "titleInSheet": "Pacific Atlantic Water Flow"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-surrounded-regions",
+      "position": 8,
+      "titleInSheet": "Surrounded Regions"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-rotting-oranges",
+      "position": 9,
+      "titleInSheet": "Rotting Oranges"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-01-matrix",
+      "position": 10,
+      "titleInSheet": "01 Matrix"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-number-of-enclaves",
+      "position": 11,
+      "titleInSheet": "Number of Enclaves"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-number-of-closed-islands",
+      "position": 12,
+      "titleInSheet": "Number of Closed Islands"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 13,
+      "titleInSheet": "Is Graph Bipartite?"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-all-paths-from-source-to-target",
+      "position": 14,
+      "titleInSheet": "All Paths From Source to Target"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-shortest-path-in-binary-matrix",
+      "position": 15,
+      "titleInSheet": "Shortest Path in Binary Matrix"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-network-delay-time",
+      "position": 16,
+      "titleInSheet": "Network Delay Time"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-cheapest-flights-within-k-stops",
+      "position": 17,
+      "titleInSheet": "Cheapest Flights Within K Stops"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+      "position": 18,
+      "titleInSheet": "Reorder Routes to Make All Paths Lead to the City Zero"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-as-far-from-land-as-possible",
+      "position": 19,
+      "titleInSheet": "As Far from Land as Possible"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-word-ladder",
+      "position": 20,
+      "titleInSheet": "Word Ladder"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-word-ladder-ii",
+      "position": 21,
+      "titleInSheet": "Word Ladder II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-making-a-large-island",
+      "position": 22,
+      "titleInSheet": "Making A Large Island"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-shortest-path-to-get-all-keys",
+      "position": 23,
+      "titleInSheet": "Shortest Path to Get All Keys"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-15",
+      "problemId": "lc-cut-off-trees-for-golf-event",
+      "position": 24,
+      "titleInSheet": "Cut Off Trees for Golf Event"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-course-schedule",
+      "position": 1,
+      "titleInSheet": "Course Schedule"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-course-schedule-ii",
+      "position": 2,
+      "titleInSheet": "Course Schedule II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-course-schedule-iv",
+      "position": 3,
+      "titleInSheet": "Course Schedule IV"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-minimum-height-trees",
+      "position": 4,
+      "titleInSheet": "Minimum Height Trees"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-find-eventual-safe-states",
+      "position": 5,
+      "titleInSheet": "Find Eventual Safe States"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-loud-and-rich",
+      "position": 6,
+      "titleInSheet": "Loud and Rich"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "position": 7,
+      "titleInSheet": "All Ancestors of a Node in a Directed Acyclic Graph"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-sequence-reconstruction",
+      "position": 8,
+      "titleInSheet": "Sequence Reconstruction"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-parallel-courses",
+      "position": 9,
+      "titleInSheet": "Parallel Courses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-find-all-possible-recipes-from-given-supplies",
+      "position": 10,
+      "titleInSheet": "Find All Possible Recipes from Given Supplies"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-build-a-matrix-with-conditions",
+      "position": 11,
+      "titleInSheet": "Build a Matrix With Conditions"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-sort-items-by-groups-respecting-dependencies",
+      "position": 12,
+      "titleInSheet": "Sort Items by Groups Respecting Dependencies"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-alien-dictionary",
+      "position": 13,
+      "titleInSheet": "Alien Dictionary"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-longest-increasing-path-in-a-matrix",
+      "position": 14,
+      "titleInSheet": "Longest Increasing Path in a Matrix"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-parallel-courses-iii",
+      "position": 15,
+      "titleInSheet": "Parallel Courses III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-reconstruct-itinerary",
+      "position": 16,
+      "titleInSheet": "Reconstruct Itinerary"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-16",
+      "problemId": "lc-minimum-time-to-complete-all-tasks",
+      "position": 17,
+      "titleInSheet": "Minimum Time to Complete All Tasks"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-number-of-provinces",
+      "position": 1,
+      "titleInSheet": "Number of Provinces"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-redundant-connection",
+      "position": 2,
+      "titleInSheet": "Redundant Connection"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-graph-valid-tree",
+      "position": 3,
+      "titleInSheet": "Graph Valid Tree"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-number-of-connected-components-in-an-undirected-graph",
+      "position": 4,
+      "titleInSheet": "Number of Connected Components in an Undirected Graph"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-accounts-merge",
+      "position": 5,
+      "titleInSheet": "Accounts Merge"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-satisfiability-of-equality-equations",
+      "position": 6,
+      "titleInSheet": "Satisfiability of Equality Equations"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-min-cost-to-connect-all-points",
+      "position": 7,
+      "titleInSheet": "Min Cost to Connect All Points"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-most-stones-removed-with-same-row-or-column",
+      "position": 8,
+      "titleInSheet": "Most Stones Removed with Same Row or Column"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-regions-cut-by-slashes",
+      "position": 9,
+      "titleInSheet": "Regions Cut By Slashes"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-path-with-minimum-effort",
+      "position": 10,
+      "titleInSheet": "Path With Minimum Effort"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-lexicographically-smallest-equivalent-string",
+      "position": 11,
+      "titleInSheet": "Lexicographically Smallest Equivalent String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-sentence-similarity-ii",
+      "position": 12,
+      "titleInSheet": "Sentence Similarity II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-earliest-possible-day-of-full-bloom",
+      "position": 13,
+      "titleInSheet": "The Earliest Moment When Everyone Become Friends"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-surrounded-regions",
+      "position": 14,
+      "titleInSheet": "Surrounded Regions"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-number-of-islands-ii",
+      "position": 15,
+      "titleInSheet": "Number of Islands II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-redundant-connection-ii",
+      "position": 16,
+      "titleInSheet": "Redundant Connection II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-swim-in-rising-water",
+      "position": 17,
+      "titleInSheet": "Swim in Rising Water"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-remove-max-number-of-edges-to-keep-graph-fully-traversable",
+      "position": 18,
+      "titleInSheet": "Remove Max Number of Edges to Keep Graph Fully Traversable"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-17",
+      "problemId": "lc-making-a-large-island",
+      "position": 19,
+      "titleInSheet": "Making A Large Island"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 1,
+      "titleInSheet": "Kth Largest Element in a Stream"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-last-stone-weight",
+      "position": 2,
+      "titleInSheet": "Last Stone Weight"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-relative-ranks",
+      "position": 3,
+      "titleInSheet": "Relative Ranks"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-kth-largest-element-in-an-array",
+      "position": 4,
+      "titleInSheet": "Kth Largest Element in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-top-k-frequent-elements",
+      "position": 5,
+      "titleInSheet": "Top K Frequent Elements"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-k-closest-points-to-origin",
+      "position": 6,
+      "titleInSheet": "K Closest Points to Origin"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-task-scheduler",
+      "position": 7,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-reorganize-string",
+      "position": 8,
+      "titleInSheet": "Reorganize String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-design-twitter",
+      "position": 9,
+      "titleInSheet": "Design Twitter"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-sort-characters-by-frequency",
+      "position": 10,
+      "titleInSheet": "Sort Characters By Frequency"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-furthest-building-you-can-reach",
+      "position": 11,
+      "titleInSheet": "Furthest Building You Can Reach"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-single-threaded-cpu",
+      "position": 12,
+      "titleInSheet": "Single-Threaded CPU"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-seat-reservation-manager",
+      "position": 13,
+      "titleInSheet": "Seat Reservation Manager"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 14,
+      "titleInSheet": "Find Median from Data Stream"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-merge-k-sorted-lists",
+      "position": 15,
+      "titleInSheet": "Merge K Sorted Lists"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-smallest-range-covering-elements-from-k-lists",
+      "position": 16,
+      "titleInSheet": "Smallest Range Covering Elements from K Lists"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-minimum-cost-to-hire-k-workers",
+      "position": 17,
+      "titleInSheet": "Minimum Cost to Hire K Workers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-ipo",
+      "position": 18,
+      "titleInSheet": "IPO"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-18",
+      "problemId": "lc-find-building-where-alice-and-bob-can-meet",
+      "position": 19,
+      "titleInSheet": "Find Building Where Alice and Bob Can Meet"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-subsets",
+      "position": 1,
+      "titleInSheet": "Subsets"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-subsets-ii",
+      "position": 2,
+      "titleInSheet": "Subsets II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-permutations",
+      "position": 3,
+      "titleInSheet": "Permutations"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-permutations-ii",
+      "position": 4,
+      "titleInSheet": "Permutations II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-combination-sum",
+      "position": 5,
+      "titleInSheet": "Combination Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-combination-sum-ii",
+      "position": 6,
+      "titleInSheet": "Combination Sum II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-combination-sum-iii",
+      "position": 7,
+      "titleInSheet": "Combination Sum III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 8,
+      "titleInSheet": "Letter Combinations of a Phone Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-word-search",
+      "position": 9,
+      "titleInSheet": "Word Search"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-palindrome-partitioning",
+      "position": 10,
+      "titleInSheet": "Palindrome Partitioning"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-program-to-generate-all-possible-valid-ip-addresses-from-given-string",
+      "position": 11,
+      "titleInSheet": "Restore IP Addresses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-matchsticks-to-square",
+      "position": 12,
+      "titleInSheet": "Matchsticks to Square"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-partition-to-k-equal-sum-subsets",
+      "position": 13,
+      "titleInSheet": "Partition to K Equal Sum Subsets"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-generate-parentheses",
+      "position": 14,
+      "titleInSheet": "Generate Parentheses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-beautiful-arrangement",
+      "position": 15,
+      "titleInSheet": "Beautiful Arrangement"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-n-queens",
+      "position": 16,
+      "titleInSheet": "N-Queens"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-n-queens-ii",
+      "position": 17,
+      "titleInSheet": "N-Queens II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-sudoku-solver",
+      "position": 18,
+      "titleInSheet": "Sudoku Solver"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-word-break-ii",
+      "position": 19,
+      "titleInSheet": "Word Break II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-19",
+      "problemId": "lc-word-search-ii",
+      "position": 20,
+      "titleInSheet": "Word Search II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-climbing-stairs",
+      "position": 1,
+      "titleInSheet": "Climbing Stairs"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 2,
+      "titleInSheet": "Min Cost Climbing Stairs"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "other-cpp-for-loops",
+      "position": 3,
+      "titleInSheet": "Fibonacci Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-n-th-tribonacci-number",
+      "position": 4,
+      "titleInSheet": "N-th Tribonacci Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-counting-bits",
+      "position": 5,
+      "titleInSheet": "Counting Bits"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-house-robber",
+      "position": 6,
+      "titleInSheet": "House Robber"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-house-robber-ii",
+      "position": 7,
+      "titleInSheet": "House Robber II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 8,
+      "titleInSheet": "Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-coin-change",
+      "position": 9,
+      "titleInSheet": "Coin Change"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-maximum-subarray",
+      "position": 10,
+      "titleInSheet": "Maximum Subarray"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 11,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-word-break",
+      "position": 12,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-decode-ways",
+      "position": 13,
+      "titleInSheet": "Decode Ways"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-integer-break",
+      "position": 14,
+      "titleInSheet": "Integer Break"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-perfect-squares",
+      "position": 15,
+      "titleInSheet": "Perfect Squares"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-combination-sum-iv",
+      "position": 16,
+      "titleInSheet": "Combination Sum IV"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-longest-turbulent-subarray",
+      "position": 17,
+      "titleInSheet": "Longest Turbulent Subarray"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-longest-valid-parentheses",
+      "position": 18,
+      "titleInSheet": "Longest Valid Parentheses"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-russian-doll-envelopes",
+      "position": 19,
+      "titleInSheet": "Russian Doll Envelopes"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-frog-jump-with-k-distances-dp-4",
+      "position": 20,
+      "titleInSheet": "Frog Jump"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-20",
+      "problemId": "lc-burst-balloons",
+      "position": 21,
+      "titleInSheet": "Burst Balloons"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-pascals-triangle",
+      "position": 1,
+      "titleInSheet": "Pascal's Triangle"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-pascals-triangle-ii",
+      "position": 2,
+      "titleInSheet": "Pascal's Triangle II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-unique-paths",
+      "position": 3,
+      "titleInSheet": "Unique Paths"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-unique-paths-ii",
+      "position": 4,
+      "titleInSheet": "Unique Paths II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-minimum-path-sum",
+      "position": 5,
+      "titleInSheet": "Minimum Path Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 6,
+      "titleInSheet": "Longest Common Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-edit-distance",
+      "position": 7,
+      "titleInSheet": "Edit Distance"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-coin-change-ii",
+      "position": 8,
+      "titleInSheet": "Coin Change II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-target-sum",
+      "position": 9,
+      "titleInSheet": "Target Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-interleaving-string",
+      "position": 10,
+      "titleInSheet": "Interleaving String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-cooldown",
+      "position": 11,
+      "titleInSheet": "Best Time to Buy and Sell Stock with Cooldown"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-maximal-square",
+      "position": 12,
+      "titleInSheet": "Maximal Square"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-triangle",
+      "position": 13,
+      "titleInSheet": "Triangle"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-minimum-falling-path-sum",
+      "position": 14,
+      "titleInSheet": "Minimum Falling Path Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-longest-palindromic-subsequence",
+      "position": 15,
+      "titleInSheet": "Longest Palindromic Subsequence"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-knight-dialer",
+      "position": 16,
+      "titleInSheet": "Knight Dialer"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-out-of-boundary-paths",
+      "position": 17,
+      "titleInSheet": "Out of Boundary Paths"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-regular-expression-matching",
+      "position": 18,
+      "titleInSheet": "Regular Expression Matching"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-wildcard-matching",
+      "position": 19,
+      "titleInSheet": "Wildcard Matching"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-distinct-subsequences",
+      "position": 20,
+      "titleInSheet": "Distinct Subsequences"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-cherry-pickup-ii-3d-dp",
+      "position": 21,
+      "titleInSheet": "Cherry Pickup II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-minimum-cost-to-cut-a-stick",
+      "position": 22,
+      "titleInSheet": "Minimum Cost to Cut a Stick"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-21",
+      "problemId": "lc-dungeon-game",
+      "position": 23,
+      "titleInSheet": "Dungeon Game"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-form-smallest-number-from-two-digit-arrays",
+      "position": 1,
+      "titleInSheet": "Form Smallest Number From Two Digit Arrays"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 2,
+      "titleInSheet": "Partition Equal Subset Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-target-sum",
+      "position": 3,
+      "titleInSheet": "Target Sum"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-coin-change",
+      "position": 4,
+      "titleInSheet": "Coin Change"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-coin-change-ii",
+      "position": 5,
+      "titleInSheet": "Coin Change II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-ones-and-zeroes",
+      "position": 6,
+      "titleInSheet": "Ones and Zeroes"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-combination-sum-iv",
+      "position": 7,
+      "titleInSheet": "Combination Sum IV"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-last-stone-weight-ii",
+      "position": 8,
+      "titleInSheet": "Last Stone Weight II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-2-keys-keyboard",
+      "position": 9,
+      "titleInSheet": "2 Keys Keyboard"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-shopping-offers",
+      "position": 10,
+      "titleInSheet": "Shopping Offers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-ways-to-express-an-integer-as-sum-of-powers",
+      "position": 11,
+      "titleInSheet": "Ways to Express an Integer as Sum of Powers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-maximum-value-of-k-coins-from-piles",
+      "position": 12,
+      "titleInSheet": "Maximum Value of K Coins From Piles"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-tallest-billboard",
+      "position": 13,
+      "titleInSheet": "Tallest Billboard"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-profitable-schemes",
+      "position": 14,
+      "titleInSheet": "Profitable Schemes"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-22",
+      "problemId": "lc-number-of-ways-to-earn-points",
+      "position": 15,
+      "titleInSheet": "Number of Ways to Earn Points"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-assign-cookies-sec4-6",
+      "position": 1,
+      "titleInSheet": "Assign Cookies"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-ii",
+      "position": 2,
+      "titleInSheet": "Best Time to Buy and Sell Stock II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-lemonade-change",
+      "position": 3,
+      "titleInSheet": "Lemonade Change"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-maximum-units-on-a-truck",
+      "position": 4,
+      "titleInSheet": "Maximum Units on a Truck"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-can-place-flowers",
+      "position": 5,
+      "titleInSheet": "Can Place Flowers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-jump-game",
+      "position": 6,
+      "titleInSheet": "Jump Game"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-jump-game-ii",
+      "position": 7,
+      "titleInSheet": "Jump Game II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-gas-station",
+      "position": 8,
+      "titleInSheet": "Gas Station"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-hand-of-straights",
+      "position": 9,
+      "titleInSheet": "Hand of Straights"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-merge-triplets-to-form-target-triplet",
+      "position": 10,
+      "titleInSheet": "Merge Triplets to Form Target Triplet"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-partition-labels",
+      "position": 11,
+      "titleInSheet": "Partition Labels"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-valid-parenthesis-string",
+      "position": 12,
+      "titleInSheet": "Valid Parenthesis String"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-task-scheduler",
+      "position": 13,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-boats-to-save-people",
+      "position": 14,
+      "titleInSheet": "Boats to Save People"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-two-city-scheduling",
+      "position": 15,
+      "titleInSheet": "Two City Scheduling"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 16,
+      "titleInSheet": "Non-overlapping Intervals"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-minimum-number-of-arrows-to-burst-balloons",
+      "position": 17,
+      "titleInSheet": "Minimum Number of Arrows to Burst Balloons"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-minimum-deletions-to-make-character-frequencies-unique",
+      "position": 18,
+      "titleInSheet": "Minimum Deletions to Make Character Frequencies Unique"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-broken-calculator",
+      "position": 19,
+      "titleInSheet": "Broken Calculator"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-dota2-senate",
+      "position": 20,
+      "titleInSheet": "Dota2 Senate"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-candy",
+      "position": 21,
+      "titleInSheet": "Candy"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-patching-array",
+      "position": 22,
+      "titleInSheet": "Patching Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-23",
+      "problemId": "lc-course-schedule-iii",
+      "position": 23,
+      "titleInSheet": "Course Schedule III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-single-number",
+      "position": 1,
+      "titleInSheet": "Single Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-number-of-1-bits",
+      "position": 2,
+      "titleInSheet": "Number of 1 Bits"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-counting-bits",
+      "position": 3,
+      "titleInSheet": "Counting Bits"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-reverse-bits",
+      "position": 4,
+      "titleInSheet": "Reverse Bits"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-missing-number",
+      "position": 5,
+      "titleInSheet": "Missing Number"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-add-binary",
+      "position": 6,
+      "titleInSheet": "Add Binary"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-power-of-two",
+      "position": 7,
+      "titleInSheet": "Power of Two"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-hamming-distance",
+      "position": 8,
+      "titleInSheet": "Hamming Distance"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-single-number-ii",
+      "position": 9,
+      "titleInSheet": "Single Number II"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-single-number-iii",
+      "position": 10,
+      "titleInSheet": "Single Number III"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-sum-of-two-integers",
+      "position": 11,
+      "titleInSheet": "Sum of Two Integers"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-reverse-integer",
+      "position": 12,
+      "titleInSheet": "Reverse Integer"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-bitwise-and-of-numbers-range",
+      "position": 13,
+      "titleInSheet": "Bitwise AND of Numbers Range"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-subsets",
+      "position": 14,
+      "titleInSheet": "Subsets"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-maximum-xor-of-two-numbers-in-an-array",
+      "position": 15,
+      "titleInSheet": "Maximum XOR of Two Numbers in an Array"
+    },
+    {
+      "sheetId": "pattern-wise",
+      "sectionId": "pw-sec-24",
+      "problemId": "lc-maximum-xor-with-an-element-from-array",
+      "position": 16,
+      "titleInSheet": "Maximum XOR With an Element From Array"
+    }
+  ]
+}

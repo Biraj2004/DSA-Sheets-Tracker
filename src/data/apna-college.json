@@ -120,7 +120,7 @@
       "sectionId": "apna-sec-2",
       "problemId": "lc-valid-palindrome",
       "position": 1,
-      "titleInSheet": "Recursion \u2014 Check String Palindrome"
+      "titleInSheet": "Recursion — Check String Palindrome"
     },
     {
       "sheetId": "apna-college",
@@ -316,7 +316,7 @@
       "sectionId": "apna-sec-1",
       "problemId": "he-painters-partition",
       "position": 29,
-      "titleInSheet": "Painter\u2019s Partition"
+      "titleInSheet": "Painter’s Partition"
     },
     {
       "sheetId": "apna-college",
@@ -454,7 +454,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-4",
-      "problemId": "lc-merge-2-sorted-ll",
+      "problemId": "lc-merge-two-sorted-lists",
       "position": 49,
       "titleInSheet": "Merge 2 Sorted LL"
     },
@@ -468,7 +468,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-reverse-nodes-in-k-groups",
+      "problemId": "lc-reverse-nodes-in-k-group",
       "position": 51,
       "titleInSheet": "Reverse Nodes in K Groups"
     },
@@ -645,7 +645,7 @@
       "sectionId": "apna-sec-6",
       "problemId": "gfg-reverse-first-k-elements-of-queue",
       "position": 76,
-      "titleInSheet": "Reverse the first \u201cK\u201d elements of a queue"
+      "titleInSheet": "Reverse the first “K” elements of a queue"
     },
     {
       "sheetId": "apna-college",
@@ -664,7 +664,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-circular-tour-gas-station",
+      "problemId": "lc-gas-station",
       "position": 79,
       "titleInSheet": "Circular Tour / Gas Station"
     },
@@ -699,7 +699,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-13",
-      "problemId": "lc-simplified-fractions",
+      "problemId": "gfg-fractional-knapsack",
       "position": 84,
       "titleInSheet": "Fractional Knapsack"
     },
@@ -757,7 +757,7 @@
       "sectionId": "apna-sec-1",
       "problemId": "lc-smallest-range-covering-elements-from-k-lists",
       "position": 92,
-      "titleInSheet": "Smallest range in \u201cK\u201d Lists"
+      "titleInSheet": "Smallest range in “K” Lists"
     },
     {
       "sheetId": "apna-college",
@@ -1303,7 +1303,7 @@
       "sectionId": "apna-sec-1",
       "problemId": "lc-minimum-number-of-removals-to-make-mountain-array",
       "position": 170,
-      "titleInSheet": "Minimum removals from array to make max \u2013min <= K"
+      "titleInSheet": "Minimum removals from array to make max –min <= K"
     },
     {
       "sheetId": "apna-college",
