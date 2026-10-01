@@ -39,12 +39,12 @@
 
 ## Overview
 
-Preparing for technical software engineering interviews often involves juggling multiple famous problem sheets - such as **Striver A2Z**, **NeetCode 150/250**, **Love Babbar 450**, and **Apna College**. However, practicing across different websites leads to major friction:
+Preparing for technical software engineering interviews often involves juggling multiple famous problem sheets - such as **Striver A2Z**, **NeetCode 250**, **Namaste DSA**, **Fraz's Interview Sheet**, **Pattern-Wise**, **Love Babbar 450**, and **Apna College**. However, practicing across different websites leads to major friction:
 - **Repetitive Solving**: The same canonical problem (e.g., *Two Sum*, *Trapping Rain Water*, *0/1 Knapsack*) appears across multiple sheets under slightly different names.
 - **Scattered Progress**: Progress tracked on one sheet is not synchronized with others.
 - **Broken or Mismatched Links**: Practice links frequently point to deprecated URLs or lack alternatives when a paywall or premium restriction exists.
 
-**DSA Sheets Tracker** solves this by unifying all 5 sheets into a single, offline-first dashboard backed by a canonical registry of **736 unique problems**. Mark a problem solved once, and your progress is instantly updated across every sheet where that question appears.
+**DSA Sheets Tracker** solves this by unifying all 7 sheets into a single, offline-first dashboard backed by a canonical registry of **1,005 unique problems**. Mark a problem solved once, and your progress is instantly updated across every sheet where that question appears.
 
 ---
 
@@ -53,11 +53,13 @@ Preparing for technical software engineering interviews often involves juggling 
 | Sheet Name | Creator | Total Items | Description |
 | :--- | :--- | :---: | :--- |
 | **Striver A2Z DSA Sheet** | Raj Vikramaditya (takeUforward) | **460** | Comprehensive step-wise roadmap from basics and star patterns to advanced DP and graphs. |
-| **NeetCode 150** | Navdeep Singh (NeetCode) | **150** | The quintessential 150 pattern-based questions for tech interviews. |
-| **NeetCode 250** | Navdeep Singh (NeetCode) | **250** | Extended collection covering deep pattern variations and edge cases. |
+| **NeetCode 250** | Navdeep Singh (NeetCode) | **250** | Extended collection covering deep pattern variations and edge cases across 18 sections. |
+| **Namaste DSA** | Akshay Saini (NamasteDev) | **165** | Highly curated, topic-by-topic core interview sheet covering foundation through advanced algorithms. |
+| **Fraz's Interview Sheet** | Mohammad Fraz (LearnYard) | **327** | High-impact interview preparation sheet organized into 20 focused algorithmic modules. |
+| **Pattern-Wise** | Curated Algorithmic Patterns | **475** | Exactly 475 questions across 24 core patterns, strictly sorted **Easy -> Medium -> Hard**. |
 | **Love Babbar 450 DSA Sheet** | Love Babbar | **453** | Iconic 450 questions segregated across 15 core data structures and algorithms topics. |
 | **Apna College DSA Sheet** | Aman Dhattarwal & Shraddha Khapra | **184** | High-yield foundational sheet focused on core placement interview questions. |
-| **Master Catalog** | Unified Global Registry | **736** | Deduplicated global catalog arranged into 18 topics sorted **Easy -> Medium -> Hard**. |
+| **Master Catalog** | Unified Global Registry | **1,005** | Deduplicated global catalog arranged into 18 topics sorted **Easy -> Medium -> Hard**. |
 
 ---
 
@@ -109,12 +111,12 @@ The **All Problems** tab segregates the 736 canonical problems across 18 pedagog
 
 Each problem card features intelligent badge routing designed to prevent broken links or paywalled challenges:
 
-- **Primary Platform Badge (`LeetCode`, `GFG`, `Code360`)**:
-  - Clicking the problem title or primary badge opens the problem on its main coding platform.
-- **Secondary Platform Badge (`Also in TUF`, `Also in GFG`)**:
-  - When a primary problem link is on LeetCode or GFG, a secondary badge labeled **`Also in TUF`** provides direct access to takeUforward articles/problems or secondary platforms for the same challenge.
+- **Primary Platform Badge (`LeetCode`, `GFG`, `Code360`, etc.)**:
+  - Clicking the problem title or primary badge opens the problem directly on its preferred coding platform (prioritizing LeetCode first, then GeeksforGeeks).
+- **Secondary Platform Badge (`Also in TUF`)**:
+  - When a verified, direct editorial or problem article exists on takeUforward, a bright red **`Also in TUF`** badge is displayed. If no direct TUF tutorial exists, the badge is cleanly omitted to avoid broken search queries.
 - **Cross-Sheet Badge (`Also in: [Sheet Name]`)**:
-  - Displays all other curated sheets sharing this canonical problem.
+  - Displays all other curated sheets sharing this canonical problem for real-time progress synchronization.
 
 ---
 
@@ -208,6 +210,8 @@ Pull requests fixing mappings or links are warmly welcomed and swiftly merged.
   - The problems, editorial content, and curricular organization remain the intellectual property of their original creators:
     - **Striver (Raj Vikramaditya)** - [takeUforward](https://takeuforward.org/)
     - **NeetCode (Navdeep Singh)** - [NeetCode.io](https://neetcode.io/)
+    - **Akshay Saini** - [NamasteDev](https://namastedev.com/)
+    - **Mohammad Fraz** - [LearnYard](https://learnyard.com/)
     - **Love Babbar** - [CodeHelp](https://www.thecodehelp.in/)
     - **Apna College** - [Apna College](https://www.apnacollege.in/)
     - **Coding Platforms** - [LeetCode](https://leetcode.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/), [Coding Ninjas / Code360](https://www.naukri.com/code360), and [SPOJ](https://www.spoj.com/).
