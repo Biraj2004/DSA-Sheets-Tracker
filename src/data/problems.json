@@ -294,8 +294,8 @@
   {
     "id": "lc-group-the-people-given-the-group-size-they-belong-to",
     "title": "Bellman Ford Algorithm",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
     "difficulty": "medium",
     "topics": [
       "Arrays"
@@ -369,7 +369,7 @@
     "title": "Binary Search",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/binary-search",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Binary Search",
       "Binary Search [1D, 2D Arrays, Search Space]"
@@ -575,9 +575,9 @@
   },
   {
     "id": "lc-leaf-similar-trees",
-    "title": "Bottom View of a tree",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/leaf-similar-trees",
+    "title": "Bottom View of Binary Tree",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
     "difficulty": "medium",
     "topics": [
       "Binary Trees"
@@ -1000,7 +1000,7 @@
     "id": "lc-children-sum-property",
     "title": "Children Sum Property",
     "difficulty": "medium",
-    "platform": "leetcode",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/childrensumproperty_790723",
     "topics": [
       "Modify tree values going down, correct going up"
@@ -1051,15 +1051,15 @@
   },
   {
     "id": "lc-clone-ll-with-random-pointer",
-    "title": "Clone LL with Random Pointer",
-    "difficulty": "hard",
+    "title": "Copy List with Random Pointer",
+    "difficulty": "medium",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/clone-binary-tree-with-random-pointer",
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer",
     "topics": [
       "Insert copy nodes in-between original nodes"
     ],
     "category": "Linked Lists",
-    "isLeetCodePremium": true,
+    "isLeetCodePremium": false,
     "altUrl": "https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1",
     "tufUrl": "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/"
   },
@@ -1547,7 +1547,7 @@
     "title": "Count number of bits to be flipped to convert A to B",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Bit Manipulation [Concepts & Problems]"
     ],
@@ -1682,7 +1682,7 @@
   {
     "id": "lc-count-triplets-in-a-sorted-dll-whose-sum-is-equal-to-given-value-x",
     "title": "Count triplets in a sorted DLL whose sum is equal to given\n                  value “X”.",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target",
     "topics": [
@@ -1896,7 +1896,7 @@
     "title": "Deleting a node in LinkedList",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/delete-node-in-a-linked-list",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]"
     ],
@@ -2054,15 +2054,16 @@
   {
     "id": "lc-minimum-cost-to-reach-destination-in-time",
     "title": "Dijkstra's Algorithm",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time",
-    "difficulty": "hard",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+    "difficulty": "medium",
     "topics": [
       "Graphs"
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "altUrl": "https://leetcode.com/problems/network-delay-time"
   },
   {
     "id": "lc-disjoint-set-union-by-rank-path-compression",
@@ -2120,7 +2121,7 @@
     "title": "Edit Distance",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/edit-distance",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "2-D Dynamic Programming",
       "Dynamic Programming [Patterns and Problems]",
@@ -2135,7 +2136,7 @@
     "title": "Egg Dropping Problem",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/super-egg-drop",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Arrays"
     ],
@@ -2161,7 +2162,7 @@
   {
     "id": "lc-evaluate-boolean-expression-to-true",
     "title": "Evaluate Boolean Expression to True",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/evaluate-boolean-expression",
     "topics": [
@@ -2317,7 +2318,7 @@
     "title": "Find Critical and Pseudo Critical Edges in Minimum Spanning Tree",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Advanced Graphs"
     ],
@@ -2379,12 +2380,13 @@
     "id": "lc-find-highest-lowest-frequency-element",
     "title": "Find Highest/Lowest Frequency Element",
     "difficulty": "easy",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/second-largest-digit-in-a-string",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1",
     "topics": [
       "Track max/min frequency in hash map"
     ],
-    "category": "Basics & Patterns"
+    "category": "Basics & Patterns",
+    "tufUrl": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/"
   },
   {
     "id": "gfg-interleaved-strings",
@@ -2402,7 +2404,7 @@
   {
     "id": "lc-find-if-there-is-a-path-of-more-than-k-length-from-a-source",
     "title": "Find if there is a path of more than k length from a\n                  source",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path",
     "topics": [
@@ -2463,7 +2465,7 @@
   {
     "id": "lc-find-length-of-loop",
     "title": "Find Length of Loop",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/circular-array-loop",
     "topics": [
@@ -2613,7 +2615,7 @@
     "title": "Find Peak Element (2D Matrix)",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/find-a-peak-element-ii",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "Binary Search [1D, 2D Arrays, Search Space]"
     ],
@@ -2676,7 +2678,7 @@
     "title": "Find square root of a number in log n",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/sqrtx/",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Binary Search [1D, 2D Arrays, Search Space]"
     ],
@@ -2780,7 +2782,7 @@
   {
     "id": "lc-find-the-k-th-permutation-sequence-of-first-n-natural-numbers",
     "title": "Find the K-th Permutation Sequence of first N natural\n                  numbers",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/permutation-sequence",
     "topics": [
@@ -2844,7 +2846,7 @@
   {
     "id": "lc-find-the-minimum-xor-pair",
     "title": "Find the Minimum XOR Pair",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays",
     "topics": [
@@ -2854,10 +2856,10 @@
   },
   {
     "id": "lc-find-the-no-of-isalnds",
-    "title": "Find the no. of Isalnds",
+    "title": "Number of Islands",
     "difficulty": "medium",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/find-books-with-no-available-copies",
+    "url": "https://leetcode.com/problems/number-of-islands",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -2974,7 +2976,7 @@
     "title": "Flatten a Linked List",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "Linked Lists"
     ],
@@ -3070,7 +3072,7 @@
   {
     "id": "lc-frog-jump-with-k-distances-dp-4",
     "title": "Frog Jump with K Distances (DP-4)",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/frog-jump",
     "topics": [
@@ -3150,11 +3152,12 @@
     "title": "GCD / HCF",
     "difficulty": "easy",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/sorted-gcd-pair-queries",
+    "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array",
     "topics": [
       "Euclidean Algorithm: gcd(a,b) = gcd(b, a%b)"
     ],
-    "category": "Math & Number Theory"
+    "category": "Math & Number Theory",
+    "altUrl": "https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1"
   },
   {
     "id": "lc-generate-parentheses",
@@ -3281,7 +3284,7 @@
     "title": "Group Anagrams",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/group-anagrams",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Arrays & Hashing",
       "Strings"
@@ -3334,14 +3337,14 @@
     "id": "other-hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course",
     "title": "Hashing Theory",
     "platform": "tuf",
-    "url": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course",
+    "url": "https://www.geeksforgeeks.org/hashing-data-structure/",
     "difficulty": "easy",
     "topics": [
       "Learn the basics"
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "tufUrl": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course",
+    "tufUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
     "category": "Basics & Patterns"
   },
   {
@@ -3390,7 +3393,7 @@
     "title": "House Robber III",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/house-robber-iii",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "Trees"
     ],
@@ -3479,10 +3482,10 @@
   },
   {
     "id": "lc-implement-a-method-to-insert-an-element-at-its-bottom-without-using-any-other-data-structure",
-    "title": "Implement a method to insert an element at its bottom without\n                  using any other data structure.",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/build-an-array-with-stack-operations",
+    "title": "Insert an Element at the Bottom of a Stack",
+    "difficulty": "easy",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -3561,12 +3564,14 @@
     "id": "lc-implement-trie-ii-countprefix-countendswith",
     "title": "Implement Trie II (countPrefix & countEndsWith)",
     "difficulty": "medium",
-    "platform": "leetcode",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/implement-trie_631356",
     "topics": [
       "General"
     ],
-    "category": "Tries"
+    "category": "Tries",
+    "isLeetCodePremium": true,
+    "altUrl": "https://leetcode.com/problems/implement-trie-ii-prefix-tree/"
   },
   {
     "id": "lc-implement-trie-prefix-tree",
@@ -3643,7 +3648,7 @@
     "title": "Insert Greatest Common Divisors in Linked List",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Math & Geometry"
     ],
@@ -3762,10 +3767,10 @@
   },
   {
     "id": "lc-introduction-to-heaps",
-    "title": "Introduction to Heaps",
-    "difficulty": "easy",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-health-to-beat-game",
+    "title": "Implementation of Priority Queue using Binary Heap",
+    "difficulty": "medium",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/implementation-of-priority-queue-using-binary-heap/1",
     "topics": [
       "General"
     ],
@@ -3777,7 +3782,7 @@
   {
     "id": "lc-introduction-to-linked-list",
     "title": "Introduction to Linked List",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/linked-list-components",
     "topics": [
@@ -3790,7 +3795,7 @@
     "title": "Invert Binary Tree",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/invert-binary-tree",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Trees",
       "Binary Trees"
@@ -3949,7 +3954,7 @@
   {
     "id": "lc-kmp-algorithm-implement-strstr",
     "title": "KMP Algorithm / Implement strStr()",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string",
     "topics": [
@@ -3989,7 +3994,7 @@
     "title": "Kth Ancestor of node in a Binary tree",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/kth-ancestor-of-a-tree-node",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Binary Trees"
     ],
@@ -4126,7 +4131,7 @@
     "title": "Largest BST in BT",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/largest-bst-subtree",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "Binary Search Trees"
     ],
@@ -4179,7 +4184,7 @@
     "title": "Largest Rectangle In Histogram",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/largest-rectangle-in-histogram",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Stack",
       "Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
@@ -4343,7 +4348,7 @@
   {
     "id": "lc-longest-bitonic-subsequence",
     "title": "Longest Bitonic Subsequence",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/longest-ideal-subsequence",
     "topics": [
@@ -4439,7 +4444,7 @@
     "title": "Longest Increasing Path In a Matrix",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "2-D Dynamic Programming"
     ],
@@ -4619,7 +4624,7 @@
     "title": "Lowest Common Ancestor of a Binary Search Tree",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Trees",
       "Binary Search Trees [Concept and Problems]",
@@ -4663,7 +4668,7 @@
     "title": "Majority Element",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/majority-element",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Arrays & Hashing",
       "Solve Problems on Arrays [Easy -> Medium -> Hard]",
@@ -5012,7 +5017,7 @@
     "title": "Maximum Rectangle Area with all 1's|(DP-55)",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/maximal-rectangle",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Dynamic Programming [Patterns and Problems]"
     ],
@@ -5155,7 +5160,7 @@
     "title": "Maximum XOR With an Element From Array",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Tries"
     ],
@@ -5168,7 +5173,7 @@
     "title": "Median of Two Sorted Arrays",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Binary Search",
       "Binary Search [1D, 2D Arrays, Search Space]",
@@ -5295,7 +5300,7 @@
     "title": "Merge K Sorted Lists",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/merge-k-sorted-lists",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Linked List",
       "Heaps [Learning, Medium, Hard Problems]"
@@ -5309,7 +5314,7 @@
     "title": "Merge Sorted Array",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/merge-sorted-array",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "topics": [
       "Two Pointers",
       "Solve Problems on Arrays [Easy -> Medium -> Hard]",
@@ -5392,7 +5397,7 @@
     "title": "Min Cost Climbing Stairs",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/min-cost-climbing-stairs",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "1-D Dynamic Programming"
     ],
@@ -5455,10 +5460,10 @@
   },
   {
     "id": "lc-minimize-cash-flow-among-a-given-set-of-friends-who-have-borrowed-money-from-each-other",
-    "title": "Minimize Cash Flow among a given set of friends who have\n                  borrowed money from each other",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other",
+    "title": "Minimize Cash Flow among a given set of friends",
+    "difficulty": "hard",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/minimize-cash-flow-among-a-given-set-of-friends-who-have-borrowed-money-from-each-other/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -5469,7 +5474,7 @@
     "title": "Minimize Max Distance to Gas Station",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/minimize-max-distance-to-gas-station",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Binary Search [1D, 2D Arrays, Search Space]"
     ],
@@ -5588,10 +5593,10 @@
   },
   {
     "id": "lc-minimum-edges-to-reverse-o-make-path-from-source-to-destination",
-    "title": "Minimum edges to reverse o make path from source to\n                  destination",
-    "difficulty": "easy",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "title": "Minimum edges to reverse to make path from source to destination",
+    "difficulty": "medium",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-edges/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -5766,7 +5771,7 @@
     "title": "Minimum removals from array to make max –min <= K",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Arrays"
     ],
@@ -5816,10 +5821,10 @@
   },
   {
     "id": "lc-minimum-sum-of-squares-of-character-counts-in-a-given-string-after-removing-k-characters",
-    "title": "Minimum sum of squares of character counts in a given string\n                  after removing “k” characters.",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string",
+    "title": "Game with String (Minimum sum of squares)",
+    "difficulty": "easy",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/game-with-string4105/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -5851,14 +5856,15 @@
   },
   {
     "id": "lc-minimum-time-to-burn-tree",
-    "title": "Minimum Time to Burn Tree",
-    "difficulty": "hard",
+    "title": "Amount of Time for Binary Tree to Be Infected (Burn Tree)",
+    "difficulty": "medium",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree",
+    "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected",
     "topics": [
       "Parent Pointers + Multi-source BFS"
     ],
-    "category": "Binary Trees"
+    "category": "Binary Trees",
+    "altUrl": "https://www.geeksforgeeks.org/problems/burning-tree/1"
   },
   {
     "id": "lc-minimum-window-subsequence",
@@ -5895,7 +5901,7 @@
     "title": "Missing Number",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/missing-number",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "topics": [
       "Bit Manipulation",
       "Solve Problems on Arrays [Easy -> Medium -> Hard]"
@@ -6069,7 +6075,7 @@
     "title": "Next Greater Element",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/next-greater-element-i",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
       "Arrays"
@@ -6125,12 +6131,13 @@
     "id": "lc-ninja-s-training",
     "title": "Ninja's Training",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition",
+    "platform": "codingninjas",
+    "url": "https://www.naukri.com/code360/problems/ninja-s-training_3621003",
     "topics": [
       "2D DP dp[day][last_task]"
     ],
-    "category": "Dynamic Programming"
+    "category": "Dynamic Programming",
+    "tufUrl": "https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/"
   },
   {
     "id": "lc-non-overlapping-intervals",
@@ -6218,7 +6225,7 @@
     "id": "lc-number-of-distinct-substrings",
     "title": "Number of Distinct Substrings",
     "difficulty": "hard",
-    "platform": "leetcode",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/count-distinct-substrings_985292",
     "topics": [
       "General"
@@ -6566,7 +6573,7 @@
     "title": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Dynamic Programming [Patterns and Problems]",
       "Arrays"
@@ -6714,7 +6721,7 @@
     "id": "gfg-pattern-17-alpha-hill",
     "title": "Pattern 17: Alpha Hill",
     "difficulty": "easy",
-    "platform": "gfg",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/alpha-hill_6581921",
     "topics": [
       "Mirrored letter pyramid"
@@ -6726,7 +6733,7 @@
     "id": "gfg-pattern-18-alpha-triangle",
     "title": "Pattern 18: Alpha Triangle",
     "difficulty": "easy",
-    "platform": "gfg",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/alpha-triangle_6581429",
     "topics": [
       "Letters from Z going left per row"
@@ -6738,7 +6745,7 @@
     "id": "gfg-pattern-19-symmetric-void",
     "title": "Pattern 19: Symmetric Void",
     "difficulty": "easy",
-    "platform": "gfg",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/symmetric-void_6581919",
     "topics": [
       "Stars with space in the middle"
@@ -6774,7 +6781,7 @@
     "id": "gfg-pattern-22-full-star-diamond",
     "title": "Pattern 22: Full Star Diamond",
     "difficulty": "easy",
-    "platform": "gfg",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/ninja-and-the-star-pattern-i_6581920",
     "topics": [
       "Full diamond shape of stars"
@@ -7016,7 +7023,7 @@
     "title": "Postorder Traversal of a tree both using recursion and Iteration",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "topics": [
       "Binary Trees"
     ],
@@ -7099,10 +7106,10 @@
   },
   {
     "id": "lc-print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix",
-    "title": "Print all possible paths from top left to bottom right of a\n                  mXn matrix",
+    "title": "Print all possible paths from top left to bottom right of a mXn matrix",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/find-bottom-left-tree-value",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -7188,10 +7195,10 @@
   },
   {
     "id": "lc-program-for-least-recently-used-lru-page-replacement-algorithm",
-    "title": "Program for Least Recently Used (LRU) Page Replacement\n                  algorithm",
+    "title": "Program for Least Recently Used (LRU) Page Replacement algorithm",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/design-most-recently-used-queue",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/page-faults-in-lru5603/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -7297,7 +7304,7 @@
     "title": "Reconstruct Itinerary",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/reconstruct-itinerary",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Advanced Graphs"
     ],
@@ -7310,7 +7317,7 @@
     "title": "Recover BST | Correct BST with two nodes swapped",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/recover-binary-search-tree",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topics": [
       "Binary Search Trees [Concept and Problems]",
       "Binary Search Trees"
@@ -7479,7 +7486,7 @@
     "title": "Remove Invalid Parentheses",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/remove-invalid-parentheses",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "BackTracking"
     ],
@@ -7636,7 +7643,7 @@
     "title": "Reverse Integer",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/reverse-integer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Bit Manipulation",
       "Learn the basics"
@@ -7677,7 +7684,7 @@
     "title": "Reverse Linked List II",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/reverse-linked-list-ii",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topics": [
       "Linked List",
       "Linked Lists"
@@ -7730,9 +7737,9 @@
   },
   {
     "id": "lc-problem",
-    "title": "Robin Karp",
-    "platform": "leetcode",
-    "url": "https://leetcode.com",
+    "title": "Rabin-Karp Algorithm",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/rabin-karp-algorithm-for-pattern-searching/1",
     "difficulty": "hard",
     "topics": [
       "Arrays"
@@ -8084,7 +8091,7 @@
     "title": "Shortest Common Supersequence | (DP - 31)",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/shortest-common-supersequence",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Dynamic Programming [Patterns and Problems]"
     ],
@@ -8213,7 +8220,7 @@
     "title": "Sliding Window Maximum",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/sliding-window-maximum",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Sliding Window",
       "Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
@@ -8228,7 +8235,7 @@
     "title": "Smallest range in “K” Lists",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Arrays"
     ],
@@ -8553,10 +8560,10 @@
   },
   {
     "id": "lc-count-connected-components-in-lcm-graph",
-    "title": "Strongly Connected Components (Kosaraju's)",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/count-connected-components-in-lcm-graph",
-    "difficulty": "hard",
+    "title": "Strongly Connected Components (Kosaraju's Algo)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+    "difficulty": "medium",
     "topics": [
       "Graphs"
     ],
@@ -8705,9 +8712,9 @@
   {
     "id": "lc-sum-of-elements-between-k1-k2-smallest",
     "title": "Sum of Elements Between K1 & K2 Smallest",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/intervals-between-identical-elements",
+    "difficulty": "easy",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/sum-of-elements-between-k1th-and-k2th-smallest-elements3133/1",
     "topics": [
       "General"
     ],
@@ -8729,10 +8736,10 @@
   },
   {
     "id": "lc-sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k",
-    "title": "Sum of minimum and maximum elements of all subarrays of size\n                  “k”.",
+    "title": "Sum of minimum and maximum elements of all subarrays of size k",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k/1",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -8956,14 +8963,14 @@
     "id": "other-time-and-space-complexity-strivers-a2z-dsa-course",
     "title": "Time Complexity [Learn Basics, and then analyse in next Steps]",
     "platform": "tuf",
-    "url": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course",
+    "url": "https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/",
     "difficulty": "easy",
     "topics": [
       "Learn the basics"
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "tufUrl": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course",
+    "tufUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
     "category": "Basics & Patterns"
   },
   {
@@ -9074,10 +9081,10 @@
   },
   {
     "id": "lc-triangle-min-path-sum",
-    "title": "Triangle (Min Path Sum)",
+    "title": "Triangle",
     "difficulty": "medium",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/path-sum",
+    "url": "https://leetcode.com/problems/triangle",
     "topics": [
       "Bottom-Up 2D DP"
     ],
@@ -9309,7 +9316,7 @@
     "title": "Verifying An Alien Dictionary",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/verifying-an-alien-dictionary",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Graphs"
     ],
@@ -9335,7 +9342,7 @@
     "title": "Vertical Order Traversal of Binary Tree",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topics": [
       "Binary Trees [Traversals, Medium and Hard Problems]"
     ],
@@ -9427,9 +9434,9 @@
   {
     "id": "lc-why-quicksort-is-preferred-for-arrays-and-merge-sort-for-linkedlists",
     "title": "Why Quicksort is preferred for Arrays and Merge Sort for LinkedLists ?",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/split-and-merge-array-transformation",
+    "difficulty": "easy",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/",
     "topics": [
       "Love Babbar DSA Sheet."
     ],
@@ -9812,7 +9819,7 @@
     "title": "Find if Path Exists in Graph",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Graphs"
     ],
@@ -9944,7 +9951,7 @@
     "title": "Two Sum Less Than K",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/two-sum-less-than-k/",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Arrays & Strings"
     ],
@@ -10454,7 +10461,7 @@
     "id": "lc-find-kth-smallest-pair-distance",
     "title": "Find K-th Smallest Pair Distance",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/find-kth-smallest-pair-distance/",
+    "url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance",
     "difficulty": "hard",
     "topics": [
       "Arrays & Strings"
@@ -11123,14 +11130,16 @@
     "id": "lc-earliest-possible-day-of-full-bloom",
     "title": "The Earliest Moment When Everyone Become Friends",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/earliest-possible-day-of-full-bloom/",
+    "url": "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
     "difficulty": "medium",
     "topics": [
       "Graphs"
     ],
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
-    "category": "Graphs"
+    "category": "Graphs",
+    "altUrl": "https://www.lintcode.com/problem/1414/",
+    "isLeetCodePremium": true
   },
   {
     "id": "lc-redundant-connection-ii",
@@ -11848,7 +11857,7 @@
     "title": "Relative Sort Array",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/relative-sort-array",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "Sorting",
       "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
@@ -12166,7 +12175,7 @@
   {
     "id": "gfg-nqueueusingarray",
     "title": "N-Queue using Array",
-    "platform": "gfg",
+    "platform": "codingninjas",
     "url": "https://www.naukri.com/code360/problems/n-queue-using-array_1170053?count=25&page=1&search=&sort_entity=order&sort_order=ASC",
     "difficulty": "hard",
     "topics": [

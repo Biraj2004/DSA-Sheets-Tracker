@@ -35,16 +35,16 @@ DSA-Sheets-Tracker/
 │   ├── hooks/                ← useProgress (CRUD), useKeyboard (shortcuts)
 │   │
 │   ├── data/
-│   │   ├── sheets/
-│   │   │   ├── index.ts      ← allProblems[], getSheetData(), getProblem()
-│   │   │   ├── problems.ts   ← Canonical Problem registry (1,003 entries)
-│   │   │   ├── striver.ts    ← Striver A2Z sheet mapping
-│   │   │   ├── neetcode.ts   ← NeetCode 250 sheet mapping
-│   │   │   ├── lovebabbar.ts ← Love Babbar 450 sheet mapping
-│   │   │   ├── fraz.ts       ← Fraz interview sheet mapping
-│   │   │   ├── namaste.ts    ← Namaste DSA sheet mapping
-│   │   │   ├── apnacollege.ts← Apna College sheet mapping
-│   │   │   └── patternwise.ts← Pattern-Wise sheet mapping
+│   │   ├── problems.json     ← Canonical Problem registry (1,003 verified entries)
+│   │   ├── sheets.ts         ← allProblems[], allSheets, getSheetData(), getProblem()
+│   │   ├── sheets.test.ts    ← Vitest integrity test suite (0 dangling IDs, 7 sheets)
+│   │   ├── striver-a2z.json  ← Striver A2Z sheet mapping (460 items)
+│   │   ├── neetcode-250.json ← NeetCode 250 sheet mapping (250 items)
+│   │   ├── love-babbar-450.json ← Love Babbar 450 sheet mapping (453 items)
+│   │   ├── fraz-interview.json  ← Fraz interview sheet mapping (327 items)
+│   │   ├── namaste-dsa.json  ← Namaste DSA sheet mapping (165 items)
+│   │   ├── apna-college.json ← Apna College sheet mapping (184 items)
+│   │   ├── pattern-wise.json ← Pattern-Wise sheet mapping (475 items)
 │   │   └── synergy.ts        ← Cross-sheet overlap computation (getSheetSynergy)
 │   │
 │   ├── components/
@@ -119,12 +119,18 @@ type Progress = {
 ## 4. Data Layer Rules
 
 ### Adding / editing a problem
-Edit `src/data/sheets/problems.ts`. Each entry **must** have a globally unique `id`.
+Edit `src/data/problems.json`. Each entry **must** have a globally unique `id`.
 
 ### Adding a problem to a sheet
-Edit the appropriate sheet file (e.g. `striver.ts`). Each sheet entry is:
-```ts
-{ problemId: string; sectionId: string; titleInSheet?: string; }
+Edit the appropriate sheet JSON file (e.g. `src/data/striver-a2z.json`). Each sheet item entry is:
+```json
+{
+  "sheetId": "striver-a2z",
+  "sectionId": "striver-step-1-sub-4",
+  "problemId": "lc-reverse-integer",
+  "position": 34,
+  "titleInSheet": "Reverse a Number"
+}
 ```
 `titleInSheet` is only needed when the sheet uses a different name than the canonical `Problem.title`.
 
@@ -133,8 +139,13 @@ If `problem.isLeetCodePremium === true`:
 - `problem.url` should be the **free alternative** (primary)
 - `problem.altUrl` should be the **original LeetCode** URL (secondary badge)
 
+### Data integrity & Difficulty standards
+- All LeetCode problem difficulties and URLs are verified against official LeetCode GraphQL/REST API.
+- Do not guess or fuzzy-map problem URLs. Never map non-LeetCode problems to random LeetCode contest/SQL questions.
+- Run `npx vitest run` to verify zero dangling IDs, zero broken section links, and sheet count integrity.
+
 ### Cross-sheet synergy
-`src/data/synergy.ts` exports `getSheetSynergy(sheetId)` which returns overlap counts. It reads from the same `sheets/` data — no separate maintenance needed.
+`src/data/synergy.ts` exports `getSheetSynergy(sheetId)` which returns overlap counts. It reads from the same sheet data — no separate maintenance needed.
 
 ---
 
@@ -241,17 +252,17 @@ Sheet selection is handled via URL query param `?sheet=<sheetId>` read/written i
 ## 9. Common Tasks
 
 ### Add a new sheet
-1. Create `src/data/sheets/mysheet.ts` with `SheetData` shape.
-2. Export it from `src/data/sheets/index.ts`.
+1. Create `src/data/<mysheet>.json` with `SheetData` JSON shape.
+2. Import and export it from `src/data/sheets.ts`.
 3. Add its `id` to the `SHEET_IDS` array in `Header.tsx` tabs config.
 4. Add its synergy entry in `src/data/synergy.ts`.
 
 ### Add a new problem to the canonical registry
-1. Add to `problems.ts` with a unique `id`.
-2. Reference the `id` in the relevant sheet file(s).
+1. Add to `src/data/problems.json` with a unique `id`.
+2. Reference the `id` in the relevant sheet JSON file(s).
 
 ### Fix a broken link
-1. Find the problem by `id` in `problems.ts`.
+1. Find the problem by `id` in `src/data/problems.json`.
 2. Update `url` (primary) and/or `altUrl` (secondary).
 3. If the problem became LeetCode-Premium, set `isLeetCodePremium: true` and swap `url` ↔ `altUrl`.
 
@@ -269,6 +280,7 @@ Sheet selection is handled via URL query param `?sheet=<sheetId>` read/written i
 npm run dev          # Vite dev server (HMR)
 npm run build        # Production build → dist/
 npm run deploy       # Cloudflare Pages deploy via Wrangler
+npx vitest run       # Data integrity test suite (zero dangling IDs)
 npx tsc --noEmit     # TypeScript check (run before any commit)
 npx oxlint .         # Lint check (.oxlintrc.json)
 ```
