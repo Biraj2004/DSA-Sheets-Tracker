@@ -39,21 +39,10 @@
     "category": "Strings"
   },
   {
-    "id": "lc-3-sum",
-    "title": "3 Sum",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/3sum-closest",
-    "topics": [
-      "Sort + Two Pointers"
-    ],
-    "category": "Two Pointers & Sliding Window"
-  },
-  {
     "id": "lc-3sum",
     "title": "3Sum",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/3sum",
+    "url": "https://leetcode.com/problems/3sum/",
     "difficulty": "medium",
     "topics": [
       "Two Pointers",
@@ -65,21 +54,10 @@
     "category": "Two Pointers & Sliding Window"
   },
   {
-    "id": "lc-4-sum",
-    "title": "4 Sum",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/4sum-ii",
-    "topics": [
-      "Sort + Loop + Loop + Two Pointers"
-    ],
-    "category": "Two Pointers & Sliding Window"
-  },
-  {
     "id": "lc-4sum",
     "title": "4Sum",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/4sum",
+    "url": "https://leetcode.com/problems/4sum/",
     "difficulty": "medium",
     "topics": [
       "Two Pointers",
@@ -243,10 +221,11 @@
     "id": "lc-articulation-points",
     "title": "Articulation Points",
     "difficulty": "hard",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/reaching-points",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/articulation-point-1/1",
     "topics": [
-      "low[it] >= tin[node] logic"
+      "Graphs",
+      "DFS"
     ],
     "category": "Graphs"
   },
@@ -1030,17 +1009,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Greedy Algorithms"
-  },
-  {
-    "id": "lc-circular-tour-gas-station",
-    "title": "Circular Tour / Gas Station",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/gas-station/description",
-    "topics": [
-      "Apna College Placement Series"
-    ],
     "category": "Greedy Algorithms"
   },
   {
@@ -2000,28 +1968,6 @@
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Graphs"
-  },
-  {
-    "id": "lc-detect-cycle-directed-dfs",
-    "title": "Detect Cycle \u2014 Directed (DFS)",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/detect-capital",
-    "topics": [
-      "pathVisited array"
-    ],
-    "category": "Graphs"
-  },
-  {
-    "id": "lc-detect-cycle-undirected-bfs",
-    "title": "Detect Cycle \u2014 Undirected (BFS)",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph",
-    "topics": [
-      "if (adjNode != parent)"
-    ],
     "category": "Graphs"
   },
   {
@@ -3061,17 +3007,6 @@
     "category": "Graphs"
   },
   {
-    "id": "lc-floyd-warshall-algorithm",
-    "title": "Floyd Warshall Algorithm",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/warehouse-manager",
-    "topics": [
-      "Multi-source shortest path matrix[i][j]"
-    ],
-    "category": "2D Arrays & Matrix"
-  },
-  {
     "id": "other-cpp-for-loops",
     "title": "For loops",
     "platform": "leetcode",
@@ -3084,19 +3019,6 @@
     "checkedAt": "2026-09-30T19:40:00Z",
     "tufUrl": "https://takeuforward.org/plus/dsa/problems/cpp",
     "category": "Basics & Patterns"
-  },
-  {
-    "id": "lc-simplified-fractions",
-    "title": "Fractional Knapsack",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/simplified-fractions",
-    "difficulty": "medium",
-    "topics": [
-      "Dynamic Programming"
-    ],
-    "check": "ok",
-    "checkedAt": "2026-09-30T19:40:00Z",
-    "category": "Dynamic Programming"
   },
   {
     "id": "other-fractional-knapsack",
@@ -5299,17 +5221,6 @@
     "category": "Binary Search Trees"
   },
   {
-    "id": "lc-merge-2-sorted-ll",
-    "title": "Merge 2 Sorted LL",
-    "difficulty": "easy",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/merge-two-sorted-lists/description",
-    "topics": [
-      "Apna College Placement Series"
-    ],
-    "category": "Searching & Sorting"
-  },
-  {
     "id": "lc-merge-intervals",
     "title": "Merge Intervals",
     "platform": "leetcode",
@@ -5797,12 +5708,13 @@
     "id": "lc-minimum-platforms",
     "title": "Minimum Platforms",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/minimum-factorization",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
     "topics": [
-      "Sort arrivals and departures separately"
+      "Greedy",
+      "Arrays"
     ],
-    "category": "Greedy Algorithms"
+    "category": "Greedy"
   },
   {
     "id": "lc-minimum-number-of-removals-to-make-mountain-array",
@@ -7310,24 +7222,14 @@
     "category": "Recursion & Backtracking"
   },
   {
-    "id": "lc-rearrange-the-array-in-alternating-positive-and-negative-items-with-o-1-extra-space",
-    "title": "Rearrange the array in alternating positive and negative\n                  items with O(1) extra space",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words",
-    "topics": [
-      "Love Babbar DSA Sheet."
-    ],
-    "category": "Arrays & Vectors"
-  },
-  {
     "id": "lc-rearrange-array-elements-by-sign",
-    "title": "Rearrange the array in alternating positive and negative items",
+    "title": "Rearrange Array Elements by Sign",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign",
+    "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
     "difficulty": "medium",
     "topics": [
-      "Solve Problems on Arrays [Easy -> Medium -> Hard]"
+      "Arrays",
+      "Two Pointers"
     ],
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
@@ -7743,17 +7645,6 @@
     "category": "Linked Lists"
   },
   {
-    "id": "lc-reverse-nodes-in-k-groups",
-    "title": "Reverse Nodes in K Groups",
-    "difficulty": "hard",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/description",
-    "topics": [
-      "Apna College Placement Series"
-    ],
-    "category": "Arrays & Vectors"
-  },
-  {
     "id": "lc-reverse-pairs",
     "title": "Reverse Pairs",
     "platform": "leetcode",
@@ -7808,10 +7699,10 @@
     "id": "lc-rod-cutting-problem",
     "title": "Rod Cutting Problem",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/cutting-ribbons",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
     "topics": [
-      "1D Unbounded Knapsack"
+      "Dynamic Programming"
     ],
     "category": "Dynamic Programming"
   },
@@ -9045,17 +8936,6 @@
     "category": "Heaps & Priority Queues"
   },
   {
-    "id": "lc-topological-sort-dfs-stack",
-    "title": "Topological Sort (DFS Stack)",
-    "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/max-stack",
-    "topics": [
-      "DFS Stack OR Kahn's Algo (Indegree)"
-    ],
-    "category": "Graphs"
-  },
-  {
     "id": "gfg-total-number-spanning-trees-graph",
     "title": "Total no. of Spanning tree in a graph",
     "platform": "gfg",
@@ -9669,5 +9549,3791 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Binary Trees"
+  },
+  {
+    "id": "lc-design-linked-list",
+    "title": "Design Linked List",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/design-linked-list/",
+    "difficulty": "medium",
+    "topics": [
+      "Linked List"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Linked List",
+    "altUrl": "https://namastedev.com/blog/implement-a-singly-linked-list-code-in-js-c-c-java-python-c"
+  },
+  {
+    "id": "lc-remove-linked-list-elements",
+    "title": "Remove Linked List Elements",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-linked-list-elements/",
+    "difficulty": "easy",
+    "topics": [
+      "Linked List"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Linked List",
+    "altUrl": "https://namastedev.com/blog/remove-linked-list-elements"
+  },
+  {
+    "id": "lc-remove-duplicates-from-sorted-list",
+    "title": "Remove Duplicates from Sorted List",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+    "difficulty": "easy",
+    "topics": [
+      "Linked List"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Linked List",
+    "altUrl": "https://namastedev.com/blog/remove-duplicates-from-sorted-list"
+  },
+  {
+    "id": "lc-swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "difficulty": "medium",
+    "topics": [
+      "Linked List"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Linked List",
+    "altUrl": "https://namastedev.com/blog/swap-nodes-in-pairs-iterative-approach"
+  },
+  {
+    "id": "lc-length-of-last-word",
+    "title": "Length of Last Word",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/length-of-last-word/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/find-the-length-of-last-word-using-two-loops"
+  },
+  {
+    "id": "lc-find-words-containing-character",
+    "title": "Find Words Containing Character",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-words-containing-character/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/find-words-containing-character/"
+  },
+  {
+    "id": "lc-jewels-and-stones",
+    "title": "Jewels and Stones",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/jewels-and-stones/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/jewels-and-stones-using-two-nested-loops"
+  },
+  {
+    "id": "lc-find-most-frequent-vowel-and-consonant",
+    "title": "Find Most Frequent Vowel and Consonant",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/find-most-frequent-vowel-and-consonant"
+  },
+  {
+    "id": "lc-split-a-string-in-balanced-strings",
+    "title": "Split a String in Balanced Strings",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/split-a-string-in-balanced-strings/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/split-a-string-in-balanced-strings"
+  },
+  {
+    "id": "lc-reverse-string-ii",
+    "title": "Reverse String II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reverse-string-ii/",
+    "difficulty": "easy",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/blog/reverse-string-ii"
+  },
+  {
+    "id": "lc-repeated-string-match",
+    "title": "Repeated String Match",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/repeated-string-match/",
+    "difficulty": "medium",
+    "topics": [
+      "Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Strings",
+    "altUrl": "https://namastedev.com/learn/namaste-dsa/coming-soon"
+  },
+  {
+    "id": "lc-first-bad-version",
+    "title": "First Bad Version",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/first-bad-version/",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Search Algorithm"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Binary Search Algorithm",
+    "altUrl": "https://namastedev.com/blog/first-bad-version"
+  },
+  {
+    "id": "lc-is-subsequence",
+    "title": "Is Subsequence",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/is-subsequence/",
+    "difficulty": "easy",
+    "topics": [
+      "Two Pointers & Sliding Window"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.796Z",
+    "category": "Two Pointers & Sliding Window",
+    "altUrl": "https://namastedev.com/blog/is-subsequence"
+  },
+  {
+    "id": "lc-two-city-scheduling",
+    "title": "Two City Scheduling",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/two-city-scheduling/",
+    "difficulty": "medium",
+    "topics": [
+      "Greedy Algorithm"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.797Z",
+    "category": "Greedy Algorithm",
+    "altUrl": "https://namastedev.com/blog/two-city-scheduling"
+  },
+  {
+    "id": "lc-find-if-path-exists-in-graph",
+    "title": "Find if Path Exists in Graph",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.798Z",
+    "category": "Graphs",
+    "altUrl": "https://namastedev.com/blog/depth-first-search-dfs/"
+  },
+  {
+    "id": "lc-all-paths-from-source-to-target",
+    "title": "All Paths From Source to Target",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/all-paths-from-source-to-target/description/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:04:35.798Z",
+    "category": "Graphs",
+    "altUrl": "https://namastedev.com/blog/allpathsfromsourcetotarget/"
+  },
+  {
+    "id": "lc-squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.465Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-backspace-string-compare",
+    "title": "Backspace String Compare",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/backspace-string-compare/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-sort-array-by-parity",
+    "title": "Sort Array By Parity",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sort-array-by-parity/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-intersection-of-two-arrays-ii",
+    "title": "Intersection of Two Arrays II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-reverse-vowels-of-a-string",
+    "title": "Reverse Vowels of a String",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reverse-vowels-of-a-string/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-interval-list-intersections",
+    "title": "Interval List Intersections",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/interval-list-intersections/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-minimize-maximum-pair-sum-in-array",
+    "title": "Minimize Maximum Pair Sum in Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-array-with-elements-not-equal-to-average-of-neighbors",
+    "title": "Array With Elements Not Equal to Average of Neighbors",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-two-sum-less-than-k",
+    "title": "Two Sum Less Than K",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/two-sum-less-than-k/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-3sum-with-multiplicity",
+    "title": "3Sum With Multiplicity",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/3sum-with-multiplicity/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-shortest-subarray-with-sum-at-least-k",
+    "title": "Shortest Subarray with Sum at Least K",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-maximum-average-subarray-i",
+    "title": "Maximum Average Subarray I",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-minimum-difference-between-highest-and-lowest-of-k-scores",
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-defuse-the-bomb",
+    "title": "Defuse the Bomb",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/defuse-the-bomb/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-all-anagrams-in-a-string",
+    "title": "Find All Anagrams in a String",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-subarray-product-less-than-k",
+    "title": "Subarray Product Less Than K",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/subarray-product-less-than-k/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-count-complete-subarrays-in-an-array",
+    "title": "Count Complete Subarrays in an Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-frequency-of-the-most-frequent-element",
+    "title": "Frequency of the Most Frequent Element",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-range-sum-query-immutable",
+    "title": "Range Sum Query - Immutable",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-pivot-index",
+    "title": "Find Pivot Index",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-pivot-index/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-running-sum-of-1d-array",
+    "title": "Running Sum of 1d Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/running-sum-of-1d-array/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-left-and-right-sum-differences",
+    "title": "Left and Right Sum Differences",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/left-and-right-sum-differences/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-the-highest-altitude",
+    "title": "Find the Highest Altitude",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-the-highest-altitude/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-continuous-subarray-sum",
+    "title": "Continuous Subarray Sum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/continuous-subarray-sum/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-contiguous-array",
+    "title": "Contiguous Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/contiguous-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-corporate-flight-bookings",
+    "title": "Corporate Flight Bookings",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/corporate-flight-bookings/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-matrix-block-sum",
+    "title": "Matrix Block Sum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/matrix-block-sum/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-count-of-smaller-numbers-after-self",
+    "title": "Count of Smaller Numbers After Self",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-delete-the-middle-node-of-a-linked-list",
+    "title": "Delete the Middle Node of a Linked List",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-partition-list",
+    "title": "Partition List",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/partition-list/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-maximum-twin-sum-of-a-linked-list",
+    "title": "Maximum Twin Sum of a Linked List",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-summary-ranges",
+    "title": "Summary Ranges",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/summary-ranges/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-teemo-attacking",
+    "title": "Teemo Attacking",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/teemo-attacking/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-merge-two-2d-arrays-by-summing-values",
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-determine-if-two-events-have-conflict",
+    "title": "Determine if Two Events Have Conflict",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-my-calendar-i",
+    "title": "My Calendar I",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/my-calendar-i/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-video-stitching",
+    "title": "Video Stitching",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/video-stitching/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-remove-covered-intervals",
+    "title": "Remove Covered Intervals",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-covered-intervals/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-employee-free-time",
+    "title": "Employee Free Time",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/employee-free-time/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-range-module",
+    "title": "Range Module",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/range-module/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-all-numbers-disappeared-in-an-array",
+    "title": "Find All Numbers Disappeared in an Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-set-mismatch",
+    "title": "Set Mismatch",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/set-mismatch/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-all-duplicates-in-an-array",
+    "title": "Find All Duplicates in an Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-my-calendar-ii",
+    "title": "My Calendar II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/my-calendar-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-h-index",
+    "title": "H-Index",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/h-index/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-all-lonely-numbers-in-the-array",
+    "title": "Find All Lonely Numbers in the Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-couples-holding-hands",
+    "title": "Couples Holding Hands",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/couples-holding-hands/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-kth-smallest-pair-distance",
+    "title": "Find K-th Smallest Pair Distance",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-kth-smallest-pair-distance/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-split-array-with-same-average",
+    "title": "Split Array With Same Average",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/split-array-with-same-average/",
+    "difficulty": "hard",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.466Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-ransom-note",
+    "title": "Ransom Note",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/ransom-note/",
+    "difficulty": "easy",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-word-pattern",
+    "title": "Word Pattern",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/word-pattern/",
+    "difficulty": "easy",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-longest-palindrome",
+    "title": "Longest Palindrome",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/longest-palindrome/",
+    "difficulty": "easy",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "medium",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-brick-wall",
+    "title": "Brick Wall",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/brick-wall/",
+    "difficulty": "medium",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-repeated-dna-sequences",
+    "title": "Repeated DNA Sequences",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/repeated-dna-sequences/",
+    "difficulty": "medium",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-custom-sort-string",
+    "title": "Custom Sort String",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/custom-sort-string/",
+    "difficulty": "medium",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-max-points-on-a-line",
+    "title": "Max Points on a Line",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/max-points-on-a-line/",
+    "difficulty": "hard",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-all-oone-data-structure",
+    "title": "All O`one Data Structure",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/all-oone-data-structure/",
+    "difficulty": "hard",
+    "topics": [
+      "Searching"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Searching"
+  },
+  {
+    "id": "lc-make-the-string-great",
+    "title": "Make The String Great",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/make-the-string-great/",
+    "difficulty": "easy",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-basic-calculator",
+    "title": "Basic Calculator",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/basic-calculator/",
+    "difficulty": "hard",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-final-prices-with-a-special-discount-in-a-shop",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+    "difficulty": "easy",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-remove-duplicate-letters",
+    "title": "Remove Duplicate Letters",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-duplicate-letters/",
+    "difficulty": "medium",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-steps-to-make-array-non-decreasing",
+    "title": "Steps to Make Array Non-decreasing",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/steps-to-make-array-non-decreasing/",
+    "difficulty": "medium",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "lc-design-browser-history",
+    "title": "Design Browser History",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/design-browser-history/",
+    "difficulty": "medium",
+    "topics": [
+      "Linked Lists"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Linked Lists"
+  },
+  {
+    "id": "lc-minimum-depth-of-binary-tree",
+    "title": "Minimum Depth of Binary Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "difficulty": "easy",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-path-sum-iii",
+    "title": "Path Sum III",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/path-sum-iii/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-average-of-levels-in-binary-tree",
+    "title": "Average of Levels in Binary Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+    "difficulty": "easy",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-cousins-in-binary-tree",
+    "title": "Cousins in Binary Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/cousins-in-binary-tree/",
+    "difficulty": "easy",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-binary-tree-level-order-traversal-ii",
+    "title": "Binary Tree Level Order Traversal II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-find-largest-value-in-each-tree-row",
+    "title": "Find Largest Value in Each Tree Row",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-deepest-leaves-sum",
+    "title": "Deepest Leaves Sum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/deepest-leaves-sum/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-step-by-step-directions-from-a-binary-tree-node-to-another",
+    "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-even-odd-tree",
+    "title": "Even Odd Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/even-odd-tree/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-replace-words",
+    "title": "Replace Words",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/replace-words/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-longest-word-in-dictionary",
+    "title": "Longest Word in Dictionary",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/longest-word-in-dictionary/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.467Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-map-sum-pairs",
+    "title": "Map Sum Pairs",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/map-sum-pairs/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-search-suggestions-system",
+    "title": "Search Suggestions System",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/search-suggestions-system/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-camelcase-matching",
+    "title": "Camelcase Matching",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/camelcase-matching/",
+    "difficulty": "medium",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-concatenated-words",
+    "title": "Concatenated Words",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/concatenated-words/",
+    "difficulty": "hard",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-palindrome-pairs",
+    "title": "Palindrome Pairs",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/palindrome-pairs/",
+    "difficulty": "hard",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-stream-of-characters",
+    "title": "Stream of Characters",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/stream-of-characters/",
+    "difficulty": "hard",
+    "topics": [
+      "Trees"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Trees"
+  },
+  {
+    "id": "lc-number-of-enclaves",
+    "title": "Number of Enclaves",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-enclaves/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-number-of-closed-islands",
+    "title": "Number of Closed Islands",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-closed-islands/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-as-far-from-land-as-possible",
+    "title": "As Far from Land as Possible",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/as-far-from-land-as-possible/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-shortest-path-to-get-all-keys",
+    "title": "Shortest Path to Get All Keys",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-cut-off-trees-for-golf-event",
+    "title": "Cut Off Trees for Golf Event",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/cut-off-trees-for-golf-event/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-loud-and-rich",
+    "title": "Loud and Rich",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/loud-and-rich/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-sequence-reconstruction",
+    "title": "Sequence Reconstruction",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sequence-reconstruction/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-parallel-courses",
+    "title": "Parallel Courses",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/parallel-courses/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-find-all-possible-recipes-from-given-supplies",
+    "title": "Find All Possible Recipes from Given Supplies",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-sort-items-by-groups-respecting-dependencies",
+    "title": "Sort Items by Groups Respecting Dependencies",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-parallel-courses-iii",
+    "title": "Parallel Courses III",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/parallel-courses-iii/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-minimum-time-to-complete-all-tasks",
+    "title": "Minimum Time to Complete All Tasks",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-time-to-complete-all-tasks/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-regions-cut-by-slashes",
+    "title": "Regions Cut By Slashes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/regions-cut-by-slashes/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-lexicographically-smallest-equivalent-string",
+    "title": "Lexicographically Smallest Equivalent String",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/lexicographically-smallest-equivalent-string/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-sentence-similarity-ii",
+    "title": "Sentence Similarity II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sentence-similarity-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-earliest-possible-day-of-full-bloom",
+    "title": "The Earliest Moment When Everyone Become Friends",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/earliest-possible-day-of-full-bloom/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-redundant-connection-ii",
+    "title": "Redundant Connection II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/redundant-connection-ii/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-remove-max-number-of-edges-to-keep-graph-fully-traversable",
+    "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Graphs"
+  },
+  {
+    "id": "lc-relative-ranks",
+    "title": "Relative Ranks",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/relative-ranks/",
+    "difficulty": "easy",
+    "topics": [
+      "Heaps"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Heaps"
+  },
+  {
+    "id": "lc-furthest-building-you-can-reach",
+    "title": "Furthest Building You Can Reach",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/furthest-building-you-can-reach/",
+    "difficulty": "medium",
+    "topics": [
+      "Heaps"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Heaps"
+  },
+  {
+    "id": "lc-seat-reservation-manager",
+    "title": "Seat Reservation Manager",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/seat-reservation-manager/",
+    "difficulty": "medium",
+    "topics": [
+      "Heaps"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Heaps"
+  },
+  {
+    "id": "lc-minimum-cost-to-hire-k-workers",
+    "title": "Minimum Cost to Hire K Workers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
+    "difficulty": "hard",
+    "topics": [
+      "Heaps"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Heaps"
+  },
+  {
+    "id": "lc-find-building-where-alice-and-bob-can-meet",
+    "title": "Find Building Where Alice and Bob Can Meet",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/",
+    "difficulty": "hard",
+    "topics": [
+      "Heaps"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Heaps"
+  },
+  {
+    "id": "lc-beautiful-arrangement",
+    "title": "Beautiful Arrangement",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/beautiful-arrangement/",
+    "difficulty": "medium",
+    "topics": [
+      "Recursion & Search"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Recursion & Search"
+  },
+  {
+    "id": "lc-longest-valid-parentheses",
+    "title": "Longest Valid Parentheses",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-russian-doll-envelopes",
+    "title": "Russian Doll Envelopes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/russian-doll-envelopes/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-pascals-triangle-ii",
+    "title": "Pascal's Triangle II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/pascals-triangle-ii/",
+    "difficulty": "easy",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-triangle",
+    "title": "Triangle",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/triangle/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-minimum-falling-path-sum",
+    "title": "Minimum Falling Path Sum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-falling-path-sum/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-knight-dialer",
+    "title": "Knight Dialer",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/knight-dialer/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-out-of-boundary-paths",
+    "title": "Out of Boundary Paths",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/out-of-boundary-paths/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-dungeon-game",
+    "title": "Dungeon Game",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/dungeon-game/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-form-smallest-number-from-two-digit-arrays",
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/",
+    "difficulty": "easy",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-ones-and-zeroes",
+    "title": "Ones and Zeroes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/ones-and-zeroes/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-2-keys-keyboard",
+    "title": "2 Keys Keyboard",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/2-keys-keyboard/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-shopping-offers",
+    "title": "Shopping Offers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/shopping-offers/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-ways-to-express-an-integer-as-sum-of-powers",
+    "title": "Ways to Express an Integer as Sum of Powers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-maximum-value-of-k-coins-from-piles",
+    "title": "Maximum Value of K Coins From Piles",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-tallest-billboard",
+    "title": "Tallest Billboard",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/tallest-billboard/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-profitable-schemes",
+    "title": "Profitable Schemes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/profitable-schemes/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-number-of-ways-to-earn-points",
+    "title": "Number of Ways to Earn Points",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-ways-to-earn-points/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-maximum-units-on-a-truck",
+    "title": "Maximum Units on a Truck",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-units-on-a-truck/",
+    "difficulty": "easy",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-can-place-flowers",
+    "title": "Can Place Flowers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/can-place-flowers/",
+    "difficulty": "easy",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-minimum-deletions-to-make-character-frequencies-unique",
+    "title": "Minimum Deletions to Make Character Frequencies Unique",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/",
+    "difficulty": "medium",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-broken-calculator",
+    "title": "Broken Calculator",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/broken-calculator/",
+    "difficulty": "medium",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-patching-array",
+    "title": "Patching Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/patching-array/",
+    "difficulty": "hard",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-course-schedule-iii",
+    "title": "Course Schedule III",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/course-schedule-iii/",
+    "difficulty": "hard",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-hamming-distance",
+    "title": "Hamming Distance",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/hamming-distance/",
+    "difficulty": "easy",
+    "topics": [
+      "Other"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:05:19.468Z",
+    "category": "Other"
+  },
+  {
+    "id": "lc-3sum-closest",
+    "title": "3Sum Closest",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/3sum-closest/",
+    "difficulty": "medium",
+    "topics": [
+      "Two Pointers"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:18:44.794Z",
+    "category": "Two Pointers & Sliding Window"
+  },
+  {
+    "id": "lc-4sum-ii",
+    "title": "4Sum II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/4sum-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Hashing"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:18:44.795Z",
+    "category": "Searching & Sorting"
+  },
+  {
+    "id": "lc-remove-duplicates-from-sorted-array-ii",
+    "title": "Remove Duplicates from Sorted Array II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:19:52.345Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-append-characters-to-string-to-make-subsequence",
+    "title": "Append Characters to String to Make Subsequence",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:19:52.345Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-bag-of-tokens",
+    "title": "Bag of Tokens",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/bag-of-tokens/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:19:52.345Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-find-original-array-from-doubled-array",
+    "title": "Find Original Array From Doubled Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-original-array-from-doubled-array/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:19:52.346Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-check-if-array-pairs-are-divisible-by-k",
+    "title": "Check If Array Pairs Are Divisible by k",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/",
+    "difficulty": "medium",
+    "topics": [
+      "Arrays & Strings"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:19:52.346Z",
+    "category": "Arrays & Strings"
+  },
+  {
+    "id": "lc-add-two-integers",
+    "title": "Add Two Integers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/add-two-integers/",
+    "difficulty": "easy",
+    "topics": [
+      "Math"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.574Z",
+    "category": "Basics & Patterns",
+    "altUrl": null
+  },
+  {
+    "id": "lc-count-negative-numbers-in-a-sorted-matrix",
+    "title": "Count Negative Numbers in a Sorted Matrix",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays",
+      "Binary Search"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Arrays & Vectors",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-largest-element-in-array",
+    "title": "Largest Element in Array",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/largest-element-in-array2846/1",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Arrays & Vectors",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-find-minimum-element-in-array",
+    "title": "Find Minimum Element in an Array",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
+    "difficulty": "easy",
+    "topics": [
+      "Arrays"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Arrays & Vectors",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-detect-cycle-in-an-undirected-graph",
+    "title": "Detect Cycle in an Undirected Graph",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "BFS",
+      "DFS"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Graphs",
+    "altUrl": "https://leetcode.com/problems/redundant-connection/"
+  },
+  {
+    "id": "gfg-topological-sort",
+    "title": "Topological Sort",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "DFS"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Graphs",
+    "altUrl": "https://leetcode.com/problems/course-schedule-ii/"
+  },
+  {
+    "id": "gfg-distance-from-the-source-bellman-ford-algorithm",
+    "title": "Distance from the Source (Bellman-Ford Algorithm)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Shortest Path"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Graphs",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-bottom-view-of-binary-tree",
+    "title": "Bottom View of Binary Tree",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Trees",
+      "Tree Traversal"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Binary Trees",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-implementing-floyd-warshall",
+    "title": "Floyd Warshall Algorithm",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Shortest Path"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Graphs",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-fractional-knapsack",
+    "title": "Fractional Knapsack",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+    "difficulty": "medium",
+    "topics": [
+      "Greedy"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.575Z",
+    "category": "Greedy Algorithms",
+    "altUrl": null
+  },
+  {
+    "id": "gfg-detect-cycle-in-a-directed-graph",
+    "title": "Detect Cycle in a Directed Graph",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "DFS"
+    ],
+    "check": "ok",
+    "checkedAt": "2026-10-01T09:23:20.576Z",
+    "category": "Graphs",
+    "altUrl": "https://leetcode.com/problems/course-schedule/"
+  },
+  {
+    "id": "gfg-counting-sort",
+    "title": "Counting Sort",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/counting-sort/1",
+    "difficulty": "easy",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-radix-sort",
+    "title": "Radix Sort",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/radix-sort/1",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-bucket-sort",
+    "title": "Bucket Sort",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/bucket-sort-1658296316/1",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-relative-sort-array",
+    "title": "Relative Sort Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/relative-sort-array",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-gap",
+    "title": "Maximum Gap",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-gap",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-contains-duplicate-iii",
+    "title": "Contains Duplicate III",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/contains-duplicate-iii",
+    "difficulty": "hard",
+    "topics": [
+      "Sorting",
+      "Counting Sort / Bucket Sort / Radix Sort / Cyclic Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-merge-sort",
+    "title": "Merge Sort",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/merge-sort/1",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Merge Sort / Quick Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-create-sorted-array-through-instructions",
+    "title": "Create Sorted Array through Instructions",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/create-sorted-array-through-instructions",
+    "difficulty": "hard",
+    "topics": [
+      "Sorting",
+      "Merge Sort / Quick Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-pairs-satisfying-inequality",
+    "title": "Number of Pairs Satisfying Inequality",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-pairs-satisfying-inequality",
+    "difficulty": "hard",
+    "topics": [
+      "Sorting",
+      "Merge Sort / Quick Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-reduce-array-size-to-the-half",
+    "title": "Reduce Array Size to The Half",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reduce-array-size-to-the-half",
+    "difficulty": "medium",
+    "topics": [
+      "Sorting",
+      "Merge Sort / Quick Sort"
+    ],
+    "category": "Sorting",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-sort-array-by-parity-ii",
+    "title": "Sort Array by Parity II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sort-array-by-parity-ii",
+    "difficulty": "easy",
+    "topics": [
+      "2 Pointers",
+      "Two Pointer on Arrays"
+    ],
+    "category": "2 Pointers",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-partition-array-according-to-given-pivot",
+    "title": "Partition Array According to Given Pivot",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/partition-array-according-to-given-pivot",
+    "difficulty": "medium",
+    "topics": [
+      "2 Pointers",
+      "Two Pointer on Arrays"
+    ],
+    "category": "2 Pointers",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-di-string-match",
+    "title": "DI String Match",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/di-string-match",
+    "difficulty": "easy",
+    "topics": [
+      "2 Pointers",
+      "Two Pointer on Strings"
+    ],
+    "category": "2 Pointers",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-product-of-the-last-k-numbers",
+    "title": "Product of the Last K Numbers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/product-of-the-last-k-numbers",
+    "difficulty": "medium",
+    "topics": [
+      "Prefix Sum"
+    ],
+    "category": "Prefix Sum",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-increment-submatrices-by-one",
+    "title": "Increment Submatrices by One",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/increment-submatrices-by-one",
+    "difficulty": "medium",
+    "topics": [
+      "Prefix Sum"
+    ],
+    "category": "Prefix Sum",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-points-that-intersect-with-cars",
+    "title": "Points That Intersect With Cars",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/points-that-intersect-with-cars",
+    "difficulty": "easy",
+    "topics": [
+      "Prefix Sum",
+      "Line Sweep"
+    ],
+    "category": "Prefix Sum",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-flowers-in-full-bloom",
+    "title": "Number of Flowers in Full Bloom",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom",
+    "difficulty": "hard",
+    "topics": [
+      "Prefix Sum",
+      "Line Sweep"
+    ],
+    "category": "Prefix Sum",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-diagonal-traverse",
+    "title": "Diagonal Traverse",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/diagonal-traverse",
+    "difficulty": "medium",
+    "topics": [
+      "Matrix",
+      "Matrix Traversal and Validity Check"
+    ],
+    "category": "Matrix",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-submatrices-that-sum-to-target",
+    "title": "Number of Submatrices That Sum to Target",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target",
+    "difficulty": "hard",
+    "topics": [
+      "Hashing",
+      "Hashing With Prefix Sum"
+    ],
+    "category": "Hashing",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-number-of-vowels-in-a-substring-of-given-length",
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Fixed Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Fixed Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-number-of-occurrences-of-a-substring",
+    "title": "Maximum Number of Occurrences of a Substring",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Dynamic Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-subarrays-with-bounded-maximum",
+    "title": "Number of Subarrays with Bounded Maximum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Dynamic Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-count-the-number-of-good-subarrays",
+    "title": "Count the Number of Good Subarrays",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/count-the-number-of-good-subarrays",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Dynamic Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimum-operations-to-reduce-x-to-zero",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero",
+    "difficulty": "medium",
+    "topics": [
+      "Sliding Window",
+      "Dynamic Size Sliding-Window"
+    ],
+    "category": "Sliding Window",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-beautiful-towers-ii",
+    "title": "Beautiful Towers II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/beautiful-towers-ii",
+    "difficulty": "medium",
+    "topics": [
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "category": "Stack",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-nqueueusingarray",
+    "title": "N-Queue using Array",
+    "platform": "gfg",
+    "url": "https://www.naukri.com/code360/problems/n-queue-using-array_1170053?count=25&page=1&search=&sort_entity=order&sort_order=ASC",
+    "difficulty": "hard",
+    "topics": [
+      "Queue",
+      "Implementation Problems"
+    ],
+    "category": "Queue",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-the-winner-of-the-circular-game",
+    "title": "Find the Winner of the Circular Game",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-the-winner-of-the-circular-game",
+    "difficulty": "medium",
+    "topics": [
+      "Queue",
+      "Singly-Ended Queue"
+    ],
+    "category": "Queue",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-reveal-cards-in-increasing-order",
+    "title": "Reveal Cards in Increasing Order",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reveal-cards-in-increasing-order",
+    "difficulty": "medium",
+    "topics": [
+      "Queue",
+      "Singly-Ended Queue"
+    ],
+    "category": "Queue",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-stamping-the-sequence",
+    "title": "Stamping the Sequence",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/stamping-the-sequence",
+    "difficulty": "hard",
+    "topics": [
+      "Queue",
+      "Singly-Ended Queue"
+    ],
+    "category": "Queue",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-design-circular-deque",
+    "title": "Design Circular Deque",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/design-circular-deque",
+    "difficulty": "medium",
+    "topics": [
+      "Queue",
+      "Doubly-Ended Queue"
+    ],
+    "category": "Queue",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-minimum-in-rotated-sorted-array-ii",
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search",
+      "Binary Search on Semi-Sorted Space"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-value-at-a-given-index-in-a-bounded-array",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search",
+      "Binary Search On Answer"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-tastiness-of-candy-basket",
+    "title": "Maximum Tastiness of Candy Basket",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-tastiness-of-candy-basket",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search",
+      "Minmax Problems"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximize-the-minimum-powered-city",
+    "title": "Maximize the Minimum Powered City",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximize-the-minimum-powered-city",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search",
+      "Minmax Problems"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-kth-smallest-number-in-multiplication-table",
+    "title": "Kth Smallest Number in Multiplication Table",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/kth-smallest-number-in-multiplication-table",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search",
+      "Finding the K-th Element"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-kth-smallest-product-of-two-sorted-arrays",
+    "title": "Kth Smallest Product of Two Sorted Arrays",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search",
+      "Finding the K-th Element"
+    ],
+    "category": "Binary Search",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-swap-two-numbers3844",
+    "title": "Swap Two Numbers (with Temp Variable)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1",
+    "difficulty": "easy",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise XOR operator"
+    ],
+    "category": "Bit Manipulation",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-xor-product",
+    "title": "Maximum XOR Product",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-xor-product",
+    "difficulty": "medium",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise XOR operator"
+    ],
+    "category": "Bit Manipulation",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-longest-awesome-substring",
+    "title": "Find Longest Awesome Substring",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-longest-awesome-substring",
+    "difficulty": "hard",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise XOR operator"
+    ],
+    "category": "Bit Manipulation",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-shortest-subarray-with-or-at-least-k-ii",
+    "title": "Shortest Subarray with OR at Least K",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii",
+    "difficulty": "medium",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise OR operator"
+    ],
+    "category": "Bit Manipulation",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-tower-of-hanoi-1587115621",
+    "title": "Tower of Hanoi",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1",
+    "difficulty": "medium",
+    "topics": [
+      "Recursion & Backtracking",
+      "Recursion Problems"
+    ],
+    "category": "Recursion & Backtracking",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-integer-to-english-words",
+    "title": "Integer to English Words",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/integer-to-english-words",
+    "difficulty": "hard",
+    "topics": [
+      "Recursion & Backtracking",
+      "Recursion Problems"
+    ],
+    "category": "Recursion & Backtracking",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-preorderpostorderinorderinasingletraversal",
+    "title": "Preorder, Postorder, Inorder in a Single Traversal",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/preorder-postorder-and-inorder-traversal-of-a-binary-tree-using-a-single-stack/",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Tree",
+      "Traversals"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-construct-binary-tree-from-preorder-and-postorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Tree",
+      "Construction of Tree"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-top-view-of-binary-tree",
+    "title": "Top View of Binary Tree",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Tree",
+      "Level Order Traversal"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-burning-tree",
+    "title": "Burning Tree",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/burning-tree/1",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Tree",
+      "Level Order Traversal"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-n-ary-tree-postorder-traversal",
+    "title": "N-ary Tree Postorder Traversal",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/n-ary-tree-postorder-traversal",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Tree",
+      "N-ary Tree"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-depth-of-n-ary-tree",
+    "title": "Maximum Depth of N-ary Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Tree",
+      "N-ary Tree"
+    ],
+    "category": "Binary Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-convert-sorted-list-to-binary-search-tree",
+    "title": "Convert Sorted List to Binary Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Construction of BST"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-convert-bst-to-greater-tree",
+    "title": "Convert BST to Greater Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/convert-bst-to-greater-tree",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Construction of BST"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-trim-a-binary-search-tree",
+    "title": "Trim a Binary Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/trim-a-binary-search-tree",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Construction of BST"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-construct-bst-from-post-order",
+    "title": "Construct BST from Postorder",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/construct-bst-from-post-order/1",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Construction of BST"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-balance-a-binary-search-tree",
+    "title": "Balance a Binary Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/balance-a-binary-search-tree",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Construction of BST"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-mode-in-binary-search-tree",
+    "title": "Find Mode in Binary Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-mode-in-binary-search-tree",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-range-sum-of-bst",
+    "title": "Range Sum of BST",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/range-sum-of-bst",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-increasing-order-search-tree",
+    "title": "Increasing Order Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/increasing-order-search-tree",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-sum-bst-in-binary-tree",
+    "title": "Maximum Sum BST in Binary Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-print-common-nodes-in-bst",
+    "title": "Find Common Nodes in two BSTs",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-common-nodes-in-bst/1",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-all-elements-in-two-binary-search-trees",
+    "title": "All Elements in Two Binary Search Trees",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/all-elements-in-two-binary-search-trees",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-ways-to-reorder-array-to-get-same-bst",
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "hard",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-closest-nodes-queries-in-a-binary-search-tree",
+    "title": "Closest Nodes Queries in a Binary Search Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search Tree",
+      "Validation and Property"
+    ],
+    "category": "Binary Search Tree",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-total-cost-to-hire-k-workers",
+    "title": "Total Cost to Hire K Workers",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/total-cost-to-hire-k-workers",
+    "difficulty": "medium",
+    "topics": [
+      "Heap (Priority Queue)",
+      "Implementary Questions"
+    ],
+    "category": "Heap (Priority Queue)",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-number-of-events-that-can-be-attended",
+    "title": "Maximum Number of Events That Can Be Attended",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended",
+    "difficulty": "medium",
+    "topics": [
+      "Heap (Priority Queue)",
+      "Implementary Questions"
+    ],
+    "category": "Heap (Priority Queue)",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-the-skyline-problem",
+    "title": "The Skyline Problem",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/the-skyline-problem",
+    "difficulty": "hard",
+    "topics": [
+      "Heap (Priority Queue)",
+      "Implementary Questions"
+    ],
+    "category": "Heap (Priority Queue)",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-the-number-of-the-smallest-unoccupied-chair",
+    "title": "The Number of the Smallest Unoccupied Chair",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair",
+    "difficulty": "medium",
+    "topics": [
+      "Heap (Priority Queue)",
+      "Minimize Operations"
+    ],
+    "category": "Heap (Priority Queue)",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimize-maximum-of-array",
+    "title": "Minimize Maximum of Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimize-maximum-of-array",
+    "difficulty": "medium",
+    "topics": [
+      "Greedy",
+      "Part I"
+    ],
+    "category": "Greedy",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-total-damage-with-spell-casting",
+    "title": "Maximum Total Damage With Spell Casting",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-total-damage-with-spell-casting",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Linear DP"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-longest-arithmetic-subsequence",
+    "title": "Longest Arithmetic Subsequence",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/longest-arithmetic-subsequence",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "2 Dimensional DP"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-geeks-training",
+    "title": "Geek's Training",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/geeks-training/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "DP On Grid"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-difference-score-in-a-grid",
+    "title": "Maximum Difference Score in a Grid",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-difference-score-in-a-grid",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "DP On Grid"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-cherry-pickup",
+    "title": "Cherry Pickup",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/cherry-pickup",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "DP On Grid"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-paths-with-max-score",
+    "title": "Number of Paths with Max Score",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-paths-with-max-score",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "DP On Grid"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-0-1-knapsack-problem0945",
+    "title": "0 - 1 Knapsack Problem",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Knapsack DP"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "atcoder-knapsack2",
+    "title": "Knapsack - 2",
+    "platform": "atcoder",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_e",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Knapsack DP"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-rod-cutting0840",
+    "title": "Rod Cutting",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Knapsack DP"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-printing-longest-increasing-subsequence",
+    "title": "Printing Longest Increasing Subsequence",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/printing-longest-increasing-subsequence/0",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Longest Increasing Subsequence"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-height-by-stacking-cuboids",
+    "title": "Maximum Height by Stacking Cuboids",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-height-by-stacking-cuboids",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Longest Increasing Subsequence"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-print-all-lcs-sequences3413",
+    "title": "Print all LCS sequences",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Longest Common Subsequence"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimum-score-triangulation-of-polygon",
+    "title": "Minimum Score Triangulation of Polygon",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-score-triangulation-of-polygon",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Matrix Chain Multiplication"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-palindrome-partitioning-iii",
+    "title": "Palindrome Partitioning II",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/palindrome-partitioning-iii",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Matrix Chain Multiplication"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-strange-printer",
+    "title": "Strange Printer",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/strange-printer",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Matrix Chain Multiplication"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-subarray-sum-with-one-deletion",
+    "title": "Maximum Subarray Sum with One Deletion",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Kadane Algo"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-length-of-longest-fibonacci-subsequence",
+    "title": "Length of Longest Fibonacci Subsequence",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/length-of-longest-fibonacci-subsequence",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming Level 1",
+      "Kadane Algo"
+    ],
+    "category": "Dynamic Programming Level 1",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-keys-and-rooms",
+    "title": "Keys and Rooms",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/keys-and-rooms",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "DFS and BFS on Graphs"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "cses-roundtrip",
+    "title": "Round Trip",
+    "platform": "cses",
+    "url": "https://cses.fi/problemset/task/1667",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "DFS and BFS on Graphs"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "codeforces-validbfs",
+    "title": "Valid BFS?",
+    "platform": "codeforces",
+    "url": "https://codeforces.com/problemset/problem/1037/D",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "DFS and BFS on Graphs"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimum-number-of-operations-to-make-x-and-y-equal",
+    "title": "Minimum Number of Operations to Make X and Y Equal",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "DFS and BFS on Graphs"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-shortest-cycle-in-a-graph",
+    "title": "Shortest Cycle in a Graph",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/shortest-cycle-in-a-graph",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Cycle Detection"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-largest-color-value-in-a-directed-graph",
+    "title": "Largest Color Value in a Directed Graph",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/largest-color-value-in-a-directed-graph",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Topological Sort"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-count-sub-islands",
+    "title": "Count Sub Islands",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/count-sub-islands",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Flood Fill"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-all-groups-of-farmland",
+    "title": "Find All Groups of Farmland",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-all-groups-of-farmland",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Flood Fill"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "cses-shortestroutei",
+    "title": "Shortest Route I",
+    "platform": "cses",
+    "url": "https://cses.fi/problemset/task/1671/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Dijsktra Algorithm"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-shortest-path-in-weighted-undirected-graph",
+    "title": "Shortest Path in Weighted undirected graph",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Dijsktra Algorithm"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Dijsktra Algorithm"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-second-minimum-time-to-reach-destination",
+    "title": "Second Minimum Time to Reach Destination",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/second-minimum-time-to-reach-destination",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Dijsktra Algorithm"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "cses-highscore",
+    "title": "High Score",
+    "platform": "cses",
+    "url": "https://cses.fi/problemset/task/1673",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Bellman Ford"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-bus-routes",
+    "title": "Bus Routes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/bus-routes",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Bellman Ford"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-minimum-cost-to-convert-string-i",
+    "title": "Minimum Cost to Convert String I",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/minimum-cost-to-convert-string-i",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Floyd Warshall"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-number-of-possible-sets-of-closing-branches",
+    "title": "Number of Possible Sets of Closing Branches",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/number-of-possible-sets-of-closing-branches",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Floyd Warshall"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-latest-group-of-size-m",
+    "title": "Find Latest Group of Size M",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-latest-group-of-size-m",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Disjoint Set Union"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-gcd-sort-of-an-array",
+    "title": "GCD Sort of an Array",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/gcd-sort-of-an-array",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Disjoint Set Union"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-checking-existence-of-edge-length-limited-paths",
+    "title": "Checking Existence of Edge Length Limited Paths",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs",
+      "Disjoint Set Union"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-minimum-spanning-tree-prims",
+    "title": "Minimum Spanning Tree (Prim's Algorithm)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Minimum Spanning Tree"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-minimum-spanning-tree-kruskal",
+    "title": "Minimum Spanning Tree (Kruskal's Algorithm)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs",
+      "Minimum Spanning Tree"
+    ],
+    "category": "Graphs",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-maximum-students-taking-exam",
+    "title": "Maximum Students Taking Exam",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-students-taking-exam",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 2",
+      "DP with Bitmask"
+    ],
+    "category": "Dynamic Programming Level 2",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "codechef-littleelephantandtshirts",
+    "title": "Little Elephant and T-Shirts",
+    "platform": "codechef",
+    "url": "https://www.codechef.com/problems/TSHIRTS",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 2",
+      "DP with Bitmask"
+    ],
+    "category": "Dynamic Programming Level 2",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-sum-of-distances-in-tree",
+    "title": "Sum of Distances in Tree",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/sum-of-distances-in-tree",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 2",
+      "DP on Trees"
+    ],
+    "category": "Dynamic Programming Level 2",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-time-taken-to-mark-all-nodes",
+    "title": "Time Taken to Mark All Nodes",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/time-taken-to-mark-all-nodes",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming Level 2",
+      "DP on Trees"
+    ],
+    "category": "Dynamic Programming Level 2",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-trie-delete",
+    "title": "Trie Delete",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/trie-delete/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+    "difficulty": "hard",
+    "topics": [
+      "Advance Algorithm",
+      "Tries"
+    ],
+    "category": "Advance Algorithm",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-search-pattern-rabin-karp-algorithm--141631",
+    "title": "Search Pattern (Rabin-Karp Algorithm)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/search-pattern-rabin-karp-algorithm--141631/1",
+    "difficulty": "hard",
+    "topics": [
+      "Advance Algorithm",
+      "String Matching"
+    ],
+    "category": "Advance Algorithm",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "gfg-search-pattern-z-algorithm--141631",
+    "title": "Search Pattern (Z-algorithm)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/search-pattern-z-algorithm--141631/1",
+    "difficulty": "hard",
+    "topics": [
+      "Advance Algorithm",
+      "String Matching"
+    ],
+    "category": "Advance Algorithm",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-find-substring-with-given-hash-value",
+    "title": "Find Substring with Given Hash Value",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-substring-with-given-hash-value",
+    "difficulty": "hard",
+    "topics": [
+      "Advance Algorithm",
+      "String Matching"
+    ],
+    "category": "Advance Algorithm",
+    "check": "ok",
+    "checkedAt": "2026-10-01"
   }
 ]

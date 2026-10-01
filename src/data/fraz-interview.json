@@ -1,0 +1,2443 @@
+{
+  "sheet": {
+    "id": "fraz-interview",
+    "name": "Fraz's Interview Sheet",
+    "creator": "Mohammad Fraz (LearnYard)",
+    "sourceUrl": "https://learnyard.com/practice/dsa?sheet=frazs-interview-sheet",
+    "fetchedAt": "2026-10-01T15:15:00.000Z",
+    "expectedCount": 327
+  },
+  "sections": [
+    {
+      "id": "fraz-sec-1",
+      "sheetId": "fraz-interview",
+      "title": "01. Sorting",
+      "parentId": null,
+      "position": 1
+    },
+    {
+      "id": "fraz-sec-2",
+      "sheetId": "fraz-interview",
+      "title": "02. 2 Pointers",
+      "parentId": null,
+      "position": 2
+    },
+    {
+      "id": "fraz-sec-3",
+      "sheetId": "fraz-interview",
+      "title": "03. Prefix Sum",
+      "parentId": null,
+      "position": 3
+    },
+    {
+      "id": "fraz-sec-4",
+      "sheetId": "fraz-interview",
+      "title": "04. Matrix",
+      "parentId": null,
+      "position": 4
+    },
+    {
+      "id": "fraz-sec-5",
+      "sheetId": "fraz-interview",
+      "title": "05. Hashing",
+      "parentId": null,
+      "position": 5
+    },
+    {
+      "id": "fraz-sec-6",
+      "sheetId": "fraz-interview",
+      "title": "06. Sliding Window",
+      "parentId": null,
+      "position": 6
+    },
+    {
+      "id": "fraz-sec-7",
+      "sheetId": "fraz-interview",
+      "title": "07. Linked List",
+      "parentId": null,
+      "position": 7
+    },
+    {
+      "id": "fraz-sec-8",
+      "sheetId": "fraz-interview",
+      "title": "08. Stack",
+      "parentId": null,
+      "position": 8
+    },
+    {
+      "id": "fraz-sec-9",
+      "sheetId": "fraz-interview",
+      "title": "09. Queue",
+      "parentId": null,
+      "position": 9
+    },
+    {
+      "id": "fraz-sec-10",
+      "sheetId": "fraz-interview",
+      "title": "10. Binary Search",
+      "parentId": null,
+      "position": 10
+    },
+    {
+      "id": "fraz-sec-11",
+      "sheetId": "fraz-interview",
+      "title": "11. Bit Manipulation",
+      "parentId": null,
+      "position": 11
+    },
+    {
+      "id": "fraz-sec-12",
+      "sheetId": "fraz-interview",
+      "title": "12. Recursion & Backtracking",
+      "parentId": null,
+      "position": 12
+    },
+    {
+      "id": "fraz-sec-13",
+      "sheetId": "fraz-interview",
+      "title": "13. Binary Tree",
+      "parentId": null,
+      "position": 13
+    },
+    {
+      "id": "fraz-sec-14",
+      "sheetId": "fraz-interview",
+      "title": "14. Binary Search Tree",
+      "parentId": null,
+      "position": 14
+    },
+    {
+      "id": "fraz-sec-15",
+      "sheetId": "fraz-interview",
+      "title": "15. Heap (Priority Queue)",
+      "parentId": null,
+      "position": 15
+    },
+    {
+      "id": "fraz-sec-16",
+      "sheetId": "fraz-interview",
+      "title": "16. Greedy",
+      "parentId": null,
+      "position": 16
+    },
+    {
+      "id": "fraz-sec-17",
+      "sheetId": "fraz-interview",
+      "title": "17. Dynamic Programming Level 1",
+      "parentId": null,
+      "position": 17
+    },
+    {
+      "id": "fraz-sec-18",
+      "sheetId": "fraz-interview",
+      "title": "18. Graphs",
+      "parentId": null,
+      "position": 18
+    },
+    {
+      "id": "fraz-sec-19",
+      "sheetId": "fraz-interview",
+      "title": "19. Dynamic Programming Level 2",
+      "parentId": null,
+      "position": 19
+    },
+    {
+      "id": "fraz-sec-20",
+      "sheetId": "fraz-interview",
+      "title": "20. Advance Algorithm",
+      "parentId": null,
+      "position": 20
+    }
+  ],
+  "items": [
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "other-recursive-bubble-sort-recursive",
+      "position": 1,
+      "titleInSheet": "Bubble Sort"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "other-insertion-sorting",
+      "position": 2,
+      "titleInSheet": "Insertion Sort Algorithm"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "other-selection-sort",
+      "position": 3,
+      "titleInSheet": "Selection Sort Algorithm"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "gfg-counting-sort",
+      "position": 4,
+      "titleInSheet": "Counting Sort"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "gfg-radix-sort",
+      "position": 5,
+      "titleInSheet": "Radix Sort"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "gfg-bucket-sort",
+      "position": 6,
+      "titleInSheet": "Bucket Sort"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-relative-sort-array",
+      "position": 7,
+      "titleInSheet": "Relative Sort Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-maximum-gap",
+      "position": 8,
+      "titleInSheet": "Maximum Gap"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-contains-duplicate-iii",
+      "position": 9,
+      "titleInSheet": "Contains Duplicate III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-custom-sort-string",
+      "position": 10,
+      "titleInSheet": "Custom Sort String"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-largest-number-by-joining-numbers",
+      "position": 11,
+      "titleInSheet": "Largest Number"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-disjoint-set-union-by-rank-path-compression",
+      "position": 12,
+      "titleInSheet": "Rank Teams by Votes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-first-missing-positive",
+      "position": 13,
+      "titleInSheet": "First Missing Positive"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "gfg-merge-sort",
+      "position": 14,
+      "titleInSheet": "Merge Sort"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "other-count-inversions",
+      "position": 15,
+      "titleInSheet": "Count Inversions"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-count-of-smaller-numbers-after-self",
+      "position": 16,
+      "titleInSheet": "Count of Smaller Numbers After Self"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-create-sorted-array-through-instructions",
+      "position": 17,
+      "titleInSheet": "Create Sorted Array through Instructions"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-number-of-pairs-satisfying-inequality",
+      "position": 18,
+      "titleInSheet": "Number of Pairs Satisfying Inequality"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-1",
+      "problemId": "lc-reduce-array-size-to-the-half",
+      "position": 19,
+      "titleInSheet": "Reduce Array Size to The Half"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-sort-array-by-parity-ii",
+      "position": 20,
+      "titleInSheet": "Sort Array by Parity II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-partition-array-according-to-given-pivot",
+      "position": 21,
+      "titleInSheet": "Partition Array According to Given Pivot"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-rotate-array",
+      "position": 22,
+      "titleInSheet": "Rotate Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-two-sum",
+      "position": 23,
+      "titleInSheet": "Two Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-3sum",
+      "position": 24,
+      "titleInSheet": "3Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-sort-colors",
+      "position": 25,
+      "titleInSheet": "Sort Colors"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-next-permutation",
+      "position": 26,
+      "titleInSheet": "Next Permutation"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-reverse-words-in-a-string-sec2-8",
+      "position": 27,
+      "titleInSheet": "Reverse Words in a String"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-2",
+      "problemId": "lc-di-string-match",
+      "position": 28,
+      "titleInSheet": "DI String Match"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-range-sum-query-immutable",
+      "position": 29,
+      "titleInSheet": "Range Sum Query - Immutable"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-product-of-array-except-self",
+      "position": 30,
+      "titleInSheet": "Product of Array Except Self"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-product-of-the-last-k-numbers",
+      "position": 31,
+      "titleInSheet": "Product of the Last K Numbers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-range-sum-query-2d-immutable",
+      "position": 32,
+      "titleInSheet": "Range Sum Query 2D - Immutable"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-increment-submatrices-by-one",
+      "position": 33,
+      "titleInSheet": "Increment Submatrices by One"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-points-that-intersect-with-cars",
+      "position": 34,
+      "titleInSheet": "Points That Intersect With Cars"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-car-pooling",
+      "position": 35,
+      "titleInSheet": "Car Pooling"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-my-calendar-ii",
+      "position": 36,
+      "titleInSheet": "My Calendar II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-3",
+      "problemId": "lc-number-of-flowers-in-full-bloom",
+      "position": 37,
+      "titleInSheet": "Number of Flowers in Full Bloom"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-set-matrix-zeroes",
+      "position": 38,
+      "titleInSheet": "Set Matrix Zeroes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-transpose-matrix",
+      "position": 39,
+      "titleInSheet": "Transpose Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-rotate-image",
+      "position": 40,
+      "titleInSheet": "Rotate Image"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-diagonal-traverse",
+      "position": 41,
+      "titleInSheet": "Diagonal Traverse"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-spiral-matrix",
+      "position": 42,
+      "titleInSheet": "Spiral Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-4",
+      "problemId": "lc-valid-sudoku",
+      "position": 43,
+      "titleInSheet": "Valid Sudoku"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-group-anagrams",
+      "position": 44,
+      "titleInSheet": "Group Anagrams"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-majority-element",
+      "position": 45,
+      "titleInSheet": "Majority Element"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-majority-element-ii",
+      "position": 46,
+      "titleInSheet": "Majority Element II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-subarray-sum-equals-k",
+      "position": 47,
+      "titleInSheet": "Subarray Sum Equals K"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-subarray-sums-divisible-by-k",
+      "position": 48,
+      "titleInSheet": "Subarray Sums Divisible by K"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-count-number-of-nice-subarrays",
+      "position": 49,
+      "titleInSheet": "Count Number of Nice Subarrays"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-5",
+      "problemId": "lc-number-of-submatrices-that-sum-to-target",
+      "position": 50,
+      "titleInSheet": "Number of Submatrices That Sum to Target"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-maximum-number-of-vowels-in-a-substring-of-given-length",
+      "position": 51,
+      "titleInSheet": "Maximum Number of Vowels in a Substring of Given Length"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+      "position": 52,
+      "titleInSheet": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-maximum-points-you-can-obtain-from-cards",
+      "position": 53,
+      "titleInSheet": "Maximum Points You Can Obtain from Cards"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-longest-substring-without-repeating-characters",
+      "position": 54,
+      "titleInSheet": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-maximum-number-of-occurrences-of-a-substring",
+      "position": 55,
+      "titleInSheet": "Maximum Number of Occurrences of a Substring"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-subarray-product-less-than-k",
+      "position": 56,
+      "titleInSheet": "Subarray Product Less Than K"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-number-of-subarrays-with-bounded-maximum",
+      "position": 57,
+      "titleInSheet": "Number of Subarrays with Bounded Maximum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-count-the-number-of-good-subarrays",
+      "position": 58,
+      "titleInSheet": "Count the Number of Good Subarrays"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-minimum-operations-to-reduce-x-to-zero",
+      "position": 59,
+      "titleInSheet": "Minimum Operations to Reduce X to Zero"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-frequency-of-the-most-frequent-element",
+      "position": 60,
+      "titleInSheet": "Frequency of the Most Frequent Element"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-6",
+      "problemId": "lc-subarrays-with-k-different-integers",
+      "position": 61,
+      "titleInSheet": "Subarrays with K Different Integers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-middle-of-the-linked-list",
+      "position": 62,
+      "titleInSheet": "Middle of the Linked List"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-linked-list-cycle",
+      "position": 63,
+      "titleInSheet": "Linked List Cycle"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-linked-list-cycle-ii",
+      "position": 64,
+      "titleInSheet": "Linked List Cycle II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-reverse-linked-list",
+      "position": 65,
+      "titleInSheet": "Reverse Linked List"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-reverse-nodes-in-k-group",
+      "position": 66,
+      "titleInSheet": "Reverse Nodes in k-Group"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-add-two-numbers",
+      "position": 67,
+      "titleInSheet": "Add Two Numbers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-copy-list-with-random-pointer",
+      "position": 68,
+      "titleInSheet": "Copy List with Random Pointer"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-design-hashmap",
+      "position": 69,
+      "titleInSheet": "Design HashMap"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-lru-cache",
+      "position": 70,
+      "titleInSheet": "LRU Cache"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-7",
+      "problemId": "lc-lfu-cache",
+      "position": 71,
+      "titleInSheet": "LFU Cache"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-longest-valid-parentheses",
+      "position": 72,
+      "titleInSheet": "Longest Valid Parentheses"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-min-stack",
+      "position": 73,
+      "titleInSheet": "Min Stack"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-maximum-frequency-stack",
+      "position": 74,
+      "titleInSheet": "Maximum Frequency Stack"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-insert-interval",
+      "position": 75,
+      "titleInSheet": "Insert Intervals"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-asteroid-collision",
+      "position": 76,
+      "titleInSheet": "Asteroid Collision"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-daily-temperatures",
+      "position": 77,
+      "titleInSheet": "Daily Temperatures"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-sum-of-subarray-minimums",
+      "position": 78,
+      "titleInSheet": "Sum of Subarray Minimums"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-beautiful-towers-ii",
+      "position": 79,
+      "titleInSheet": "Beautiful Towers II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-trapping-rain-water",
+      "position": 80,
+      "titleInSheet": "Trapping Rain Water"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-8",
+      "problemId": "lc-largest-rectangle-in-histogram",
+      "position": 81,
+      "titleInSheet": "Largest Rectangle in Histogram"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-implement-stack-using-queues",
+      "position": 82,
+      "titleInSheet": "Implement Stack using Queues"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 83,
+      "titleInSheet": "Implement Queue using Stacks"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-implement-queue-using-stacks",
+      "position": 84,
+      "titleInSheet": "Queue using Two Stacks"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-design-circular-queue",
+      "position": 85,
+      "titleInSheet": "Design Circular Queue"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "gfg-nqueueusingarray",
+      "position": 86,
+      "titleInSheet": "N-Queue using Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-find-the-winner-of-the-circular-game",
+      "position": 87,
+      "titleInSheet": "Find the Winner of the Circular Game"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-reveal-cards-in-increasing-order",
+      "position": 88,
+      "titleInSheet": "Reveal Cards in Increasing Order"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-stamping-the-sequence",
+      "position": 89,
+      "titleInSheet": "Stamping the Sequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-design-circular-deque",
+      "position": 90,
+      "titleInSheet": "Design Circular Deque"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-9",
+      "problemId": "lc-sliding-window-maximum",
+      "position": 91,
+      "titleInSheet": "Sliding Window Maximum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-find-first-and-last-position-of-element-in-sorted-array",
+      "position": 92,
+      "titleInSheet": "Find First and Last Position of Element in Sorted Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-search-a-2d-matrix",
+      "position": 93,
+      "titleInSheet": "Search a 2D Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "other-matrix-median",
+      "position": 94,
+      "titleInSheet": "Median in a Row-wise Sorted Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-single-element-in-a-sorted-array",
+      "position": 95,
+      "titleInSheet": "Single Element in a Sorted Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-find-peak-element",
+      "position": 96,
+      "titleInSheet": "Find Peak Element"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array",
+      "position": 97,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-peak-index-in-a-mountain-array",
+      "position": 98,
+      "titleInSheet": "Peak Index in a Mountain Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-search-in-rotated-sorted-array",
+      "position": 99,
+      "titleInSheet": "Search in Rotated Sorted Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-find-minimum-in-rotated-sorted-array-ii",
+      "position": 100,
+      "titleInSheet": "Find Minimum in Rotated Sorted Array II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "other-find-square-root-of-a-number",
+      "position": 101,
+      "titleInSheet": "Sqrt(x)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-capacity-to-ship-packages-within-d-days",
+      "position": 102,
+      "titleInSheet": "Capacity to Ship Packages Within D Days"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-koko-eating-bananas",
+      "position": 103,
+      "titleInSheet": "Koko Eating Bananas"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-minimum-number-of-days-to-make-m-bouquets",
+      "position": 104,
+      "titleInSheet": "Minimum Number of Days to Make M Bouquets"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-maximum-value-at-a-given-index-in-a-bounded-array",
+      "position": 105,
+      "titleInSheet": "Maximum Value at a Given Index in a Bounded Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-split-array-largest-sum",
+      "position": 106,
+      "titleInSheet": "Split Array Largest Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-median-of-two-sorted-arrays",
+      "position": 107,
+      "titleInSheet": "Median of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-maximum-tastiness-of-candy-basket",
+      "position": 108,
+      "titleInSheet": "Maximum Tastiness of Candy Basket"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-maximize-the-minimum-powered-city",
+      "position": 109,
+      "titleInSheet": "Maximize the Minimum Powered City"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-kth-smallest-number-in-multiplication-table",
+      "position": 110,
+      "titleInSheet": "Kth Smallest Number in Multiplication Table"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-10",
+      "problemId": "lc-kth-smallest-product-of-two-sorted-arrays",
+      "position": 111,
+      "titleInSheet": "Kth Smallest Product of Two Sorted Arrays"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "lc-single-number-iii",
+      "position": 112,
+      "titleInSheet": "Single Number III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "gfg-swap-two-numbers3844",
+      "position": 113,
+      "titleInSheet": "Swap Two Numbers (with Temp Variable)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "lc-maximum-xor-product",
+      "position": 114,
+      "titleInSheet": "Maximum XOR Product"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "lc-find-longest-awesome-substring",
+      "position": 115,
+      "titleInSheet": "Find Longest Awesome Substring"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "lc-shortest-subarray-with-or-at-least-k-ii",
+      "position": 116,
+      "titleInSheet": "Shortest Subarray with OR at Least K"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-11",
+      "problemId": "lc-bitwise-and-of-numbers-range",
+      "position": 117,
+      "titleInSheet": "Bitwise AND of Numbers Range"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "other-sort-a-stack",
+      "position": 118,
+      "titleInSheet": "Sort a Stack"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "gfg-tower-of-hanoi-1587115621",
+      "position": 119,
+      "titleInSheet": "Tower of Hanoi"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-integer-to-english-words",
+      "position": 120,
+      "titleInSheet": "Integer to English Words"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-permutations",
+      "position": 121,
+      "titleInSheet": "Permutations"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-beautiful-arrangement",
+      "position": 122,
+      "titleInSheet": "Beautiful Arrangement"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-combinations",
+      "position": 123,
+      "titleInSheet": "Combinations"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-letter-combinations-of-a-phone-number",
+      "position": 124,
+      "titleInSheet": "Letter Combinations of a Phone Number"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-combination-sum-ii",
+      "position": 125,
+      "titleInSheet": "Combination Sum II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-n-queens",
+      "position": 126,
+      "titleInSheet": "N-Queens"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-subsets",
+      "position": 127,
+      "titleInSheet": "Subsets"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-subsets-ii",
+      "position": 128,
+      "titleInSheet": "Subsets II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "other-rat-in-a-maze",
+      "position": 129,
+      "titleInSheet": "Rat in a Maze Problem"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-12",
+      "problemId": "lc-sudoku-solver",
+      "position": 130,
+      "titleInSheet": "Sudoku Solver"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-binary-tree-preorder-traversal",
+      "position": 131,
+      "titleInSheet": "Binary Tree Preorder Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "gfg-preorderpostorderinorderinasingletraversal",
+      "position": 132,
+      "titleInSheet": "Preorder, Postorder, Inorder in a Single Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-balanced-binary-tree",
+      "position": 133,
+      "titleInSheet": "Balanced Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-maximum-depth-of-binary-tree",
+      "position": 134,
+      "titleInSheet": "Maximum Depth of Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-diameter-of-binary-tree",
+      "position": 135,
+      "titleInSheet": "Diameter of Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "position": 136,
+      "titleInSheet": "Construct Binary Tree from Preorder and Inorder Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-construct-binary-tree-from-preorder-and-postorder-traversal",
+      "position": 137,
+      "titleInSheet": "Construct Binary Tree from Preorder and Postorder Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-subtree-of-another-tree",
+      "position": 138,
+      "titleInSheet": "Subtree of Another Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-binary-tree-level-order-traversal",
+      "position": 139,
+      "titleInSheet": "Binary Tree Level Order Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-binary-tree-right-side-view",
+      "position": 140,
+      "titleInSheet": "Binary Tree Right Side View"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "gfg-top-view-of-binary-tree",
+      "position": 141,
+      "titleInSheet": "Top View of Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-vertical-order-traversal-of-a-binary-tree",
+      "position": 142,
+      "titleInSheet": "Vertical Order Traversal of a Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-serialize-and-deserialize-binary-tree",
+      "position": 143,
+      "titleInSheet": "Serialize and Deserialize Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-all-nodes-distance-k-in-binary-tree",
+      "position": 144,
+      "titleInSheet": "All Nodes Distance K in Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "gfg-burning-tree",
+      "position": 145,
+      "titleInSheet": "Burning Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-populating-next-right-pointers-in-each-node",
+      "position": 146,
+      "titleInSheet": "Populating Next Right Pointers in Each Node"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-path-sum-ii-all-root-to-leaf-paths",
+      "position": 147,
+      "titleInSheet": "Path Sum II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-binary-tree-maximum-path-sum",
+      "position": 148,
+      "titleInSheet": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-path-sum-iii",
+      "position": 149,
+      "titleInSheet": "Path Sum III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "position": 150,
+      "titleInSheet": "Lowest Common Ancestor of a Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-n-ary-tree-postorder-traversal",
+      "position": 151,
+      "titleInSheet": "N-ary Tree Postorder Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-13",
+      "problemId": "lc-maximum-depth-of-n-ary-tree",
+      "position": 152,
+      "titleInSheet": "Maximum Depth of N-ary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-search-in-a-binary-search-tree",
+      "position": 153,
+      "titleInSheet": "Search in a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-insert-into-a-binary-search-tree",
+      "position": 154,
+      "titleInSheet": "Insert into a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-delete-node-in-a-bst",
+      "position": 155,
+      "titleInSheet": "Delete Node in a BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-convert-sorted-array-to-binary-search-tree",
+      "position": 156,
+      "titleInSheet": "Convert Sorted Array to Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-convert-sorted-list-to-binary-search-tree",
+      "position": 157,
+      "titleInSheet": "Convert Sorted List to Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-convert-bst-to-greater-tree",
+      "position": 158,
+      "titleInSheet": "Convert BST to Greater Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-trim-a-binary-search-tree",
+      "position": 159,
+      "titleInSheet": "Trim a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-serialize-deserialize-bst",
+      "position": 160,
+      "titleInSheet": "Serialize and Deserialize BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-construct-binary-search-tree-from-preorder-traversal",
+      "position": 161,
+      "titleInSheet": "Construct Binary Search Tree from Preorder Traversal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "gfg-construct-bst-from-post-order",
+      "position": 162,
+      "titleInSheet": "Construct BST from Postorder"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-balance-a-binary-search-tree",
+      "position": 163,
+      "titleInSheet": "Balance a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-binary-search-tree-to-greater-sum-tree",
+      "position": 164,
+      "titleInSheet": "Binary Search Tree to Greater Sum Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-find-mode-in-binary-search-tree",
+      "position": 165,
+      "titleInSheet": "Find Mode in Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-range-sum-of-bst",
+      "position": 166,
+      "titleInSheet": "Range Sum of BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-validate-binary-search-tree",
+      "position": 167,
+      "titleInSheet": "Validate Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-minimum-distance-between-bst-nodes",
+      "position": 168,
+      "titleInSheet": "Minimum Distance Between BST Nodes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-kth-smallest-element-in-a-bst",
+      "position": 169,
+      "titleInSheet": "Kth Smallest Element in a BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-increasing-order-search-tree",
+      "position": 170,
+      "titleInSheet": "Increasing Order Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-two-sum-iv-input-is-a-bst",
+      "position": 171,
+      "titleInSheet": "Two Sum IV - Input is a BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-maximum-sum-bst-in-binary-tree",
+      "position": 172,
+      "titleInSheet": "Maximum Sum BST in Binary Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "gfg-print-common-nodes-in-bst",
+      "position": 173,
+      "titleInSheet": "Find Common Nodes in two BSTs"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-all-elements-in-two-binary-search-trees",
+      "position": 174,
+      "titleInSheet": "All Elements in Two Binary Search Trees"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-unique-binary-search-trees",
+      "position": 175,
+      "titleInSheet": "Unique Binary Search Trees"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-recover-binary-search-tree",
+      "position": 176,
+      "titleInSheet": "Recover Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-number-of-ways-to-reorder-array-to-get-same-bst",
+      "position": 177,
+      "titleInSheet": "Number of Ways to Reorder Array to Get Same BST"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-binary-search-tree-iterator",
+      "position": 178,
+      "titleInSheet": "Binary Search Tree Iterator"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-lowest-common-ancestor-of-a-binary-search-tree",
+      "position": 179,
+      "titleInSheet": "Lowest Common Ancestor of a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-14",
+      "problemId": "lc-closest-nodes-queries-in-a-binary-search-tree",
+      "position": 180,
+      "titleInSheet": "Closest Nodes Queries in a Binary Search Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-task-scheduler",
+      "position": 181,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-total-cost-to-hire-k-workers",
+      "position": 182,
+      "titleInSheet": "Total Cost to Hire K Workers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-maximum-number-of-events-that-can-be-attended",
+      "position": 183,
+      "titleInSheet": "Maximum Number of Events That Can Be Attended"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-the-skyline-problem",
+      "position": 184,
+      "titleInSheet": "The Skyline Problem"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-kth-largest-element-in-a-stream",
+      "position": 185,
+      "titleInSheet": "Kth Largest Element in a Stream"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-k-closest-points-to-origin",
+      "position": 186,
+      "titleInSheet": "K Closest Points to Origin"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-find-k-closest-elements",
+      "position": 187,
+      "titleInSheet": "Find K Closest Elements"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-the-number-of-the-smallest-unoccupied-chair",
+      "position": 188,
+      "titleInSheet": "The Number of the Smallest Unoccupied Chair"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-minimum-cost-to-hire-k-workers",
+      "position": 189,
+      "titleInSheet": "Minimum Cost to Hire K Workers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-find-k-pairs-with-smallest-sums",
+      "position": 190,
+      "titleInSheet": "Find K Pairs with Smallest Sums"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "gfg-merge-k-sorted-arrays-2",
+      "position": 191,
+      "titleInSheet": "Merge K Sorted Arrays"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-find-median-from-data-stream",
+      "position": 192,
+      "titleInSheet": "Find Median from Data Stream"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-15",
+      "problemId": "lc-meeting-rooms-iii",
+      "position": 193,
+      "titleInSheet": "Meeting Rooms III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-jump-game-ii",
+      "position": 194,
+      "titleInSheet": "Jump Game II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-minimize-maximum-of-array",
+      "position": 195,
+      "titleInSheet": "Minimize Maximum of Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "other-minimum-number-of-platforms-required-for-a-railway",
+      "position": 196,
+      "titleInSheet": "Minimum Platforms"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "gfg-fractional-knapsack",
+      "position": 197,
+      "titleInSheet": "Fractional Knapsack"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "other-job-sequencing-problem",
+      "position": 198,
+      "titleInSheet": "Job Sequencing Problem"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-non-overlapping-intervals",
+      "position": 199,
+      "titleInSheet": "Non-Overlapping Intervals"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-task-scheduler",
+      "position": 200,
+      "titleInSheet": "Task Scheduler"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-bonus-minumum-swaps-to-make-strings-equal",
+      "position": 201,
+      "titleInSheet": "Minimum Swaps to Make Strings Equal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-gas-station",
+      "position": 202,
+      "titleInSheet": "Gas Station"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-candy",
+      "position": 203,
+      "titleInSheet": "Candy"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-16",
+      "problemId": "lc-patching-array",
+      "position": 204,
+      "titleInSheet": "Patching Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-min-cost-climbing-stairs",
+      "position": 205,
+      "titleInSheet": "Min Cost Climbing Stairs"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-house-robber",
+      "position": 206,
+      "titleInSheet": "House Robber"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-coin-change",
+      "position": 207,
+      "titleInSheet": "Coin Change"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-best-time-to-buy-and-sell-stock",
+      "position": 208,
+      "titleInSheet": "Best Time to Buy and Sell Stock"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-total-damage-with-spell-casting",
+      "position": 209,
+      "titleInSheet": "Maximum Total Damage With Spell Casting"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-coin-change-ii",
+      "position": 210,
+      "titleInSheet": "Coin Change II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-partition-equal-subset-sum",
+      "position": 211,
+      "titleInSheet": "Partition Equal Subset Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-longest-arithmetic-subsequence",
+      "position": 212,
+      "titleInSheet": "Longest Arithmetic Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-frog-jump-with-k-distances-dp-4",
+      "position": 213,
+      "titleInSheet": "Frog Jump"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-iv",
+      "position": 214,
+      "titleInSheet": "Best Time to Buy and Sell Stock IV"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "position": 215,
+      "titleInSheet": "Best Time to Buy and Sell Stock with Transaction Fee"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-best-time-to-buy-and-sell-stock-with-cooldown",
+      "position": 216,
+      "titleInSheet": "Best Time to Buy and Sell Stock with Cooldown"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "gfg-geeks-training",
+      "position": 217,
+      "titleInSheet": "Geek's Training"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-unique-paths-ii",
+      "position": 218,
+      "titleInSheet": "Unique Paths II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-minimum-path-sum",
+      "position": 219,
+      "titleInSheet": "Minimum Path Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-difference-score-in-a-grid",
+      "position": 220,
+      "titleInSheet": "Maximum Difference Score in a Grid"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-cherry-pickup",
+      "position": 221,
+      "titleInSheet": "Cherry Pickup"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-number-of-paths-with-max-score",
+      "position": 222,
+      "titleInSheet": "Number of Paths with Max Score"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-min-falling-path-sum-ii",
+      "position": 223,
+      "titleInSheet": "Minimum Falling Path Sum II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "gfg-0-1-knapsack-problem0945",
+      "position": 224,
+      "titleInSheet": "Knapsack - 1"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "atcoder-knapsack2",
+      "position": 225,
+      "titleInSheet": "Knapsack - 2"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-target-sum",
+      "position": 226,
+      "titleInSheet": "Target Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-shopping-offers",
+      "position": 227,
+      "titleInSheet": "Shopping Offers"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-last-stone-weight-ii",
+      "position": 228,
+      "titleInSheet": "Last Stone Weight II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "gfg-rod-cutting0840",
+      "position": 229,
+      "titleInSheet": "Rod Cutting"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-profitable-schemes",
+      "position": 230,
+      "titleInSheet": "Profitable Schemes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-longest-increasing-subsequence",
+      "position": 231,
+      "titleInSheet": "Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "gfg-printing-longest-increasing-subsequence",
+      "position": 232,
+      "titleInSheet": "Printing Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-number-of-longest-increasing-subsequence",
+      "position": 233,
+      "titleInSheet": "Number of Longest Increasing Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-largest-divisible-subset",
+      "position": 234,
+      "titleInSheet": "Largest Divisible Subset"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-height-by-stacking-cuboids",
+      "position": 235,
+      "titleInSheet": "Maximum Height by Stacking Cuboids"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-longest-common-subsequence",
+      "position": 236,
+      "titleInSheet": "Longest Common Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "gfg-print-all-lcs-sequences3413",
+      "position": 237,
+      "titleInSheet": "Print all LCS sequences"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-longest-palindromic-subsequence",
+      "position": 238,
+      "titleInSheet": "Longest Palindromic Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-edit-distance",
+      "position": 239,
+      "titleInSheet": "Edit Distance"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-wildcard-matching",
+      "position": 240,
+      "titleInSheet": "Wildcard Matching"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-shortest-common-supersequence",
+      "position": 241,
+      "titleInSheet": "Shortest Common Supersequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-minimum-insertion-steps-to-make-a-string-palindrome",
+      "position": 242,
+      "titleInSheet": "Minimum Insertion Steps to Make a String Palindrome"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-word-break",
+      "position": 243,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-distinct-subsequences",
+      "position": 244,
+      "titleInSheet": "Distinct Subsequences"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-word-break-ii",
+      "position": 245,
+      "titleInSheet": "Word Break II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximal-square",
+      "position": 246,
+      "titleInSheet": "Maximal Square"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-count-square-submatrices-with-all-ones",
+      "position": 247,
+      "titleInSheet": "Count Square Submatrices with All Ones"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximal-rectangle-sec9-1",
+      "position": 248,
+      "titleInSheet": "Maximal Rectangle"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-number-of-submatrices-that-sum-to-target",
+      "position": 249,
+      "titleInSheet": "Number of Submatrices That Sum to Target"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "other-matrix-chain-multiplication-sec8-2",
+      "position": 250,
+      "titleInSheet": "Matrix Chain Multiplication"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-burst-balloons",
+      "position": 251,
+      "titleInSheet": "Burst Balloons"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-minimum-score-triangulation-of-polygon",
+      "position": 252,
+      "titleInSheet": "Minimum Score Triangulation of Polygon"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-partition-array-for-maximum-sum",
+      "position": 253,
+      "titleInSheet": "Partition Array for Maximum Sum"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-palindrome-partitioning-iii",
+      "position": 254,
+      "titleInSheet": "Palindrome Partitioning II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-strange-printer",
+      "position": 255,
+      "titleInSheet": "Strange Printer"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-subarray",
+      "position": 256,
+      "titleInSheet": "Maximum Subarray"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-product-subarray",
+      "position": 257,
+      "titleInSheet": "Maximum Product Subarray"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-maximum-subarray-sum-with-one-deletion",
+      "position": 258,
+      "titleInSheet": "Maximum Subarray Sum with One Deletion"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-17",
+      "problemId": "lc-length-of-longest-fibonacci-subsequence",
+      "position": 259,
+      "titleInSheet": "Length of Longest Fibonacci Subsequence"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-keys-and-rooms",
+      "position": 260,
+      "titleInSheet": "Keys and Rooms"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-provinces",
+      "position": 261,
+      "titleInSheet": "Number of Provinces"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+      "position": 262,
+      "titleInSheet": "Reorder Routes to Make All Paths Lead to the City Zero"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "cses-roundtrip",
+      "position": 263,
+      "titleInSheet": "Round Trip"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-word-ladder",
+      "position": 264,
+      "titleInSheet": "Word Ladder"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "codeforces-validbfs",
+      "position": 265,
+      "titleInSheet": "Valid BFS?"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-minimum-number-of-operations-to-make-x-and-y-equal",
+      "position": 266,
+      "titleInSheet": "Minimum Number of Operations to Make X and Y Equal"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-clone-graph",
+      "position": 267,
+      "titleInSheet": "Clone Graph"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-detect-cycle-in-an-undirected-graph",
+      "position": 268,
+      "titleInSheet": "Detect Cycle in an Undirected Graph (GeeksforGeeks)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-detect-cycle-in-a-directed-graph",
+      "position": 269,
+      "titleInSheet": "Detect Cycle in a Directed Graph (GeeksforGeeks)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 270,
+      "titleInSheet": "Check if a Graph Has a Cycle of Odd Length"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-detect-cycles-in-2d-grid",
+      "position": 271,
+      "titleInSheet": "Detect Cycles in 2D Grid"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-shortest-cycle-in-a-graph",
+      "position": 272,
+      "titleInSheet": "Shortest Cycle in a Graph"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-is-graph-bipartite",
+      "position": 273,
+      "titleInSheet": "Is Graph Bipartite?"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-course-schedule-ii",
+      "position": 274,
+      "titleInSheet": "Course Schedule II"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-find-eventual-safe-states",
+      "position": 275,
+      "titleInSheet": "Find Eventual Safe States"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "position": 276,
+      "titleInSheet": "All Ancestors of a Node in a Directed Acyclic Graph"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-alien-dictionary",
+      "position": 277,
+      "titleInSheet": "Alien Dictionary"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-largest-color-value-in-a-directed-graph",
+      "position": 278,
+      "titleInSheet": "Largest Color Value in a Directed Graph"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-parallel-courses-iii",
+      "position": 279,
+      "titleInSheet": "Parallel Courses III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-flood-fill",
+      "position": 280,
+      "titleInSheet": "Flood Fill"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-islands",
+      "position": 281,
+      "titleInSheet": "Number of Islands"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-count-sub-islands",
+      "position": 282,
+      "titleInSheet": "Count Sub Islands"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-find-all-groups-of-farmland",
+      "position": 283,
+      "titleInSheet": "Find All Groups of Farmland"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-rotting-oranges",
+      "position": 284,
+      "titleInSheet": "Rotting Oranges"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-enclaves",
+      "position": 285,
+      "titleInSheet": "Number of Enclaves"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-surrounded-regions",
+      "position": 286,
+      "titleInSheet": "Surrounded Regions"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-closed-islands",
+      "position": 287,
+      "titleInSheet": "Number of Closed Islands"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-01-matrix",
+      "position": 288,
+      "titleInSheet": "01 Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "cses-shortestroutei",
+      "position": 289,
+      "titleInSheet": "Shortest Route I"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-shortest-path-in-weighted-undirected-graph",
+      "position": 290,
+      "titleInSheet": "Dijkstra?"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-network-delay-time",
+      "position": 291,
+      "titleInSheet": "Network Delay Time"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-ways-to-arrive-at-destination",
+      "position": 292,
+      "titleInSheet": "Number of Ways to Arrive at Destination"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "position": 293,
+      "titleInSheet": "Minimum Cost to Make at Least One Valid Path in a Grid"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-shortest-path-in-binary-matrix",
+      "position": 294,
+      "titleInSheet": "Shortest Path in Binary Matrix"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-second-minimum-time-to-reach-destination",
+      "position": 295,
+      "titleInSheet": "Second Minimum Time to Reach Destination"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "cses-highscore",
+      "position": 296,
+      "titleInSheet": "High Score"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-bus-routes",
+      "position": 297,
+      "titleInSheet": "Bus Routes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "position": 298,
+      "titleInSheet": "Find the City With the Smallest Number of Neighbors at a Threshold Distance"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-minimum-cost-to-convert-string-i",
+      "position": 299,
+      "titleInSheet": "Minimum Cost to Convert String I"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-number-of-possible-sets-of-closing-branches",
+      "position": 300,
+      "titleInSheet": "Number of Possible Sets of Closing Branches"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-accounts-merge",
+      "position": 301,
+      "titleInSheet": "Accounts Merge"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-find-latest-group-of-size-m",
+      "position": 302,
+      "titleInSheet": "Find Latest Group of Size M"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-gcd-sort-of-an-array",
+      "position": 303,
+      "titleInSheet": "GCD Sort of an Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-checking-existence-of-edge-length-limited-paths",
+      "position": 304,
+      "titleInSheet": "Checking Existence of Edge Length Limited Paths"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-minimum-spanning-tree-prims",
+      "position": 305,
+      "titleInSheet": "Prim\u2019s Minimum Spanning Tree (MST) \u2013 Greedy Algorithm"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-minimum-spanning-tree-kruskal",
+      "position": 306,
+      "titleInSheet": "Kruskal\u2019s Minimum Spanning Tree Algorithm \u2013 Greedy Algorithm"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "gfg-water-connection-problem",
+      "position": 307,
+      "titleInSheet": "Water Connection Problem"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "position": 308,
+      "titleInSheet": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-articulation-points",
+      "position": 309,
+      "titleInSheet": "Articulation Points (or Cut Vertices) in a Graph"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-count-connected-components-in-lcm-graph",
+      "position": 310,
+      "titleInSheet": "Strongly Connected Components"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-18",
+      "problemId": "lc-bridges-in-graph-tarjan-s",
+      "position": 311,
+      "titleInSheet": "Critical Connections in a Network"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "lc-partition-to-k-equal-sum-subsets",
+      "position": 312,
+      "titleInSheet": "Partition to K Equal Sum Subsets"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "lc-maximum-students-taking-exam",
+      "position": 313,
+      "titleInSheet": "Maximum Students Taking Exam"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "codechef-littleelephantandtshirts",
+      "position": 314,
+      "titleInSheet": "Little Elephant and T-Shirts"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "lc-house-robber-iii",
+      "position": 315,
+      "titleInSheet": "House Robber III"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "lc-sum-of-distances-in-tree",
+      "position": 316,
+      "titleInSheet": "Sum of Distances in Tree"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-19",
+      "problemId": "lc-time-taken-to-mark-all-nodes",
+      "position": 317,
+      "titleInSheet": "Time Taken to Mark All Nodes"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-implement-trie-prefix-tree",
+      "position": 318,
+      "titleInSheet": "Implement Trie (Prefix Tree)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "gfg-trie-delete",
+      "position": 319,
+      "titleInSheet": "Trie Delete"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-design-add-and-search-words-data-structure",
+      "position": 320,
+      "titleInSheet": "Design Add and Search Words Data Structure"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-maximum-xor-of-two-numbers-in-an-array",
+      "position": 321,
+      "titleInSheet": "Maximum XOR of Two Numbers in an Array"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-word-break",
+      "position": 322,
+      "titleInSheet": "Word Break"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "position": 323,
+      "titleInSheet": "KMP Algorithm for Pattern Searching"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "gfg-search-pattern-rabin-karp-algorithm--141631",
+      "position": 324,
+      "titleInSheet": "Rabin-Karp Algorithm for Pattern Searching"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "gfg-search-pattern-z-algorithm--141631",
+      "position": 325,
+      "titleInSheet": "Z Algorithm (Linear-Time Pattern Searching Algorithm)"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-find-substring-with-given-hash-value",
+      "position": 326,
+      "titleInSheet": "Find Substring with Given Hash Value"
+    },
+    {
+      "sheetId": "fraz-interview",
+      "sectionId": "fraz-sec-20",
+      "problemId": "lc-longest-happy-prefix",
+      "position": 327,
+      "titleInSheet": "Longest Happy Prefix"
+    }
+  ]
+}

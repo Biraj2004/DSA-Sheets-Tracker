@@ -1,10 +1,12 @@
 import type { Problem, SheetData, Sheet } from '../types';
 import problemsRaw from './problems.json';
 import striverRaw from './striver-a2z.json';
-import babbarRaw from './love-babbar-450.json';
-import neetcode150Raw from './neetcode-150.json';
 import neetcode250Raw from './neetcode-250.json';
+import namasteDsaRaw from './namaste-dsa.json';
+import patternWiseRaw from './pattern-wise.json';
+import babbarRaw from './love-babbar-450.json';
 import apnaCollegeRaw from './apna-college.json';
+import frazInterviewRaw from './fraz-interview.json';
 
 export const allProblems: Problem[] = problemsRaw as Problem[];
 export const problemMap = new Map<string, Problem>(
@@ -12,15 +14,19 @@ export const problemMap = new Map<string, Problem>(
 );
 
 export const striverSheet: SheetData = striverRaw as SheetData;
-export const babbarSheet: SheetData = babbarRaw as SheetData;
-export const neetcode150Sheet: SheetData = neetcode150Raw as SheetData;
 export const neetcode250Sheet: SheetData = neetcode250Raw as SheetData;
+export const namasteDsaSheet: SheetData = namasteDsaRaw as SheetData;
+export const frazInterviewSheet: SheetData = frazInterviewRaw as SheetData;
+export const patternWiseSheet: SheetData = patternWiseRaw as SheetData;
+export const babbarSheet: SheetData = babbarRaw as SheetData;
 export const apnaCollegeSheet: SheetData = apnaCollegeRaw as SheetData;
 
 export const allSheets: SheetData[] = [
   striverSheet,
-  neetcode150Sheet,
   neetcode250Sheet,
+  namasteDsaSheet,
+  frazInterviewSheet,
+  patternWiseSheet,
   babbarSheet,
   apnaCollegeSheet,
 ];
