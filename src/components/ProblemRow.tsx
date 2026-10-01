@@ -48,6 +48,8 @@ function resolveDomainLabel(url: string | null): BadgeInfo {
   if (lower.includes('naukri.com') || lower.includes('code360') || lower.includes('codingninjas.com') || lower.includes('codestudio')) {
     return { label: 'Code360', style: 'text-orange-400 bg-orange-500/10 border-orange-500/20' };
   }
+  if (lower.includes('lintcode.com'))     return { label: 'LintCode',     style: 'text-sky-400 bg-sky-500/10 border-sky-500/20' };
+  if (lower.includes('neetcode.io'))      return { label: 'NeetCode',     style: 'text-teal-400 bg-teal-500/10 border-teal-500/20' };
   if (lower.includes('takeuforward.org'))  return { label: 'TUF',          style: 'text-red-400 bg-red-500/10 border-red-500/30' };
   if (lower.includes('namastedev.com'))   return { label: 'NamasteDev',   style: 'text-amber-500 bg-amber-500/10 border-amber-500/20' };
   if (lower.includes('programiz.com'))     return { label: 'Programiz',     style: 'text-teal-400 bg-teal-500/10 border-teal-500/20' };
@@ -67,6 +69,8 @@ const NAMED_BADGES: Record<string, BadgeInfo> = {
   gfg:           { label: 'GFG',          style: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' },
   geeksforgeeks: { label: 'GFG',          style: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' },
   tuf:           { label: 'TUF',          style: 'text-red-400 bg-red-500/10 border-red-500/30' },
+  neetcode:      { label: 'NeetCode',     style: 'text-teal-400 bg-teal-500/10 border-teal-500/20' },
+  lintcode:      { label: 'LintCode',     style: 'text-sky-400 bg-sky-500/10 border-sky-500/20' },
   namastedev:    { label: 'NamasteDev',   style: 'text-amber-500 bg-amber-500/10 border-amber-500/20' },
   concept:       { label: 'Concept',      style: 'text-violet-400 bg-violet-500/10 border-violet-500/20' },
   codingninjas:  { label: 'Code360',      style: 'text-orange-400 bg-orange-500/10 border-orange-500/20' },
@@ -90,17 +94,26 @@ function getRoutingInfo(problem: Problem): {
   secondaryLinks: SecondaryLink[];
   extraBadge: BadgeInfo | null;   // for concept items that also have a platform URL
 } {
-  const { platform, url, tufUrl } = problem;
+  const { platform, url, tufUrl, altUrl } = problem;
 
   const isTufUrl = (u: string | null | undefined) => !!u && u.includes('takeuforward.org') && !u.includes('/search/');
   const tufPlusUrl = (tufUrl && !tufUrl.includes('/search/')) ? tufUrl : (isTufUrl(url) ? url : null);
-  const tufSecondary: SecondaryLink | null = tufPlusUrl ? {
+  const tufSecondary: SecondaryLink | null = (tufPlusUrl && tufPlusUrl !== url) ? {
     url: tufPlusUrl,
     label: 'TUF',
     style: 'text-red-400 bg-red-500/10 border-red-500/30',
   } : null;
 
   const secondaryLinks: SecondaryLink[] = tufSecondary ? [tufSecondary] : [];
+
+  if (altUrl && altUrl !== url && altUrl !== tufPlusUrl) {
+    const altBadge = resolveDomainLabel(altUrl);
+    secondaryLinks.push({
+      url: altUrl,
+      label: altBadge.label,
+      style: altBadge.style,
+    });
+  }
 
   // ── LeetCode ─────────────────────────────────────────────────────────
   if (platform === 'leetcode') {
@@ -268,18 +281,23 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                     {extraBadge.label}
                   </span>
                 )}
-                {secondaryLinks.map((link, i) => (
-                  <a
-                    key={i}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title={`Also in ${link.label}`}
-                    className={`px-1.5 py-0.5 rounded text-[10px] font-semibold border cursor-pointer hover:brightness-125 transition-all ${link.style}`}
-                  >
-                    Also in {link.label}
-                  </a>
-                ))}
+                {secondaryLinks.map((link, i) => {
+                  const isFreeAlternative = problem.isLeetCodePremium && (link.label === 'GFG' || link.label === 'LintCode' || link.label === 'NeetCode' || link.label === 'Code360');
+                  const badgeText = isFreeAlternative ? `Free: ${link.label}` : `Also in ${link.label}`;
+                  const badgeTooltip = isFreeAlternative ? `Solve for free on ${link.label}` : `Also in ${link.label}`;
+                  return (
+                    <a
+                      key={i}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={badgeTooltip}
+                      className={`px-1.5 py-0.5 rounded text-[10px] font-semibold border cursor-pointer hover:brightness-125 transition-all ${link.style}`}
+                    >
+                      {badgeText}
+                    </a>
+                  );
+                })}
               </div>
             </div>
 

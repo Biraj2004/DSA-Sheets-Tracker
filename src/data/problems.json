@@ -94,7 +94,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Greedy Algorithms",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1"
   },
   {
     "id": "gfg-activity-selection",
@@ -192,7 +193,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Graphs"
+    "category": "Graphs",
+    "altUrl": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+    "tufUrl": "https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/"
   },
   {
     "id": "lc-allocate-books",
@@ -217,7 +220,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Math & Number Theory",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1",
+    "tufUrl": "https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/"
   },
   {
     "id": "lc-articulation-points",
@@ -593,7 +598,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Binary Trees",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1",
+    "tufUrl": "https://takeuforward.org/data-structure/boundary-traversal-in-binary-tree/"
   },
   {
     "id": "lc-bridges-in-graph-tarjan-s",
@@ -1052,7 +1059,9 @@
       "Insert copy nodes in-between original nodes"
     ],
     "category": "Linked Lists",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1",
+    "tufUrl": "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/"
   },
   {
     "id": "lc-coin-change",
@@ -1672,7 +1681,7 @@
   },
   {
     "id": "lc-count-triplets-in-a-sorted-dll-whose-sum-is-equal-to-given-value-x",
-    "title": "Count triplets in a sorted DLL whose sum is equal to given\n                  value \u201cX\u201d.",
+    "title": "Count triplets in a sorted DLL whose sum is equal to given\n                  value “X”.",
     "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target",
@@ -2146,7 +2155,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Strings"
+    "category": "Strings",
+    "altUrl": "https://neetcode.io/problems/string-encode-and-decode"
   },
   {
     "id": "lc-evaluate-boolean-expression-to-true",
@@ -2158,7 +2168,9 @@
       "3D DP (i, j, isTrue)"
     ],
     "category": "Dynamic Programming",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/boolean-parenthesization5611/1",
+    "tufUrl": "https://takeuforward.org/data-structure/evaluate-boolean-expression-to-true-partition-dp-dp-52/"
   },
   {
     "id": "lc-evaluate-division",
@@ -2656,7 +2668,8 @@
       "Love Babbar DSA Sheet."
     ],
     "category": "Linked Lists",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/smallest-number5829/1"
   },
   {
     "id": "other-find-square-root-of-a-number",
@@ -2945,7 +2958,7 @@
   },
   {
     "id": "gfg-first-negative-integer-in-every-window-of-size-k",
-    "title": "First negative integer in every window of size \u201ck\u201d",
+    "title": "First negative integer in every window of size “k”",
     "platform": "gfg",
     "url": "https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/0",
     "difficulty": "medium",
@@ -2995,7 +3008,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Binary Search Trees",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/1"
   },
   {
     "id": "lc-flood-fill",
@@ -3208,7 +3222,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Graphs"
+    "category": "Graphs",
+    "altUrl": "https://neetcode.io/problems/valid-tree"
   },
   {
     "id": "lc-greatest-common-divisor-of-strings",
@@ -3485,7 +3500,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Tries",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/phone-directory4628/1"
   },
   {
     "id": "lc-implement-floyd-warshallalgorithm",
@@ -3605,7 +3621,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Strings"
+    "category": "Strings",
+    "altUrl": "https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1",
+    "tufUrl": "https://takeuforward.org/data-structure/inorder-successor-predecessor-in-bst/"
   },
   {
     "id": "other-inorder-tree-traversal-iterative-recursive",
@@ -3738,7 +3756,9 @@
       "General"
     ],
     "category": "Linked Lists",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/introduction-to-doubly-linked-list/1",
+    "tufUrl": "https://takeuforward.org/data-structure/introduction-to-doubly-linked-list/"
   },
   {
     "id": "lc-introduction-to-heaps",
@@ -3750,7 +3770,9 @@
       "General"
     ],
     "category": "Heaps & Priority Queues",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/implementation-of-priority-queue-using-binary-heap/1",
+    "tufUrl": "https://takeuforward.org/data-structure/introduction-to-heap-data-structure/"
   },
   {
     "id": "lc-introduction-to-linked-list",
@@ -4111,7 +4133,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Binary Search Trees",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/largest-bst/1",
+    "tufUrl": "https://takeuforward.org/data-structure/maximum-sum-bst-in-binary-tree/"
   },
   {
     "id": "lc-largest-divisible-subset",
@@ -4519,7 +4543,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Strings",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/find-the-longest-string--170645/1",
+    "tufUrl": "https://takeuforward.org/data-structure/longest-word-with-all-prefixes/"
   },
   {
     "id": "other-longest-word-with-all-prefixes",
@@ -4584,7 +4610,9 @@
       "std::lower_bound in C++ / Custom implementation"
     ],
     "category": "Searching & Sorting",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1",
+    "tufUrl": "https://takeuforward.org/arrays/implement-lower-bound-bs-2/"
   },
   {
     "id": "lc-lowest-common-ancestor-of-a-binary-search-tree",
@@ -5163,7 +5191,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Arrays & Vectors",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://neetcode.io/problems/meeting-schedule"
   },
   {
     "id": "lc-meeting-rooms-ii",
@@ -5177,7 +5206,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Arrays & Vectors",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://neetcode.io/problems/meeting-schedule-ii"
   },
   {
     "id": "lc-meeting-rooms-iii",
@@ -5446,7 +5476,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "2D Arrays & Matrix",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1",
+    "tufUrl": "https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/"
   },
   {
     "id": "lc-minimized-maximum-of-products-distributed-to-any-store",
@@ -5731,7 +5763,7 @@
   },
   {
     "id": "lc-minimum-number-of-removals-to-make-mountain-array",
-    "title": "Minimum removals from array to make max \u2013min <= K",
+    "title": "Minimum removals from array to make max –min <= K",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array",
     "difficulty": "medium",
@@ -5784,7 +5816,7 @@
   },
   {
     "id": "lc-minimum-sum-of-squares-of-character-counts-in-a-given-string-after-removing-k-characters",
-    "title": "Minimum sum of squares of character counts in a given string\n                  after removing \u201ck\u201d characters.",
+    "title": "Minimum sum of squares of character counts in a given string\n                  after removing “k” characters.",
     "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string",
@@ -5840,7 +5872,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Two Pointers & Sliding Window",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/minimum-window-subsequence/1"
   },
   {
     "id": "lc-minimum-window-substring",
@@ -6163,7 +6196,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Graphs"
+    "category": "Graphs",
+    "altUrl": "https://neetcode.io/problems/count-connected-components",
+    "tufUrl": "https://takeuforward.org/data-structure/number-of-provinces/"
   },
   {
     "id": "lc-number-of-distinct-islands",
@@ -6175,7 +6210,9 @@
       "General"
     ],
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1",
+    "tufUrl": "https://takeuforward.org/data-structure/number-of-distinct-islands/"
   },
   {
     "id": "lc-number-of-distinct-substrings",
@@ -6213,7 +6250,9 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/number-of-islands/1",
+    "tufUrl": "https://takeuforward.org/data-structure/number-of-islands-ii-online-queries-dsu-g-51/"
   },
   {
     "id": "lc-number-of-islands",
@@ -6372,7 +6411,8 @@
       "General"
     ],
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/1746/"
   },
   {
     "id": "gfg-optimum-location-point-minimize-total-distance",
@@ -6416,7 +6456,7 @@
   },
   {
     "id": "he-painters-partition",
-    "title": "Painter\u2019s Partition",
+    "title": "Painter’s Partition",
     "platform": "hackerearth",
     "url": "https://hackerearth.com/problem/algorithm/painters-partition",
     "difficulty": "medium",
@@ -7156,7 +7196,8 @@
       "Love Babbar DSA Sheet."
     ],
     "category": "Arrays & Vectors",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.geeksforgeeks.org/problems/page-faults-in-lru5603/1"
   },
   {
     "id": "lc-unique-binary-search-trees",
@@ -7280,7 +7321,7 @@
   },
   {
     "id": "lc-recursion-reverse-an-array",
-    "title": "Recursion \u2014 Reverse an Array",
+    "title": "Recursion — Reverse an Array",
     "difficulty": "easy",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/concatenate-array-with-reverse",
@@ -7676,7 +7717,7 @@
   },
   {
     "id": "gfg-reverse-first-k-elements-of-queue",
-    "title": "Reverse the first \u201cK\u201d elements of a queue",
+    "title": "Reverse the first “K” elements of a queue",
     "platform": "gfg",
     "url": "https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1",
     "difficulty": "easy",
@@ -7707,7 +7748,7 @@
     "platform": "gfg",
     "url": "https://www.geeksforgeeks.org/problems/rabin-karp-algorithm-for-pattern-searching/1",
     "topics": [
-      "Day 7 : Strings (Part 2) \u00b7 Apna College"
+      "Day 7 : Strings (Part 2) · Apna College"
     ],
     "category": "Strings"
   },
@@ -8184,7 +8225,7 @@
   },
   {
     "id": "lc-smallest-range-covering-elements-from-k-lists",
-    "title": "Smallest range in \u201cK\u201d Lists",
+    "title": "Smallest range in “K” Lists",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists",
     "difficulty": "medium",
@@ -8264,7 +8305,7 @@
   },
   {
     "id": "cn-sort-a-k-sorted-doubly-linked-list",
-    "title": "Sort a \u201ck\u201dsorted Doubly Linked list.[Very IMP]",
+    "title": "Sort a “k”sorted Doubly Linked list.[Very IMP]",
     "platform": "codingninjas",
     "url": "https://codingninjas.com/codestudio/problems/sort-a-k-sorted-doubly-linked-list_1118118",
     "difficulty": "medium",
@@ -8688,7 +8729,7 @@
   },
   {
     "id": "lc-sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k",
-    "title": "Sum of minimum and maximum elements of all subarrays of size\n                  \u201ck\u201d.",
+    "title": "Sum of minimum and maximum elements of all subarrays of size\n                  “k”.",
     "difficulty": "medium",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays",
@@ -8868,11 +8909,13 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "isLeetCodePremium": true,
-    "category": "Stacks & Queues"
+    "category": "Stacks & Queues",
+    "altUrl": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
+    "tufUrl": "https://takeuforward.org/data-structure/celebrity-problem/"
   },
   {
     "id": "gfg-the-knights-tour-problem-backtracking",
-    "title": "The Knight\u2019s tour problem",
+    "title": "The Knight’s tour problem",
     "platform": "gfg",
     "url": "https://geeksforgeeks.org/the-knights-tour-problem-backtracking-1",
     "difficulty": "medium",
@@ -9312,7 +9355,8 @@
     "check": "ok",
     "checkedAt": "2026-09-30T19:40:00Z",
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://neetcode.io/problems/islands-and-treasure"
   },
   {
     "id": "gfg-water-connection-problem",
@@ -9907,7 +9951,8 @@
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.466Z",
     "category": "Arrays & Strings",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/609/"
   },
   {
     "id": "lc-3sum-with-multiplicity",
@@ -10311,7 +10356,8 @@
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.466Z",
     "category": "Arrays & Strings",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/850/"
   },
   {
     "id": "lc-range-module",
@@ -10988,7 +11034,8 @@
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/605/"
   },
   {
     "id": "lc-parallel-courses",
@@ -11002,7 +11049,8 @@
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/814/"
   },
   {
     "id": "lc-find-all-possible-recipes-from-given-supplies",
@@ -11094,7 +11142,8 @@
     "check": "ok",
     "checkedAt": "2026-10-01T09:05:19.468Z",
     "category": "Graphs",
-    "isLeetCodePremium": true
+    "isLeetCodePremium": true,
+    "altUrl": "https://www.lintcode.com/problem/856/"
   },
   {
     "id": "lc-earliest-possible-day-of-full-bloom",
