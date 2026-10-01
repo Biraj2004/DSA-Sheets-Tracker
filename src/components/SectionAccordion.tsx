@@ -23,6 +23,8 @@ interface SectionAccordionProps {
   onMarkSectionSolved?: (problemIds: string[]) => void;
   onResetSection?: (problemIds: string[]) => void;
   defaultOpen?: boolean;
+  isActiveStep?: boolean;
+  onActivate?: () => void;
 }
 
 export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
@@ -38,9 +40,20 @@ export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
   onMarkSectionSolved,
   onResetSection,
   defaultOpen = true,
+  isActiveStep = false,
+  onActivate,
 }) => {
-  const [isOpen, setIsOpen] = useState(defaultOpen);
+  const [userToggled, setUserToggled] = useState<boolean | null>(null);
+  const isOpen = userToggled !== null ? userToggled : (defaultOpen || isActiveStep);
   const [showMenu, setShowMenu] = useState(false);
+
+  const handleToggleOpen = () => {
+    const next = !isOpen;
+    setUserToggled(next);
+    if (next && onActivate) {
+      onActivate();
+    }
+  };
 
   const total = items.length;
   let solved = 0;
@@ -78,18 +91,22 @@ export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
   return (
     <div
       id={section.id}
-      className="bg-slate-900/40 border border-slate-800 rounded-xl mb-3 transition-all scroll-mt-28"
+      className={`bg-slate-900/40 html-light:bg-white border rounded-xl mb-3 transition-all scroll-mt-28 ${
+        isActiveStep
+          ? 'border-indigo-500/60 html-light:border-indigo-400 ring-1 ring-indigo-500/20 html-light:ring-indigo-400/20 shadow-xs'
+          : 'border-slate-800 html-light:border-slate-200'
+      }`}
     >
       {/* Section Header Trigger */}
       <div
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between p-3.5 sm:px-5 sm:py-3.5 text-left bg-slate-900/60 hover:bg-slate-900/90 transition-colors cursor-pointer select-none"
+        onClick={handleToggleOpen}
+        className="w-full flex items-center justify-between p-3.5 sm:px-5 sm:py-3.5 text-left bg-slate-900/60 hover:bg-slate-900/90 html-light:bg-slate-50 html-light:hover:bg-slate-100 transition-colors cursor-pointer select-none rounded-t-xl"
         role="button"
         tabIndex={0}
         onKeyDown={(e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
-            setIsOpen(!isOpen);
+            handleToggleOpen();
           }
         }}
       >
@@ -99,9 +116,14 @@ export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
           ) : (
             <ChevronRight className="w-4 h-4 text-slate-400 shrink-0" />
           )}
-          <span className="font-semibold text-sm sm:text-base text-slate-100 truncate">
+          <span className="font-semibold text-sm sm:text-base text-slate-100 html-light:text-slate-900 truncate">
             {section.title}
           </span>
+          {isActiveStep && (
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 html-light:bg-indigo-50 text-indigo-300 html-light:text-indigo-600 border border-indigo-500/30 html-light:border-indigo-200 shrink-0 select-none">
+              Current Step
+            </span>
+          )}
         </div>
 
         {/* Progress Metrics & Batch Actions */}
@@ -217,11 +239,26 @@ export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
                 titleInSheet={item.titleInSheet}
                 currentSheetId={currentSheetId}
                 progress={progress}
-                onToggleSolved={onToggleSolved}
-                onSetStatus={onSetStatus}
-                onToggleStar={onToggleStar}
-                onSaveNote={onSaveNote}
-                onScheduleReview={onScheduleReview}
+                onToggleSolved={(id) => {
+                  onActivate?.();
+                  onToggleSolved(id);
+                }}
+                onSetStatus={(id, status) => {
+                  onActivate?.();
+                  onSetStatus(id, status);
+                }}
+                onToggleStar={(id) => {
+                  onActivate?.();
+                  onToggleStar(id);
+                }}
+                onSaveNote={(id, note) => {
+                  onActivate?.();
+                  onSaveNote(id, note);
+                }}
+                onScheduleReview={(id, daysAhead) => {
+                  onActivate?.();
+                  onScheduleReview(id, daysAhead);
+                }}
               />
             );
           })}

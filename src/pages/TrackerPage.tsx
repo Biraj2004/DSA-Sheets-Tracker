@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import {
   getSheetData,
@@ -13,6 +13,22 @@ import { RevisionView } from '../components/RevisionView';
 import { SkeletonLoader } from '../components/SkeletonLoader';
 import { Info, ExternalLink, Mail } from 'lucide-react';
 import type { Progress, Status } from '../types';
+
+function getSavedActiveSection(sheetId: string): string | null {
+  try {
+    return localStorage.getItem(`dsa_active_step_${sheetId}`);
+  } catch {
+    return null;
+  }
+}
+
+function setSavedActiveSection(sheetId: string, sectionId: string) {
+  try {
+    localStorage.setItem(`dsa_active_step_${sheetId}`, sectionId);
+  } catch {
+    // Ignore storage errors in restricted environments
+  }
+}
 
 interface TrackerPageProps {
   activeSheetId: string;
@@ -58,6 +74,84 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
   const currentSheetData = useMemo(() => {
     return getSheetData(activeSheetId);
   }, [activeSheetId]);
+
+  // Determine the active/working section for this sheet
+  const activeSectionId = useMemo(() => {
+    if (!currentSheetData || currentSheetData.sections.length === 0) return null;
+
+    // 1. Explicitly saved section from user interaction
+    const saved = getSavedActiveSection(activeSheetId);
+    if (saved && currentSheetData.sections.some((s) => s.id === saved)) {
+      return saved;
+    }
+
+    // 2. Most recently solved problem in this sheet
+    let latestTime = 0;
+    let latestSectionId: string | null = null;
+    for (const item of currentSheetData.items) {
+      const prog = progressMap.get(item.problemId);
+      if (prog?.solvedAt) {
+        const time = new Date(prog.solvedAt).getTime();
+        if (time > latestTime) {
+          latestTime = time;
+          latestSectionId = item.sectionId;
+        }
+      }
+    }
+    if (latestSectionId) return latestSectionId;
+
+    // 3. First in-progress section (partially solved)
+    for (const section of currentSheetData.sections) {
+      const sectionItems = currentSheetData.items.filter((i) => i.sectionId === section.id);
+      const solvedCount = sectionItems.filter(
+        (i) => progressMap.get(i.problemId)?.status === 'solved'
+      ).length;
+      if (solvedCount > 0 && solvedCount < sectionItems.length) {
+        return section.id;
+      }
+    }
+
+    // 4. First uncompleted section
+    for (const section of currentSheetData.sections) {
+      const sectionItems = currentSheetData.items.filter((i) => i.sectionId === section.id);
+      const isComplete =
+        sectionItems.length > 0 &&
+        sectionItems.every((i) => progressMap.get(i.problemId)?.status === 'solved');
+      if (!isComplete) {
+        return section.id;
+      }
+    }
+
+    // 5. Default to first section
+    return currentSheetData.sections[0]?.id || null;
+  }, [currentSheetData, activeSheetId, progressMap]);
+
+  const [userActiveSection, setUserActiveSection] = useState<string | null>(null);
+  const currentActiveSection = userActiveSection ?? activeSectionId;
+
+  const handleActivateSection = (sectionId: string) => {
+    setUserActiveSection(sectionId);
+    setSavedActiveSection(activeSheetId, sectionId);
+  };
+
+  // Auto-scroll to active section on sheet load / sheet switch
+  const hasScrolledForSheetRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!currentActiveSection || loading) return;
+
+    if (hasScrolledForSheetRef.current === activeSheetId) return;
+
+    const timer = setTimeout(() => {
+      const el = document.getElementById(currentActiveSection);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        hasScrolledForSheetRef.current = activeSheetId;
+      }
+    }, 180);
+
+    return () => clearTimeout(timer);
+  }, [activeSheetId, currentActiveSection, loading]);
 
   // Filtered sections and items for active sheet
   const filteredSectionsWithItems = useMemo(() => {
@@ -166,23 +260,28 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
 
             {/* Sections Accordion */}
             <div className="space-y-3">
-              {filteredSectionsWithItems.map(({ section, items }, idx) => (
-                <SectionAccordion
-                  key={section.id}
-                  section={section}
-                  items={items}
-                  currentSheetId={activeSheetId}
-                  progressMap={progressMap}
-                  onToggleSolved={toggleSolved}
-                  onSetStatus={setStatus}
-                  onToggleStar={toggleStar}
-                  onSaveNote={saveNote}
-                  onScheduleReview={scheduleReview}
-                  onMarkSectionSolved={markSectionSolved}
-                  onResetSection={resetSection}
-                  defaultOpen={idx < 2}
-                />
-              ))}
+              {filteredSectionsWithItems.map(({ section, items }, idx) => {
+                const isActive = section.id === currentActiveSection;
+                return (
+                  <SectionAccordion
+                    key={section.id}
+                    section={section}
+                    items={items}
+                    currentSheetId={activeSheetId}
+                    progressMap={progressMap}
+                    onToggleSolved={toggleSolved}
+                    onSetStatus={setStatus}
+                    onToggleStar={toggleStar}
+                    onSaveNote={saveNote}
+                    onScheduleReview={scheduleReview}
+                    onMarkSectionSolved={markSectionSolved}
+                    onResetSection={resetSection}
+                    defaultOpen={isActive || (!currentActiveSection && idx < 2)}
+                    isActiveStep={isActive}
+                    onActivate={() => handleActivateSection(section.id)}
+                  />
+                );
+              })}
 
               {totalFilteredCount === 0 && (
                 <div className="p-12 text-center rounded-2xl bg-slate-900/30 border border-slate-800 text-slate-400 space-y-2">
