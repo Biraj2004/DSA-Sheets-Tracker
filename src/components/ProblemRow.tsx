@@ -446,15 +446,44 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
 
             {/* Notes textarea */}
             <div className="flex-1">
-              <label className="block text-slate-400 text-[11px] font-semibold mb-1 uppercase tracking-wider">
-                Personal Notes &amp; Complexities
-              </label>
+              <div className="flex items-center justify-between mb-1">
+                <label className="block text-slate-400 html-light:text-slate-600 text-[11px] font-semibold uppercase tracking-wider">
+                  Personal Notes &amp; Complexities
+                </label>
+                {(() => {
+                  const wc = noteDraft.trim() === '' ? 0 : noteDraft.trim().split(/\s+/).length;
+                  const pct = wc / 200;
+                  const colour =
+                    pct >= 1
+                      ? 'text-rose-400 font-semibold'
+                      : pct >= 0.85
+                      ? 'text-amber-400'
+                      : 'text-slate-500 html-light:text-slate-400';
+                  return (
+                    <span className={`text-[10px] font-mono tabular-nums transition-colors ${colour}`}>
+                      {wc} / 200 words
+                    </span>
+                  );
+                })()}
+              </div>
               <textarea
                 value={noteDraft}
-                onChange={(e) => setNoteDraft(e.target.value)}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  const words = val.trim() === '' ? [] : val.trim().split(/\s+/);
+                  if (words.length <= 200) {
+                    setNoteDraft(val);
+                  } else if (val.length < noteDraft.length) {
+                    // Allow deleting
+                    setNoteDraft(val);
+                  } else {
+                    // Trim excess pasted words to 200
+                    setNoteDraft(words.slice(0, 200).join(' '));
+                  }
+                }}
                 placeholder="Time: O(N log N), Space: O(1). Key trick: 2 pointers..."
                 rows={3}
-                className="w-full bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-slate-200 text-xs focus:outline-none focus:border-indigo-500 transition-colors"
+                className="w-full min-h-20 max-h-60 bg-slate-900 html-light:bg-white border border-slate-800 html-light:border-slate-300 rounded-lg p-2.5 text-slate-200 html-light:text-slate-800 text-xs focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/40 transition-all resize-y"
               />
               <div className="flex justify-end mt-1.5">
                 <button
