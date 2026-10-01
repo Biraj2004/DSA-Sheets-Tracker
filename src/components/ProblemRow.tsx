@@ -94,10 +94,44 @@ function getRoutingInfo(problem: Problem): {
   secondaryLinks: SecondaryLink[];
   extraBadge: BadgeInfo | null;   // for concept items that also have a platform URL
 } {
-  const { platform, url, tufUrl, altUrl } = problem;
+  const { platform, url, tufUrl, altUrl, isLeetCodePremium } = problem;
 
   const isTufUrl = (u: string | null | undefined) => !!u && u.includes('takeuforward.org') && !u.includes('/search/');
   const tufPlusUrl = (tufUrl && !tufUrl.includes('/search/')) ? tufUrl : (isTufUrl(url) ? url : null);
+
+  // ── LeetCode Premium with Free Alternative Available ─────────────────
+  // Invert routing: make the freely solvable alternative (GFG/NeetCode/LintCode) primary
+  // so users can immediately solve it without hitting a paywall, while preserving LeetCode as secondary.
+  if (isLeetCodePremium && altUrl) {
+    const primaryBadge = resolveDomainLabel(altUrl);
+    const secondaryLinks: SecondaryLink[] = [];
+
+    // Preserved LeetCode link as secondary with explicit Premium indication
+    if (url) {
+      secondaryLinks.push({
+        url,
+        label: 'LeetCode (Premium)',
+        style: 'text-amber-400 bg-amber-500/10 border-amber-500/30',
+      });
+    }
+
+    // TUF editorial link if available
+    if (tufPlusUrl && tufPlusUrl !== altUrl) {
+      secondaryLinks.push({
+        url: tufPlusUrl,
+        label: 'TUF',
+        style: 'text-red-400 bg-red-500/10 border-red-500/30',
+      });
+    }
+
+    return {
+      primaryUrl: altUrl,
+      primaryBadge,
+      secondaryLinks,
+      extraBadge: null,
+    };
+  }
+
   const tufSecondary: SecondaryLink | null = (tufPlusUrl && tufPlusUrl !== url) ? {
     url: tufPlusUrl,
     label: 'TUF',
@@ -267,7 +301,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                     {primaryBadge.label}
                   </span>
                 )}
-                {problem.isLeetCodePremium && (
+                {problem.isLeetCodePremium && !problem.altUrl && (
                   <span
                     title="Requires LeetCode Premium subscription"
                     className="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-amber-500/10 text-amber-300 border border-amber-500/30"
@@ -282,9 +316,11 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                   </span>
                 )}
                 {secondaryLinks.map((link, i) => {
-                  const isFreeAlternative = problem.isLeetCodePremium && (link.label === 'GFG' || link.label === 'LintCode' || link.label === 'NeetCode' || link.label === 'Code360');
-                  const badgeText = isFreeAlternative ? `Free: ${link.label}` : `Also in ${link.label}`;
-                  const badgeTooltip = isFreeAlternative ? `Solve for free on ${link.label}` : `Also in ${link.label}`;
+                  const isLcPremium = link.label.includes('Premium');
+                  const badgeText = isLcPremium ? link.label : `Also in ${link.label}`;
+                  const badgeTooltip = isLcPremium
+                    ? 'Solve on LeetCode (Requires Premium subscription)'
+                    : `Also in ${link.label}`;
                   return (
                     <a
                       key={i}
