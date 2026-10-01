@@ -84,7 +84,7 @@ Preparing for technical software engineering interviews often involves juggling 
 
 ## Topic-Wise Master Catalog
 
-The **All Problems** tab segregates the 736 canonical problems across 18 pedagogical categories:
+The **All Problems** tab segregates the **1,005 canonical problems** across 18 pedagogical categories:
 
 1. **Basics and Patterns** (C++ STL, Time Complexity, 22 Star/Number Patterns)
 2. **Arrays and Vectors**
@@ -113,7 +113,11 @@ Each problem card features intelligent badge routing designed to prevent broken 
 
 - **Primary Platform Badge (`LeetCode`, `GFG`, `Code360`, etc.)**:
   - Clicking the problem title or primary badge opens the problem directly on its preferred coding platform (prioritizing LeetCode first, then GeeksforGeeks).
-- **Secondary Platform Badge (`Also in TUF`)**:
+- **LeetCode Premium Detection (`Premium` badge)**:
+  - Exactly **33 questions** across all sheets are paywalled behind a LeetCode Premium subscription (verified against LeetCode's official problems API). These are flagged with an amber **`Premium`** badge so you are never surprised by a paywall.
+- **Free Secondary Alternatives (`Free: GFG`, `Free: NeetCode`, `Free: LintCode`)**:
+  - To ensure everyone can practice paywalled questions for free, all 33 LeetCode Premium problems feature direct secondary links to free, working problem mirrors on **GeeksforGeeks**, **NeetCode**, or **LintCode**.
+- **TakeUForward Tutorial Badge (`Also in TUF`)**:
   - When a verified, direct editorial or problem article exists on takeUforward, a bright red **`Also in TUF`** badge is displayed. If no direct TUF tutorial exists, the badge is cleanly omitted to avoid broken search queries.
 - **Cross-Sheet Badge (`Also in: [Sheet Name]`)**:
   - Displays all other curated sheets sharing this canonical problem for real-time progress synchronization.
