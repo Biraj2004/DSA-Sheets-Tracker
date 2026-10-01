@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>The Ultimate Unified Coding Interview Preparation Suite</strong><br />
-  Track, synchronize, and master 1,000+ curated Data Structures & Algorithms problems across top industry sheets with zero duplicate effort.
+  Track, synchronize, and master 1,003+ curated Data Structures &amp; Algorithms problems across 7 top industry sheets — with zero duplicate effort.
 </p>
 
 <p align="center">
@@ -14,9 +14,9 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT" /></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" /></a>
   <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6" /></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 5.7" /></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" /></a>
-  <a href="https://dexie.org/"><img src="https://img.shields.io/badge/Database-IndexedDB_(Dexie)-orange?style=for-the-badge&logo=databricks&logoColor=white" alt="Dexie IndexedDB" /></a>
+  <a href="https://dexie.org/"><img src="https://img.shields.io/badge/IndexedDB-Dexie-orange?style=for-the-badge&logo=databricks&logoColor=white" alt="Dexie IndexedDB" /></a>
 </p>
 
 ---
@@ -28,8 +28,10 @@
 - [Core Features](#core-features)
 - [Topic-Wise Master Catalog](#topic-wise-master-catalog)
 - [Platform Routing and Badges Guide](#platform-routing-and-badges-guide)
+- [Project Structure](#project-structure)
 - [Quick Start](#quick-start)
 - [Cloudflare Deployment](#cloudflare-deployment)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Reporting Issues and Discrepancies](#reporting-issues-and-discrepancies)
 - [Security Policy](#security-policy)
 - [Disclaimer and Attribution](#disclaimer-and-attribution)
@@ -39,196 +41,251 @@
 
 ## Overview
 
-Preparing for technical software engineering interviews often involves juggling multiple famous problem sheets - such as **Striver A2Z**, **NeetCode 250**, **Namaste DSA**, **Fraz's Interview Sheet**, **Pattern-Wise**, **Love Babbar 450**, and **Apna College**. However, practicing across different websites leads to major friction:
-- **Repetitive Solving**: The same canonical problem (e.g., *Two Sum*, *Trapping Rain Water*, *0/1 Knapsack*) appears across multiple sheets under slightly different names.
-- **Scattered Progress**: Progress tracked on one sheet is not synchronized with others.
-- **Broken or Mismatched Links**: Practice links frequently point to deprecated URLs or lack alternatives when a paywall or premium restriction exists.
+Preparing for technical interviews means juggling multiple famous DSA sheets — **Striver A2Z**, **NeetCode 250**, **Namaste DSA**, **Fraz's Interview Sheet**, **Pattern-Wise**, **Love Babbar 450**, and **Apna College**. This creates three major friction points:
 
-**DSA Sheets Tracker** solves this by unifying all 7 sheets into a single, offline-first dashboard backed by a canonical registry of **1,005 unique problems**. Mark a problem solved once, and your progress is instantly updated across every sheet where that question appears.
+- **Repetitive Solving** — The same canonical problem (*Two Sum*, *Trapping Rain Water*, *0/1 Knapsack*) appears across multiple sheets under slightly different names.
+- **Scattered Progress** — Marking solved on one sheet doesn't update the others.
+- **Broken Links & Paywalls** — Practice links go stale or lead to LeetCode Premium walls with no fallback.
+
+**DSA Sheets Tracker** solves all three by unifying all 7 sheets into a single, offline-first dashboard backed by a canonical registry of **1,003 unique problems**. Mark a problem solved once → progress syncs across every sheet where that problem appears.
 
 ---
 
 ## Curated Sheets Included
 
-| Sheet Name | Creator | Total Items | Description |
+| Sheet Name | Creator | Items | Description |
 | :--- | :--- | :---: | :--- |
-| **Pattern-Wise** | Curated Algorithmic Patterns | **475** | Exactly 475 questions across 24 core patterns, strictly sorted **Easy -> Medium -> Hard**. |
-| **Striver A2Z DSA Sheet** | Raj Vikramaditya (takeUforward) | **460** | Comprehensive step-wise roadmap from basics and star patterns to advanced DP and graphs. |
-| **Love Babbar 450 DSA Sheet** | Love Babbar | **453** | Iconic 450 questions segregated across 15 core data structures and algorithms topics. |
-| **Fraz's Interview Sheet** | Mohammad Fraz (LearnYard) | **327** | High-impact interview preparation sheet organized into 20 focused algorithmic modules. |
-| **NeetCode 250** | Navdeep Singh (NeetCode) | **250** | Extended collection covering deep pattern variations and edge cases across 18 sections. |
-| **Namaste DSA** | Akshay Saini (NamasteDev) | **165** | Highly curated, topic-by-topic core interview sheet covering foundation through advanced algorithms. |
-| **Apna College DSA Sheet** | Aman Dhattarwal & Shraddha Khapra | **184** | High-yield foundational sheet focused on core placement interview questions. |
-| **Master Catalog** | Unified Global Registry | **1,005** | Deduplicated global catalog arranged into 18 topics sorted **Easy -> Medium -> Hard**. |
+| **Pattern-Wise** | Curated Algorithmic Patterns | **475** | 475 problems across 24 core patterns, sorted Easy → Medium → Hard. |
+| **Striver A2Z DSA** | Raj Vikramaditya (takeUforward) | **460** | Step-wise roadmap from basics to advanced DP and Graphs. |
+| **Love Babbar 450** | Love Babbar | **453** | 450+ problems across 15 DSA topics. |
+| **Fraz's Interview Sheet** | Mohammad Fraz (LearnYard) | **327** | High-impact interview prep across 20 algorithmic modules. |
+| **NeetCode 250** | Navdeep Singh (NeetCode) | **250** | Deep pattern variations and edge cases across 18 sections. |
+| **Apna College DSA** | Aman Dhattarwal & Shraddha Khapra | **184** | Core placement interview questions. |
+| **Namaste DSA** | Akshay Saini (NamasteDev) | **165** | Topic-by-topic sheet from foundations through advanced algorithms. |
+| **Master Catalog (ALL)** | Unified Global Registry | **1,003** | Deduplicated global catalog across 18 topics, Easy → Medium → Hard. |
 
 ---
 
 ## Core Features
 
-- **Real-Time Cross-Sheet Synchronization**: Solved, Starred, and Note states are stored by canonical Problem ID. Progress flows seamlessly across sheets.
-- **Cross-Sheet Synergy Engine**: Live overlap matrix showing what percentage of other sheets you have completed by finishing your current sheet.
-- **18-Topic Master Catalog**: Grouped by canonical DSA domains with strict **Easy -> Medium -> Hard** difficulty ordering within each section.
-- **Spaced Repetition Revision Queue**: Mark problems for review with 1-day, 3-day, 7-day, or custom interval scheduling.
-- **100% Offline-First Storage**: Powered by client-side browser IndexedDB via Dexie.js. Zero login required, no tracking, and includes full one-click JSON backup/restore.
-- **Glassmorphic Dark and Light Modes**: Tailored high-contrast typography (Inter and JetBrains Mono) with smooth micro-animations.
-- **Power-User Keyboard Shortcuts**:
-  - `?`: Open keyboard shortcuts modal
-  - `/` or `Ctrl + K`: Quick search focus
-  - `1` - `5`: Switch between sheets
-  - `A`: Jump to All Problems Master Catalog
-  - `R`: Open Revision Queue
-  - `T`: Toggle Dark/Light theme
-  - `Esc`: Close open modals
+### 🔁 Real-Time Cross-Sheet Synchronization
+Solved, Starred, and Note states are keyed by canonical Problem ID — progress is shared across every sheet where that problem appears.
+
+### 📊 Cross-Sheet Synergy Engine
+Live overlap matrix per sheet showing how much of every other sheet you've already completed.
+
+### 📚 18-Topic Master Catalog
+Full deduplicated problem library grouped by canonical DSA domain with strict Easy → Medium → Hard ordering.
+
+### 🔁 Spaced Repetition Revision Queue
+Mark problems for review with 1-day, 3-day, 7-day, or custom intervals. A dedicated Revision tab surfaces all due items.
+
+### 💾 100% Offline-First — Zero Login
+All data lives in browser IndexedDB via [Dexie.js](https://dexie.org/). No accounts, no telemetry, no server. One-click JSON backup and restore.
+
+### 🎨 Dark & Light Modes
+Glassmorphic dark mode (default) and a clean light mode — toggle with `T` or the header button. Persisted across sessions.
+
+### 🔒 LeetCode Premium Smart Routing
+For the 33 LeetCode-Premium-locked problems, the primary link automatically routes to a 100% free alternative (GFG / NeetCode / LintCode). The original LeetCode link is retained as a secondary badge for paid subscribers.
+
+### 🔍 Advanced Filter & Search
+Real-time search with regex-safe input across problem names and topics. Filter by status, difficulty, and platform simultaneously. Active-state `select` dropdowns with vivid 2px indigo focus rings.
 
 ---
 
 ## Topic-Wise Master Catalog
 
-The **All Problems** tab segregates the **1,005 canonical problems** across 18 pedagogical categories:
+The **All Problems** tab covers **1,003 canonical problems** across 18 categories:
 
-1. **Basics and Patterns** (C++ STL, Time Complexity, 22 Star/Number Patterns)
-2. **Arrays and Vectors**
-3. **2D Arrays and Matrix**
-4. **Strings**
-5. **Searching and Sorting** (Binary Search 1D, 2D and Search Space)
-6. **Two Pointers and Sliding Window**
-7. **Linked Lists** (Singly, Doubly, Circular)
-8. **Stacks and Queues** (Monotonic Stack, Queues, Deque)
-9. **Binary Trees**
-10. **Binary Search Trees (BST)**
-11. **Heaps and Priority Queues**
-12. **Recursion and Backtracking**
-13. **Greedy Algorithms**
-14. **Dynamic Programming** (1D, 2D Grid, DP on Subsequences, Strings, Stocks)
-15. **Graphs** (BFS, DFS, Shortest Paths, MST, Topo Sort, Disjoint Set)
-16. **Tries**
-17. **Bit Manipulation**
-18. **Math and Number Theory**
+1. Basics & Patterns
+2. Arrays & Vectors
+3. 2D Arrays & Matrix
+4. Strings
+5. Searching & Sorting
+6. Two Pointers & Sliding Window
+7. Linked Lists
+8. Stacks & Queues
+9. Binary Trees
+10. Binary Search Trees (BST)
+11. Heaps & Priority Queues
+12. Recursion & Backtracking
+13. Greedy Algorithms
+14. Dynamic Programming
+15. Graphs
+16. Tries
+17. Bit Manipulation
+18. Math & Number Theory
 
 ---
 
 ## Platform Routing and Badges Guide
 
-Each problem card features intelligent badge routing designed to prevent broken links or paywalled challenges:
+| Badge | Behaviour |
+| :--- | :--- |
+| **Primary platform badge** (LC / GFG / Code360…) | Opens the problem on its primary platform. |
+| **LeetCode Premium** problems | Primary opens a **free alternative** (GFG / NeetCode / LintCode). A secondary `LeetCode (Premium)` badge retains the original URL for subscribers. |
+| **`Also in TUF`** | Links to a verified takeUforward editorial for this problem. Only shown when a direct article exists — never a search query. |
+| **`Also in: [Sheet]`** | Shows which other sheets share this problem — progress is synchronized live. |
 
-- **Primary Platform Badge (`LeetCode`, `GFG`, `NeetCode`, `Code360`, etc.)**:
-  - Clicking the problem title or primary badge opens the problem directly on its preferred coding platform.
-- **Vice-Versa Routing for LeetCode Premium Problems**:
-  - For the **33 questions** that are locked behind a paid LeetCode subscription, the router automatically swaps the destination:
-    - **Primary Title & Badge**: Points directly to a 100% free, immediately solvable coding alternative (**GeeksforGeeks**, **NeetCode**, or **LintCode**) so learners never hit a paywall.
-    - **Secondary Badge (`LeetCode (Premium)`)**: Retains direct 1-click access to the original LeetCode problem for paid LeetCode subscribers.
-- **TakeUForward Tutorial Badge (`Also in TUF`)**:
-  - When a verified, direct editorial or problem article exists on takeUforward, a bright red **`Also in TUF`** badge is displayed alongside the practice links. If no direct TUF tutorial exists, the badge is cleanly omitted to avoid broken search queries.
-- **Cross-Sheet Badge (`Also in: [Sheet Name]`)**:
-  - Displays all other curated sheets sharing this canonical problem for real-time progress synchronization.
+---
+
+## Project Structure
+
+```
+DSA-Sheets-Tracker/
+├── public/
+│   ├── favicon.svg
+│   └── profile2.jpg          # Developer avatar (ContactPage)
+├── src/
+│   ├── App.tsx               # Root — routing, theme, DB state
+│   ├── main.tsx
+│   ├── index.css             # Tailwind v4 + custom variants
+│   ├── components/
+│   │   ├── AllProblemsView.tsx   # Master Catalog (18-topic accordion)
+│   │   ├── ErrorBoundary.tsx     # React error boundary
+│   │   ├── FilterBar.tsx         # Search + Status/Difficulty/Platform selects
+│   │   ├── Header.tsx            # Sheet tabs + theme toggle + nav
+│   │   ├── ProblemRow.tsx        # Single problem row with badges
+│   │   ├── RevisionView.tsx      # Spaced repetition queue
+│   │   ├── SectionAccordion.tsx  # Collapsible section (first 2 open by default)
+│   │   ├── SkeletonLoader.tsx
+│   │   ├── StatsCard.tsx         # Sheet stats + synergy matrix
+│   │   └── ...modals/utils
+│   ├── data/
+│   │   ├── sheets/           # Per-sheet problem mappings (index.ts + individual sheets)
+│   │   └── synergy.ts        # Cross-sheet overlap computation
+│   ├── db/                   # Dexie IndexedDB schema and hooks
+│   ├── hooks/                # useProgress, useKeyboard, etc.
+│   ├── pages/
+│   │   ├── TrackerPage.tsx   # Main tracker view + footer
+│   │   ├── ContactPage.tsx   # Developer info, contact form, disclaimer
+│   │   └── NotFoundPage.tsx  # Custom 404
+│   └── types/
+│       └── index.ts          # Problem, Progress, Status, Platform types
+├── docs/
+├── index.html
+├── vite.config.ts
+├── wrangler.toml             # Cloudflare Pages / Workers config
+└── package.json
+```
 
 ---
 
 ## Quick Start
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) version **20.0.0** or higher
-- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+- [Node.js](https://nodejs.org/) **≥ 20.0.0**
+- `npm` or `pnpm`
 
-### Installation and Local Run
+### Installation
+
 ```bash
-# 1. Clone the repository
+# Clone
 git clone https://github.com/Biraj2004/DSA-Sheets-Tracker.git
 cd DSA-Sheets-Tracker
 
-# 2. Install dependencies
+# Install
 npm install
 
-# 3. Start local development server
+# Dev server
 npm run dev
 
-# 4. Run tests
-npm test
-
-# 5. Build for production
+# Production build
 npm run build
 ```
+
+Open `http://localhost:5173` in your browser.
 
 ---
 
 ## Cloudflare Deployment
 
-This application is **100% Cloudflare Pages and Workers deployment ready**.
+### Via Cloudflare Dashboard (Recommended)
+1. **Workers & Pages** → **Create Application** → **Pages** → **Connect to Git**
+2. Select your fork.
+3. Build settings:
+   - Framework preset: `Vite`
+   - Build command: `npm run build`
+   - Output directory: `dist`
+   - Node.js version: `20`
+4. **Save and Deploy**.
 
-### Deploy via Cloudflare Dashboard (Recommended)
-1. Go to the [Cloudflare Dashboard](https://dash.cloudflare.com/) -> **Workers & Pages** -> **Create Application** -> **Pages** -> **Connect to Git**.
-2. Select your repository.
-3. Configure build settings:
-   - **Framework preset**: `Vite`
-   - **Build command**: `npm run build`
-   - **Build output directory**: `dist`
-   - **Node.js version**: `20` (configured in `.node-version` and `.nvmrc`)
-4. Click **Save and Deploy**.
-
-### Deploy via Wrangler CLI
+### Via Wrangler CLI
 ```bash
-# 1. Authenticate Wrangler CLI
 npx wrangler login
-
-# 2. Build and deploy
 npm run deploy
 ```
 
 ---
 
+## Keyboard Shortcuts
+
+| Key | Action |
+| :--- | :--- |
+| `?` | Open keyboard shortcuts modal |
+| `/` or `Ctrl+K` | Focus search bar |
+| `1` – `7` | Switch between sheets |
+| `A` | Jump to All Problems (Master Catalog) |
+| `R` | Open Revision Queue |
+| `T` | Toggle Dark / Light theme |
+| `Esc` | Close open modal |
+
+---
+
 ## Reporting Issues and Discrepancies
 
-Because problem sheets evolve, practice platforms update problem URLs, and difficulty ratings vary:
+Problem sheets evolve, platform URLs change, and difficulty ratings vary. If you find:
 
-If you find:
-- A **broken, dead, or paywalled link**
-- A **missing question** from any of the 5 sheets
-- A **misclassified difficulty** (for example, an Easy problem marked as Hard)
-- An **incorrect question mapping** (for example, a problem associated with the wrong topic or duplicate entry)
-- A **UI/UX glitch or accessibility flaw**
+- A broken, dead, or paywalled link
+- A missing question from any sheet
+- A misclassified difficulty
+- An incorrect problem mapping or duplicate entry
+- A UI/UX glitch
 
-Please report it via [GitHub Issues](https://github.com/Biraj2004/DSA-Sheets-Tracker/issues).
+Please open a [GitHub Issue](https://github.com/Biraj2004/DSA-Sheets-Tracker/issues) and include:
+1. Problem title and ID (e.g. `lc-two-sum`)
+2. Sheet and section name
+3. Expected vs. actual link or difficulty
+4. Proposed fix
 
-When filing an issue, please include:
-1. Problem Title and ID (for example, `lc-two-sum`)
-2. Current Sheet and Section name
-3. Expected link or difficulty versus actual behavior
-4. Proposed fix or link
-
-Pull requests fixing mappings or links are warmly welcomed and swiftly merged.
+PRs fixing mappings or links are warmly welcomed.
 
 ---
 
 ## Security Policy
 
-- **Zero Remote Storage of User Data**: DSA Sheets Tracker does not transmit your solved questions, notes, or timestamps to any external server. All data resides exclusively in your browser's IndexedDB storage.
-- **Client-Side Sanitization**: All import/export operations validate and parse JSON payloads strictly against TypeScript runtime schemas.
-- **Vulnerability Reporting**: If you discover a security vulnerability or sensitive data issue, please open an issue or reach out via GitHub.
+- **Zero Remote Storage** — No user data (solved status, notes, timestamps) ever leaves the browser. All state is in IndexedDB.
+- **Client-Side Validation** — JSON import/export is parsed and validated strictly against TypeScript schemas.
+- **No Tracking** — Zero analytics, no cookies, no telemetry.
+- **Vulnerability Reporting** — Open a GitHub Issue or contact via the [Contact page](https://dsa-sheets-tracker.newkid.workers.dev/contact).
 
 ---
 
 ## Disclaimer and Attribution
 
-- **Independent Educational Project**: DSA Sheets Tracker is an open-source, non-commercial educational aggregator.
-- **Intellectual Property Attribution**:
-  - The problems, editorial content, and curricular organization remain the intellectual property of their original creators:
-    - **Striver (Raj Vikramaditya)** - [takeUforward](https://takeuforward.org/)
-    - **NeetCode (Navdeep Singh)** - [NeetCode.io](https://neetcode.io/)
-    - **Akshay Saini** - [NamasteDev](https://namastedev.com/)
-    - **Mohammad Fraz** - [LearnYard](https://learnyard.com/)
-    - **Love Babbar** - [CodeHelp](https://www.thecodehelp.in/)
-    - **Apna College** - [Apna College](https://www.apnacollege.in/)
-    - **Coding Platforms** - [LeetCode](https://leetcode.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/), [Coding Ninjas / Code360](https://www.naukri.com/code360), and [SPOJ](https://www.spoj.com/).
-- This project claims no ownership over any of the problem statements, solutions, or curated question selections.
+DSA Sheets Tracker is an independent, open-source, non-commercial educational aggregator. All problem content, editorial material, and curricular selections remain the intellectual property of their respective creators:
+
+| Creator | Platform |
+| :--- | :--- |
+| Raj Vikramaditya (Striver) | [takeUforward](https://takeuforward.org/) |
+| Navdeep Singh (NeetCode) | [NeetCode.io](https://neetcode.io/) |
+| Akshay Saini | [NamasteDev](https://namastedev.com/) |
+| Mohammad Fraz | [LearnYard](https://learnyard.com/) |
+| Love Babbar | [CodeHelp](https://www.thecodehelp.in/) |
+| Aman Dhattarwal & Shraddha Khapra | [Apna College](https://www.apnacollege.in/) |
+| Various | [LeetCode](https://leetcode.com/), [GFG](https://www.geeksforgeeks.org/), [Code360](https://www.naukri.com/code360), [SPOJ](https://www.spoj.com/) |
+
+This project claims no ownership over any problem statements, solutions, or curated selections.
 
 ---
 
 ## License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full text.
 
 ---
 
 <p align="center">
-  Built for programmers preparing for technical interviews. If this project helps you, star the repo on GitHub!
+  If this project helps your interview prep, consider starring the repo ⭐ — it keeps the project visible and motivated!
 </p>
