@@ -273,8 +273,10 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                 href={primaryUrl ?? '#'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`font-medium text-sm hover:underline transition-colors inline-flex items-center gap-1.5 cursor-pointer ${
-                  isSolved ? 'text-slate-300 line-through decoration-slate-600' : 'text-slate-100 hover:text-indigo-300'
+                className={`font-medium text-sm transition-colors inline-flex items-center gap-1.5 cursor-pointer ${
+                  isSolved
+                    ? 'problem-title-solved'
+                    : 'text-slate-100 hover:text-indigo-300'
                 }`}
               >
                 <span>{displayTitle}</span>
@@ -367,7 +369,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
           <div className="relative">
             <button
               onClick={() => setStatusMenuOpen(!statusMenuOpen)}
-              className={`px-2 py-1 rounded-md text-xs font-medium border flex items-center gap-1 transition-colors cursor-pointer ${
+              className={`px-2 py-1 rounded-md text-xs font-medium border flex items-center gap-1 transition-colors cursor-pointer status-pill status-pill-${progress.status} ${
                 progress.status === 'solved' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : progress.status === 'tried'  ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
                 : progress.status === 'revise' ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
@@ -383,7 +385,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                 {/* Full-screen backdrop to close on outside click */}
                 <div className="fixed inset-0 z-40" onClick={() => setStatusMenuOpen(false)} />
                 {/* Dropdown panel */}
-                <div className="absolute right-0 mt-1 w-36 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl py-1 z-50">
+                <div className="absolute right-0 mt-1 w-36 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl py-1 z-50 status-dropdown-menu">
                   {(['todo', 'tried', 'solved', 'revise'] as Status[]).map((st) => (
                     <button
                       key={st}
@@ -407,9 +409,9 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
           {/* Star */}
           <button
             onClick={() => onToggleStar(problem.id)}
-            className={`p-1.5 rounded-md border transition-colors cursor-pointer ${
+            className={`p-1.5 rounded-md border transition-colors cursor-pointer row-action-btn ${
               progress.isStarred
-                ? 'bg-amber-500/20 text-amber-400 border-amber-500/40'
+                ? 'bg-amber-500/20 text-amber-400 border-amber-500/40 is-starred'
                 : 'text-slate-500 hover:text-slate-300 border-slate-800 hover:bg-slate-800'
             }`}
             title={progress.isStarred ? 'Unstar' : 'Star / Bookmark'}
@@ -421,9 +423,9 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
           {/* Notes */}
           <button
             onClick={() => setIsNotesOpen(!isNotesOpen)}
-            className={`p-1.5 rounded-md border transition-colors relative cursor-pointer ${
+            className={`p-1.5 rounded-md border transition-colors relative cursor-pointer row-action-btn ${
               isNotesOpen || progress.note
-                ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40 has-note'
                 : 'text-slate-500 hover:text-slate-300 border-slate-800 hover:bg-slate-800'
             }`}
             title="Notes & spaced review"

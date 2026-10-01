@@ -108,7 +108,44 @@
 }
 
 /* ──────────────────────────────────────────────────────────────────────────
-   Light / White Mode Styling
+   Problem Row Strikethrough & Solved Title Styling (Dark & Light)
+   ────────────────────────────────────────────────────────────────────────── */
+.problem-title-solved {
+  text-decoration: line-through !important;
+  text-decoration-thickness: 1.5px !important;
+  transition: all 0.2s ease;
+}
+
+/* Dark mode solved title */
+.dark .problem-title-solved,
+html.dark .problem-title-solved {
+  color: #94a3b8 !important; /* slate-400 */
+  text-decoration-color: #64748b !important; /* slate-500 */
+  opacity: 0.85;
+}
+.dark .problem-title-solved:hover,
+html.dark .problem-title-solved:hover {
+  color: #cbd5e1 !important;
+  text-decoration-color: #94a3b8 !important;
+  opacity: 1;
+}
+
+/* Light mode solved title */
+html.light .problem-title-solved,
+html:not(.dark) .problem-title-solved {
+  color: #64748b !important; /* slate-500 */
+  text-decoration-color: #94a3b8 !important; /* slate-400 */
+  opacity: 0.88;
+}
+html.light .problem-title-solved:hover,
+html:not(.dark) .problem-title-solved:hover {
+  color: #1e293b !important;
+  text-decoration-color: #64748b !important;
+  opacity: 1;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Light / White Mode Theme Overrides
    Activated dynamically when html has class "light" (or when .dark is removed)
    ────────────────────────────────────────────────────────────────────────── */
 html.light,
@@ -116,6 +153,7 @@ html:not(.dark) {
   color-scheme: light;
 }
 
+/* Canvas & App Root */
 html.light body,
 html:not(.dark) body,
 html.light .app-root,
@@ -124,10 +162,10 @@ html:not(.dark) .app-root {
   color: #0f172a !important;
 }
 
-/* Header & Sticky Nav */
+/* Sticky Header & Nav */
 html.light header,
 html:not(.dark) header {
-  background-color: rgba(255, 255, 255, 0.92) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
   border-color: #e2e8f0 !important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
@@ -202,23 +240,11 @@ html:not(.dark) .hover\:bg-emerald-950\/20:hover {
   background-color: #dcfce7 !important;
 }
 
-/* Solved Text Strike-through in Light Mode */
-html.light .text-slate-300.line-through,
-html:not(.dark) .text-slate-300.line-through {
-  color: #64748b !important;
-  text-decoration-color: #94a3b8 !important;
-}
-
-/* Inner containers & card sub-sections */
-html.light .bg-slate-950\/70,
-html:not(.dark) .bg-slate-950\/70,
-html.light .bg-slate-950\/60,
-html:not(.dark) .bg-slate-950\/60,
-html.light .bg-slate-950\/50,
-html:not(.dark) .bg-slate-950\/50,
-html.light .bg-slate-950,
-html:not(.dark) .bg-slate-950 {
+/* Inner containers & card sub-sections (catch all bg-slate-950 variations) */
+html.light [class*="bg-slate-950"],
+html:not(.dark) [class*="bg-slate-950"] {
   background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
 }
 
 /* Borders */
@@ -284,15 +310,175 @@ html:not(.dark) input::placeholder {
   color: #94a3b8 !important;
 }
 
-/* Checkbox button */
-html.light button.bg-slate-950.border-slate-700,
-html:not(.dark) button.bg-slate-950.border-slate-700 {
+/* Checkbox button (unchecked state) */
+html.light button.border-slate-700.bg-slate-950,
+html:not(.dark) button.border-slate-700.bg-slate-950 {
   background-color: #ffffff !important;
   border-color: #cbd5e1 !important;
 }
-html.light button.bg-slate-950.border-slate-700:hover,
-html:not(.dark) button.bg-slate-950.border-slate-700:hover {
+html.light button.border-slate-700.bg-slate-950:hover,
+html:not(.dark) button.border-slate-700.bg-slate-950:hover {
   border-color: #94a3b8 !important;
+}
+
+/* Status dropdown pill in ProblemRow */
+html.light .status-pill-todo,
+html:not(.dark) .status-pill-todo {
+  background-color: #f1f5f9 !important;
+  color: #475569 !important;
+  border-color: #cbd5e1 !important;
+}
+html.light .status-pill-todo:hover,
+html:not(.dark) .status-pill-todo:hover {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+  border-color: #94a3b8 !important;
+}
+html.light .status-pill-solved,
+html:not(.dark) .status-pill-solved {
+  background-color: #ecfdf5 !important;
+  color: #047857 !important;
+  border-color: #a7f3d0 !important;
+}
+html.light .status-pill-tried,
+html:not(.dark) .status-pill-tried {
+  background-color: #fffbeb !important;
+  color: #b45309 !important;
+  border-color: #fde68a !important;
+}
+html.light .status-pill-revise,
+html:not(.dark) .status-pill-revise {
+  background-color: #fff1f2 !important;
+  color: #be123c !important;
+  border-color: #fecdd3 !important;
+}
+
+/* Status Dropdown Menu Panel */
+html.light .status-dropdown-menu,
+html:not(.dark) .status-dropdown-menu {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+}
+html.light .status-dropdown-menu button,
+html:not(.dark) .status-dropdown-menu button {
+  color: #334155 !important;
+}
+html.light .status-dropdown-menu button:hover,
+html:not(.dark) .status-dropdown-menu button:hover {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Row Action Buttons (Star, Notes) */
+html.light .row-action-btn:not(.is-starred):not(.has-note),
+html:not(.dark) .row-action-btn:not(.is-starred):not(.has-note) {
+  border-color: #e2e8f0 !important;
+  background-color: #ffffff !important;
+  color: #94a3b8 !important;
+}
+html.light .row-action-btn:not(.is-starred):not(.has-note):hover,
+html:not(.dark) .row-action-btn:not(.is-starred):not(.has-note):hover {
+  background-color: #f1f5f9 !important;
+  color: #475569 !important;
+  border-color: #cbd5e1 !important;
+}
+html.light .row-action-btn.is-starred,
+html:not(.dark) .row-action-btn.is-starred {
+  background-color: #fef9c3 !important;
+  border-color: #fde047 !important;
+  color: #b45309 !important;
+}
+html.light .row-action-btn.has-note,
+html:not(.dark) .row-action-btn.has-note {
+  background-color: #e0e7ff !important;
+  border-color: #c7d2fe !important;
+  color: #4338ca !important;
+}
+
+/* Cross-Sheet Synergy Cards */
+html.light .synergy-card,
+html:not(.dark) .synergy-card {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+}
+html.light .synergy-card span.text-slate-200,
+html:not(.dark) .synergy-card span.text-slate-200 {
+  color: #0f172a !important;
+}
+html.light .synergy-card p.text-slate-400,
+html:not(.dark) .synergy-card p.text-slate-400 {
+  color: #64748b !important;
+}
+html.light .synergy-card strong.text-slate-300,
+html:not(.dark) .synergy-card strong.text-slate-300 {
+  color: #334155 !important;
+}
+html.light .synergy-card .text-indigo-300,
+html:not(.dark) .synergy-card .text-indigo-300 {
+  color: #4f46e5 !important;
+}
+html.light .synergy-card div.bg-slate-900,
+html:not(.dark) .synergy-card div.bg-slate-900 {
+  background-color: #e2e8f0 !important;
+  border-color: #cbd5e1 !important;
+}
+html.light .synergy-card button,
+html:not(.dark) .synergy-card button {
+  color: #4f46e5 !important;
+}
+html.light .synergy-card button:hover,
+html:not(.dark) .synergy-card button:hover {
+  color: #3730a3 !important;
+}
+
+/* Footer & Explainer Card */
+html.light .app-footer,
+html:not(.dark) .app-footer {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+  color: #64748b !important;
+}
+html.light .app-footer span.text-slate-200,
+html:not(.dark) .app-footer span.text-slate-200 {
+  color: #0f172a !important;
+}
+html.light .app-footer .text-slate-400,
+html:not(.dark) .app-footer .text-slate-400 {
+  color: #64748b !important;
+}
+html.light .app-footer .text-slate-500,
+html:not(.dark) .app-footer .text-slate-500 {
+  color: #94a3b8 !important;
+}
+html.light .app-footer button.hover\:text-indigo-400:hover,
+html:not(.dark) .app-footer button.hover\:text-indigo-400:hover,
+html.light .app-footer a.hover\:text-indigo-400:hover,
+html:not(.dark) .app-footer a.hover\:text-indigo-400:hover {
+  color: #4f46e5 !important;
+}
+html.light .app-footer .bg-slate-900\/40,
+html:not(.dark) .app-footer .bg-slate-900\/40 {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.03);
+}
+html.light .app-footer strong.text-slate-200,
+html:not(.dark) .app-footer strong.text-slate-200 {
+  color: #0f172a !important;
+}
+html.light .app-footer span.text-slate-300,
+html:not(.dark) .app-footer span.text-slate-300 {
+  color: #334155 !important;
+}
+html.light .app-footer a.text-indigo-400,
+html:not(.dark) .app-footer a.text-indigo-400 {
+  color: #4f46e5 !important;
+}
+html.light .app-footer a.text-indigo-400:hover,
+html:not(.dark) .app-footer a.text-indigo-400:hover {
+  color: #3730a3 !important;
 }
 
 /* Progress bar background tracks */
@@ -418,6 +604,21 @@ html:not(.dark) kbd.bg-slate-800 {
   background-color: #f1f5f9 !important;
   border-color: #cbd5e1 !important;
   color: #334155 !important;
+}
+
+/* Floating Scroll to Top in Light Mode */
+html.light button[aria-label="Scroll to top of page"],
+html:not(.dark) button[aria-label="Scroll to top of page"] {
+  background-color: #ffffff !important;
+  color: #475569 !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1) !important;
+}
+html.light button[aria-label="Scroll to top of page"]:hover,
+html:not(.dark) button[aria-label="Scroll to top of page"]:hover {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+  border-color: #4f46e5 !important;
 }
 
 html.light ::-webkit-scrollbar-thumb,

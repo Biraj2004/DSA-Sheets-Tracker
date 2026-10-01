@@ -197,7 +197,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({
                 return (
                   <div
                     key={syn.targetSheetId}
-                    className="bg-slate-950/80 border border-slate-800 rounded-lg p-3 text-xs flex flex-col justify-between gap-2 hover:border-slate-700 transition-colors"
+                    className="bg-slate-950/80 border border-slate-800 rounded-lg p-3 text-xs flex flex-col justify-between gap-2 hover:border-slate-700 transition-colors synergy-card"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-2">
