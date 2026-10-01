@@ -111,14 +111,14 @@ The **All Problems** tab segregates the **1,005 canonical problems** across 18 p
 
 Each problem card features intelligent badge routing designed to prevent broken links or paywalled challenges:
 
-- **Primary Platform Badge (`LeetCode`, `GFG`, `Code360`, etc.)**:
-  - Clicking the problem title or primary badge opens the problem directly on its preferred coding platform (prioritizing LeetCode first, then GeeksforGeeks).
-- **LeetCode Premium Detection (`Premium` badge)**:
-  - Exactly **33 questions** across all sheets are paywalled behind a LeetCode Premium subscription (verified against LeetCode's official problems API). These are flagged with an amber **`Premium`** badge so you are never surprised by a paywall.
-- **Free Secondary Alternatives (`Free: GFG`, `Free: NeetCode`, `Free: LintCode`)**:
-  - To ensure everyone can practice paywalled questions for free, all 33 LeetCode Premium problems feature direct secondary links to free, working problem mirrors on **GeeksforGeeks**, **NeetCode**, or **LintCode**.
+- **Primary Platform Badge (`LeetCode`, `GFG`, `NeetCode`, `Code360`, etc.)**:
+  - Clicking the problem title or primary badge opens the problem directly on its preferred coding platform.
+- **Vice-Versa Routing for LeetCode Premium Problems**:
+  - For the **33 questions** that are locked behind a paid LeetCode subscription, the router automatically swaps the destination:
+    - **Primary Title & Badge**: Points directly to a 100% free, immediately solvable coding alternative (**GeeksforGeeks**, **NeetCode**, or **LintCode**) so learners never hit a paywall.
+    - **Secondary Badge (`LeetCode (Premium)`)**: Retains direct 1-click access to the original LeetCode problem for paid LeetCode subscribers.
 - **TakeUForward Tutorial Badge (`Also in TUF`)**:
-  - When a verified, direct editorial or problem article exists on takeUforward, a bright red **`Also in TUF`** badge is displayed. If no direct TUF tutorial exists, the badge is cleanly omitted to avoid broken search queries.
+  - When a verified, direct editorial or problem article exists on takeUforward, a bright red **`Also in TUF`** badge is displayed alongside the practice links. If no direct TUF tutorial exists, the badge is cleanly omitted to avoid broken search queries.
 - **Cross-Sheet Badge (`Also in: [Sheet Name]`)**:
   - Displays all other curated sheets sharing this canonical problem for real-time progress synchronization.
 
