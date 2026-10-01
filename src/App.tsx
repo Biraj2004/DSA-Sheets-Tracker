@@ -226,7 +226,6 @@ export function App() {
               scheduleReview={scheduleReview}
               markSectionSolved={markSectionSolved}
               resetSection={resetSection}
-              getSheetStats={getSheetStats}
               onOpenShortcuts={() => setIsShortcutsOpen(true)}
               onOpenDataModal={() => setIsDataModalOpen(true)}
             />

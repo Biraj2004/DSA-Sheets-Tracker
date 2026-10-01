@@ -285,6 +285,7 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
             >
               Biraj Sarkar
             </a>
+            {' '}· Built with Claude
           </div>
         </div>
       </footer>

@@ -150,7 +150,7 @@ export const NotFoundPage: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-800/80 html-light:border-slate-200 bg-slate-900/40 html-light:bg-slate-50 py-4 text-center text-xs text-slate-500 html-light:text-slate-600">
-        <p>&copy; {new Date().getFullYear()} DSA Sheets Tracker • Developed by Biraj Sarkar (Biraj2004)</p>
+        <p>&copy; {new Date().getFullYear()} DSA Sheets Tracker • Developed by Biraj Sarkar (Biraj2004) • Built with Claude</p>
       </footer>
     </div>
   );

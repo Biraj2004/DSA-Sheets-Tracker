@@ -289,3 +289,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full text.
 <p align="center">
   If this project helps your interview prep, consider starring the repo ⭐ — it keeps the project visible and motivated!
 </p>
+
+<p align="center">
+  Built with Claude by <a href="https://github.com/Biraj2004">Biraj Sarkar</a>
+</p>

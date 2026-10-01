@@ -524,6 +524,7 @@ export const ContactPage: React.FC = () => {
             >
               Biraj Sarkar (Biraj2004)
             </a>
+            {' '}• Built with Claude
           </p>
           <div className="flex items-center gap-4 text-slate-400 text-xs">
             <Link to="/" className="hover:text-white transition-colors">
