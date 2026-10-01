@@ -290,16 +290,29 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
     return result;
   }, [filteredProblems]);
 
-  // Toggle individual topic open/close
-  const toggleTopic = (topicName: string) => {
-    setCollapsedTopics((prev) => ({
-      ...prev,
-      [topicName]: !prev[topicName],
-    }));
-  };
-
   // Check if search is active (auto-expand during search)
   const isSearchActive = !!filters.search?.trim();
+
+  // Helper to determine if a topic accordion should be open
+  const isTopicOpen = (topicName: string, idx: number) => {
+    if (isSearchActive) return true;
+    if (collapsedTopics[topicName] !== undefined) {
+      return !collapsedTopics[topicName];
+    }
+    // Only expand first 2 sections by default for performance & lazy rendering
+    return idx < 2;
+  };
+
+  // Toggle individual topic open/close
+  const toggleTopic = (topicName: string, idx: number) => {
+    setCollapsedTopics((prev) => {
+      const currentlyOpen = prev[topicName] !== undefined ? !prev[topicName] : idx < 2;
+      return {
+        ...prev,
+        [topicName]: currentlyOpen,
+      };
+    });
+  };
 
   // Total solved in master catalog
   const totalSolved = useMemo(() => {
@@ -313,17 +326,20 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
   }, [problems, progressMap]);
 
   // Expand all / collapse all
-  const areAllExpanded = topicGroups.every((g) => !collapsedTopics[g.topicName]);
-  const toggleAll = () => {
-    if (areAllExpanded) {
-      const next: Record<string, boolean> = {};
-      topicGroups.forEach((g) => {
-        next[g.topicName] = true;
-      });
-      setCollapsedTopics(next);
-    } else {
-      setCollapsedTopics({});
+  const areAllExpanded = topicGroups.every((g, idx) => {
+    if (collapsedTopics[g.topicName] !== undefined) {
+      return !collapsedTopics[g.topicName];
     }
+    return idx < 2;
+  });
+
+  const toggleAll = () => {
+    const next: Record<string, boolean> = {};
+    const targetCollapsedState = areAllExpanded;
+    topicGroups.forEach((g) => {
+      next[g.topicName] = targetCollapsedState;
+    });
+    setCollapsedTopics(next);
   };
 
   return (
@@ -337,7 +353,7 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
               Master Catalog ({problems.length.toLocaleString()} Canonical Problems)
             </h1>
             <p className="text-xs text-slate-400 mt-1 max-w-2xl">
-              Topic-wise curated global catalog across all 5 sheets (Striver A2Z, NeetCode 150/250, Love Babbar, and Apna College). Problems in each topic are organized from Easy &rarr; Medium &rarr; Hard.
+              Topic-wise curated global catalog across all 7 sheets (Striver A2Z, NeetCode 250, Namaste DSA, Fraz's Sheet, Pattern-Wise, Love Babbar, and Apna College). Problems in each topic are organized from Easy &rarr; Medium &rarr; Hard.
             </p>
           </div>
 
@@ -391,10 +407,8 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
       {/* Topic-wise Segregated Accordions */}
       {topicGroups.length > 0 ? (
         <div>
-          {topicGroups.map(({ topicName, problems: topicProblems }) => {
-            const isCollapsed = collapsedTopics[topicName] ?? false;
-            // When search is active, keep everything open so user sees results
-            const isOpen = isSearchActive ? true : !isCollapsed;
+          {topicGroups.map(({ topicName, problems: topicProblems }, idx) => {
+            const isOpen = isTopicOpen(topicName, idx);
 
             return (
               <TopicAccordion
@@ -403,7 +417,7 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
                 problems={topicProblems}
                 progressMap={progressMap}
                 isOpen={isOpen}
-                onToggleOpen={() => toggleTopic(topicName)}
+                onToggleOpen={() => toggleTopic(topicName, idx)}
                 onToggleSolved={onToggleSolved}
                 onSetStatus={onSetStatus}
                 onToggleStar={onToggleStar}
