@@ -100,7 +100,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({
       {/* Main Overall Progress Bar */}
       <div className="w-full h-2 rounded-full bg-slate-950 overflow-hidden border border-slate-800/80">
         <div
-          className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 transition-all duration-500"
+          className="h-full bg-linear-to-r from-indigo-500 to-emerald-500 transition-all duration-500"
           style={{ width: `${percent}%` }}
         />
       </div>

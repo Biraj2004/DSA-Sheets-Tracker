@@ -261,7 +261,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
             title={isSolved ? 'Mark as unsolved' : 'Mark as solved'}
             aria-label={`Toggle solved status for ${displayTitle}`}
           >
-            <Check className="w-4 h-4 stroke-[3]" />
+            <Check className="w-4 h-4 stroke-3" />
           </button>
 
           {/* Title + badges */}
