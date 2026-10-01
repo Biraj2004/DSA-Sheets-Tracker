@@ -265,7 +265,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-maximum-subarray",
+      "problemId": "lc-koko-eating-bananas",
       "position": 22,
       "titleInSheet": "Koko Eating Bananas"
     },
@@ -1224,14 +1224,14 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-13",
-      "problemId": "lc-coin-change",
+      "problemId": "gfg-knapsack-with-duplicate-items4201",
       "position": 159,
       "titleInSheet": "Unbounded Knapsack"
     },
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-9",
-      "problemId": "lc-longest-common-subsequence",
+      "problemId": "gfg-longest-common-substring1449",
       "position": 160,
       "titleInSheet": "Longest Common Substring"
     },

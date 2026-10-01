@@ -958,7 +958,7 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-1",
-      "problemId": "lc-kth-largest-element-in-an-array",
+      "problemId": "gfg-largest-element-in-array",
       "position": 57,
       "titleInSheet": "Largest Element in Array"
     },
@@ -1021,7 +1021,7 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-3-sub-1",
-      "problemId": "lc-find-peak-element",
+      "problemId": "lc-missing-number",
       "position": 66,
       "titleInSheet": "Missing Number in Array"
     },
@@ -1343,7 +1343,7 @@
     {
       "sheetId": "striver-a2z",
       "sectionId": "striver-step-4-sub-2",
-      "problemId": "lc-maximum-subarray",
+      "problemId": "lc-koko-eating-bananas",
       "position": 112,
       "titleInSheet": "Koko Eating Bananas"
     },

@@ -27,7 +27,7 @@
   },
   {
     "id": "lc-first-unique-character-in-a-string",
-    "title": "1st Non Repeating in Stream",
+    "title": "First Unique Character in a String",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/first-unique-character-in-a-string",
     "difficulty": "easy",
@@ -2892,7 +2892,7 @@
   },
   {
     "id": "lc-linked-list-cycle-ii",
-    "title": "Find the starting point in LL",
+    "title": "Linked List Cycle II",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/linked-list-cycle-ii",
     "difficulty": "medium",
@@ -5237,7 +5237,7 @@
   },
   {
     "id": "lc-binary-search-tree-iterator",
-    "title": "Merge 2 BST's",
+    "title": "Binary Search Tree Iterator",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/binary-search-tree-iterator",
     "difficulty": "medium",
@@ -7201,7 +7201,7 @@
   },
   {
     "id": "lc-unique-binary-search-trees",
-    "title": "Program for nth Catalan Number",
+    "title": "Unique Binary Search Trees",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/unique-binary-search-trees",
     "difficulty": "medium",
@@ -10280,19 +10280,6 @@
     "category": "Arrays & Strings"
   },
   {
-    "id": "lc-merge-two-2d-arrays-by-summing-values",
-    "title": "Merge Two 2D Arrays by Summing Values",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/",
-    "difficulty": "easy",
-    "topics": [
-      "Arrays & Strings"
-    ],
-    "check": "ok",
-    "checkedAt": "2026-10-01T09:05:19.466Z",
-    "category": "Arrays & Strings"
-  },
-  {
     "id": "lc-determine-if-two-events-have-conflict",
     "title": "Determine if Two Events Have Conflict",
     "platform": "leetcode",
@@ -10468,19 +10455,6 @@
     "title": "Find K-th Smallest Pair Distance",
     "platform": "leetcode",
     "url": "https://leetcode.com/problems/find-kth-smallest-pair-distance/",
-    "difficulty": "hard",
-    "topics": [
-      "Arrays & Strings"
-    ],
-    "check": "ok",
-    "checkedAt": "2026-10-01T09:05:19.466Z",
-    "category": "Arrays & Strings"
-  },
-  {
-    "id": "lc-split-array-with-same-average",
-    "title": "Split Array With Same Average",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/split-array-with-same-average/",
     "difficulty": "hard",
     "topics": [
       "Arrays & Strings"

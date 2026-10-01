@@ -52,3 +52,7 @@ tmp/
 __pycache__/
 *.py[cod]
 *$py.class
+.node-version
+.nvmrc
+.oxlintrc.json
+.eslintrc.json

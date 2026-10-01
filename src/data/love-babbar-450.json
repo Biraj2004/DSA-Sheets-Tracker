@@ -146,7 +146,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-find-peak-element",
+      "problemId": "lc-missing-number",
       "position": 5,
       "titleInSheet": "Missing Number in Array"
     },
@@ -1133,7 +1133,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-10",
-      "problemId": "lc-count-primes",
+      "problemId": "other-sort-a-stack",
       "position": 146,
       "titleInSheet": "Sort a Stack using Recursion"
     },
@@ -2631,7 +2631,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-min-cost-to-connect-all-points",
+      "problemId": "gfg-minimum-spanning-tree-prims",
       "position": 360,
       "titleInSheet": "Implement Prim’s Algorithm"
     },
@@ -2813,7 +2813,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-coin-change",
+      "problemId": "gfg-knapsack-with-duplicate-items4201",
       "position": 386,
       "titleInSheet": "Unbounded Knapsack"
     },
@@ -2827,7 +2827,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-longest-common-subsequence",
+      "problemId": "gfg-longest-common-substring1449",
       "position": 388,
       "titleInSheet": "Longest Common Substring"
     },
