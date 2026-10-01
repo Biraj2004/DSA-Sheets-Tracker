@@ -4,6 +4,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
 
 # Cache static assets indefinitely (content-hashed by Vite)
@@ -14,16 +15,28 @@
 /*.png
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
+/*.jpg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/*.jpeg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/*.webp
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
 /*.ico
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
 /*.svg
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
 /site.webmanifest
   Cache-Control: public, max-age=86400, stale-while-revalidate=86400
   Content-Type: application/manifest+json
 
-# HTML entry point - always revalidate
+# HTML entry point - always revalidate for immediate app updates
 /index.html
   Cache-Control: public, max-age=0, must-revalidate
