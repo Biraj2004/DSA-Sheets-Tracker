@@ -44,8 +44,14 @@ export function App() {
   const [isDataModalOpen, setIsDataModalOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
 
-  // Theme state ('dark' default)
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
+  // Theme state ('dark' default, persisted in localStorage)
+  const [theme, setTheme] = useState<'dark' | 'light'>(() => {
+    if (typeof localStorage !== 'undefined') {
+      const saved = localStorage.getItem('dsa_theme');
+      if (saved === 'light' || saved === 'dark') return saved;
+    }
+    return 'dark'; // default set to dark mode only
+  });
 
   // Mobile phone detection (< 640px) & bypass
   const [isMobile, setIsMobile] = useState<boolean>(() => {
@@ -75,8 +81,13 @@ export function App() {
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light');
     } else {
       document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
+    }
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem('dsa_theme', theme);
     }
   }, [theme]);
 
@@ -226,7 +237,7 @@ export function App() {
   }, [filteredSectionsWithItems]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col transition-colors">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col transition-colors app-root">
       {/* Top Sticky Header with Navigation Tabs */}
       <Header
         activeSheetId={activeSheetId}
