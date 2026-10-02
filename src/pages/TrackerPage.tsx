@@ -126,11 +126,24 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
     return currentSheetData.sections[0]?.id || null;
   }, [currentSheetData, activeSheetId, progressMap]);
 
-  const [userActiveSection, setUserActiveSection] = useState<string | null>(null);
-  const currentActiveSection = userActiveSection ?? activeSectionId;
+  // Track user-selected active section per sheet to prevent cross-sheet state pollution
+  const [userActiveSectionBySheet, setUserActiveSectionBySheet] = useState<Record<string, string>>({});
+
+  const sheetUserActiveSection = userActiveSectionBySheet[activeSheetId];
+  const isValidUserSection = Boolean(
+    sheetUserActiveSection &&
+      currentSheetData?.sections.some((s) => s.id === sheetUserActiveSection)
+  );
+
+  const currentActiveSection = isValidUserSection
+    ? sheetUserActiveSection
+    : activeSectionId;
 
   const handleActivateSection = (sectionId: string) => {
-    setUserActiveSection(sectionId);
+    setUserActiveSectionBySheet((prev) => ({
+      ...prev,
+      [activeSheetId]: sectionId,
+    }));
     setSavedActiveSection(activeSheetId, sectionId);
   };
 

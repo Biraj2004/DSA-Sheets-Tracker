@@ -118,7 +118,7 @@
     {
       "sheetId": "namaste-dsa",
       "sectionId": "namaste-sec-1",
-      "problemId": "lc-find-highest-lowest-frequency-element",
+      "problemId": "gfg-second-largest",
       "position": 2,
       "titleInSheet": "Second Largest"
     },
@@ -195,7 +195,7 @@
     {
       "sheetId": "namaste-dsa",
       "sectionId": "namaste-sec-2",
-      "problemId": "other-reverse-an-array",
+      "problemId": "lc-reverse-string",
       "position": 3,
       "titleInSheet": "Reverse String"
     },
@@ -734,7 +734,7 @@
     {
       "sheetId": "namaste-dsa",
       "sectionId": "namaste-sec-8",
-      "problemId": "lc-triangle-min-path-sum",
+      "problemId": "lc-path-sum",
       "position": 6,
       "titleInSheet": "Path Sum"
     },

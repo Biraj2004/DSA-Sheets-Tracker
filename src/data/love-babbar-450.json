@@ -258,7 +258,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-missing-number",
+      "problemId": "lc-find-missing-and-repeated-values",
       "position": 21,
       "titleInSheet": "Missing & Repeating Number"
     },
@@ -643,14 +643,14 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-4",
-      "problemId": "lc-binary-search",
+      "problemId": "he-rasta-and-kheshtak",
       "position": 76,
       "titleInSheet": "Rasta and Kheshtak"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-4",
-      "problemId": "lc-koko-eating-bananas",
+      "problemId": "spoj-eko",
       "position": 77,
       "titleInSheet": "EKOSPOJ:"
     },
@@ -678,7 +678,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-4",
-      "problemId": "lc-majority-element-ii",
+      "problemId": "spoj-anarc05b",
       "position": 81,
       "titleInSheet": "DoubleHelix SPOJ"
     },
@@ -790,7 +790,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-3",
-      "problemId": "lc-kmp-algorithm-implement-strstr",
+      "problemId": "gfg-rabin-karp-algorithm",
       "position": 97,
       "titleInSheet": "Rabin Karp Algo"
     },
@@ -993,7 +993,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-5",
-      "problemId": "lc-clone-ll-with-random-pointer",
+      "problemId": "lc-copy-list-with-random-pointer",
       "position": 126,
       "titleInSheet": "Clone LL with Random Pointer"
     },
@@ -1462,7 +1462,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-10",
-      "problemId": "lc-evaluate-reverse-polish-notation",
+      "problemId": "gfg-evaluation-of-infix-expression",
       "position": 193,
       "titleInSheet": "Arithmetic Expression evaluation"
     },
@@ -1749,7 +1749,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "other-fractional-knapsack",
+      "problemId": "gfg-fractional-knapsack",
       "position": 234,
       "titleInSheet": "Fractional Knapsack"
     },
@@ -1819,7 +1819,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-8",
-      "problemId": "other-fractional-knapsack",
+      "problemId": "gfg-fractional-knapsack",
       "position": 244,
       "titleInSheet": "Fractional Knapsack Problem"
     },
@@ -1980,21 +1980,21 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-8",
-      "problemId": "lc-non-overlapping-intervals",
+      "problemId": "spoj-chocola",
       "position": 267,
       "titleInSheet": "CHOCOLA –Chocolate"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-8",
-      "problemId": "lc-insert-interval",
+      "problemId": "spoj-arrange",
       "position": 268,
       "titleInSheet": "ARRANGE -Arranging Amplifiers"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-8",
-      "problemId": "lc-min-cost-to-connect-all-points",
+      "problemId": "gfg-k-centers-problem",
       "position": 269,
       "titleInSheet": "K Centers Problem"
     },
@@ -2218,7 +2218,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-6",
-      "problemId": "lc-check-if-ith-bit-is-set",
+      "problemId": "gfg-sum-tree",
       "position": 301,
       "titleInSheet": "Check if Binary tree is Sum tree or not"
     },
@@ -2547,7 +2547,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-clone-graph",
+      "problemId": "other-traversal-techniques-sec1-6",
       "position": 348,
       "titleInSheet": "Implement DFS Algo"
     },
@@ -2610,7 +2610,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-find-the-no-of-isalnds",
+      "problemId": "lc-number-of-islands",
       "position": 357,
       "titleInSheet": "Find the no. of Isalnds"
     },
@@ -2624,7 +2624,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-1",
-      "problemId": "lc-min-cost-to-connect-all-points",
+      "problemId": "gfg-minimum-spanning-tree-kruskal",
       "position": 359,
       "titleInSheet": "Implement Kruksal’sAlgorithm"
     },
@@ -2715,14 +2715,14 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-number-of-provinces",
+      "problemId": "hr-journey-to-the-moon",
       "position": 372,
       "titleInSheet": "Journey to the Moon"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "problemId": "he-oliver-and-the-game",
       "position": 373,
       "titleInSheet": "Oliver and the Game"
     },
@@ -2743,7 +2743,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-reconstruct-itinerary",
+      "problemId": "gfg-eulerian-path-and-circuit",
       "position": 376,
       "titleInSheet": "Paths to travel each nodes using each edge(Seven Bridges)"
     },
@@ -2757,7 +2757,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-12",
-      "problemId": "lc-reconstruct-itinerary",
+      "problemId": "gfg-chinese-postman-problem",
       "position": 378,
       "titleInSheet": "Chinese Postman or Route Inspection"
     },
@@ -2799,7 +2799,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-01-matrix",
+      "problemId": "gfg-0-1-knapsack-problem0945",
       "position": 384,
       "titleInSheet": "0/1 Knapsack"
     },
@@ -2904,28 +2904,28 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "other-fractional-knapsack",
+      "problemId": "gfg-0-1-knapsack-problem0945",
       "position": 399,
       "titleInSheet": "Knapsack Problem"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-binary-search",
+      "problemId": "gfg-ncr1019",
       "position": 400,
       "titleInSheet": "Binomial CoefficientProblem"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-unique-paths",
+      "problemId": "gfg-permutation-coefficient",
       "position": 401,
       "titleInSheet": "Permutation CoefficientProblem"
     },
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-unique-binary-search-trees",
+      "problemId": "gfg-nth-catalan-number",
       "position": 402,
       "titleInSheet": "Program for nth Catalan Number"
     },
@@ -2946,7 +2946,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-minimum-path-sum",
+      "problemId": "gfg-assembly-line-scheduling",
       "position": 405,
       "titleInSheet": "Assembly Line SchedulingProblem"
     },
@@ -2974,7 +2974,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-longest-common-subsequence",
+      "problemId": "gfg-space-optimized-lcs",
       "position": 409,
       "titleInSheet": "Space Optimized Solution of LCS"
     },
@@ -3009,7 +3009,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-house-robber",
+      "problemId": "gfg-max-subsequence-sum-no-three-consecutive",
       "position": 414,
       "titleInSheet": "Maximum subsequence sum such that no three are consecutive"
     },
@@ -3100,7 +3100,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-house-robber-iii",
+      "problemId": "gfg-largest-independent-set-problem",
       "position": 427,
       "titleInSheet": "Largest Independent Set Problem"
     },
@@ -3170,7 +3170,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-longest-common-subsequence",
+      "problemId": "gfg-largest-rectangular-sub-matrix-whose-sum-is-0",
       "position": 437,
       "titleInSheet": "Largest rectangular sub-matrix whose sum is 0"
     },
@@ -3184,7 +3184,7 @@
     {
       "sheetId": "love-babbar-450",
       "sectionId": "babbar-sec-14",
-      "problemId": "lc-search-a-2d-matrix",
+      "problemId": "lc-max-sum-rectangle-in-matrix",
       "position": 439,
       "titleInSheet": "Maximum sum rectangle in a 2D matrix"
     },

@@ -475,7 +475,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-powx-n",
+      "problemId": "lc-subsets",
       "position": 52,
       "titleInSheet": "Generate All Subsequences"
     },
@@ -650,7 +650,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-first-unique-character-in-a-string",
+      "problemId": "gfg-find-the-first-non-repeating-character-from-a-stream-of-characters",
       "position": 77,
       "titleInSheet": "1st Non Repeating in Stream"
     },
@@ -902,14 +902,14 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-8",
-      "problemId": "lc-binary-tree-right-side-view",
+      "problemId": "gfg-top-view-of-binary-tree",
       "position": 113,
       "titleInSheet": "Top View of a tree"
     },
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-8",
-      "problemId": "lc-leaf-similar-trees",
+      "problemId": "gfg-bottom-view-of-binary-tree",
       "position": 114,
       "titleInSheet": "Bottom View of a tree"
     },
@@ -1084,7 +1084,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-group-the-people-given-the-group-size-they-belong-to",
+      "problemId": "gfg-distance-from-the-source-bellman-ford-algorithm",
       "position": 139,
       "titleInSheet": "Bellman Ford Algorithm"
     },
@@ -1154,14 +1154,14 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-number-of-provinces",
+      "problemId": "hr-journey-to-the-moon",
       "position": 149,
       "titleInSheet": "Journey to the Moon"
     },
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-lowest-common-ancestor-of-a-binary-tree",
+      "problemId": "he-oliver-and-the-game",
       "position": 150,
       "titleInSheet": "Oliver and the Game"
     },
@@ -1196,7 +1196,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-13",
-      "problemId": "lc-min-cost-to-connect-all-points",
+      "problemId": "lc-minimum-falling-path-sum",
       "position": 155,
       "titleInSheet": "Min Falling Path Sum"
     },
@@ -1217,7 +1217,7 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-13",
-      "problemId": "lc-01-matrix",
+      "problemId": "gfg-0-1-knapsack-problem0945",
       "position": 158,
       "titleInSheet": "0/1 Knapsack"
     },
@@ -1273,14 +1273,14 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-13",
-      "problemId": "other-fractional-knapsack",
+      "problemId": "gfg-0-1-knapsack-problem0945",
       "position": 166,
       "titleInSheet": "Knapsack Problem"
     },
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-1",
-      "problemId": "lc-unique-binary-search-trees",
+      "problemId": "gfg-nth-catalan-number",
       "position": 167,
       "titleInSheet": "Program for nth Catalan Number"
     },
@@ -1322,14 +1322,14 @@
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-3",
-      "problemId": "lc-longest-common-subsequence",
+      "problemId": "gfg-largest-rectangular-sub-matrix-whose-sum-is-0",
       "position": 173,
       "titleInSheet": "Largest rectangular sub-matrix whose sum is 0"
     },
     {
       "sheetId": "apna-college",
       "sectionId": "apna-sec-3",
-      "problemId": "lc-search-a-2d-matrix",
+      "problemId": "lc-max-sum-rectangle-in-matrix",
       "position": 174,
       "titleInSheet": "Maximum sum rectangle in a 2D matrix"
     },

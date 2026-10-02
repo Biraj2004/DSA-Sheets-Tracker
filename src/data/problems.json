@@ -2466,12 +2466,13 @@
     "id": "lc-find-length-of-loop",
     "title": "Find Length of Loop",
     "difficulty": "medium",
-    "platform": "leetcode",
-    "url": "https://leetcode.com/problems/circular-array-loop",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
     "topics": [
       "Freeze slow, move fast to count"
     ],
-    "category": "Linked Lists"
+    "category": "Linked Lists",
+    "tufUrl": "https://takeuforward.org/linked-list/find-length-of-loop-in-linked-list/"
   },
   {
     "id": "gfg-longest-repeating-subsequence",
@@ -4610,7 +4611,7 @@
     "title": "Lower Bound",
     "difficulty": "easy",
     "platform": "leetcode",
-    "url": "https://leetcode.com/problems/array-upper-bound",
+    "url": "https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
     "topics": [
       "std::lower_bound in C++ / Custom implementation"
     ],
@@ -13262,7 +13263,8 @@
     ],
     "category": "Graphs",
     "check": "ok",
-    "checkedAt": "2026-10-01"
+    "checkedAt": "2026-10-01",
+    "tufUrl": "https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/"
   },
   {
     "id": "gfg-minimum-spanning-tree-kruskal",
@@ -13389,5 +13391,456 @@
     "category": "Advance Algorithm",
     "check": "ok",
     "checkedAt": "2026-10-01"
+  },
+  {
+    "id": "lc-path-sum",
+    "title": "Path Sum",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/path-sum",
+    "difficulty": "easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "category": "Binary Trees"
+  },
+  {
+    "id": "lc-fibonacci-number",
+    "title": "Fibonacci Number",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/fibonacci-number",
+    "difficulty": "easy",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "lc-find-bottom-left-tree-value",
+    "title": "Find Bottom Left Tree Value",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/find-bottom-left-tree-value",
+    "difficulty": "medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "category": "Binary Trees"
+  },
+  {
+    "id": "lc-reverse-string",
+    "title": "Reverse String",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/reverse-string",
+    "difficulty": "easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ],
+    "category": "Strings"
+  },
+  {
+    "id": "lc-circular-array-loop",
+    "title": "Circular Array Loop",
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/circular-array-loop",
+    "difficulty": "medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Hash Table"
+    ],
+    "category": "Two Pointers"
+  },
+  {
+    "id": "spoj-eko",
+    "title": "EKO - Eko",
+    "platform": "spoj",
+    "url": "https://www.spoj.com/problems/EKO/",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "category": "Searching & Sorting"
+  },
+  {
+    "id": "spoj-anarc05b",
+    "title": "The Double HeLiX",
+    "platform": "spoj",
+    "url": "https://www.spoj.com/problems/ANARC05B/",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Search",
+      "Two Pointers"
+    ],
+    "category": "Searching & Sorting"
+  },
+  {
+    "id": "spoj-chocola",
+    "title": "CHOCOLA - Chocolate",
+    "platform": "spoj",
+    "url": "https://www.spoj.com/problems/CHOCOLA/",
+    "difficulty": "medium",
+    "topics": [
+      "Greedy"
+    ],
+    "category": "Greedy"
+  },
+  {
+    "id": "spoj-arrange",
+    "title": "ARRANGE - Arranging Amplifiers",
+    "platform": "spoj",
+    "url": "https://www.spoj.com/problems/ARRANGE/",
+    "difficulty": "medium",
+    "topics": [
+      "Greedy"
+    ],
+    "category": "Greedy"
+  },
+  {
+    "id": "gfg-ncr1019",
+    "title": "nCr (Binomial Coefficient)",
+    "platform": "gfg",
+    "url": "https://practice.geeksforgeeks.org/problems/ncr1019/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming",
+      "Math"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-permutation-coefficient",
+    "title": "Permutation Coefficient",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/permutation-coefficient/",
+    "difficulty": "easy",
+    "topics": [
+      "Dynamic Programming",
+      "Math"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "he-rasta-and-kheshtak",
+    "title": "Rasta and Kheshtak",
+    "platform": "hackerearth",
+    "url": "https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/practice-problems/algorithm/rasta-and-kheshtak/",
+    "difficulty": "hard",
+    "topics": [
+      "Searching & Sorting",
+      "Hashing"
+    ],
+    "category": "Searching & Sorting"
+  },
+  {
+    "id": "other-what-are-arrays-strings",
+    "title": "What are Arrays and Strings?",
+    "platform": "concept",
+    "url": "https://takeuforward.org/c/c-arrays-and-strings/",
+    "tufUrl": "https://takeuforward.org/c/c-arrays-and-strings/",
+    "difficulty": "easy",
+    "topics": [
+      "Learn the basics"
+    ],
+    "category": "Basics & Patterns"
+  },
+  {
+    "id": "gfg-second-largest",
+    "title": "Second Largest",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/second-largest3735/1",
+    "tufUrl": "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
+    "difficulty": "easy",
+    "topics": [
+      "Solve Problems on Arrays [Easy -> Medium -> Hard]"
+    ],
+    "category": "Arrays & Vectors"
+  },
+  {
+    "id": "gfg-frequency-of-array-elements",
+    "title": "Frequencies of Limited Range Array Elements",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1",
+    "tufUrl": "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
+    "difficulty": "easy",
+    "topics": [
+      "Learn the basics",
+      "Hashing"
+    ],
+    "category": "Basics & Patterns"
+  },
+  {
+    "id": "other-highest-lowest-frequency",
+    "title": "Find Highest/Lowest Frequency Element",
+    "platform": "tuf",
+    "url": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
+    "tufUrl": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
+    "difficulty": "easy",
+    "topics": [
+      "Learn the basics",
+      "Hashing"
+    ],
+    "category": "Basics & Patterns"
+  },
+  {
+    "id": "lc-upper-bound",
+    "title": "Implement Upper Bound",
+    "platform": "tuf",
+    "url": "https://takeuforward.org/arrays/implement-upper-bound/",
+    "tufUrl": "https://takeuforward.org/arrays/implement-upper-bound/",
+    "altUrl": "https://www.geeksforgeeks.org/problems/ceil-the-floor2832/1",
+    "difficulty": "easy",
+    "topics": [
+      "Binary Search [1D, 2D Arrays, Search Space]"
+    ],
+    "category": "Searching & Sorting"
+  },
+  {
+    "id": "gfg-reverse-a-stack",
+    "title": "Reverse a Stack",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/reverse-a-stack/1",
+    "tufUrl": "https://takeuforward.org/data-structure/reverse-a-stack-using-recursion/",
+    "difficulty": "medium",
+    "topics": [
+      "Recursion [PatternWise]",
+      "Stacks & Queues"
+    ],
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "gfg-shortest-path-in-undirected-graph-having-unit-distance",
+    "title": "Shortest Path in Undirected Graph having unit distance",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1",
+    "tufUrl": "https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-bfs/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs [Concepts & Problems]"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-shortest-path-in-directed-acyclic-graph",
+    "title": "Shortest Path in Directed Acyclic Graph",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1",
+    "tufUrl": "https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs [Concepts & Problems]"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-implementing-dijkstra-set-1-adjacency-matrix",
+    "title": "Implementing Dijkstra Algorithm",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+    "tufUrl": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs [Concepts & Problems]"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-subset-sum-problem",
+    "title": "Subset Sum Problem",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+    "tufUrl": "https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming [Patterns and Problems]"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-perfect-sum-problem",
+    "title": "Perfect Sum Problem (Count Subsets with Sum K)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1",
+    "tufUrl": "https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming [Patterns and Problems]"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-print-all-lcs-sequences",
+    "title": "Print all LCS sequences",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1",
+    "tufUrl": "https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming [Patterns and Problems]"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-rabin-karp-algorithm",
+    "title": "Rabin-Karp Algorithm for Pattern Searching",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/rabin-karp-algorithm-for-pattern-searching/1",
+    "difficulty": "medium",
+    "topics": [
+      "Strings"
+    ],
+    "category": "Strings"
+  },
+  {
+    "id": "gfg-evaluation-of-infix-expression",
+    "title": "Arithmetic Expression Evaluation (Infix)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/evaluation-of-infix-expression/0",
+    "difficulty": "medium",
+    "topics": [
+      "Stacks & Queues"
+    ],
+    "category": "Stacks & Queues"
+  },
+  {
+    "id": "gfg-k-centers-problem",
+    "title": "K Centers Problem",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/k-centers-problem/1",
+    "difficulty": "hard",
+    "topics": [
+      "Greedy"
+    ],
+    "category": "Greedy Algorithms"
+  },
+  {
+    "id": "gfg-sum-tree",
+    "title": "Sum Tree",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/sum-tree/1",
+    "difficulty": "medium",
+    "topics": [
+      "Binary Trees"
+    ],
+    "category": "Binary Trees"
+  },
+  {
+    "id": "hr-journey-to-the-moon",
+    "title": "Journey to the Moon",
+    "platform": "other",
+    "url": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "he-oliver-and-the-game",
+    "title": "Oliver and the Game",
+    "platform": "other",
+    "url": "https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-eulerian-path-and-circuit",
+    "title": "Eulerian Path and Circuit",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1",
+    "difficulty": "medium",
+    "topics": [
+      "Graphs"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-chinese-postman-problem",
+    "title": "Chinese Postman Problem (Route Inspection)",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/chinese-postman-route-inspection-set-1-introduction/",
+    "difficulty": "hard",
+    "topics": [
+      "Graphs"
+    ],
+    "category": "Graphs"
+  },
+  {
+    "id": "gfg-nth-catalan-number",
+    "title": "Nth Catalan Number",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/nth-catalan-number0817/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-assembly-line-scheduling",
+    "title": "Assembly Line Scheduling",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/assembly-line-scheduling/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-space-optimized-lcs",
+    "title": "Space Optimized Solution of LCS",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/space-optimized-solution-lcs/",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-max-subsequence-sum-no-three-consecutive",
+    "title": "Maximum subsequence sum such that no three are consecutive",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/max-sum-without-adjacents-2/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-largest-independent-set-problem",
+    "title": "Largest Independent Set Problem",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/largest-independent-set-problem/1",
+    "difficulty": "medium",
+    "topics": [
+      "Dynamic Programming",
+      "Binary Trees"
+    ],
+    "category": "Dynamic Programming"
+  },
+  {
+    "id": "gfg-largest-rectangular-sub-matrix-whose-sum-is-0",
+    "title": "Largest rectangular sub-matrix whose sum is 0",
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/largest-rectangular-sub-matrix-whose-sum-is-0/1",
+    "difficulty": "hard",
+    "topics": [
+      "Dynamic Programming",
+      "2D Arrays & Matrix"
+    ],
+    "category": "Dynamic Programming"
   }
 ]

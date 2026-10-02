@@ -216,7 +216,7 @@
     {
       "sheetId": "pattern-wise",
       "sectionId": "pw-sec-1",
-      "problemId": "other-reverse-an-array",
+      "problemId": "lc-reverse-string",
       "position": 6,
       "titleInSheet": "Reverse String"
     },
@@ -755,7 +755,7 @@
     {
       "sheetId": "pattern-wise",
       "sectionId": "pw-sec-4",
-      "problemId": "lc-find-length-of-loop",
+      "problemId": "lc-circular-array-loop",
       "position": 14,
       "titleInSheet": "Circular Array Loop"
     },
@@ -1714,7 +1714,7 @@
     {
       "sheetId": "pattern-wise",
       "sectionId": "pw-sec-12",
-      "problemId": "lc-triangle-min-path-sum",
+      "problemId": "lc-path-sum",
       "position": 8,
       "titleInSheet": "Path Sum"
     },
@@ -1987,7 +1987,7 @@
     {
       "sheetId": "pattern-wise",
       "sectionId": "pw-sec-13",
-      "problemId": "lc-print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix",
+      "problemId": "lc-find-bottom-left-tree-value",
       "position": 13,
       "titleInSheet": "Find Bottom Left Tree Value"
     },
@@ -2834,7 +2834,7 @@
     {
       "sheetId": "pattern-wise",
       "sectionId": "pw-sec-20",
-      "problemId": "other-cpp-for-loops",
+      "problemId": "lc-fibonacci-number",
       "position": 3,
       "titleInSheet": "Fibonacci Number"
     },
