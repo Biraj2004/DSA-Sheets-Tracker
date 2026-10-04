@@ -3,7 +3,6 @@ import { Routes, Route, useSearchParams, useLocation, useNavigate } from 'react-
 import { useProgress } from './hooks/useProgress';
 import { allProblems, sheetList } from './data/sheets';
 import { Header } from './components/Header';
-import { MobileNotice } from './components/MobileNotice';
 import { DataManagementModal } from './components/DataManagementModal';
 import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
 import { ScrollToTop } from './components/ScrollToTop';
@@ -73,30 +72,6 @@ export function App() {
     return 'dark'; // default set to dark mode only
   });
 
-  // Mobile phone detection (< 640px) & bypass
-  const [isMobile, setIsMobile] = useState<boolean>(() => {
-    return typeof window !== 'undefined' ? window.innerWidth < 640 : false;
-  });
-  const [bypassMobile, setBypassMobile] = useState<boolean>(() => {
-    return typeof localStorage !== 'undefined'
-      ? localStorage.getItem('dsa_bypass_mobile') === 'true'
-      : false;
-  });
-
-  // Listen to resize and orientation changes
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 640);
-    };
-
-    window.addEventListener('resize', handleResize);
-    window.addEventListener('orientationchange', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      window.removeEventListener('orientationchange', handleResize);
-    };
-  }, []);
-
   // Theme class effect on documentElement
   useEffect(() => {
     if (theme === 'dark') {
@@ -113,11 +88,6 @@ export function App() {
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
-  };
-
-  const handleBypassMobile = () => {
-    setBypassMobile(true);
-    localStorage.setItem('dsa_bypass_mobile', 'true');
   };
 
   const handleSelectSheet = (id: string) => {
