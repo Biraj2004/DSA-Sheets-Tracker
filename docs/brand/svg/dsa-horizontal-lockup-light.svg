@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 160" width="680" height="160" role="img" aria-labelledby="lockup-light-title">
+  <title id="lockup-light-title">DSA Sheets Tracker - Horizontal Lockup (Light)</title>
+  <!-- Symbol on Squircle Tile -->
+  <g transform="translate(16, 16) scale(0.5)">
+    <rect x="16" y="16" width="224" height="224" rx="56" fill="#0b0f19" stroke="#1e293b" stroke-width="4" />
+    <line x1="148" y1="64" x2="68" y2="144" stroke="#6366f1" stroke-width="28" stroke-linecap="round" />
+    <line x1="68" y1="144" x2="108" y2="184" stroke="#10b981" stroke-width="28" stroke-linecap="round" />
+    <line x1="108" y1="184" x2="188" y2="104" stroke="#10b981" stroke-width="28" stroke-linecap="round" />
+    <circle cx="68" cy="144" r="14" fill="#10b981" />
+  </g>
+  
+  <!-- Wordmark: "DSA" Outlined Letterforms (Dark Slate #0f172a) -->
+  <!-- D -->
+  <path fill="#0f172a" fill-rule="evenodd" d="M 164 42 H 200 C 218 42 232 54 232 72 C 232 90 218 102 200 102 H 164 Z M 180 56 H 198 C 208 56 216 63 216 72 C 216 81 208 88 198 88 H 180 Z" />
+  <!-- S -->
+  <path fill="#0f172a" d="M 284 58 C 280 47 269 42 256 42 C 243 42 234 49 234 59 C 234 81 285 71 285 95 C 285 106 274 114 260 114 C 245 114 235 104 233 93 L 247 90 C 249 98 253 102 260 102 C 267 102 271 98 271 93 C 271 73 220 81 220 57 C 220 46 232 38 246 38 C 259 38 269 45 273 54 Z" />
+  <!-- A -->
+  <path fill="#0f172a" fill-rule="evenodd" d="M 314 42 H 330 L 354 114 H 338 L 333 98 H 311 L 306 114 H 290 Z M 315 86 H 329 L 322 62 Z" />
+
+  <!-- Subtitle: "SHEETS TRACKER" in Indigo Accent (#6366f1) -->
+  <g transform="translate(164, 116)">
+    <text font-family="Inter, system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#6366f1">SHEETS TRACKER</text>
+  </g>
+</svg>

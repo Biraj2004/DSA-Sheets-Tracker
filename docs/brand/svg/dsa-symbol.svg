@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="dsa-symbol-title">
+  <title id="dsa-symbol-title">DSA Sheets Tracker - The Code-Check Symbol</title>
+  <!-- Left Code Bracket Arm (Electric Indigo): (148, 64) -> (68, 144) -->
+  <line x1="148" y1="64" x2="68" y2="144" stroke="#6366f1" stroke-width="28" stroke-linecap="round" />
+  
+  <!-- Downward Check Vertex (Emerald): (68, 144) -> (108, 184) -->
+  <line x1="68" y1="144" x2="108" y2="184" stroke="#10b981" stroke-width="28" stroke-linecap="round" />
+  
+  <!-- Upward Solved Apex (Emerald): (108, 184) -> (188, 104) -->
+  <line x1="108" y1="184" x2="188" y2="104" stroke="#10b981" stroke-width="28" stroke-linecap="round" />
+  
+  <!-- Joint cap at (68, 144) -->
+  <circle cx="68" cy="144" r="14" fill="#10b981" />
+</svg>
