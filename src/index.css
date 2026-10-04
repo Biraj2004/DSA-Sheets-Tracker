@@ -65,11 +65,16 @@
     background-color: var(--bg-canvas);
     color: var(--text-primary);
     min-height: 100vh;
-    overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: clip;
+    overscroll-behavior-x: none;
   }
 
   html {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: clip;
+    overscroll-behavior-x: none;
   }
 
   button,
@@ -89,6 +94,15 @@
   .content-visibility-auto {
     content-visibility: auto;
     contain-intrinsic-size: 0 54px;
+  }
+
+  /* Utility to hide scrollbars on mobile filter strips */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 

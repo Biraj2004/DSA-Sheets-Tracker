@@ -188,11 +188,6 @@ export function App() {
     return count;
   }, [progressMap]);
 
-  // Mobile info view gate
-  if (isMobile && !bypassMobile) {
-    return <MobileNotice onBypass={handleBypassMobile} />;
-  }
-
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col transition-colors app-root">
       {/* Top Sticky Header with Navigation Tabs */}
