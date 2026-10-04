@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   Check,
   Star,
@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import type { Problem, Progress, Status } from '../types';
 import { getOtherSheetsForProblem } from '../data/sheets';
+import { TAB_SHORT_NAMES } from './Header';
 
 interface ProblemRowProps {
   problem: Problem;
@@ -231,17 +232,35 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
   const [isNotesOpen, setIsNotesOpen]     = useState(false);
   const [noteDraft, setNoteDraft]         = useState(progress.note || '');
   const [statusMenuOpen, setStatusMenuOpen] = useState(false);
+  const [dropdownPosition, setDropdownPosition] = useState<'down' | 'up'>('down');
+  const statusButtonRef = useRef<HTMLButtonElement>(null);
+
+  const handleToggleStatusMenu = () => {
+    if (!statusMenuOpen && statusButtonRef.current) {
+      const rect = statusButtonRef.current.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - rect.bottom;
+      setDropdownPosition(spaceBelow < 160 ? 'up' : 'down');
+    }
+    setStatusMenuOpen((prev) => !prev);
+  };
 
   const displayTitle = titleInSheet || problem.title;
   const otherSheets  = getOtherSheetsForProblem(problem.id, currentSheetId);
   const isSolved     = progress.status === 'solved';
+  const isReviewDue  = Boolean(
+    progress.nextReviewAt &&
+    progress.nextReviewAt <= new Date().toISOString() &&
+    progress.status !== 'revise'
+  );
 
   const { primaryUrl, primaryBadge, secondaryLinks, extraBadge } = getRoutingInfo(problem);
 
   return (
     <div
-      className={`group border-b border-slate-800/80 transition-colors ${
-        isSolved ? 'bg-emerald-950/10 hover:bg-emerald-950/20' : 'bg-slate-900/30 hover:bg-slate-900/60'
+      className={`group border-b border-slate-800/80 html-light:border-slate-200 first:rounded-t-xl last:rounded-b-xl last:border-b-0 transition-colors ${
+        isSolved
+          ? 'bg-emerald-950/10 hover:bg-emerald-950/20 html-light:bg-emerald-50 html-light:hover:bg-emerald-100/60'
+          : 'bg-slate-900/30 hover:bg-slate-900/60 html-light:bg-white html-light:hover:bg-slate-50'
       }`}
     >
       {/* ── Main Row ─────────────────────────────────────────────────── */}
@@ -349,9 +368,10 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                 {otherSheets.map((s) => (
                   <span
                     key={s.id}
-                    className="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-indigo-300 border border-slate-700/60"
+                    className="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-indigo-300 border border-slate-700/60 truncate max-w-[130px]"
+                    title={s.name}
                   >
-                    {s.name}
+                    {TAB_SHORT_NAMES[s.id] || s.name}
                   </span>
                 ))}
               </div>
@@ -362,13 +382,25 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
         {/* RIGHT: Action buttons */}
         <div className="flex items-center gap-1.5 self-end sm:self-center shrink-0">
 
+          {/* Spaced review due badge */}
+          {isReviewDue && (
+            <span
+              title={`Spaced review due (scheduled for ${new Date(progress.nextReviewAt!).toLocaleDateString()})`}
+              className="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-rose-500/10 text-rose-400 border border-rose-500/20 inline-flex items-center gap-1 shrink-0"
+            >
+              <RotateCw className="w-2.5 h-2.5" />
+              Due
+            </span>
+          )}
+
           {/* Difficulty badge — always visible on the right */}
           <DifficultyPill diff={problem.difficulty} />
 
           {/* Status dropdown */}
           <div className="relative">
             <button
-              onClick={() => setStatusMenuOpen(!statusMenuOpen)}
+              ref={statusButtonRef}
+              onClick={handleToggleStatusMenu}
               className={`px-2 py-1 rounded-md text-xs font-medium border flex items-center gap-1 transition-colors cursor-pointer status-pill status-pill-${progress.status} ${
                 progress.status === 'solved' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : progress.status === 'tried'  ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
@@ -385,7 +417,11 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                 {/* Full-screen backdrop to close on outside click */}
                 <div className="fixed inset-0 z-40" onClick={() => setStatusMenuOpen(false)} />
                 {/* Dropdown panel */}
-                <div className="absolute right-0 mt-1 w-36 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl py-1 z-50 status-dropdown-menu">
+                <div
+                  className={`absolute right-0 ${
+                    dropdownPosition === 'up' ? 'bottom-full mb-1.5' : 'top-full mt-1.5'
+                  } w-36 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl py-1 z-50 status-dropdown-menu`}
+                >
                   {(['todo', 'tried', 'solved', 'revise'] as Status[]).map((st) => (
                     <button
                       key={st}
@@ -441,7 +477,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
 
       {/* ── Notes + Spaced Repetition Panel ──────────────────────────── */}
       {isNotesOpen && (
-        <div className="bg-slate-950/80 border-t border-slate-800/80 px-4 py-3 text-xs space-y-3">
+        <div className="bg-slate-950/80 border-t border-slate-800/80 px-4 py-3 text-xs space-y-3 rounded-b-xl">
           <div className="flex flex-col sm:flex-row gap-3">
 
             {/* Notes textarea */}

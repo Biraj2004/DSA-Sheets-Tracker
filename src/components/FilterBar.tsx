@@ -16,9 +16,9 @@ interface FilterBarProps {
   totalCount: number;
 }
 
-// Shared input / select focus + border styles
+// Shared input / select focus + border styles with light mode support
 const inputCls =
-  'bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-lg ' +
+  'bg-slate-950 html-light:bg-white border border-slate-800 html-light:border-slate-300 text-slate-200 html-light:text-slate-800 text-xs rounded-lg ' +
   'focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/40 transition-all';
 
 export const FilterBar: React.FC<FilterBarProps> = ({
@@ -43,11 +43,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   };
 
   return (
-    <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-3 sm:p-4 mb-5">
-      <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+    <div className="bg-slate-900/60 html-light:bg-white border border-slate-800/80 html-light:border-slate-200 rounded-xl px-3 py-3 sm:px-4 sm:py-3.5 mb-4 sm:mb-5 transition-colors">
+      <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-2 sm:gap-3">
 
         {/* ── Search Input ── */}
-        <div className="relative flex-1">
+        <div className="relative flex-1 min-w-0">
           <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
@@ -58,12 +58,12 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             autoComplete="off"
             autoCorrect="off"
             maxLength={120}
-            className={`w-full pl-9 pr-9 py-2 ${inputCls} placeholder:text-slate-600`}
+            className={`w-full pl-9 pr-9 py-2 ${inputCls} placeholder:text-slate-500 html-light:placeholder:text-slate-400`}
           />
           {filters.search && (
             <button
               onClick={() => onFilterChange({ ...filters, search: '' })}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 transition-colors"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-200 html-light:text-slate-500 html-light:hover:text-slate-800 transition-colors cursor-pointer"
               aria-label="Clear search"
             >
               <X className="w-3.5 h-3.5" />
@@ -71,13 +71,18 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           )}
         </div>
 
-        {/* ── Filter Selects ── */}
-        <div className="flex flex-wrap items-center gap-2">
+        {/* ── Filter Selects (Horizontal scrollable strip on mobile, wrapped on desktop) ── */}
+        <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-0.5 sm:py-0 w-full md:w-auto shrink-0">
 
+          {/* Status select */}
           <select
             value={filters.status}
             onChange={(e) => onFilterChange({ ...filters, status: e.target.value as FilterState['status'] })}
-            className={`px-2.5 py-1.5 cursor-pointer ${inputCls}`}
+            className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${
+              filters.status !== 'all'
+                ? 'border-indigo-500/80 bg-indigo-500/10 text-indigo-300 font-medium'
+                : ''
+            }`}
           >
             <option value="all">Status: All</option>
             <option value="todo">Todo</option>
@@ -87,10 +92,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <option value="starred">Starred ★</option>
           </select>
 
+          {/* Difficulty select */}
           <select
             value={filters.difficulty || 'all'}
             onChange={(e) => onFilterChange({ ...filters, difficulty: e.target.value as FilterState['difficulty'] })}
-            className={`px-2.5 py-1.5 cursor-pointer ${inputCls}`}
+            className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${
+              filters.difficulty !== 'all'
+                ? 'border-indigo-500/80 bg-indigo-500/10 text-indigo-300 font-medium'
+                : ''
+            }`}
           >
             <option value="all">Difficulty: All</option>
             <option value="easy">Easy</option>
@@ -98,10 +108,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <option value="hard">Hard</option>
           </select>
 
+          {/* Platform select */}
           <select
             value={filters.platform}
             onChange={(e) => onFilterChange({ ...filters, platform: e.target.value as FilterState['platform'] })}
-            className={`px-2.5 py-1.5 cursor-pointer ${inputCls}`}
+            className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${
+              filters.platform !== 'all'
+                ? 'border-indigo-500/80 bg-indigo-500/10 text-indigo-300 font-medium'
+                : ''
+            }`}
           >
             <option value="all">Platform: All</option>
             <option value="leetcode">LeetCode</option>
@@ -114,10 +129,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <option value="interviewbit">InterviewBit</option>
           </select>
 
+          {/* Clear Filters Button */}
           {isFiltered && (
             <button
               onClick={resetFilters}
-              className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-rose-300 text-xs font-medium border border-slate-700 transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-rose-500/15 hover:bg-rose-500/25 text-rose-300 html-light:text-rose-700 text-xs font-medium border border-rose-500/30 transition-colors shrink-0 cursor-pointer"
               title="Reset all filters"
             >
               <X className="w-3.5 h-3.5" />

@@ -36,6 +36,8 @@ DSA-Sheets-Tracker/
 │   │
 │   ├── data/
 │   │   ├── problems.json     ← Canonical Problem registry (1,003 verified entries)
+│   │   ├── stats.ts          ← Canonical derived metrics (TRACKER_STATS, formatCount, listSheetNames)
+│   │   ├── stats.test.ts     ← Vitest regression tests (prevents hardcoded counts in JSX)
 │   │   ├── sheets.ts         ← allProblems[], allSheets, getSheetData(), getProblem()
 │   │   ├── sheets.test.ts    ← Vitest integrity test suite (0 dangling IDs, 7 sheets)
 │   │   ├── striver-a2z.json  ← Striver A2Z sheet mapping (460 items)
@@ -48,7 +50,8 @@ DSA-Sheets-Tracker/
 │   │   └── synergy.ts        ← Cross-sheet overlap computation (getSheetSynergy)
 │   │
 │   ├── components/
-│   │   ├── Header.tsx            ← Sheet tab nav + theme toggle + keyboard shortcuts button
+│   │   ├── AppFooter.tsx         ← Unified footer with live dynamic counts and light-mode parity
+│   │   ├── Header.tsx            ← Sheet tab nav + mobile drawer + theme toggle
 │   │   ├── FilterBar.tsx         ← Search input (regex-safe) + Status/Difficulty/Platform selects
 │   │   ├── SectionAccordion.tsx  ← Collapsible section (first 2 defaultOpen=true)
 │   │   ├── ProblemRow.tsx        ← Single problem row: status, badges, note, star, schedule
@@ -150,6 +153,11 @@ If `problem.isLeetCodePremium === true`:
 
 ### Cross-sheet synergy
 `src/data/synergy.ts` exports `getSheetSynergy(sheetId)` which returns overlap counts. It reads from the same sheet data — no separate maintenance needed.
+
+### Dynamic metrics & stats synchronization
+- Never hardcode problem counts (e.g. 1,003 or 1,041) or sheet counts (7) in page text, footers, headers, or modal strings.
+- Always import `TRACKER_STATS`, `formatCount`, or helper utilities from `src/data/stats.ts`.
+- `stats.test.ts` will fail in CI if any hardcoded counts are introduced into `src/components/` or `src/pages/`.
 
 ---
 
