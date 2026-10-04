@@ -67,8 +67,12 @@ DSA-Sheets-Tracker/
 │       ├── ContactPage.tsx   ← Developer info, contact form (mailto), disclaimer
 │       └── NotFoundPage.tsx  ← Custom 404 with quick-links back to sheets
 │
+├── docs/
+│   ├── brand/                ← Brand identity guidelines, SVG vector masters, presentation
+│   └── decisions.md          ← Architecture and design decisions log
+│
 ├── public/
-│   ├── favicon.svg
+│   ├── favicon.svg           ← App squircle tile icon (The Code-Check)
 │   └── profile2.jpg          ← Developer avatar used in ContactPage
 │
 ├── index.html                ← Vite entry point + meta tags + Inter font
