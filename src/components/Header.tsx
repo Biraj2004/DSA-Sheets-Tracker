@@ -72,8 +72,8 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-3 shrink-0 group cursor-pointer"
             title="Go to Sheets Tracker Dashboard"
           >
-            <div className="w-9 h-9 rounded-xl bg-slate-900 border border-slate-700/80 p-1 flex items-center justify-center shadow-sm group-hover:border-indigo-500/50 transition-colors">
-              <img src="/favicon.svg" alt="DSA Tracker" className="w-7 h-7" />
+            <div className="w-9 h-9 rounded-xl overflow-hidden ring-1 ring-slate-700/80 group-hover:ring-indigo-500/60 transition-all shadow-sm shrink-0">
+              <img src="/favicon.svg" alt="DSA Tracker Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <div className="flex items-center gap-2">

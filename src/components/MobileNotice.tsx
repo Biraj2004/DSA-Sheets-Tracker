@@ -50,15 +50,14 @@ export const MobileNotice: React.FC<MobileNoticeProps> = ({ onBypass }) => {
               width: '48px',
               height: '48px',
               borderRadius: '12px',
-              backgroundColor: '#07090e',
-              border: '1px solid #334155',
-              padding: '6px',
+              overflow: 'hidden',
+              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.4)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
             }}
           >
-            <img src="/favicon.svg" alt="DSA Sheets Tracker" style={{ width: '32px', height: '32px' }} />
+            <img src="/favicon.svg" alt="DSA Sheets Tracker Logo" style={{ width: '48px', height: '48px' }} />
           </div>
         </div>
 
