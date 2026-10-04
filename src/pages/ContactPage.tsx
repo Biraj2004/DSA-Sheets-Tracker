@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowLeft,
@@ -19,8 +19,13 @@ import {
 } from 'lucide-react';
 import { TRACKER_STATS, formatCount } from '../data/stats';
 import { AppFooter } from '../components/AppFooter';
+import { scrollToTopFastSmooth } from '../lib/scrollToTop';
 
 export const ContactPage: React.FC = () => {
+  useEffect(() => {
+    scrollToTopFastSmooth();
+  }, []);
+
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [formData, setFormData] = useState({
     name: '',

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink, Info, Mail } from 'lucide-react';
 import { TRACKER_STATS, formatCount } from '../data/stats';
+import { scrollToTopFastSmooth } from '../lib/scrollToTop';
 
 interface AppFooterProps {
   /** Optional in-app actions. Hidden on pages that don't own the modals (404, contact). */
@@ -34,7 +35,7 @@ export const AppFooter: React.FC<AppFooterProps> = ({ onOpenShortcuts, onOpenDat
         </div>
 
         <nav aria-label="Footer" className="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1">
-          <Link to="/contact" className={linkCls}>
+          <Link to="/contact" onClick={() => scrollToTopFastSmooth()} className={linkCls}>
             <Mail className="w-3.5 h-3.5 text-indigo-400 html-light:text-indigo-600" />
             <span>About &amp; Contact</span>
           </Link>
@@ -68,6 +69,7 @@ export const AppFooter: React.FC<AppFooterProps> = ({ onOpenShortcuts, onOpenDat
           educational tracker.{' '}
           <Link
             to="/contact"
+            onClick={() => scrollToTopFastSmooth()}
             className="whitespace-nowrap font-medium text-indigo-400 html-light:text-indigo-600 hover:text-indigo-300 html-light:hover:text-indigo-700 underline underline-offset-2 decoration-indigo-500/40"
           >
             Full disclaimer →

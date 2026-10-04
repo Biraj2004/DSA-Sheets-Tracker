@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { sheetList } from '../data/sheets';
 import { TRACKER_STATS, formatCount } from '../data/stats';
+import { scrollToTopFastSmooth } from '../lib/scrollToTop';
 
 interface HeaderProps {
   activeSheetId: string;
@@ -184,6 +185,9 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Contact / Developer Details Button (Desktop only) */}
             <Link
               to="/contact"
+              onClick={() => {
+                scrollToTopFastSmooth();
+              }}
               className={`hidden sm:inline-flex p-2 rounded-lg border transition-colors cursor-pointer ${
                 isContactPage
                   ? 'bg-indigo-600 text-white border-indigo-500 shadow-xs'
@@ -552,7 +556,10 @@ export const Header: React.FC<HeaderProps> = ({
 
                     <Link
                       to="/contact"
-                      onClick={() => setIsMobileMenuOpen(false)}
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        scrollToTopFastSmooth();
+                      }}
                       className="w-full min-h-11 flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors"
                     >
                       <Mail className="w-4 h-4 text-indigo-400 shrink-0" />

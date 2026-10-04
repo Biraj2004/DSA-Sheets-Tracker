@@ -12,6 +12,7 @@ import {
 import { sheetList } from '../data/sheets';
 import { TRACKER_STATS, formatCount, getSheetProblemCount } from '../data/stats';
 import { AppFooter } from '../components/AppFooter';
+import { scrollToTopFastSmooth } from '../lib/scrollToTop';
 
 export const NotFoundPage: React.FC = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ export const NotFoundPage: React.FC = () => {
 
           <Link
             to="/contact"
+            onClick={() => scrollToTopFastSmooth()}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 html-light:bg-slate-100 html-light:text-slate-700 html-light:border-slate-300 hover:bg-slate-700 html-light:hover:bg-slate-200 text-xs text-slate-200 border border-slate-700 transition-colors"
           >
             <Mail className="w-3.5 h-3.5 text-indigo-400" />
@@ -78,6 +80,7 @@ export const NotFoundPage: React.FC = () => {
 
           <Link
             to="/contact"
+            onClick={() => scrollToTopFastSmooth()}
             className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-medium border border-slate-700 transition-colors cursor-pointer"
           >
             <Mail className="w-4 h-4 text-indigo-400" />

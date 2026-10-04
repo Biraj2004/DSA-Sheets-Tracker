@@ -9,6 +9,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { TrackerPage } from './pages/TrackerPage';
 import { ContactPage } from './pages/ContactPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { scrollToTopFastSmooth } from './lib/scrollToTop';
 
 export function App() {
   const {
@@ -58,6 +59,13 @@ export function App() {
       setActiveSheetId(sheetParam);
     }
   }, [searchParams]);
+
+  // Scroll to the top fast smooth whenever going or redirecting to /contact page
+  useEffect(() => {
+    if (location.pathname === '/contact') {
+      scrollToTopFastSmooth();
+    }
+  }, [location.pathname, location.key]);
 
   // Modal dialog states
   const [isDataModalOpen, setIsDataModalOpen] = useState(false);
