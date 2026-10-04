@@ -91,7 +91,7 @@ export const SectionAccordion: React.FC<SectionAccordionProps> = React.memo(({
   return (
     <div
       id={section.id}
-      className={`bg-slate-900/40 html-light:bg-white border rounded-xl mb-3 transition-all scroll-mt-28 ${
+      className={`bg-slate-900/40 html-light:bg-white border rounded-xl mb-3 transition-all scroll-mt-16 sm:scroll-mt-20 ${
         isActiveStep
           ? 'border-indigo-500/60 html-light:border-indigo-400 ring-1 ring-indigo-500/20 html-light:ring-indigo-400/20 shadow-xs'
           : 'border-slate-800 html-light:border-slate-200'
