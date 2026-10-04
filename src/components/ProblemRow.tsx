@@ -368,7 +368,7 @@ export const ProblemRow: React.FC<ProblemRowProps> = React.memo(({
                 {otherSheets.map((s) => (
                   <span
                     key={s.id}
-                    className="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-indigo-300 border border-slate-700/60 truncate max-w-[130px]"
+                    className="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-indigo-300 border border-slate-700/60 truncate max-w-32.5"
                     title={s.name}
                   >
                     {TAB_SHORT_NAMES[s.id] || s.name}

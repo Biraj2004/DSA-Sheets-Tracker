@@ -139,7 +139,7 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               id="mobile-sheet-pill-btn"
               onClick={() => setIsMobileMenuOpen(true)}
-              className="sm:hidden inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-indigo-500/15 text-indigo-300 html-light:bg-indigo-50 html-light:text-indigo-700 border border-indigo-500/30 truncate max-w-[120px]"
+              className="sm:hidden inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-indigo-500/15 text-indigo-300 html-light:bg-indigo-50 html-light:text-indigo-700 border border-indigo-500/30 truncate max-w-30"
               title="Open sheet selector menu"
               aria-label={`Current sheet: ${currentSheetName}. Tap to change sheet.`}
             >
@@ -530,7 +530,7 @@ export const Header: React.FC<HeaderProps> = ({
                           onOpenDataManagement();
                           setIsMobileMenuOpen(false);
                         }}
-                        className="w-full min-h-[44px] flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors text-left cursor-pointer"
+                        className="w-full min-h-11 flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors text-left cursor-pointer"
                       >
                         <Database className="w-4 h-4 text-indigo-400 shrink-0" />
                         <span>Backup & Restore (JSON)</span>
@@ -543,7 +543,7 @@ export const Header: React.FC<HeaderProps> = ({
                           onOpenShortcuts();
                           setIsMobileMenuOpen(false);
                         }}
-                        className="w-full min-h-[44px] flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors text-left cursor-pointer"
+                        className="w-full min-h-11 flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors text-left cursor-pointer"
                       >
                         <Keyboard className="w-4 h-4 text-slate-400 shrink-0" />
                         <span>Keyboard Shortcuts Reference</span>
@@ -553,7 +553,7 @@ export const Header: React.FC<HeaderProps> = ({
                     <Link
                       to="/contact"
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="w-full min-h-[44px] flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors"
+                      className="w-full min-h-11 flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors"
                     >
                       <Mail className="w-4 h-4 text-indigo-400 shrink-0" />
                       <span>About Developer & Contact</span>
@@ -563,7 +563,7 @@ export const Header: React.FC<HeaderProps> = ({
                       href="https://github.com/Biraj2004/DSA-Sheets-Tracker"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full min-h-[44px] flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors"
+                      className="w-full min-h-11 flex items-center gap-2.5 p-2 rounded-lg text-slate-300 hover:text-white html-light:text-slate-700 html-light:hover:text-slate-900 hover:bg-slate-900/60 html-light:hover:bg-slate-100 transition-colors"
                     >
                       <ExternalLink className="w-4 h-4 text-slate-400 shrink-0" />
                       <span>GitHub Repository</span>
