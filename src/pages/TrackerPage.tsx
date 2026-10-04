@@ -226,7 +226,7 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
   return (
     <>
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl mx-auto w-full px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-4 sm:space-y-6 min-w-0 max-w-full overflow-x-clip">
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 space-y-6">
         {loading ? (
           <SkeletonLoader />
         ) : activeSheetId === 'all' ? (

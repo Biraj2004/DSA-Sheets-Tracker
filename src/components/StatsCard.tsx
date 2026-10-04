@@ -57,7 +57,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({
   const synergyList = getSheetSynergy(sheetData.sheet.id, progressMap);
 
   return (
-    <div className="bg-slate-900/60 html-light:bg-white border border-slate-800 html-light:border-slate-200 rounded-xl p-3.5 sm:p-5 mb-4 sm:mb-5 space-y-3.5 sm:space-y-4 min-w-0 max-w-full">
+    <div className="bg-slate-900/60 html-light:bg-white border border-slate-800 html-light:border-slate-200 rounded-xl p-3.5 sm:p-5 mb-4 sm:mb-5 space-y-3.5 sm:space-y-4 min-w-0">
       {/* Top Header Row: Balanced side-by-side on all screens */}
       <div className="flex items-start justify-between gap-3 min-w-0">
         <div className="min-w-0 flex-1">
