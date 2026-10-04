@@ -10,6 +10,8 @@ import {
   CheckCircle2,
   ListFilter,
 } from 'lucide-react';
+import { TRACKER_STATS, formatCount, listSheetNames } from '../data/stats';
+import { TAB_SHORT_NAMES } from './Header';
 
 interface AllProblemsViewProps {
   problems: Problem[];
@@ -104,11 +106,13 @@ const TopicAccordion: React.FC<TopicGroupProps> = React.memo(({
   const isAllSolved = total > 0 && solved === total;
 
   return (
-    <div className="bg-slate-900/40 border border-slate-800 rounded-xl mb-3 transition-all overflow-hidden">
+    <div className="bg-slate-900/40 html-light:bg-white border border-slate-800 html-light:border-slate-200 rounded-xl mb-3 transition-all">
       {/* Header */}
       <div
         onClick={onToggleOpen}
-        className="w-full flex items-center justify-between p-3.5 sm:px-5 sm:py-3.5 text-left bg-slate-900/60 hover:bg-slate-900/90 transition-colors cursor-pointer select-none"
+        className={`w-full flex items-center justify-between p-3.5 sm:px-5 sm:py-3.5 text-left bg-slate-900/60 hover:bg-slate-900/90 html-light:bg-slate-50 html-light:hover:bg-slate-100 transition-colors cursor-pointer select-none rounded-t-xl ${
+          !isOpen ? 'rounded-b-xl' : ''
+        }`}
         role="button"
         tabIndex={0}
         onKeyDown={(e) => {
@@ -345,27 +349,27 @@ export const AllProblemsView: React.FC<AllProblemsViewProps> = ({
   return (
     <div>
       {/* Dynamic Header Card */}
-      <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-4 sm:p-5 mb-5">
+      <div className="bg-slate-900/60 html-light:bg-white border border-slate-800 html-light:border-slate-200 rounded-xl p-4 sm:p-5 mb-5">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold text-white tracking-tight flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-indigo-400" />
-              Master Catalog ({problems.length.toLocaleString()} Canonical Problems)
+            <h1 className="text-xl sm:text-2xl font-bold text-white html-light:text-slate-900 tracking-tight flex items-center gap-2">
+              <BookOpen className="w-5 h-5 text-indigo-400 shrink-0" />
+              <span>Master Catalog <span className="text-slate-400 html-light:text-slate-500 font-semibold">({formatCount(problems.length)} problems)</span></span>
             </h1>
-            <p className="text-xs text-slate-400 mt-1 max-w-2xl">
-              Topic-wise curated global catalog across all 7 sheets (Striver A2Z, NeetCode 250, Namaste DSA, Fraz's Sheet, Pattern-Wise, Love Babbar, and Apna College). Problems in each topic are organized from Easy &rarr; Medium &rarr; Hard.
+            <p className="text-xs text-slate-400 html-light:text-slate-600 mt-1 max-w-2xl leading-relaxed">
+              Topic-wise global catalog across all {TRACKER_STATS.sheetCount} sheets ({listSheetNames(TAB_SHORT_NAMES)}). Problems in each topic are ordered Easy &rarr; Medium &rarr; Hard.
             </p>
           </div>
 
           {/* Catalog Progress Pill */}
-          <div className="flex items-center gap-2 shrink-0 bg-slate-950/60 border border-slate-800 px-3 py-1.5 rounded-lg self-start sm:self-auto">
+          <div className="flex items-center gap-2 shrink-0 bg-slate-950/60 html-light:bg-slate-50 border border-slate-800 html-light:border-slate-200 px-3 py-1.5 rounded-lg self-start sm:self-auto">
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
             <div className="text-xs">
-              <span className="text-slate-400">Total Solved: </span>
-              <span className="font-semibold text-emerald-300 font-mono-num">
+              <span className="text-slate-400 html-light:text-slate-600">Total Solved: </span>
+              <span className="font-semibold text-emerald-300 html-light:text-emerald-600 font-mono-num">
                 {totalSolved}
               </span>
-              <span className="text-slate-500"> / {problems.length}</span>
+              <span className="text-slate-500 font-mono-num"> / {formatCount(problems.length)}</span>
             </div>
           </div>
         </div>
