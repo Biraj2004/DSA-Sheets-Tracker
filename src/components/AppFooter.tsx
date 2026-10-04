@@ -20,11 +20,9 @@ const linkCls =
 /**
  * Shared footer for every page. Counts come from {@link TRACKER_STATS}
  * so the tracker, contact and 404 pages can never disagree.
- *
- * `pb-24` on mobile keeps the last line clear of the floating scroll-to-top button.
  */
 export const AppFooter: React.FC<AppFooterProps> = ({ onOpenShortcuts, onOpenDataModal }) => (
-  <footer className="mt-12 border-t border-slate-800/80 html-light:border-slate-200 bg-slate-950/80 html-light:bg-slate-50 pt-8 pb-24 sm:pb-8 text-xs text-slate-400 html-light:text-slate-600 app-footer">
+  <footer className="mt-12 border-t border-slate-800/80 html-light:border-slate-200 bg-slate-950/80 html-light:bg-slate-50 py-8 text-xs text-slate-400 html-light:text-slate-600 app-footer">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
       {/* Brand + links */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
