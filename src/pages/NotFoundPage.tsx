@@ -10,6 +10,8 @@ import {
   BookOpen,
 } from 'lucide-react';
 import { sheetList } from '../data/sheets';
+import { TRACKER_STATS, formatCount, getSheetProblemCount } from '../data/stats';
+import { AppFooter } from '../components/AppFooter';
 
 export const NotFoundPage: React.FC = () => {
   const location = useLocation();
@@ -116,7 +118,7 @@ export const NotFoundPage: React.FC = () => {
                   </span>
                 </div>
                 <div className="mt-2 text-[10px] text-indigo-400 font-mono flex items-center justify-between">
-                  <span>{sheet.expectedCount} problems</span>
+                  <span>{formatCount(getSheetProblemCount(sheet.id))} problems</span>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity">
                     Open &rarr;
                   </span>
@@ -131,7 +133,7 @@ export const NotFoundPage: React.FC = () => {
               <div>
                 <span className="font-semibold text-indigo-200 group-hover:text-white transition-colors flex items-center gap-1.5">
                   <Layers className="w-3.5 h-3.5 text-indigo-400" />
-                  All 1,003 Problems
+                  All {formatCount(TRACKER_STATS.totalProblems)} Problems
                 </span>
                 <span className="text-[11px] text-indigo-400/80 block">
                   Master Catalog
@@ -148,10 +150,7 @@ export const NotFoundPage: React.FC = () => {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800/80 html-light:border-slate-200 bg-slate-900/40 html-light:bg-slate-50 py-4 text-center text-xs text-slate-500 html-light:text-slate-600">
-        <p>&copy; {new Date().getFullYear()} DSA Sheets Tracker • Developed by Biraj Sarkar (Biraj2004) • Built with Claude</p>
-      </footer>
+      <AppFooter />
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import {
   getSheetData,
   getProblem,
@@ -11,7 +10,7 @@ import { SectionAccordion } from '../components/SectionAccordion';
 import { AllProblemsView } from '../components/AllProblemsView';
 import { RevisionView } from '../components/RevisionView';
 import { SkeletonLoader } from '../components/SkeletonLoader';
-import { Info, ExternalLink, Mail } from 'lucide-react';
+import { AppFooter } from '../components/AppFooter';
 import type { Progress, Status } from '../types';
 
 function getSavedActiveSection(sheetId: string): string | null {
@@ -227,7 +226,7 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
   return (
     <>
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="flex-1 max-w-7xl mx-auto w-full px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-4 sm:space-y-6 min-w-0 max-w-full overflow-x-clip">
         {loading ? (
           <SkeletonLoader />
         ) : activeSheetId === 'all' ? (
@@ -324,84 +323,7 @@ export const TrackerPage: React.FC<TrackerPageProps> = ({
         ) : null}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950/80 mt-12 py-8 text-xs text-slate-400 app-footer">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-
-          {/* Footer Nav Links */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <span className="font-semibold text-slate-300">DSA Sheets Tracker</span>
-              <span className="text-slate-600">•</span>
-              <span className="text-slate-500">Offline-First · Zero Telemetry</span>
-            </div>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <Link
-                to="/contact"
-                className="hover:text-indigo-400 transition-colors font-medium flex items-center gap-1 cursor-pointer"
-              >
-                <Mail className="w-3.5 h-3.5 text-indigo-400" />
-                <span>About & Contact</span>
-              </Link>
-              <button
-                onClick={onOpenShortcuts}
-                className="hover:text-indigo-400 transition-colors cursor-pointer"
-              >
-                Shortcuts
-              </button>
-              <button
-                onClick={onOpenDataModal}
-                className="hover:text-indigo-400 transition-colors cursor-pointer"
-              >
-                Backup & Sync
-              </button>
-              <a
-                href="https://github.com/Biraj2004/DSA-Sheets-Tracker"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors inline-flex items-center gap-1"
-              >
-                <span>GitHub</span>
-                <ExternalLink className="w-3 h-3 text-slate-500" />
-              </a>
-              <a
-                href="https://github.com/Biraj2004/DSA-Sheets-Tracker/issues"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors inline-flex items-center gap-1"
-              >
-                <span>Report Issue</span>
-                <ExternalLink className="w-3 h-3 text-slate-500" />
-              </a>
-            </div>
-          </div>
-
-          {/* Compact Disclaimer */}
-          <div className="flex items-center gap-2 text-[11px] text-slate-500 border-t border-slate-800/60 pt-4">
-            <Info className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-            <p>
-              All problem sets & curricula are the intellectual property of their respective creators (Striver, NeetCode, Love Babbar, Apna College, Fraz, Akshay Saini) and host platforms. This is an independent, non-commercial educational tracker.{' '}
-              <Link to="/contact" className="text-indigo-500 hover:text-indigo-400 underline">
-                Full disclaimer →
-              </Link>
-            </p>
-          </div>
-
-          {/* Copyright */}
-          <div className="text-center text-[11px] text-slate-500">
-            © {new Date().getFullYear()} DSA Sheets Tracker · Developed by{' '}
-            <a
-              href="https://github.com/Biraj2004"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-400 hover:text-indigo-400 underline"
-            >
-              Biraj Sarkar
-            </a>
-            {' '}· Built with Claude
-          </div>
-        </div>
-      </footer>
+      <AppFooter onOpenShortcuts={onOpenShortcuts} onOpenDataModal={onOpenDataModal} />
     </>
   );
 };

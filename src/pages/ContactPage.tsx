@@ -17,6 +17,8 @@ import {
   CheckCircle2,
   Code2,
 } from 'lucide-react';
+import { TRACKER_STATS, formatCount } from '../data/stats';
+import { AppFooter } from '../components/AppFooter';
 
 export const ContactPage: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -252,7 +254,7 @@ export const ContactPage: React.FC = () => {
                     <span>Real-Time Sheet Synergy</span>
                   </div>
                   <p className="text-[11px] text-slate-400 html-light:text-slate-600 leading-relaxed">
-                    1,003 unique problems mapped canonically across 7 sheets. Solving a problem syncs everywhere.
+                    {formatCount(TRACKER_STATS.totalProblems)} unique problems mapped canonically across {TRACKER_STATS.sheetCount} sheets. Solving a problem syncs everywhere.
                   </p>
                 </div>
 
@@ -262,7 +264,7 @@ export const ContactPage: React.FC = () => {
                     <span>Zero Paywalls Guarantee</span>
                   </div>
                   <p className="text-[11px] text-slate-400 html-light:text-slate-600 leading-relaxed">
-                    All 33 LeetCode Premium questions are routed to 100% free solvable alternatives (GFG, LintCode).
+                    {TRACKER_STATS.premiumWithFreeAltCount} LeetCode Premium questions are routed to 100% free solvable alternatives (GFG, LintCode).
                   </p>
                 </div>
 
@@ -511,46 +513,7 @@ export const ContactPage: React.FC = () => {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800/80 html-light:border-slate-200 bg-slate-900/40 html-light:bg-slate-50 py-6 text-center text-xs text-slate-500 html-light:text-slate-600">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>
-            &copy; {new Date().getFullYear()} DSA Sheets Tracker • Developed by{' '}
-            <a
-              href={githubProfile}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-300 hover:text-indigo-400 underline font-medium"
-            >
-              Biraj Sarkar (Biraj2004)
-            </a>
-            {' '}• Built with Claude
-          </p>
-          <div className="flex items-center gap-4 text-slate-400 text-xs">
-            <Link to="/" className="hover:text-white transition-colors">
-              Tracker Home
-            </Link>
-            <span>•</span>
-            <a
-              href={`${githubRepo}/issues`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors"
-            >
-              Report Issue
-            </a>
-            <span>•</span>
-            <a
-              href={githubRepo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-      </footer>
+      <AppFooter />
     </div>
   );
 };
