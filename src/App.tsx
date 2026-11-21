@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Routes, Route, useSearchParams, useLocation, useNavigate } from 'react-router-dom';
 import { useProgress } from './hooks/useProgress';
 import { allProblems, sheetList } from './data/sheets';
@@ -10,11 +10,13 @@ import { TrackerPage } from './pages/TrackerPage';
 import { ContactPage } from './pages/ContactPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { scrollToTopFastSmooth } from './lib/scrollToTop';
+import { SHEET_SHORTCUTS } from './lib/shortcuts';
 
 export function App() {
   const {
     progressMap,
     loading,
+    storageError,
     toggleSolved,
     setStatus,
     toggleStar,
@@ -70,6 +72,22 @@ export function App() {
   // Modal dialog states
   const [isDataModalOpen, setIsDataModalOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
+  const [characterShortcuts, setCharacterShortcuts] = useState(() => {
+    try {
+      return localStorage.getItem('dsa_character_shortcuts') !== 'off';
+    } catch {
+      return true;
+    }
+  });
+
+  const changeCharacterShortcuts = (enabled: boolean) => {
+    setCharacterShortcuts(enabled);
+    try {
+      localStorage.setItem('dsa_character_shortcuts', enabled ? 'on' : 'off');
+    } catch {
+      // The preference still applies to the current session.
+    }
+  };
 
   // Theme state ('dark' default, persisted in localStorage)
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
@@ -98,7 +116,7 @@ export function App() {
     setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
   };
 
-  const handleSelectSheet = (id: string) => {
+  const handleSelectSheet = useCallback((id: string) => {
     setActiveSheetId(id);
     if (location.pathname !== '/') {
       navigate(`/?sheet=${id}`);
@@ -106,53 +124,64 @@ export function App() {
       setSearchParams({ sheet: id });
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  };
+  }, [location.pathname, navigate, setSearchParams]);
 
   // Keyboard shortcut listener
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't trigger if user is typing in an input or textarea
+      const target = e.target;
       if (
-        e.target instanceof HTMLInputElement ||
-        e.target instanceof HTMLTextAreaElement ||
-        (e.target as HTMLElement).isContentEditable
+        e.defaultPrevented || e.isComposing || e.repeat ||
+        (target instanceof HTMLElement &&
+          (target.isContentEditable || target.closest('input, textarea, select')))
       ) {
         return;
       }
 
+      const search = () => document.querySelector<HTMLInputElement>('input[aria-label="Search problems by name or topic"]');
+      const key = e.key.toLowerCase();
+      if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && key === 'k') {
+        if (isDataModalOpen || isShortcutsOpen) return;
+        const input = search();
+        if (input) {
+          e.preventDefault();
+          input.focus();
+        }
+        return;
+      }
+
+      if (!characterShortcuts || e.ctrlKey || e.metaKey || e.altKey) return;
+
       if (e.key === '?' || (e.shiftKey && e.key === '/')) {
+        if (isDataModalOpen) return;
         e.preventDefault();
         setIsShortcutsOpen((prev) => !prev);
-      } else if (e.key === '/' || (e.ctrlKey && e.key === 'k') || (e.metaKey && e.key === 'k')) {
-        e.preventDefault();
-        const searchInput = document.querySelector<HTMLInputElement>('input[placeholder*="Search"]');
-        searchInput?.focus();
-      } else if (e.key === '1') {
-        handleSelectSheet('pattern-wise');
-      } else if (e.key === '2') {
-        handleSelectSheet('striver-a2z');
-      } else if (e.key === '3') {
-        handleSelectSheet('love-babbar-450');
-      } else if (e.key === '4') {
-        handleSelectSheet('fraz-interview');
-      } else if (e.key === '5') {
-        handleSelectSheet('neetcode-250');
-      } else if (e.key === '6') {
-        handleSelectSheet('namaste-dsa');
-      } else if (e.key === '7') {
-        handleSelectSheet('apna-college');
-      } else if (e.key === 'a' || e.key === 'A') {
+        return;
+      }
+
+      if (isDataModalOpen || isShortcutsOpen) return;
+
+      const sheetId = SHEET_SHORTCUTS.get(key);
+      if (key === '/') {
+        const input = search();
+        if (input) {
+          e.preventDefault();
+          input.focus();
+        }
+      } else if (sheetId) {
+        handleSelectSheet(sheetId);
+      } else if (key === 'a') {
         handleSelectSheet('all');
-      } else if (e.key === 'r' || e.key === 'R') {
+      } else if (key === 'r') {
         handleSelectSheet('revision');
-      } else if (e.key === 't' || e.key === 'T') {
+      } else if (key === 't') {
         toggleTheme();
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [location.pathname]);
+  }, [characterShortcuts, handleSelectSheet, isDataModalOpen, isShortcutsOpen]);
 
   // Count revision due
   const revisionDueCount = useMemo(() => {
@@ -224,7 +253,15 @@ export function App() {
       <KeyboardShortcutsModal
         isOpen={isShortcutsOpen}
         onClose={() => setIsShortcutsOpen(false)}
+        characterShortcuts={characterShortcuts}
+        onCharacterShortcutsChange={changeCharacterShortcuts}
       />
+
+      {storageError && (
+        <div role="alert" className="fixed bottom-4 left-4 right-4 z-40 rounded-lg border border-rose-500 bg-slate-900 p-3 text-sm text-rose-300 sm:right-auto html-light:bg-white html-light:text-rose-900">
+          {storageError}
+        </div>
+      )}
 
       {/* Floating Circular Scroll to Top Action Button */}
       <ScrollToTop />

@@ -72,9 +72,22 @@
 
   html {
     scroll-behavior: smooth;
+    scrollbar-gutter: stable;
     max-width: 100%;
     overflow-x: clip;
     overscroll-behavior-x: none;
+  }
+
+  html:has(dialog:modal) {
+    overflow-y: hidden;
+    overscroll-behavior-y: none;
+  }
+
+  html:has([data-mobile-drawer]) {
+    @variant max-sm {
+      overflow-y: hidden;
+      overscroll-behavior-y: none;
+    }
   }
 
   button,

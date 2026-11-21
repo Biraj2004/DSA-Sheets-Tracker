@@ -85,18 +85,6 @@ export const Header: React.FC<HeaderProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isMobileMenuOpen]);
 
-  // Lock body scroll when mobile menu is open
-  useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, [isMobileMenuOpen]);
-
   const currentSheetName =
     activeSheetId === 'all'
       ? 'All Problems'
@@ -329,7 +317,7 @@ export const Header: React.FC<HeaderProps> = ({
       {isMobileMenuOpen &&
         typeof document !== 'undefined' &&
         createPortal(
-          <div className="sm:hidden fixed inset-0 z-50 flex">
+          <div data-mobile-drawer className="sm:hidden fixed inset-0 z-50 flex">
             {/* Backdrop */}
             <div
               className="fixed inset-0 bg-slate-950/80 html-light:bg-slate-900/50 backdrop-blur-xs transition-opacity"
@@ -339,7 +327,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Drawer Panel */}
             <div
-              className="relative ml-auto w-full max-w-[320px] h-full min-h-screen bg-slate-950 html-light:bg-white border-l border-slate-800 html-light:border-slate-200 shadow-2xl flex flex-col z-10 overflow-y-auto"
+              className="relative ml-auto w-full max-w-[320px] h-full bg-slate-950 html-light:bg-white border-l border-slate-800 html-light:border-slate-200 shadow-2xl flex flex-col z-10 overflow-y-auto overscroll-contain"
               role="dialog"
               aria-modal="true"
               aria-label="Navigation Menu"

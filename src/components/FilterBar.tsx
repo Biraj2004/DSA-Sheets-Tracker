@@ -51,6 +51,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
+            aria-label="Search problems by name or topic"
             value={filters.search}
             onChange={handleSearch}
             placeholder="Search problems by name or topic…"
@@ -76,6 +77,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
           {/* Status select */}
           <select
+            aria-label="Status"
             value={filters.status}
             onChange={(e) => onFilterChange({ ...filters, status: e.target.value as FilterState['status'] })}
             className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${
@@ -94,6 +96,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
           {/* Difficulty select */}
           <select
+            aria-label="Difficulty"
             value={filters.difficulty || 'all'}
             onChange={(e) => onFilterChange({ ...filters, difficulty: e.target.value as FilterState['difficulty'] })}
             className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${
@@ -110,6 +113,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
           {/* Platform select */}
           <select
+            aria-label="Platform"
             value={filters.platform}
             onChange={(e) => onFilterChange({ ...filters, platform: e.target.value as FilterState['platform'] })}
             className={`px-2.5 py-1.5 cursor-pointer shrink-0 ${inputCls} ${

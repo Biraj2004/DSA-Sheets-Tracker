@@ -1,5 +1,7 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react';
 import { AlertTriangle, RefreshCw, Database, Home } from 'lucide-react';
+import { exportBackup } from '../db/progress';
+import { downloadBackup } from '../lib/downloadBackup';
 
 interface Props {
   children: ReactNode;
@@ -28,24 +30,9 @@ export class ErrorBoundary extends Component<Props, State> {
     window.location.href = '/';
   };
 
-  private handleExportEmergency = () => {
+  private handleExportEmergency = async () => {
     try {
-      const backupData: Record<string, unknown> = {};
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith('dsa_')) {
-          backupData[key] = localStorage.getItem(key);
-        }
-      }
-      const blob = new Blob([JSON.stringify(backupData, null, 2)], {
-        type: 'application/json',
-      });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `dsa-tracker-emergency-backup-${new Date().toISOString().slice(0, 10)}.json`;
-      a.click();
-      URL.revokeObjectURL(url);
+      downloadBackup(await exportBackup(), 'dsa-tracker-emergency-backup');
     } catch (e) {
       alert('Failed to create emergency backup: ' + (e as Error).message);
     }
@@ -86,7 +73,7 @@ export class ErrorBoundary extends Component<Props, State> {
               <button
                 onClick={this.handleExportEmergency}
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-medium border border-slate-700 transition-colors cursor-pointer"
-                title="Download JSON emergency export of stored settings"
+                title="Download a JSON backup of saved progress"
               >
                 <Database className="w-4 h-4 text-slate-400" />
                 <span>Emergency Backup</span>

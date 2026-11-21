@@ -1,14 +1,21 @@
 import React from 'react';
 import { X, Keyboard } from 'lucide-react';
+import { ModalOverlay } from './ModalOverlay';
+import { sheetList } from '../data/sheets';
+import { SHEET_SHORTCUTS } from '../lib/shortcuts';
 
 interface KeyboardShortcutsModalProps {
   isOpen: boolean;
   onClose: () => void;
+  characterShortcuts: boolean;
+  onCharacterShortcutsChange: (enabled: boolean) => void;
 }
 
 export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
   isOpen,
   onClose,
+  characterShortcuts,
+  onCharacterShortcutsChange,
 }) => {
   if (!isOpen) return null;
 
@@ -16,11 +23,10 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
     {
       category: 'Navigation & Views',
       shortcuts: [
-        { keys: ['1'], desc: "Striver's A2Z Sheet" },
-        { keys: ['2'], desc: 'Love Babbar 450 Sheet' },
-        { keys: ['3'], desc: 'NeetCode 150' },
-        { keys: ['4'], desc: 'NeetCode 250' },
-        { keys: ['5'], desc: 'Apna College Sheet' },
+        ...Array.from(SHEET_SHORTCUTS, ([key, id]) => ({
+          keys: [key],
+          desc: sheetList.find((sheet) => sheet.id === id)?.name ?? id,
+        })),
         { keys: ['A'], desc: 'All Problems Catalog' },
         { keys: ['R'], desc: 'Revision & Spaced Repetition' },
       ],
@@ -29,6 +35,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
       category: 'Quick Actions & Controls',
       shortcuts: [
         { keys: ['/'], desc: 'Focus search bar' },
+        { keys: ['Ctrl / ⌘', 'K'], desc: 'Focus search bar' },
         { keys: ['T'], desc: 'Toggle Dark / Light theme' },
         { keys: ['?'], desc: 'Open keyboard shortcuts' },
         { keys: ['Esc'], desc: 'Close open dialogs or dismiss modals' },
@@ -37,10 +44,8 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
   ];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="fixed inset-0" onClick={onClose} aria-hidden="true" />
-
-      <div className="relative w-full max-w-md bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl p-6 z-10 space-y-4">
+    <ModalOverlay titleId="keyboard-shortcuts-title" onClose={onClose}>
+      <div className="relative z-10 max-h-full w-full max-w-md overflow-y-auto overscroll-contain rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl space-y-4">
         {/* Header */}
         <div className="flex items-center justify-between border-b border-slate-800 pb-3">
           <div className="flex items-center gap-2">
@@ -48,7 +53,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
               <Keyboard className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base font-semibold text-white">
+              <h2 id="keyboard-shortcuts-title" className="text-base font-semibold text-white">
                 Keyboard Shortcuts
               </h2>
               <p className="text-xs text-slate-400">
@@ -65,8 +70,17 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
           </button>
         </div>
 
+        <label className="flex items-center gap-2 text-xs text-slate-300">
+          <input
+            type="checkbox"
+            checked={characterShortcuts}
+            onChange={(event) => onCharacterShortcutsChange(event.target.checked)}
+          />
+          Enable single-key shortcuts
+        </label>
+
         {/* Shortcuts List */}
-        <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1">
+        <div className="space-y-4">
           {shortcutGroups.map((group) => (
             <div key={group.category} className="space-y-2">
               <span className="text-[11px] font-semibold text-indigo-400 uppercase tracking-wider block">
@@ -101,6 +115,6 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
           Press <kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300 font-mono-num text-[10px]">Esc</kbd> anytime to dismiss
         </p>
       </div>
-    </div>
+    </ModalOverlay>
   );
 };

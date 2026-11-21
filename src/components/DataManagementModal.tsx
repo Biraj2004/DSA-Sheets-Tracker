@@ -9,6 +9,8 @@ import {
   AlertTriangle,
   HardDrive,
 } from 'lucide-react';
+import { ModalOverlay } from './ModalOverlay';
+import { downloadBackup } from '../lib/downloadBackup';
 
 interface DataManagementModalProps {
   isOpen: boolean;
@@ -37,6 +39,7 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
   } | null>(null);
   const [isExporting, setIsExporting] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
+  const [isResetting, setIsResetting] = useState(false);
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -45,17 +48,7 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
   const handleExport = async () => {
     try {
       setIsExporting(true);
-      const json = await exportBackup();
-      const blob = new Blob([json], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      const dateStr = new Date().toISOString().slice(0, 10);
-      a.href = url;
-      a.download = `dsa-tracker-backup-${dateStr}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      downloadBackup(await exportBackup());
       setStatusMessage({
         type: 'success',
         text: 'Backup downloaded successfully to your local machine.',
@@ -84,22 +77,21 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
         type: 'success',
         text: `Successfully restored ${count} progress records!`,
       });
-      if (fileInputRef.current) {
-        fileInputRef.current.value = '';
-      }
     } catch (err) {
       console.error(err);
       setStatusMessage({
         type: 'error',
-        text: 'Invalid backup file. Ensure it is a valid DSA Tracker JSON file.',
+        text: 'Could not restore the backup. Check the file and try again.',
       });
     } finally {
+      e.target.value = '';
       setIsImporting(false);
     }
   };
 
   const handleReset = async () => {
     try {
+      setIsResetting(true);
       await resetAllData();
       setShowConfirmReset(false);
       setStatusMessage({
@@ -112,18 +104,14 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
         type: 'error',
         text: 'Failed to reset data.',
       });
+    } finally {
+      setIsResetting(false);
     }
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
-      <div
-        className="fixed inset-0"
-        onClick={onClose}
-        aria-hidden="true"
-      />
-
-      <div className="relative w-full max-w-lg bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl p-6 z-10 space-y-5">
+    <ModalOverlay titleId="data-management-title" onClose={onClose}>
+      <div className="relative z-10 max-h-full w-full max-w-lg overflow-y-auto overscroll-contain rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl space-y-5">
         {/* Header */}
         <div className="flex items-center justify-between border-b border-slate-800 pb-4">
           <div className="flex items-center gap-2.5">
@@ -131,7 +119,7 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
               <Database className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base font-semibold text-white">
+              <h2 id="data-management-title" className="text-base font-semibold text-white">
                 Data Management & Backup
               </h2>
               <p className="text-xs text-slate-400">
@@ -173,10 +161,11 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
         {/* Notification Status Banner */}
         {statusMessage && (
           <div
+            role={statusMessage.type === 'success' ? 'status' : 'alert'}
             className={`p-3 rounded-xl text-xs flex items-center gap-2 border ${
               statusMessage.type === 'success'
-                ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300'
-                : 'bg-rose-500/10 border-rose-500/30 text-rose-300'
+                ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300 html-light:text-emerald-900'
+                : 'bg-rose-500/10 border-rose-500/30 text-rose-300 html-light:text-rose-900'
             }`}
           >
             {statusMessage.type === 'success' ? (
@@ -227,7 +216,7 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
             />
             <button
               onClick={() => fileInputRef.current?.click()}
-              disabled={isImporting}
+              disabled={isImporting || isResetting}
               className="ml-3 shrink-0 px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium inline-flex items-center gap-1.5 transition-colors disabled:opacity-50"
             >
               <Upload className="w-3.5 h-3.5" />
@@ -252,7 +241,7 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
             </div>
           ) : (
             <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl space-y-2.5">
-              <div className="flex items-center gap-2 text-rose-300 text-xs font-semibold">
+              <div className="flex items-center gap-2 text-rose-300 html-light:text-rose-900 text-xs font-semibold">
                 <AlertTriangle className="w-4 h-4 shrink-0" />
                 <span>Are you sure? This action cannot be undone!</span>
               </div>
@@ -262,7 +251,8 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
               <div className="flex items-center gap-2 pt-1">
                 <button
                   onClick={handleReset}
-                  className="px-3 py-1.5 bg-rose-600 hover:bg-rose-500 text-white rounded-lg text-xs font-medium inline-flex items-center gap-1.5 transition-colors"
+                  disabled={isImporting || isResetting}
+                  className="px-3 py-1.5 bg-rose-600 hover:bg-rose-500 text-white rounded-lg text-xs font-medium inline-flex items-center gap-1.5 transition-colors disabled:opacity-50"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
                   <span>Yes, Delete Everything</span>
@@ -284,6 +274,6 @@ export const DataManagementModal: React.FC<DataManagementModalProps> = ({
           <span>Storage engine: IndexedDB (Dexie.js) • Zero cloud tracking</span>
         </div>
       </div>
-    </div>
+    </ModalOverlay>
   );
 };

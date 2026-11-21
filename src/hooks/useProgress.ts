@@ -3,322 +3,89 @@ import { liveQuery } from 'dexie';
 import { db } from '../db';
 import type { Progress, Status } from '../types';
 import { allSheets } from '../data/sheets';
+import { createProgress, exportBackup, importBackup, updateProgress } from '../db/progress';
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function statusChange(current: Progress | undefined, status: Status, now: Date) {
+  const solved = status === 'solved';
+  return {
+    status,
+    solvedAt: solved ? current?.solvedAt ?? now.toISOString() : null,
+    nextReviewAt: solved ? current?.nextReviewAt ?? new Date(now.getTime() + 3 * DAY_MS).toISOString() : null,
+    reviewStep: solved ? Math.max(1, current?.reviewStep ?? 0) : 0,
+  };
+}
 
 export function useProgress() {
   const [progressMap, setProgressMap] = useState<Map<string, Progress>>(new Map());
   const [loading, setLoading] = useState(true);
 
+  const [storageError, setStorageError] = useState<string | null>(null);
+
   useEffect(() => {
-    let mounted = true;
-
-    // Direct initial query for instant rendering
-    db.progress
-      .toArray()
-      .then((records) => {
-        if (mounted) {
-          setProgressMap(new Map(records.map((r) => [r.problemId, r])));
-          setLoading(false);
-        }
-      })
-      .catch((err) => {
-        console.warn('Direct Dexie load fallback:', err);
-        if (mounted) setLoading(false);
-      });
-
-    // Reactive subscription for subsequent updates
     const subscription = liveQuery(async () => {
       const records = await db.progress.toArray();
-      return new Map(records.map((r) => [r.problemId, r]));
+      return new Map(records.map((record) => [record.problemId, record]));
     }).subscribe({
       next: (map) => {
-        if (mounted) {
-          setProgressMap(map);
-          setLoading(false);
-        }
+        setProgressMap(map);
+        setLoading(false);
       },
-      error: (err) => {
-        console.error('Dexie liveQuery error:', err);
-        if (mounted) setLoading(false);
+      error: (error) => {
+        console.error('Could not load progress:', error);
+        setStorageError('Could not load your saved progress. Reload the tracker to retry.');
+        setLoading(false);
       },
     });
-
-    return () => {
-      mounted = false;
-      subscription.unsubscribe();
-    };
+    return () => subscription.unsubscribe();
   }, []);
 
   const getProgress = useCallback(
-    (problemId: string): Progress => {
-      return (
-        progressMap.get(problemId) || {
-          problemId,
-          status: 'todo',
-          isStarred: false,
-          note: '',
-          solvedAt: null,
-          nextReviewAt: null,
-          reviewStep: 0,
-          updatedAt: new Date().toISOString(),
-        }
-      );
-    },
-    [progressMap]
+    (id: string) => progressMap.get(id) ?? createProgress(id, new Date().toISOString()),
+    [progressMap],
   );
 
-  const toggleSolved = useCallback(
-    async (problemId: string) => {
-      const current = progressMap.get(problemId);
-      const isCurrentlySolved = current?.status === 'solved';
-      const now = new Date().toISOString();
+  const writeProgress = useCallback(async (...args: Parameters<typeof updateProgress>) => {
+    try {
+      await updateProgress(...args);
+      setStorageError(null);
+    } catch (error) {
+      console.error('Could not save progress:', error);
+      setStorageError('Could not save your last progress change. Please try again.');
+    }
+  }, []);
 
-      const updated: Progress = isCurrentlySolved
-        ? {
-            problemId,
-            status: 'todo',
-            isStarred: current?.isStarred || false,
-            note: current?.note || '',
-            solvedAt: null,
-            nextReviewAt: null,
-            reviewStep: 0,
-            updatedAt: now,
-          }
-        : {
-            problemId,
-            status: 'solved',
-            isStarred: current?.isStarred || false,
-            note: current?.note || '',
-            solvedAt: now,
-            nextReviewAt: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
-            reviewStep: 1,
-            updatedAt: now,
-          };
+  const toggleSolved = (id: string) =>
+    writeProgress([id], (current, now) =>
+      current.status === 'solved'
+        ? statusChange(current, 'todo', now)
+        : statusChange(undefined, 'solved', now),
+    );
 
-      // 1. Optimistic state update (0ms UI latency)
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        next.set(problemId, updated);
-        return next;
-      });
+  const setStatus = (id: string, status: Status) =>
+    writeProgress([id], (current, now) => statusChange(current, status, now));
 
-      // 2. Persistent storage in IndexedDB
-      await db.progress.put(updated);
-    },
-    [progressMap]
-  );
+  const toggleStar = (id: string) =>
+    writeProgress([id], (current) => ({ isStarred: !current.isStarred }));
 
-  const setStatus = useCallback(
-    async (problemId: string, status: Status) => {
-      const current = progressMap.get(problemId);
-      const now = new Date().toISOString();
-      const isSolved = status === 'solved';
+  const saveNote = (id: string, note: string) =>
+    writeProgress([id], () => ({ note }));
 
-      const updated: Progress = {
-        problemId,
-        status,
-        isStarred: current?.isStarred || false,
-        note: current?.note || '',
-        solvedAt: isSolved ? (current?.solvedAt || now) : null,
-        nextReviewAt: isSolved
-          ? current?.nextReviewAt || new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString()
-          : null,
-        reviewStep: isSolved ? Math.max(1, current?.reviewStep || 1) : 0,
-        updatedAt: now,
-      };
+  const scheduleReview = (id: string, days: number) =>
+    writeProgress([id], (current, now) => ({
+      nextReviewAt: new Date(now.getTime() + days * DAY_MS).toISOString(),
+      reviewStep: current.reviewStep + 1,
+    }));
 
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        next.set(problemId, updated);
-        return next;
-      });
+  const markSectionSolved = (ids: string[]) =>
+    writeProgress(ids, (current, now) => statusChange(current, 'solved', now));
 
-      // 2. Persistent storage in IndexedDB
-      await db.progress.put(updated);
-    },
-    [progressMap]
-  );
-
-  const toggleStar = useCallback(
-    async (problemId: string) => {
-      const current = progressMap.get(problemId);
-      const now = new Date().toISOString();
-
-      const updated: Progress = {
-        problemId,
-        status: current?.status || 'todo',
-        isStarred: !current?.isStarred,
-        note: current?.note || '',
-        solvedAt: current?.solvedAt || null,
-        nextReviewAt: current?.nextReviewAt || null,
-        reviewStep: current?.reviewStep || 0,
-        updatedAt: now,
-      };
-
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        next.set(problemId, updated);
-        return next;
-      });
-
-      // 2. Persistent storage in IndexedDB
-      await db.progress.put(updated);
-    },
-    [progressMap]
-  );
-
-  const saveNote = useCallback(
-    async (problemId: string, note: string) => {
-      const current = progressMap.get(problemId);
-      const now = new Date().toISOString();
-
-      const updated: Progress = {
-        problemId,
-        status: current?.status || 'todo',
-        isStarred: current?.isStarred || false,
-        note,
-        solvedAt: current?.solvedAt || null,
-        nextReviewAt: current?.nextReviewAt || null,
-        reviewStep: current?.reviewStep || 0,
-        updatedAt: now,
-      };
-
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        next.set(problemId, updated);
-        return next;
-      });
-
-      // 2. Persistent storage in IndexedDB
-      await db.progress.put(updated);
-    },
-    [progressMap]
-  );
-
-  const scheduleReview = useCallback(
-    async (problemId: string, daysAhead: number) => {
-      const current = progressMap.get(problemId);
-      const now = new Date();
-      const reviewDate = new Date(now.getTime() + daysAhead * 24 * 60 * 60 * 1000).toISOString();
-      const updatedAt = now.toISOString();
-
-      const updated: Progress = {
-        problemId,
-        status: current?.status || 'todo',
-        isStarred: current?.isStarred || false,
-        note: current?.note || '',
-        solvedAt: current?.solvedAt || null,
-        nextReviewAt: reviewDate,
-        reviewStep: (current?.reviewStep || 0) + 1,
-        updatedAt,
-      };
-
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        next.set(problemId, updated);
-        return next;
-      });
-
-      // 2. Persistent storage in IndexedDB
-      await db.progress.put(updated);
-    },
-    [progressMap]
-  );
-
-  const markSectionSolved = useCallback(
-    async (problemIds: string[]) => {
-      const now = new Date().toISOString();
-      const nextReview = new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString();
-      const updates = problemIds.map((problemId) => {
-        const current = progressMap.get(problemId);
-        return {
-          problemId,
-          status: 'solved' as Status,
-          isStarred: current?.isStarred || false,
-          note: current?.note || '',
-          solvedAt: current?.solvedAt || now,
-          nextReviewAt: current?.nextReviewAt || nextReview,
-          reviewStep: Math.max(1, current?.reviewStep || 1),
-          updatedAt: now,
-        };
-      });
-
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        updates.forEach((u) => next.set(u.problemId, u));
-        return next;
-      });
-
-      // 2. Persistent storage in IndexedDB
-      await db.progress.bulkPut(updates);
-    },
-    [progressMap]
-  );
-
-  const resetSection = useCallback(
-    async (problemIds: string[]) => {
-      const now = new Date().toISOString();
-      const updates = problemIds.map((problemId) => {
-        const current = progressMap.get(problemId);
-        return {
-          problemId,
-          status: 'todo' as Status,
-          isStarred: current?.isStarred || false,
-          note: current?.note || '',
-          solvedAt: null,
-          nextReviewAt: null,
-          reviewStep: 0,
-          updatedAt: now,
-        };
-      });
-
-      // 1. Optimistic state update
-      setProgressMap((prev) => {
-        const next = new Map(prev);
-        updates.forEach((u) => next.set(u.problemId, u));
-        return next;
-      });
-
-      // 2. Persistent storage in IndexedDB
-      await db.progress.bulkPut(updates);
-    },
-    [progressMap]
-  );
+  const resetSection = (ids: string[]) =>
+    writeProgress(ids, (current, now) => statusChange(current, 'todo', now));
 
   const resetAllData = useCallback(async () => {
     await db.progress.clear();
-  }, []);
-
-  const exportBackup = useCallback(async (): Promise<string> => {
-    const allRecords = await db.progress.toArray();
-    return JSON.stringify(
-      {
-        version: '2.0',
-        exportedAt: new Date().toISOString(),
-        totalRecords: allRecords.length,
-        records: allRecords,
-      },
-      null,
-      2
-    );
-  }, []);
-
-  const importBackup = useCallback(async (jsonString: string): Promise<number> => {
-    try {
-      const parsed = JSON.parse(jsonString);
-      if (!parsed.records || !Array.isArray(parsed.records)) {
-        throw new Error('Invalid backup file structure.');
-      }
-      await db.progress.bulkPut(parsed.records);
-      return parsed.records.length;
-    } catch (err) {
-      console.error('Failed to import backup:', err);
-      throw err;
-    }
   }, []);
 
   // Today solved count
@@ -393,6 +160,7 @@ export function useProgress() {
   return {
     progressMap,
     loading,
+    storageError,
     getProgress,
     toggleSolved,
     setStatus,
